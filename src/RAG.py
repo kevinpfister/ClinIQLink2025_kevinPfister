@@ -13,12 +13,12 @@ import sys
 sys.path.append("src")
 from utils import RetrievalSystem, DocExtracter
 from template import prompt_templates, system_prompt
-from textgrad import PromptOptimizer
+#from textgrad.optimizer.optimizer_prompts import PromptOptimizer
 
 
 class RAG:
-    def __init__(self, rag=True, retriever_name="MedCPT", 
-             corpus_name="Textbooks", db_dir="./corpus", 
+    def __init__(self, rag=True, retriever_name="SPECTER", 
+             corpus_name="MedText", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
              use_textgrad=True, llm_name="aaditya/Llama3-OpenBioLLM-70B"):
         # Basic configuration.
@@ -44,6 +44,9 @@ class RAG:
         if "llama3" in self.llm_name.lower():
             self.max_length = 8192
             self.context_length = 7168
+        elif self.llm_name.lower() == "gpt2":
+            self.max_length = 1024
+            self.context_length = 512  # adjust if needed
         else:
             self.max_length = 2048
             self.context_length = 1024
@@ -139,7 +142,6 @@ class RAG:
             prompt = self.templates["multiple_choice"].render(**question_data)
         
         # Prepend the system prompt (imported from template.py).
-        from template import system_prompt
         full_prompt = f"{system_prompt}\n\n{prompt}"
         
         # Build the message list for the generation pipeline.
