@@ -3,23 +3,24 @@ import re
 import json
 import tqdm
 import torch
-import time
-import argparse
 import transformers
 from transformers import AutoTokenizer
 from transformers import StoppingCriteria, StoppingCriteriaList
-import tiktoken
 import sys
 sys.path.append("src")
-from utils import RetrievalSystem, DocExtracter
+from utils import RetrievalSystem
 from template import prompt_templates, system_prompt
+from huggingface_hub import HfFolder, hf_hub_download, login, hf_hub_download, try_to_load_from_cache 
+from llama_cpp import Llama
+from dotenv import load_dotenv
 
-
+load_dotenv()
 class RAG:
     def __init__(self, rag=True, retriever_name="SPECTER", 
              corpus_name="MedText", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
-             llm_name="aaditya/Llama3-OpenBioLLM-70B"):
+             llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
+             hf_token=None):
         # Basic configuration.
         self.llm_name = llm_name
         self.rag = rag
@@ -28,6 +29,13 @@ class RAG:
         self.db_dir = db_dir
         self.cache_dir = cache_dir
         self.docExt = None
+        
+        # Get HF token from environment variable or use provided token
+        self.hf_token = hf_token or os.getenv("HUGGINGFACE_TOKEN")
+        if not self.hf_token:
+            raise ValueError("HuggingFace token not provided. Set HUGGINGFACE_TOKEN in .env file or pass it as hf_token parameter.")
+            
+        self.use_llama_cpp = "gguf" in self.llm_name.lower()
 
         # Initialize the retrieval system if RAG is enabled.
         if self.rag:
@@ -38,26 +46,73 @@ class RAG:
         # Set up prompt templates 
         self.templates = prompt_templates
 
-        # Model-specific configuration for Llama3.
-        if "llama3" in self.llm_name.lower():
-            self.max_length = 8192
-            self.context_length = 7168
-        elif self.llm_name.lower() == "gpt2":
-            self.max_length = 1024
-            self.context_length = 512  # adjust if needed
+        # Model-specific configuration for Gemma.
+        if "gemma-3" in self.llm_name.lower():
+            self.max_length = 4096  # Gemma 3 has a 4096 token context window
+            self.context_length = 3072
         else:
             self.max_length = 2048
             self.context_length = 1024
 
-        # Load the tokenizer and text-generation pipeline.
-        self.tokenizer = AutoTokenizer.from_pretrained(self.llm_name, cache_dir=self.cache_dir)
-        self.model = transformers.pipeline(
-            "text-generation",
-            model=self.llm_name,
-            torch_dtype=torch.bfloat16,
-            device_map="auto",
-            model_kwargs={"cache_dir": self.cache_dir}
-        )
+        # Load the model - either transformers or llama-cpp
+        if self.use_llama_cpp:
+            # Login to HuggingFace and cache token
+            login(self.hf_token)                
+            HfFolder.save_token(self.hf_token)
+            
+            # Determine the model filename
+            filename = self.llm_name.split("/")[-1]
+            if not filename.endswith(".gguf"):
+                filename = "gemma-3-12b-it-q4_0.gguf"  # Default filename
+            
+            # Determine the repository ID
+            repo_id = "google/gemma-3-12b-it-qat-q4_0-gguf" if "google" not in self.llm_name else self.llm_name.split("-gguf")[0]
+            
+            # Check if model is already downloaded
+            try:       
+                # First check if model exists in cache
+                local_path = try_to_load_from_cache(
+                    repo_id=repo_id,
+                    filename=filename,
+                    cache_dir=self.cache_dir
+                )
+                
+                # If not found in cache, download it
+                if local_path is None:
+                    print(f"Model {filename} not found in cache. Downloading...")
+                    local_path = hf_hub_download(
+                        repo_id=repo_id,
+                        filename=filename,
+                        token=self.hf_token,
+                        cache_dir=self.cache_dir
+                    )
+                    print(f"Model downloaded to {local_path}")
+                else:
+                    print(f"Using cached model from {local_path}")
+                    
+            except Exception as e:
+                print(f"Error checking/downloading model: {e}")
+                raise RuntimeError(f"Failed to load model: {e}")
+            
+            # Initialize llama-cpp model
+            self.model = Llama(
+                model_path=local_path,
+                n_gpu_layers=-1,    # offload all layers
+                n_batch=512,        # batch size for GPU decoding
+                verbose=True,       # prints device setup info
+            )
+            # For consistent API, we still need a tokenizer from HF
+            self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-12b-pt", cache_dir=self.cache_dir)
+        else:
+            # Load the tokenizer and text-generation pipeline from transformers
+            self.tokenizer = AutoTokenizer.from_pretrained(self.llm_name, cache_dir=self.cache_dir)
+            self.model = transformers.pipeline(
+                "text-generation",
+                model=self.llm_name,
+                torch_dtype=torch.bfloat16,
+                device_map="auto",
+                model_kwargs={"cache_dir": self.cache_dir}
+            )
 
         # Set the answer function to the RAG-based answer generator.
         self.answer = self.rag_answer
@@ -68,31 +123,48 @@ class RAG:
 
     def generate(self, messages, **kwargs):
         # Convert the list of message dicts into a single prompt string.
-        prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        if self.use_llama_cpp:
+            # For llama-cpp, use the chat completion API
+            try:
+                completion = self.model.create_chat_completion(
+                    messages=messages,
+                    temperature=kwargs.get("temperature", 0.3),
+                    max_tokens=kwargs.get("max_new_tokens", 512),
+                )
+                
+                # Extract and return the generated text
+                generated_text = completion["choices"][0]["message"]["content"].strip()
+                return generated_text
+            except Exception as e:
+                print(f"Error during generation with llama-cpp: {e}")
+                return ""
+        else:
+            # Use the transformers pipeline as before
+            prompt = self.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
 
-        # Optionally, if we use custom stopping criteria, set it up here.
-        stopping_criteria = None
-        input_len = len(self.tokenizer.encode(prompt, add_special_tokens=True))
+            # Optionally, if we use custom stopping criteria, set it up here.
+            stopping_criteria = None
+            input_len = len(self.tokenizer.encode(prompt, add_special_tokens=True))
 
-        # Example: use a list of stop tokens.
-        stop_words = ["###", "User:", "\n\n\n"]
-        stopping_criteria = self.custom_stop(stop_words, input_len=input_len)
+            # Example: use a list of stop tokens.
+            stop_words = ["###", "User:", "\n\n\n"]
+            stopping_criteria = self.custom_stop(stop_words, input_len=input_len)
 
-        # Generate the text using the text-generation pipeline.
-        response = self.model(
-            prompt,
-            do_sample=False,
-            eos_token_id=self.tokenizer.eos_token_id,
-            pad_token_id=self.tokenizer.eos_token_id,
-            max_length=self.max_length,
-            truncation=True,
-            stopping_criteria=stopping_criteria,
-            **kwargs
-        )
+            # Generate the text using the text-generation pipeline.
+            response = self.model(
+                prompt,
+                do_sample=False,
+                eos_token_id=self.tokenizer.eos_token_id,
+                pad_token_id=self.tokenizer.eos_token_id,
+                max_length=self.max_length,
+                truncation=True,
+                stopping_criteria=stopping_criteria,
+                **kwargs
+            )
 
-        # Extract and return the text generated after the prompt.
-        generated_text = response[0]["generated_text"][len(prompt):].strip()
-        return generated_text
+            # Extract and return the text generated after the prompt.
+            generated_text = response[0]["generated_text"][len(prompt):].strip()
+            return generated_text
 
 
 

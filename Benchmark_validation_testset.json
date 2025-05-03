@@ -1,0 +1,322 @@
+[
+    {
+        "answer": [
+            "2",
+            "3",
+            "4"
+        ],
+        "options": [
+            "Is a derivative of pyrazole",
+            "Can induce a disulfiram-like effect",
+            "Can be administered intravenously",
+            "Can be used in certain protozoal infections",
+            "Is ineffective against anaerobic infections"
+        ],
+        "question": "Select the correct statement(s): Metronidazole:",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "options": [
+            "A serotonin syndrome is observed",
+            "An anticholinergic syndrome is observed",
+            "Seizures may occur",
+            "Prognosis depends on cardiovascular disorders",
+            "The toxic dose is greater than 5 grams in adults"
+        ],
+        "question": "Regarding acute amitriptyline poisoning, which statement(s) is (are) correct?",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "2",
+            "4",
+            "5"
+        ],
+        "options": [
+            "Occurs in the cytoplasm",
+            "Is accompanied by ATP biosynthesis",
+            "Requires NADP-dependent dehydrogenase",
+            "Requires substrates activated by coenzyme A",
+            "Gives rise to alpha-beta unsaturated metabolites of the trans form"
+        ],
+        "question": "Among the following statements, which one(s) is (are) correct? The catabolism of saturated fatty acids:",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "1",
+            "4",
+            "5"
+        ],
+        "options": [
+            "It can cause abortions",
+            "The infection it causes can be treated with cefotaxime",
+            "It produces a neurotropic toxin",
+            "It can grow at temperatures close to +4°C",
+            "It can cause meningoencephalitis"
+        ],
+        "question": "Among the following statements concerning Listeria monocytogenes, which one(s) is (are) correct?",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "1",
+            "5"
+        ],
+        "options": [
+            "Osteocalcin (serum)",
+            "Pyridinolines (urinary)",
+            "Tartrate-resistant acid phosphatase (serum)",
+            "Hydroxylysine glycosides (urinary)",
+            "Bone alkaline phosphatase (serum)"
+        ],
+        "question": "Among the following markers, indicate the one(s) reflecting osteoblastic activity.",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "options": [
+            "Renal failure",
+            "Neurological disorders",
+            "Acid-base disorders",
+            "Cardiovascular disorders",
+            "Hearing disorders"
+        ],
+        "question": "Among the following symptoms, which one(s) is (are) commonly observed in acute ethylene glycol poisoning?",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "2",
+            "5"
+        ],
+        "options": [
+            "Spectrophotometric using monochromatic light",
+            "Spectrophotometric using polychromatic light",
+            "Refractometric",
+            "Usable in gas chromatography",
+            "Usable in liquid chromatography"
+        ],
+        "question": "Among the following statements, which one(s) is (are) correct? A diode array detector is a detector:",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "2",
+            "3",
+            "4"
+        ],
+        "options": [
+            "Uses a polar stationary phase",
+            "Uses a hydro-organic mobile phase",
+            "Can be applied to ionized species",
+            "Elutes the most polar solutes first",
+            "Uses an unmodified silica stationary phase"
+        ],
+        "question": "Among the following statements, which one(s) is (are) correct? Reversed-phase polarity chromatography:",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "1",
+            "3",
+            "5"
+        ],
+        "options": [
+            "Is isosorbide trinitrate",
+            "Is an anti-anginal drug",
+            "Is used orally for the treatment of angina attacks",
+            "Causes methemoglobinemia at high doses",
+            "Increases blood pressure"
+        ],
+        "question": "Among the following statements, indicate the incorrect one(s): Nitroglycerin:",
+        "type": "list"
+    },
+    {
+        "answer": [
+            "2",
+            "3",
+            "5"
+        ],
+        "options": [
+            "Kahler's disease",
+            "Infectious mononucleosis",
+            "Toxoplasmosis",
+            "Shigella infection",
+            "Cytomegalovirus"
+        ],
+        "question": "Among the following statements, indicate the correct one(s): A mononucleosis syndrome is associated with:",
+        "type": "list"
+    },
+	    {
+        "answer": "True",
+        "question": "Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?",
+        "type": "true_false"
+    },
+    {
+        "answer": "False",
+        "question": "Landolt C and snellen e acuity: differences in strabismus amblyopia?",
+        "type": "true_false"
+    },
+    {
+        "answer": "True",
+        "question": "Syncope during bathing in infants, a pediatric form of water-induced urticaria?",
+        "type": "true_false"
+    },
+    {
+        "answer": "False",
+        "question": "Are the long-term results of the transanal pull-through equal to those of the transabdominal pull-through?",
+        "type": "true_false"
+    },
+    {
+        "answer": "True",
+        "question": "Can tailored interventions increase mammography use among HMO women?",
+        "type": "true_false"
+    },
+    {
+        "answer": "True",
+        "question": "Double balloon enteroscopy: is it efficacious and safe in a community setting?",
+        "type": "true_false"
+    },
+    {
+        "answer": "False",
+        "question": "Is adjustment for reporting heterogeneity necessary in sleep disorders?",
+        "type": "true_false"
+    },
+    {
+        "answer": "False",
+        "question": "Do mutations causing low HDL-C promote increased carotid intima-media thickness?",
+        "type": "true_false"
+    },
+    {
+        "answer": "True",
+        "question": "A short stay or 23-hour ward in a general and academic children's hospital: are they effective?",
+        "type": "true_false"
+    },
+    {
+        "answer": "False",
+        "question": "Do patients with localized prostate cancer treatment really want more aggressive treatment?",
+        "type": "true_false"
+    },
+	    {
+        "correct_answer": "C",
+        "options": {
+            "A": "Hyperplasia",
+            "B": "Hyperophy",
+            "C": "Atrophy",
+            "D": "Dyplasia"
+        },
+        "question": "Chronic urethral obstruction due to benign prismatic hyperplasia can lead to the following change in kidney parenchyma",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "C",
+        "options": {
+            "A": "Vitamin C",
+            "B": "Vitamin B7",
+            "C": "Vitamin B12",
+            "D": "Vitamin D"
+        },
+        "question": "Which vitamin is supplied from only animal source:",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "D",
+        "options": {
+            "A": "Adjustable gastric banding",
+            "B": "Biliopancreatic diversion",
+            "C": "Duodenal Switch",
+            "D": "Roux en Y Duodenal By pass"
+        },
+        "question": "All of the following are surgical options for morbid obesity except -",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "A",
+        "options": {
+            "A": "Central aery of the retina",
+            "B": "Infraorbital aery",
+            "C": "Lacrimal aery",
+            "D": "Nasociliary aretry"
+        },
+        "question": "Following endaerectomy on the right common carotid, a patient is found to be blind in the right eye. It is appears that a small thrombus embolized during surgery and lodged in the aery supplying the optic nerve. Which aery would be blocked?",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "B",
+        "options": {
+            "A": "Directly",
+            "B": "IG1-1",
+            "C": "Thyroxine",
+            "D": "Intranuclear receptors"
+        },
+        "question": "Growth hormone has its effect on growth through?",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "C",
+        "options": {
+            "A": "Louse",
+            "B": "Tick",
+            "C": "Mite",
+            "D": "Milk"
+        },
+        "question": "Scrub typhus is transmitted by: September 2004",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "C",
+        "options": {
+            "A": "Punctation",
+            "B": "Mosaicism",
+            "C": "Satellite lesions",
+            "D": "Atypical vessels"
+        },
+        "question": "Abnormal vascular patterns seen with colposcopy in case of cervical intraepithelial neoplasia  are all except",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "C",
+        "options": {
+            "A": "Anal fissure",
+            "B": "Hemorrhoid",
+            "C": "Pilonidal sinus",
+            "D": "Rectal ulcer"
+        },
+        "question": "Per rectum examination is not a useful test for diagnosis of",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "C",
+        "options": {
+            "A": "ab",
+            "B": "bc",
+            "C": "abc",
+            "D": "bcd"
+        },
+        "question": "Characteristics of Remifentanyl – a) Metabolised by plasma esterase b) Short half life c) More potent than Alfentanyl d) Dose reduced in hepatic and renal diseasee) Duration of action more than Alfentanyl",
+        "type": "multiple_choice"
+    },
+    {
+        "correct_answer": "C",
+        "options": {
+            "A": "Decreased ability to copy",
+            "B": "Decreased execution",
+            "C": "Deficit of expression by gesture",
+            "D": "Deficit of fluent speech"
+        },
+        "question": "Hypomimia is ?",
+        "type": "multiple_choice"
+    }
+]

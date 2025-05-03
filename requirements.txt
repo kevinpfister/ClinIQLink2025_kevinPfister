@@ -9,3 +9,6 @@ tiktoken
 datasets
 accelerate
 textgrad
+llama_cpp
+huggingface-hub
+python-dotenv
