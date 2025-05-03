@@ -11,8 +11,10 @@ Options:
 A. True
 B. False
 
-Provide your answer in JSON format with the keys:
-{"step_by_step_thinking": "explanation", "answer": "True/False"}
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
 '''.strip())
 
 # Multiple Choice template
@@ -22,8 +24,9 @@ Question: {{ question }}
 Options:
 {{ options }}
 
-Provide your answer in JSON format with the keys:
-{"step_by_step_thinking": "explanation", "answer_choice": "A/B/C/D"}
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.                                    
 '''.strip())
 
 # List question template
@@ -32,63 +35,15 @@ Answer the following list question.
 Question: {{ question }}
 Options (if provided): {{ options }}
 
-Provide your answer in JSON format with the keys:
-{"step_by_step_thinking": "explanation", "answer_list": ["item1", "item2", ...]}
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.                         
 '''.strip())
 
-# Short Answer template
-short_answer_template = Template('''
-Answer the following short answer question.
-Question: {{ question }}
-
-Provide your answer in JSON format with the keys:
-{"step_by_step_thinking": "explanation", "answer": "your short answer"}
-'''.strip())
-
-# Short Inverse template
-short_inverse_template = Template('''
-Answer the following short inverse question.
-Question: {{ question }}
-
-A false answer was provided: {{ false_answer }}
-and it was noted that: {{ incorrect_explanation }}
-
-Provide the correct answer in JSON format with the keys:
-{"step_by_step_thinking": "explanation", "answer": "your corrected short answer"}
-'''.strip())
-
-# Multi-Hop template
-multi_hop_template = Template('''
-Answer the following multi-hop question.
-Question: {{ question }}
-
-Please provide detailed step-by-step reasoning.
-Output your answer in JSON format with the keys:
-{"step_by_step_thinking": "detailed explanation", "answer": "your answer", "reasoning": ["step 1", "step 2", ...]}
-'''.strip())
-
-# Multi-Hop Inverse template
-multi_hop_inverse_template = Template('''
-Answer the following multi-hop inverse question.
-Question: {{ question }}
-
-The following incorrect reasoning steps have been flagged:
-{{ incorrect_reasoning_step }}
-
-Additionally, please consider the following correct reasoning context:
-{{ reasoning }}
-
-Provide your final answer in JSON format with the keys:
-{"step_by_step_thinking": "detailed explanation including corrections", "answer": "your answer"}
-'''.strip())
 
 # A mapping for easier access in your main code.
 prompt_templates = {
     "true_false": true_false_template,
     "multiple_choice": multiple_choice_template,
-    "list": list_template,
-    "short_answer": short_answer_template,
-    "short_inverse": short_inverse_template,
-    "multi_hop": multi_hop_template,
-    "multi_hop_inverse": multi_hop_inverse_template
+    "list": list_template
 }

@@ -13,14 +13,13 @@ import sys
 sys.path.append("src")
 from utils import RetrievalSystem, DocExtracter
 from template import prompt_templates, system_prompt
-#from textgrad.optimizer.optimizer_prompts import PromptOptimizer
 
 
 class RAG:
     def __init__(self, rag=True, retriever_name="SPECTER", 
              corpus_name="MedText", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
-             use_textgrad=True, llm_name="aaditya/Llama3-OpenBioLLM-70B"):
+             llm_name="aaditya/Llama3-OpenBioLLM-70B"):
         # Basic configuration.
         self.llm_name = llm_name
         self.rag = rag
@@ -28,7 +27,6 @@ class RAG:
         self.corpus_name = corpus_name
         self.db_dir = db_dir
         self.cache_dir = cache_dir
-        self.use_textgrad = use_textgrad  # Flag to decide if TextGrad should be used later.
         self.docExt = None
 
         # Initialize the retrieval system if RAG is enabled.
@@ -161,13 +159,6 @@ class RAG:
         # Generate the answer using your generate method.
         answer = self.generate(messages, **kwargs)
         
-        # Optionally simplify the answer using TextGrad.
-        if self.use_textgrad:
-            try:
-                answer = optimize_prompt(answer)
-            except Exception as e:
-                print("TextGrad simplification failed:", e)
-        
         # Log the generated answer if a save directory is provided.
         if save_dir is not None:
             with open(os.path.join(save_dir, "response.txt"), "w") as f:
@@ -203,7 +194,7 @@ class RAG:
         **kwargs: Additional parameters for generation.
         
         Returns:
-        final_answer (str): The final generated answer (optionally simplified via TextGrad).
+        final_answer (str): The final generated answer.
         messages (list): The full conversation message history.
         """
         # Render the main prompt using the appropriate template based on question type.
@@ -277,11 +268,6 @@ class RAG:
                 if save_path:
                     with open(save_path, 'w') as f:
                         json.dump(saved_messages, f, indent=4)
-                if self.use_textgrad:
-                    try:
-                        final_answer = optimize_prompt(final_answer)
-                    except Exception as e:
-                        print("TextGrad simplification failed:", e)
                 return final_answer, messages
             
             # Otherwise, if the response contains a queries section, parse and process the queries.
@@ -320,28 +306,6 @@ class RAG:
         
         # If no final answer is produced within the iterations, return the last output.
         return messages[-1]["content"], messages
-
-def optimize_prompt(text):
-        """
-        Optimize and simplify the given text using TextGrad's prompt optimizer.
-
-        This function leverages the PromptOptimizer from TextGrad (https://github.com/zou-group/textgrad)
-        to refine and improve the clarity of the input prompt.
-
-        Parameters:
-            text (str): The prompt text to optimize.
-        
-        Returns:
-            str: The optimized prompt text. If an error occurs, returns the original text.
-        """
-        try:
-            # Initialize the optimizer (default settings can be adjusted if needed)
-            optimizer = PromptOptimizer()
-            optimized_text = optimizer.optimize(text)
-            return optimized_text
-        except Exception as e:
-            print("TextGrad prompt optimization error:", e)
-            return text
 
 
 class CustomStoppingCriteria(StoppingCriteria):
