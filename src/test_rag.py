@@ -172,25 +172,7 @@ if __name__ == "__main__":
     parser.add_argument('--output_dir', type=str, default=None,
                         help='Directory to save results (default: auto-generated with timestamp)')
     
-    # RAG configuration
-                        
-    # Model and data parameters
-    parser.add_argument('--retriever', type=str, default='SPECTER',
-                        help='Retriever model to use')
-    parser.add_argument('--corpus', type=str, default='MedText',
-                        help='Corpus to use for retrieval')
-    parser.add_argument('--model', type=str, default='google/gemma-3-12b-it-qat-q4_0-gguf',
-                        help='Language model to use')
-    parser.add_argument('--temperature', type=float, default=0.3,
-                        help='Temperature for generation')
-    parser.add_argument('--max_tokens', type=int, default=150,
-                        help='Maximum tokens to generate')
-    
     # System parameters
-    parser.add_argument('--cache_dir', type=str, default=None,
-                        help='Directory to cache models')
-    parser.add_argument('--token', type=str, default=None,
-                        help='HuggingFace token (will use .env if not provided)')
     parser.add_argument('--limit', type=int, default=None,
                         help='Limit number of questions (for testing)')
     
@@ -221,22 +203,14 @@ if __name__ == "__main__":
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    rag_system = RAG(
-        retriever_name=args.retriever, 
-        corpus_name=args.corpus,
-        llm_name=args.model,
-        cache_dir=args.cache_dir,
-        hf_token=args.token
-    )
+    rag_system = RAG()  # RAG initialization moved to its __init__ method
     
     # Process questions
     print("Processing benchmark questions...")
     results = process_questions(
         questions, 
         rag_system,
-        save_dir=os.path.join(args.output_dir, "questions"),
-        temperature=args.temperature,
-        max_new_tokens=args.max_tokens
+        save_dir=os.path.join(args.output_dir, "questions")
     )
     
     # Save raw results (converting sets to lists for JSON serialization)

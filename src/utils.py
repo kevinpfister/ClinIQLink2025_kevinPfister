@@ -267,16 +267,40 @@ class RetrievalSystem:
             k_ = max(k * 2, 100)
         else:
             k_ = k
+            
+        # Initialize empty nested lists to prevent index errors
         for i in range(len(retriever_names[self.retriever_name])):
             texts.append([])
             scores.append([])
             for j in range(len(corpus_names[self.corpus_name])):
-                t, s = self.retrievers[i][j].get_relevant_documents(question, k=k_, id_only=id_only)
-                texts[-1].append(t)
-                scores[-1].append(s)
-        texts, scores = self.merge(texts, scores, k=k, rrf_k=rrf_k)
+                try:
+                    t, s = self.retrievers[i][j].get_relevant_documents(question, k=k_, id_only=id_only)
+                    texts[-1].append(t)
+                    scores[-1].append(s)
+                except Exception as e:
+                    print(f"⚠️ Error in retriever {retriever_names[self.retriever_name][i]}, corpus {corpus_names[self.corpus_name][j]}: {e}")
+                    # Add empty results to maintain the expected structure
+                    texts[-1].append([])
+                    scores[-1].append([])
+        
+        # Check if we have any results before merging
+        if all(all(len(x) == 0 for x in row) for row in texts):
+            print("⚠️ No results found in any retriever/corpus combination")
+            return [], []
+            
+        try:
+            texts, scores = self.merge(texts, scores, k=k, rrf_k=rrf_k)
+        except Exception as e:
+            print(f"⚠️ Error merging results: {e}")
+            return [], []
+            
         if self.cache:
-            texts = self.docExt.extract(texts)
+            try:
+                texts = self.docExt.extract(texts)
+            except Exception as e:
+                print(f"⚠️ Error extracting documents: {e}")
+                return [], []
+                
         return texts, scores
 
     def merge(self, texts, scores, k=32, rrf_k=100):
@@ -284,22 +308,41 @@ class RetrievalSystem:
             Merge the texts and scores from different retrievers
         '''
         RRF_dict = {}
+        
         for i in range(len(retriever_names[self.retriever_name])):
-            texts_all, scores_all = None, None
+            texts_all, scores_all = [], []
+            
+            # Skip processing if we don't have results for this retriever
+            if not texts[i] or all(len(t) == 0 for t in texts[i]):
+                continue
+                
             for j in range(len(corpus_names[self.corpus_name])):
-                if texts_all is None:
-                    texts_all = texts[i][j]
-                    scores_all = scores[i][j]
-                else:
-                    texts_all = texts_all + texts[i][j]
-                    scores_all = scores_all + scores[i][j]
+                # Skip empty results
+                if j >= len(texts[i]) or not texts[i][j]:
+                    continue
+                    
+                texts_all.extend(texts[i][j])
+                scores_all.extend(scores[i][j])
+            
+            # Skip if we still don't have any results
+            if not texts_all:
+                continue
+                
             if "specter" in retriever_names[self.retriever_name][i].lower():
                 sorted_index = np.array(scores_all).argsort()
             else:
                 sorted_index = np.array(scores_all).argsort()[::-1]
-            texts[i] = [texts_all[i] for i in sorted_index]
-            scores[i] = [scores_all[i] for i in sorted_index]
-            for j, item in enumerate(texts[i]):
+                
+            # Ensure we don't go out of bounds
+            sorted_index = sorted_index[:len(texts_all)]
+            
+            sorted_texts = [texts_all[i] for i in sorted_index]
+            sorted_scores = [scores_all[i] for i in sorted_index]
+            
+            for j, item in enumerate(sorted_texts):
+                if not isinstance(item, dict) or "id" not in item:
+                    continue
+                    
                 if item["id"] in RRF_dict:
                     RRF_dict[item["id"]]["score"] += 1 / (rrf_k + j + 1)
                     RRF_dict[item["id"]]["count"] += 1
@@ -311,14 +354,23 @@ class RetrievalSystem:
                         "score": 1 / (rrf_k + j + 1),
                         "count": 1
                         }
+        
+        # Handle the case where we have no results
+        if not RRF_dict:
+            return [], []
+            
         RRF_list = sorted(RRF_dict.items(), key=lambda x: x[1]["score"], reverse=True)
-        if len(texts) == 1:
-            texts = texts[0][:k]
-            scores = scores[0][:k]
+        
+        if len(texts) == 1 and texts[0] and any(len(t) > 0 for t in texts[0]):
+            # Find the first non-empty text list
+            for text_list, score_list in zip(texts[0], scores[0]):
+                if text_list:
+                    return text_list[:k], score_list[:k]
+            return [], []
         else:
-            texts = [dict((key, item[1][key]) for key in ("id", "title", "content")) for item in RRF_list[:k]]
-            scores = [item[1]["score"] for item in RRF_list[:k]]
-        return texts, scores
+            result_texts = [dict((key, item[1][key]) for key in ("id", "title", "content") if key in item[1]) for item in RRF_list[:k]]
+            result_scores = [item[1]["score"] for item in RRF_list[:k]]
+            return result_texts, result_scores
     
 
 class DocExtracter:

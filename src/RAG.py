@@ -45,8 +45,8 @@ def safe_json(response: str) -> dict:
 
 load_dotenv()
 class RAG:
-    def __init__(self, rag=True, retriever_name="SPECTER", 
-             corpus_name="Textbooks", db_dir="./corpus", 
+    def __init__(self, rag=True, retriever_name="BM25", 
+             corpus_name="MedText", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
              llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
              hf_token=None):
@@ -77,8 +77,8 @@ class RAG:
 
         # Model-specific configuration for Gemma.
         if "gemma-3" in self.llm_name.lower():
-            self.max_length = 4096  # Gemma 3 has a 4096 token context window
-            self.context_length = 3072
+            self.max_length = 131072
+            self.context_length = self.max_length - 1024   # leaves 1K tokens for the generated output
         else:
             self.max_length = 2048
             self.context_length = 1024
@@ -162,7 +162,7 @@ class RAG:
                 resp = self.model.create_chat_completion(
                     messages=messages,
                     temperature=kwargs.get("temperature", 0.3),
-                    max_tokens=kwargs.get("max_new_tokens", 512),
+                    max_tokens=kwargs.get("max_new_tokens", 131072),
                 )
             except Exception as e:
                 print(f"⚠️ [llama-cpp] API call failed: {e}")
@@ -317,25 +317,34 @@ class RAG:
             unformatted_options = None
             question_data["options"] = ""
         
+        # Initialize default values
+        context_str = ""
+        retrieved_snippets = []
+        scores = []
+        
         # Retrieve context via the RAG system if enabled
-        if self.rag:
+        if self.rag and self.retrieval_system is not None:
             try:
                 retrieved_snippets, scores = self.retrieval_system.retrieve(
                     question_data.get("question", ""), k=k, rrf_k=rrf_k
                 )
+                # More defensive check - ensure returned values are valid
+                if not isinstance(retrieved_snippets, list) or not isinstance(scores, list):
+                    print("⚠️ Warning: invalid return values from retrieval")
+                    retrieved_snippets, scores = [], []
             except IndexError as e:
-                print(f"⚠️  Warning: retrieval index error: {e}")
+                print(f"⚠️ Warning: retrieval index error: {e}")
                 retrieved_snippets, scores = [], []
             except Exception as e:
-                print(f"⚠️  Warning: retrieval failed: {e}")
+                print(f"⚠️ Warning: retrieval failed: {e}")
                 retrieved_snippets, scores = [], []
-        else:
-            retrieved_snippets, scores = [], []
-            retrieved_snippets, scores = [], []
-        contexts = [
-            f"Document {idx+1} (Title: {snippet['title']}): {snippet['content']}"
-            for idx, snippet in enumerate(retrieved_snippets)
-        ]
+                
+        # Safely create context string
+        contexts = []
+        for idx, snippet in enumerate(retrieved_snippets):
+            if isinstance(snippet, dict) and "title" in snippet and "content" in snippet:
+                contexts.append(f"Document {idx+1} (Title: {snippet['title']}): {snippet['content']}")
+        
         context_str = "\n".join(contexts)
         question_data["context"] = context_str
         
