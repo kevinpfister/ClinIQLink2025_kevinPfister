@@ -33,12 +33,14 @@ Output only the JSON object. Do not include any explanation, commentary, markdow
 list_template = Template('''
 Answer the following list question.
 Question: {{ question }}
-Options (if provided): {{ options }}
+Options:
+{{ options }}
 
 Respond strictly in valid JSON format as shown below:
 {"answer": ["1", "3"]} ← if options 1 and 3 are correct
-Only output the JSON object. Do not include explanations, labels, markdown, or any other text.                         
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
 '''.strip())
+
 
 
 # A mapping for easier access in your main code.

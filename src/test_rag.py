@@ -173,14 +173,6 @@ if __name__ == "__main__":
                         help='Directory to save results (default: auto-generated with timestamp)')
     
     # RAG configuration
-    parser.add_argument('--no_rag', action='store_true', 
-                        help='Disable RAG (use LLM-only)')
-    parser.add_argument('--iterative', action='store_true',
-                        help='Use iterative RAG instead of standard RAG')
-    parser.add_argument('--n_rounds', type=int, default=3,
-                        help='Number of iterative rounds (for iterative RAG)')
-    parser.add_argument('--k', type=int, default=32,
-                        help='Number of documents to retrieve')
                         
     # Model and data parameters
     parser.add_argument('--retriever', type=str, default='SPECTER',
@@ -230,7 +222,6 @@ if __name__ == "__main__":
     # Initialize RAG system
     print("Initializing RAG system...")
     rag_system = RAG(
-        rag=not args.no_rag,
         retriever_name=args.retriever, 
         corpus_name=args.corpus,
         llm_name=args.model,
@@ -243,10 +234,7 @@ if __name__ == "__main__":
     results = process_questions(
         questions, 
         rag_system,
-        iterative=args.iterative,
         save_dir=os.path.join(args.output_dir, "questions"),
-        n_rounds=args.n_rounds,
-        k=args.k,
         temperature=args.temperature,
         max_new_tokens=args.max_tokens
     )
