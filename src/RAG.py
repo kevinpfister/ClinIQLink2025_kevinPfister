@@ -45,7 +45,7 @@ def safe_json(response: str) -> dict:
 
 load_dotenv()
 class RAG:
-    def __init__(self, rag=True, retriever_name="BM25", 
+    def __init__(self, rag=True, retriever_name="RRF-2", 
              corpus_name="MedText", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
              llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
@@ -77,8 +77,8 @@ class RAG:
 
         # Model-specific configuration for Gemma.
         if "gemma-3" in self.llm_name.lower():
-            self.max_length = 131072
-            self.context_length = self.max_length - 1024   # leaves 1K tokens for the generated output
+            self.max_length = 8192
+            self.context_length = self.max_length - 3072   # leaves 3K tokens for the generated output
         else:
             self.max_length = 2048
             self.context_length = 1024
@@ -139,6 +139,7 @@ class RAG:
             model_path=local_path,
             n_gpu_layers=-1,    # offload all layers
             n_batch=512,        # batch size for GPU decoding
+            n_ctx=self.max_length,  # Use the model's max_length as context window
             verbose=True,       # prints device setup info
         )
         # For consistent API, we still need a tokenizer from HF
@@ -162,7 +163,6 @@ class RAG:
                 resp = self.model.create_chat_completion(
                     messages=messages,
                     temperature=kwargs.get("temperature", 0.3),
-                    max_tokens=kwargs.get("max_new_tokens", 131072),
                 )
             except Exception as e:
                 print(f"⚠️ [llama-cpp] API call failed: {e}")
@@ -284,7 +284,7 @@ class RAG:
             
         return prompt
 
-    def rag_answer(self, question_data, k=32, rrf_k=100, save_dir=None, **kwargs):
+    def rag_answer(self, question_data, k=5, rrf_k=100, save_dir=None, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """
@@ -401,7 +401,7 @@ class RAG:
         
         return answer, retrieved_snippets, scores
 
-    def i_rag_answer(self, question_data, k=32, rrf_k=100, save_path=None, n_rounds=4, n_queries=3, qa_cache_path=None, **kwargs):
+    def i_rag_answer(self, question_data, k=5, rrf_k=100, save_path=None, n_rounds=4, n_queries=3, qa_cache_path=None, **kwargs):
         """Iterative RAG answer generation"""
         # Make a copy of question_data to avoid modifying the original
         question_data = question_data.copy()

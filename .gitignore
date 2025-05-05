@@ -5,3 +5,4 @@ code_context.txt
 get_code_context.sh
 logs
 .env
+rag_results_*
