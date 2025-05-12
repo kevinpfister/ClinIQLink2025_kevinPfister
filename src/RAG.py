@@ -45,8 +45,8 @@ def safe_json(response: str) -> dict:
 
 load_dotenv()
 class RAG:
-    def __init__(self, rag=True, retriever_name="RRF-2", 
-             corpus_name="MedText", db_dir="./corpus", 
+    def __init__(self, rag=True, retriever_name="BM25", 
+             corpus_name="MedCorp", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
              llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
              hf_token=None):
@@ -284,7 +284,7 @@ class RAG:
             
         return prompt
 
-    def rag_answer(self, question_data, k=5, rrf_k=100, save_dir=None, **kwargs):
+    def rag_answer(self, question_data, k=5, rrf_k=85, save_dir=None, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """
@@ -370,7 +370,7 @@ class RAG:
         
         # Add context to the prompt if using RAG
         if self.rag and context_str:
-            prompt = f"Based on the following information:\n\n{context_str}\n\n{prompt}"
+            prompt = f"With your own knowledge and the help of the following document:\n\n{context_str}\n\n{prompt}"
         
         # Prepend the system prompt
         system_content = "You are a medical expert. Answer the question strictly in JSON format with no additional text."
@@ -401,7 +401,7 @@ class RAG:
         
         return answer, retrieved_snippets, scores
 
-    def i_rag_answer(self, question_data, k=5, rrf_k=100, save_path=None, n_rounds=4, n_queries=3, qa_cache_path=None, **kwargs):
+    def i_rag_answer(self, question_data, k=3, rrf_k=50, save_path=None, n_rounds=4, n_queries=3, qa_cache_path=None, **kwargs):
         """Iterative RAG answer generation"""
         # Make a copy of question_data to avoid modifying the original
         question_data = question_data.copy()

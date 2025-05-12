@@ -167,7 +167,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Test RAG system on medical benchmark')
     
     # Input/output parameters
-    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_testset.json',
+    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_enhanced_testset.json',
                         help='Path to the benchmark file')
     parser.add_argument('--output_dir', type=str, default=None,
                         help='Directory to save results (default: auto-generated with timestamp)')
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     # Create an auto-generated output directory if none is specified
     if not args.output_dir:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        args.output_dir = f"./rag_results_{timestamp}"
+        args.output_dir = f"./logs/rag_results_{timestamp}"
     
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)
@@ -210,6 +210,7 @@ if __name__ == "__main__":
     results = process_questions(
         questions, 
         rag_system,
+        iterative=False,
         save_dir=os.path.join(args.output_dir, "questions")
     )
     
