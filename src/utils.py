@@ -16,6 +16,7 @@ corpus_names = {
     "Wikipedia": ["wikipedia"],
     "MedText": ["textbooks", "statpearls"],
     "MedCorp": ["pubmed", "textbooks", "statpearls", "wikipedia"],
+    "SelfCorpus": ["selfcorpus"],
 }
 
 retriever_names = {
@@ -242,8 +243,12 @@ class Retriever:
             print(f"Cloning the {self.corpus_name} corpus from Huggingface...")
             os.makedirs(os.path.dirname(self.chunk_dir), exist_ok=True)
             
-            # Clone the repository
-            os.system(f"git clone https://huggingface.co/datasets/MedRAG/{corpus_name} {self.corpus_dir}")
+            # Check if the corpus is selfcorpus, if so, skip cloning
+            if self.corpus_name == "selfcorpus":
+                print("Skipping cloning for selfcorpus")
+            else:
+                # Clone the repository
+                os.system(f"git clone https://huggingface.co/datasets/MedRAG/{corpus_name} {self.corpus_dir}")
             
             # Handle special case for StatPearls
             if self.corpus_name == "statpearls":

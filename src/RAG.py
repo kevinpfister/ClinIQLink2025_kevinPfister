@@ -284,7 +284,7 @@ class RAG:
             
         return prompt
 
-    def rag_answer(self, question_data, k=5, rrf_k=85, save_dir=None, **kwargs):
+    def rag_answer(self, question_data, k=3, rrf_k=85, save_dir=None, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """

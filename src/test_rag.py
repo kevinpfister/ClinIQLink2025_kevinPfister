@@ -167,7 +167,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Test RAG system on medical benchmark')
     
     # Input/output parameters
-    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_enhanced_testset.json',
+    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_testset.json',
                         help='Path to the benchmark file')
     parser.add_argument('--output_dir', type=str, default=None,
                         help='Directory to save results (default: auto-generated with timestamp)')
