@@ -1,0 +1,17 @@
+Based on the following information:
+
+Document 1 (Title: Cervical Ectropion -- Evaluation): Nucleic acid amplification tests for chlamydia and gonorrheal cervicitis. Triple swab. Endocervical and high vaginal swabs are taken to rule out cervicitis. It is mainly done when vaginal discharge is purulent. Differentiating between cervical ectropion and cervical intraepithelial neoplasia and cervical cancer is difficult on macroscopic visualization. Though cervical ectropion is not associated with cervical cancer, in the case of cervical pain or spotting along with a red, inflamed cervix, the following tests can be done to rule out cervicitis, cervical intraepithelial neoplasia (CIN), and cervical cancer: [18] [22] [23] Pap smear Colposcopy Colposcopy with biopsy A urine beta hCG qualitative test is carried out as the reproductive hormonal pattern during pregnancy often leads to the development of cervical ectropion.
+Document 2 (Title: Cervical Intraepithelial Neoplasia -- Evaluation): Colposcopy with directed biopsy is the preferred method for evaluation of an abnormal pap smear result. "Co-testing" combines cytology and HPV testing for high-risk types, but is still considered screening. The diagnosis ultimately requires tissue sampling. There are exceptions to this rule:
+Document 3 (Title: Cervical Intraepithelial Neoplasia -- Pathophysiology): Cervical intraepithelial neoplasia results from HPV infection within cervical cells. These changes, especially in young women, commonly revert to normal cells due to an intact immune response and rapid turnover of cells on the cervix. About 60% of CIN-1 will regress to normal after 1 year. Women with CIN-2 and CIN-3 are at high risk for developing invasive cancer, although the average time for progression is still several years. Therefore, women with CIN-2/3 should receive treatment. Exceptions to this recommendation are women in the 20 to 24 year age group and pregnant women.  Since a significant percentage of low-grade squamous intraepithelial lesions (LGSIL) on Pap smear will have CIN-2 or 3, it makes sense that these pap smears still require colposcopy and biopsy in most cases. The same holds for older women with atypical squamous cells of undetermined significance (ASCUS) pap smears who also have a high-risk HPV. Cytology is the screening test, but histologic characteristics of a tissue biopsy make the diagnosis. [1] [8]
+
+Answer the following multiple-choice question.
+Question: Abnormal vascular patterns seen with colposcopy in case of cervical intraepithelial neoplasia  are all except
+Options:
+A. Punctation
+B. Mosaicism
+C. Satellite lesions
+D. Atypical vessels
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

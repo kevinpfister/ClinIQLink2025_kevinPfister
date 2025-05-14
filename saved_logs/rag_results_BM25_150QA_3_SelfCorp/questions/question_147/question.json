@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "2",
+    "4",
+    "5"
+  ],
+  "options": [
+    "Is a DNA virus",
+    "Belongs to the Picornaviridae family",
+    "Can cause cirrhosis",
+    "Is transmitted via the fecal-oral route",
+    "Causes an infection that can be prevented by vaccination"
+  ],
+  "question": "Select the correct statement(s): Hepatitis A virus:",
+  "type": "list"
+}

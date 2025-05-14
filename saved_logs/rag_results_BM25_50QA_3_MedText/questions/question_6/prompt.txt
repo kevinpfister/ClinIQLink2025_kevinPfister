@@ -1,0 +1,18 @@
+Based on the following information:
+
+Document 1 (Title: Antidotes -- Issues of Concern -- Background and Presentation): Ethylene glycol and methanol : Poisoning with ethylene glycol or methanol may occur through attempted self-harm, unintentional ingestion, or a misguided attempt at inebriation. In 2007, United States poison centers received a combined 8014 calls related to possible ethylene glycol or methanol exposure. [11] Ethylene glycol, an essential component of antifreeze, has a bright color and sweet taste, making it particularly appealing to children. Classic signs and symptoms of ethylene glycol poisoning include altered mental state, metabolic acidosis, acute renal failure, and oxalate crystals in the urine. Hypocalcemia, multiorgan dysfunction, and even death occur in severe cases. [11] Methanol is present in embalming fluids, paint removers, windshield-washer fluid, canned-heating products, and moonshine liquor. Methanol poisoning causes profound metabolic acidosis and visual changes that may lead to blindness. Severe cases can result in multiorgan failure and death. Untreated methanol poisoning carries a mortality rate as high as 28% with permanent visual defects or blindness in up to 30% of survivors. [11]
+Document 2 (Title: Hyperoxaluria -- Etiology -- Other causes): Ethylene glycol, found in antifreeze, is commonly ingested accidentally or intentionally. In 2020, US poison control centers noted 6036 calls regarding ethylene glycol ingestion. Of these, 586 had at least moderate clinical effects, 30 of which resulted in death. Ethylene glycol is metabolized through alcohol dehydrogenase; an end product is oxalate. Oxalate crystals are often found in the urine of patients with ethylene glycol ingestion. [20]
+Document 3 (Title: Ethanol -- Mechanism of Action -- Antidote): Ethylene glycol poisoning: Similar to methanol, ethylene glycol is metabolized by ADH in the liver to form glycolaldehyde, which ALDH converts to glycolic acid. Glycolic acid may be further metabolized into oxalic acid. Glycolic acid is more toxic than ethylene glycol, and oxalic acid can form calcium oxalate crystals in the kidney. Ethanol also has a greater affinity for ADH and ADLH than ethylene glycol and competitively inhibits ethylene glycol metabolism.
+
+Answer the following list question.
+Question: Among the following symptoms, which one(s) is (are) commonly observed in acute ethylene glycol poisoning?
+Options:
+1. Renal failure
+2. Neurological disorders
+3. Acid-base disorders
+4. Cardiovascular disorders
+5. Hearing disorders
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

@@ -46,7 +46,7 @@ def safe_json(response: str) -> dict:
 load_dotenv()
 class RAG:
     def __init__(self, rag=True, retriever_name="BM25", 
-             corpus_name="MedCorp", db_dir="./corpus", 
+             corpus_name="All", db_dir="./corpus", 
              cache_dir=None, corpus_cache=False, HNSW=False, 
              llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
              hf_token=None):
@@ -284,7 +284,7 @@ class RAG:
             
         return prompt
 
-    def rag_answer(self, question_data, k=5, rrf_k=85, save_dir=None, **kwargs):
+    def rag_answer(self, question_data, k=3, rrf_k=60, save_dir=None, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """
@@ -317,6 +317,14 @@ class RAG:
             unformatted_options = None
             question_data["options"] = ""
         
+        # Build the retrieval query with options if available
+        base_q = question_data.get("question", "")
+        opts   = question_data.get("options", "").strip()
+        if opts:
+            retrieval_query = f"{base_q} Options: {opts}"
+        else:
+            retrieval_query = base_q
+
         # Initialize default values
         context_str = ""
         retrieved_snippets = []
@@ -326,7 +334,7 @@ class RAG:
         if self.rag and self.retrieval_system is not None:
             try:
                 retrieved_snippets, scores = self.retrieval_system.retrieve(
-                    question_data.get("question", ""), k=k, rrf_k=rrf_k
+                    retrieval_query, k=k, rrf_k=rrf_k
                 )
                 # More defensive check - ensure returned values are valid
                 if not isinstance(retrieved_snippets, list) or not isinstance(scores, list):

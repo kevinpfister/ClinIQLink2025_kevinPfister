@@ -1,0 +1,18 @@
+Based on the following information:
+
+Document 1 (Title: Amitriptyline -- Enhancing Healthcare Team Outcomes): Specially trained nurses can provide medication counseling, evaluate patient adherence, and monitor for side effects on follow-up visits. Nurses should report to clinicians with their recommendations in case of concern regarding therapy. In an acute amitriptyline overdose, emergency medicine clinicians and triage nurses should rapidly stabilize the patient. Critical care clinician supervision is necessary if the patient remains in the ICU. In severe overdose, clinicians should obtain a medical toxicologist consultation and contact the poison control center. In an intentional overdose, the clinician should obtain a psychiatrist consultation.
+Document 2 (Title: Poison Prevention Packaging Act -- Issues of Concern): A label must be provided on the container stating, “This Package for Households Without Young Children.” This statement is required for any special packaging according to the act. The label should appear easily legible on the borderline of the principal display panel. The statement must be written in contrast to the other labels. For smaller containers unable to accommodate the label, a substitute label will proceed with the statement as “Package Not Child-Resistant.” [7] [8]
+Document 3 (Title: Amitriptyline -- Adverse Effects): Amitriptyline, due to its alpha-adrenergic receptor blockade, can cause orthostatic hypotension, dizziness, and sedation. Amitriptyline can also cause heart rate variability, slow intracardiac conduction, induce various arrhythmias, and cause QTc (corrected QT) prolongation.
+
+Answer the following list question.
+Question: Regarding acute amitriptyline poisoning, which statement(s) is (are) correct?
+Options:
+1. A serotonin syndrome is observed
+2. An anticholinergic syndrome is observed
+3. Seizures may occur
+4. Prognosis depends on cardiovascular disorders
+5. The toxic dose is greater than 5 grams in adults
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

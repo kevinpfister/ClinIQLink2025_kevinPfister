@@ -1,0 +1,16 @@
+Based on the following information:
+
+Document 1 (Title: Snellen Chart -- Definition/Introduction): Tumbling E: Dr. Snellen also developed this chart, which he designed for children and those unable to read or unfamiliar with the Roman alphabet. This chart displays a capital letter E facing in various directions. While observing each character, the patient points in the direction that the E is facing. Landolt C: Comparable to the Tumbling E, this chart displays a C - which some say appears more similar to a broken ring - facing in various directions. The chart was developed by the Swiss ophthalmologist Landolt and is regarded as a laboratory standard by the International Council of Ophthalmology. LEA Symbols Chart : This chart was designed for visual acuity screening in children to eliminate the problems of language barriers. The chart utilizes symbols and creates a play environment to entertain the pediatric patient during the exam. Vivekanand et al. determined that the LEA symbols chart performs better than the Snellen chart for visual acuity assessments in preschool children. [4]
+Document 2 (Title: Pediatric Cataract -- History and Physical): Recognition acuity testing assesses the ability to recognize specific stimuli, encompassing direction identification using Landolt C or Snellen E tests, letter identification with Snellen charts or high-contrast optotype visual acuity (HOTV) tests, and picture identification with tools like Allen picture cards or Domino charts. Behavioral pattern assessment, through techniques like the Cardiff acuity test and optokinetic drum test, evaluates visual function indirectly by observing the child's response to visual stimuli. [43]
+Document 3 (Title: Visual Acuity -- Introduction): In the 1800s, there was a move to standardize visual testing, which led to the formation of several visual acuity charts with different optotypes. The first and still most widely used today is the Snellen chart. Other testing charts developed around that time include the Tumbling E chart, Landolt C chart, and Allen chart. More recently, the LogMAR chart (also known as ETDRS chart) has gained favor. The LogMAR chart provides more accurate results when compared to other visual acuity charts, and the results are more easily used in vision analysis, making it the preferred chart in clinical studies. [2]
+
+Answer the following true/false question.
+Question: Landolt C and snellen e acuity: differences in strabismus amblyopia?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -16,6 +16,8 @@ corpus_names = {
     "Wikipedia": ["wikipedia"],
     "MedText": ["textbooks", "statpearls"],
     "MedCorp": ["pubmed", "textbooks", "statpearls", "wikipedia"],
+    "SelfCorpus": ["selfcorpus"],
+    "All": ["selfcorpus","pubmed", "textbooks", "statpearls", "wikipedia"]
 }
 
 retriever_names = {
@@ -242,8 +244,12 @@ class Retriever:
             print(f"Cloning the {self.corpus_name} corpus from Huggingface...")
             os.makedirs(os.path.dirname(self.chunk_dir), exist_ok=True)
             
-            # Clone the repository
-            os.system(f"git clone https://huggingface.co/datasets/MedRAG/{corpus_name} {self.corpus_dir}")
+            # Check if the corpus is selfcorpus, if so, skip cloning
+            if self.corpus_name == "selfcorpus":
+                print("Skipping cloning for selfcorpus")
+            else:
+                # Clone the repository
+                os.system(f"git clone https://huggingface.co/datasets/MedRAG/{corpus_name} {self.corpus_dir}")
             
             # Handle special case for StatPearls
             if self.corpus_name == "statpearls":
@@ -323,6 +329,14 @@ class Retriever:
         # Load the created index
         try:
             self.index = LuceneSearcher(self.index_dir)
+            # ─── BM25 parameter tuning ────────────────────────────────────────
+            # Lower b to reduce length‐normalization and raise k1 to reward TF
+            self.index.set_b(0.5)
+            self.index.set_k1(1.5)
+
+            # ─── Enable RM3 pseudo‐relevance feedback ─────────────────────────
+            self.index.set_rm3(fb_terms=10, fb_docs=15, orig_query_weight=0.7)
+
             print(f"Successfully loaded BM25 index for {self.corpus_name}")
         except Exception as e:
             raise RuntimeError(f"Created index but failed to load it: {e}")
@@ -541,8 +555,11 @@ class RetrievalSystem:
             
             for corpus_texts, corpus_scores in zip(texts[0], scores[0]):
                 if corpus_texts:  # Skip empty results
+                    # normalize this corpus’s scores to μ=0, σ=1
+                    μ, σ = np.mean(corpus_scores), np.std(corpus_scores) or 1.0
+                    normed = [(s - μ) / σ for s in corpus_scores]
                     all_texts.extend(corpus_texts)
-                    all_scores.extend(corpus_scores)
+                    all_scores.extend(normed)
             
             # Sort by score (descending)
             if all_texts:

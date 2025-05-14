@@ -1,0 +1,16 @@
+Based on the following information:
+
+Document 1 (Title: Urticaria Pigmentosa  -- Treatment / Management): The management of cutaneous mastocytosis begins with practical measures, such as the use of lukewarm water for bathing, air conditioning during hot weather, and avoidance of triggers for mast cell degranulation. Treatment is symptomatic for patients with cutaneous mastocytosis.
+Document 2 (Title: Neonatal Jaundice -- Treatment / Management -- Phototherapy): Bilirubin optimally absorbs light in the blue-green range (ie, 460-490 nm). The underlying mechanism of PT involves inducing photoisomerization and converting bilirubin into lumirubin, which is readily excreted into bile and urine. [96] During phototherapy, the neonate's maximum body surface area should be exposed to the light source while keeping the eyes covered to avoid retinal injury, and interruptions should be minimized. The maintenance of hydration is necessary to ensure adequate urine output, as most bilirubin is excreted in the urine as lumirubin, a structural isomer of bilirubin formed during phototherapy. Therefore, breastfeeding support should be offered to all nursing mothers as early initiation of breastfeeding and frequent, on-demand feeding decreases the likelihood of dehydration. Although supplemental oral water and dextrose water are not recommended, supplemental pumped breastmilk or infant formula can be considered for feeding issues, including infants with ineffective sucking or latching or inadequate maternal milk production. [34]
+Document 3 (Title: Wheat Allergy -- History and Physical): Patients with wheat dependent exercise-induced anaphylaxis (WDEIA) usually have symptoms that include pruritus, urticaria, angioedema, flushing, shortness of breath, dysphagia, chest tightness, profuse sweating, syncope, headache, diarrhea, nausea, throat closing, abdominal pain, and hoarseness that occurs during intense physical exercise following wheat intake in the prior four hours before symptom onset. [1] [25]
+
+Answer the following true/false question.
+Question: Syncope during bathing in infants, a pediatric form of water-induced urticaria?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
