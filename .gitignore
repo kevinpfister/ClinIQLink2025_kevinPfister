@@ -7,3 +7,5 @@ logs
 .env
 rag_results_2*
 hs_err_pid*
+saved_logs
+.idea

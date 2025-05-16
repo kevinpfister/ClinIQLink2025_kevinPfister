@@ -12,3 +12,6 @@ textgrad
 llama-cpp-python
 huggingface-hub
 python-dotenv
+litellm
+textgrad
+dotenv
