@@ -1,15 +1,5 @@
 {
-  "answer": [
-    "2",
-    "5"
-  ],
-  "options": [
-    "Spectrophotometric using monochromatic light",
-    "Spectrophotometric using polychromatic light",
-    "Refractometric",
-    "Usable in gas chromatography",
-    "Usable in liquid chromatography"
-  ],
-  "question": "Among the following statements, which one(s) is (are) correct? A diode array detector is a detector:",
-  "type": "list"
+  "answer": "False",
+  "question": "Do patients with localized prostate cancer treatment really want more aggressive treatment?",
+  "type": "true_false"
 }

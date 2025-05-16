@@ -1,5 +1,11 @@
 {
-  "answer": "True",
-  "question": "Can tailored interventions increase mammography use among HMO women?",
-  "type": "true_false"
+  "correct_answer": "C",
+  "options": {
+    "A": "Louse",
+    "B": "Tick",
+    "C": "Mite",
+    "D": "Milk"
+  },
+  "question": "Scrub typhus is transmitted by: September 2004",
+  "type": "multiple_choice"
 }

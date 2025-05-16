@@ -1,5 +1,11 @@
 {
-  "answer": "False",
-  "question": "Are the long-term results of the transanal pull-through equal to those of the transabdominal pull-through?",
-  "type": "true_false"
+  "correct_answer": "B",
+  "options": {
+    "A": "Directly",
+    "B": "IGF-1",
+    "C": "Thyroxine",
+    "D": "Intranuclear receptors"
+  },
+  "question": "Growth hormone has its effect on growth through?",
+  "type": "multiple_choice"
 }

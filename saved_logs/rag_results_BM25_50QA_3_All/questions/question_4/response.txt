@@ -1,3 +1,1 @@
-```json
-{"answer": "False"}
-```
+{"answer_choice": "B"}

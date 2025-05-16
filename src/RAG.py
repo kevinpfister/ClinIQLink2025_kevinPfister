@@ -46,12 +46,16 @@ def safe_json(response: str) -> dict:
 load_dotenv()
 class RAG:
     def __init__(self, rag=True, retriever_name="BM25", 
-             corpus_name="All", db_dir="./corpus", 
-             cache_dir=None, corpus_cache=False, HNSW=False, 
-             llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
-             hf_token=None):
-        # Basic configuration.
+         corpus_name="All", db_dir="./corpus", 
+         cache_dir=None, corpus_cache=False, HNSW=False, 
+         llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
+         model_type="local",  
+         api_key=None,        
+         hf_token=None):
+         # Basic configuration.
         self.llm_name = llm_name
+        self.model_type = model_type.lower()
+        self.api_key = api_key
         self.rag = rag
         self.retriever_name = retriever_name
         self.corpus_name = corpus_name
@@ -61,10 +65,41 @@ class RAG:
         
         # Get HF token from environment variable or use provided token
         self.hf_token = hf_token or os.getenv("HUGGINGFACE_TOKEN")
-        if not self.hf_token:
-            raise ValueError("HuggingFace token not provided. Set HUGGINGFACE_TOKEN in .env file or pass it as hf_token parameter.")
-            
-        self.use_llama_cpp = "gguf" in self.llm_name.lower()
+        
+        # Only need llama_cpp for local models
+        self.use_llama_cpp = "gguf" in self.llm_name.lower() and self.model_type == "local"
+
+        # Initialize API clients if needed
+        if self.model_type == "openai":
+            # Check for OpenAI API key
+            self.api_key = api_key or os.getenv("OPENAI_API_KEY")
+            if not self.api_key:
+                raise ValueError("OpenAI API key not provided. Set OPENAI_API_KEY in .env file or pass as api_key parameter.")
+            try:
+                from openai import OpenAI
+                self.openai_client = OpenAI(api_key=self.api_key)
+                print("Initialized OpenAI client for GPT-4o-mini")
+            except ImportError:
+                raise ImportError("OpenAI package not installed. Install with 'pip install openai'")
+        
+        elif self.model_type == "gemini":
+            # Check for Google API key
+            self.api_key = api_key or os.getenv("GOOGLE_API_KEY")
+            if not self.api_key:
+                raise ValueError("Google API key not provided. Set GOOGLE_API_KEY in .env file or pass as api_key parameter.")
+            try:
+                import google.generativeai as genai
+                genai.configure(api_key=self.api_key)
+                self.gemini_client = genai
+                print("Initialized Google Generative AI client for Gemini-2.0-flash")
+            except ImportError:
+                raise ImportError("Google Generative AI package not installed. Install with 'pip install google-generativeai'")
+        
+        elif self.model_type == "local":
+            if not self.hf_token and "gemma" in self.llm_name.lower():
+                raise ValueError("HuggingFace token not provided for Gemma model. Set HUGGINGFACE_TOKEN in .env or pass as hf_token.")
+        else:
+            raise ValueError(f"Unsupported model type: {self.model_type}. Supported types: 'local', 'openai', and 'gemini'")
 
         # Initialize the retrieval system if RAG is enabled.
         if self.rag:
@@ -75,76 +110,85 @@ class RAG:
         # Set up prompt templates 
         self.templates = prompt_templates
 
-        # Model-specific configuration for Gemma.
-        if "gemma-3" in self.llm_name.lower():
+        # Model-specific configuration for context lengths
+        if self.model_type == "local" and "gemma-3" in self.llm_name.lower():
             self.max_length = 8192
             self.context_length = self.max_length - 3072   # leaves 3K tokens for the generated output
+        elif self.model_type == "openai":
+            self.max_length = 16384  # GPT-4o-mini context length
+            self.context_length = 12000
+        elif self.model_type == "gemini":
+            self.max_length = 32768  # Gemini-2.0-flash context length
+            self.context_length = 25000
         else:
             self.max_length = 2048
             self.context_length = 1024
 
-        # Login to HuggingFace and cache token
-        login(self.hf_token)                
-        HfFolder.save_token(self.hf_token)
+        # Only load local model when using that option
+        if self.model_type == "local":
+            # Login to HuggingFace and cache token for local models
+            if self.hf_token:
+                login(self.hf_token)                
+                HfFolder.save_token(self.hf_token)
         
-        # Fix for Gemma model paths
-        if "gemma" in self.llm_name.lower():
-            # The correct repository ID for Gemma GGUF models
-            repo_id = "google/gemma-3-12b-it-qat-q4_0-gguf"
-            # The correct filename in the repo
-            filename = "gemma-3-12b-it-q4_0.gguf"
-        else:
-            # For other models, use the provided path
-            repo_id = self.llm_name
-            filename = self.llm_name.split("/")[-1]
-            if not filename.endswith(".gguf"):
-                filename = f"{filename}.gguf"
-        
-        print(f"Attempting to download {filename} from {repo_id}")
-        
-        # Check if model is already downloaded
-        try:       
-            # First check if model exists in cache
-            local_path = try_to_load_from_cache(
-                repo_id=repo_id,
-                filename=filename,
-                cache_dir=self.cache_dir
-            )
+            # Fix for Gemma model paths
+            if "gemma" in self.llm_name.lower():
+                # The correct repository ID for Gemma GGUF models
+                repo_id = "google/gemma-3-12b-it-qat-q4_0-gguf"
+                # The correct filename in the repo
+                filename = "gemma-3-12b-it-q4_0.gguf"
+            else:
+                # For other models, use the provided path
+                repo_id = self.llm_name
+                filename = self.llm_name.split("/")[-1]
+                if not filename.endswith(".gguf"):
+                    filename = f"{filename}.gguf"
             
-            # If not found in cache, download it
-            if local_path is None:
-                print(f"Model {filename} not found in cache. Downloading...")
-                local_path = hf_hub_download(
+            print(f"Attempting to download {filename} from {repo_id}")
+            
+            # Check if model is already downloaded
+            try:       
+                # First check if model exists in cache
+                local_path = try_to_load_from_cache(
                     repo_id=repo_id,
                     filename=filename,
-                    token=self.hf_token,
                     cache_dir=self.cache_dir
                 )
-                print(f"Model downloaded to {local_path}")
-            else:
-                print(f"Using cached model from {local_path}")
                 
-        except Exception as e:
-            print(f"Error checking/downloading model: {e}")
+                # If not found in cache, download it
+                if local_path is None:
+                    print(f"Model {filename} not found in cache. Downloading...")
+                    local_path = hf_hub_download(
+                        repo_id=repo_id,
+                        filename=filename,
+                        token=self.hf_token,
+                        cache_dir=self.cache_dir
+                    )
+                    print(f"Model downloaded to {local_path}")
+                else:
+                    print(f"Using cached model from {local_path}")
+                    
+            except Exception as e:
+                print(f"Error checking/downloading model: {e}")
+                
+                # Fallback to local file if specified
+                if os.path.exists(self.llm_name):
+                    print(f"Using local model file: {self.llm_name}")
+                    local_path = self.llm_name
+                else:
+                    raise RuntimeError(f"Failed to load model and no local fallback found: {e}")
             
-            # Fallback to local file if specified
-            if os.path.exists(self.llm_name):
-                print(f"Using local model file: {self.llm_name}")
-                local_path = self.llm_name
-            else:
-                raise RuntimeError(f"Failed to load model and no local fallback found: {e}")
+            # Initialize llama-cpp model
+            self.model = Llama(
+                model_path=local_path,
+                n_gpu_layers=-1,    # offload all layers
+                n_batch=512,        # batch size for GPU decoding
+                n_ctx=self.max_length,  # Use the model's max_length as context window
+                verbose=True,       # prints device setup info
+            )
+            # For consistent API, we still need a tokenizer from HF
+            self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-12b-pt", cache_dir=self.cache_dir)
         
-        # Initialize llama-cpp model
-        self.model = Llama(
-            model_path=local_path,
-            n_gpu_layers=-1,    # offload all layers
-            n_batch=512,        # batch size for GPU decoding
-            n_ctx=self.max_length,  # Use the model's max_length as context window
-            verbose=True,       # prints device setup info
-        )
-        # For consistent API, we still need a tokenizer from HF
-        self.tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-12b-pt", cache_dir=self.cache_dir)
-       
         # Set the answer function to the RAG-based answer generator.
         self.answer = self.rag_answer
 
@@ -153,12 +197,55 @@ class RAG:
         return StoppingCriteriaList([CustomStoppingCriteria(stop_words, self.tokenizer, input_len)])
 
     def generate(self, messages, **kwargs):
-        """
-        Universal text extractor for llama-cpp chat & HF text-generation.
-        Never does an unchecked list[0], and always returns a string (possibly empty).
-        """
-        # —— llama-cpp chat branch ——
-        if self.use_llama_cpp:
+        # —— OpenAI API branch ——
+        if self.model_type == "openai":
+            try:
+                resp = self.openai_client.chat.completions.create(
+                    model="gpt-4o-mini",
+                    messages=messages,
+                    temperature=kwargs.get("temperature", 0.3),
+                    max_tokens=kwargs.get("max_tokens", 1024),
+                )
+                
+                if hasattr(resp, 'choices') and resp.choices and len(resp.choices) > 0:
+                    return resp.choices[0].message.content.strip()
+                else:
+                    print(f"⚠️ [OpenAI API] unexpected response: {resp}")
+                    return ""
+            except Exception as e:
+                print(f"⚠️ [OpenAI API] call failed: {e}")
+                return ""
+        
+        # —— Google Gemini API branch ——
+        elif self.model_type == "gemini":
+            try:
+                # Convert messages to Gemini format
+                gemini_messages = []
+                for msg in messages:
+                    role = "user" if msg["role"] == "user" else "model"
+                    gemini_messages.append({"role": role, "parts": [{"text": msg["content"]}]})
+                
+                # Create model and generate response
+                model = self.gemini_client.GenerativeModel("gemini-2.0-flash")
+                response = model.generate_content(
+                    gemini_messages,
+                    generation_config={
+                        "temperature": kwargs.get("temperature", 0.3),
+                        "max_output_tokens": kwargs.get("max_tokens", 1024),
+                    }
+                )
+                
+                if response and hasattr(response, "text"):
+                    return response.text.strip()
+                else:
+                    print(f"⚠️ [Gemini API] unexpected response: {response}")
+                    return ""
+            except Exception as e:
+                print(f"⚠️ [Gemini API] call failed: {e}")
+                return ""
+        
+        # —— llama-cpp chat branch (your existing code) ——
+        elif self.use_llama_cpp:
             try:
                 resp = self.model.create_chat_completion(
                     messages=messages,
@@ -184,7 +271,7 @@ class RAG:
             )
             return content.strip()
 
-        # —— HF text-generation branch ——
+        # —— HF text-generation branch (your existing code) ——
         prompt = self.tokenizer.apply_chat_template(
             messages,
             tokenize=False,

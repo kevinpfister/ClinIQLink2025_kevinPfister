@@ -1,1 +1,3 @@
-{"answer_choice": "A"}
+```json
+{"answer": ["3", "5"]}
+```

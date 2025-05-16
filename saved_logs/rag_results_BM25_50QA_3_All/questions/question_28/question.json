@@ -1,11 +1,11 @@
 {
   "correct_answer": "C",
   "options": {
-    "A": "Anal fissure",
-    "B": "Hemorrhoid",
-    "C": "Pilonidal sinus",
-    "D": "Rectal ulcer"
+    "A": "Punctation",
+    "B": "Mosaicism",
+    "C": "Satellite lesions",
+    "D": "Atypical vessels"
   },
-  "question": "Per rectum examination is not a useful test for diagnosis of",
+  "question": "Abnormal vascular patterns seen with colposcopy in case of cervical intraepithelial neoplasia  are all except",
   "type": "multiple_choice"
 }

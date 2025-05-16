@@ -1,11 +1,11 @@
 {
   "correct_answer": "C",
   "options": {
-    "A": "ab",
-    "B": "bc",
-    "C": "abc",
-    "D": "bcd"
+    "A": "Anal fissure",
+    "B": "Hemorrhoid",
+    "C": "Pilonidal sinus",
+    "D": "Rectal ulcer"
   },
-  "question": "Characteristics of Remifentanyl \u2013 a) Metabolised by plasma esterase b) Short half life c) More potent than Alfentanyl d) Dose reduced in hepatic and renal diseasee) Duration of action more than Alfentanyl",
+  "question": "Per rectum examination is not a useful test for diagnosis of",
   "type": "multiple_choice"
 }

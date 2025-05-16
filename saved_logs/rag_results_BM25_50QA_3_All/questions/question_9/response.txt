@@ -1,1 +1,3 @@
-{"answer": "True"}
+```json
+{"answer": ["2", "4"]}
+```

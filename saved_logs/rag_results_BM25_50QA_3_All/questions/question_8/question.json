@@ -1,5 +1,17 @@
 {
-  "answer": "False",
-  "question": "Do mutations causing low HDL-C promote increased carotid intima-media thickness?",
-  "type": "true_false"
+  "answer": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "options": [
+    "A serotonin syndrome is observed",
+    "An anticholinergic syndrome is observed",
+    "Seizures may occur",
+    "Prognosis depends on cardiovascular disorders",
+    "The toxic dose is greater than 5 grams in adults"
+  ],
+  "question": "Regarding acute amitriptyline poisoning, which statement(s) is (are) correct?",
+  "type": "list"
 }

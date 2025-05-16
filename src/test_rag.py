@@ -203,7 +203,7 @@ if __name__ == "__main__":
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    rag_system = RAG()  # RAG initialization moved to its __init__ method
+    rag_system = RAG(model_type="openai") 
     
     # Process questions
     print("Processing benchmark questions...")

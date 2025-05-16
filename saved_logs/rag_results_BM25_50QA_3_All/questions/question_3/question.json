@@ -1,5 +1,11 @@
 {
-  "answer": "True",
-  "question": "Syncope during bathing in infants, a pediatric form of water-induced urticaria?",
-  "type": "true_false"
+  "correct_answer": "D",
+  "options": {
+    "A": "Adjustable gastric banding",
+    "B": "Biliopancreatic diversion",
+    "C": "Duodenal Switch",
+    "D": "Roux en Y Duodenal By pass"
+  },
+  "question": "All of the following are surgical options for morbid obesity except -",
+  "type": "multiple_choice"
 }

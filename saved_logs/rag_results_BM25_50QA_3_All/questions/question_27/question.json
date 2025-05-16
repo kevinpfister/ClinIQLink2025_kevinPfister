@@ -1,11 +1,11 @@
 {
-  "correct_answer": "C",
+  "correct_answer": "A",
   "options": {
-    "A": "Punctation",
-    "B": "Mosaicism",
-    "C": "Satellite lesions",
-    "D": "Atypical vessels"
+    "A": "Central aery of the retina",
+    "B": "Infraorbital aery",
+    "C": "Lacrimal aery",
+    "D": "Nasociliary aretry"
   },
-  "question": "Abnormal vascular patterns seen with colposcopy in case of cervical intraepithelial neoplasia  are all except",
+  "question": "Following endaerectomy on the right common carotid, a patient is found to be blind in the right eye. It is appears that a small thrombus embolized during surgery and lodged in the aery supplying the optic nerve. Which aery would be blocked?",
   "type": "multiple_choice"
 }

@@ -335,7 +335,7 @@ class Retriever:
             self.index.set_k1(1.5)
 
             # ─── Enable RM3 pseudo‐relevance feedback ─────────────────────────
-            self.index.set_rm3(fb_terms=10, fb_docs=15, orig_query_weight=0.7)
+            self.index.set_rm3(fb_terms=10, fb_docs=3, orig_query_weight=0.9)
 
             print(f"Successfully loaded BM25 index for {self.corpus_name}")
         except Exception as e:

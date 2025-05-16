@@ -1,5 +1,16 @@
 {
-  "answer": "False",
-  "question": "Is adjustment for reporting heterogeneity necessary in sleep disorders?",
-  "type": "true_false"
+  "answer": [
+    "2",
+    "3",
+    "4"
+  ],
+  "options": [
+    "Is a derivative of pyrazole",
+    "Can induce a disulfiram-like effect",
+    "Can be administered intravenously",
+    "Can be used in certain protozoal infections",
+    "Is ineffective against anaerobic infections"
+  ],
+  "question": "Select the correct statement(s): Metronidazole:",
+  "type": "list"
 }

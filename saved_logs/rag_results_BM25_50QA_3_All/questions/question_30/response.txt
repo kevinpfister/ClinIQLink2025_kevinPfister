@@ -1,1 +1,3 @@
-{"answer_choice": "C"}
+```json
+{"answer_choice": "B"}
+```

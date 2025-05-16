@@ -1,29 +1,29 @@
 {
   "true_false": {
-    "TP": 7,
+    "TP": 8,
     "FP": 0,
-    "FN": 3,
-    "accuracy": 0.7,
+    "FN": 2,
+    "accuracy": 0.8,
     "precision": 1.0,
-    "recall": 0.7,
-    "f1_score": 0.8235294117647058
+    "recall": 0.8,
+    "f1_score": 0.888888888888889
   },
   "multiple_choice": {
-    "TP": 6,
-    "FP": 4,
+    "TP": 7,
+    "FP": 3,
     "FN": 0,
-    "accuracy": 0.6,
-    "precision": 0.6,
+    "accuracy": 0.7,
+    "precision": 0.7,
     "recall": 1.0,
-    "f1_score": 0.7499999999999999
+    "f1_score": 0.8235294117647058
   },
   "list": {
-    "TP": 22,
-    "FP": 3,
-    "FN": 8,
-    "accuracy": 0.6666666666666666,
-    "precision": 0.88,
-    "recall": 0.7333333333333333,
-    "f1_score": 0.8
+    "TP": 23,
+    "FP": 2,
+    "FN": 7,
+    "accuracy": 0.71875,
+    "precision": 0.92,
+    "recall": 0.7666666666666667,
+    "f1_score": 0.8363636363636363
   }
 }
