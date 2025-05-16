@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Myocardial Protection -- Anatomy and Physiology -- Mitochondrial Protection): Mitochondrial protection is crucial because mitochondria, while providing ATP to cardiomyocytes, also play a central role in activating cell death pathways. The mitochondrial permeability transition pore (mPTP) is a nonselective channel in the inner mitochondrial membrane that remains closed during ischemia-induced acidosis, offering some protection. However, if the mPTP opens, it leads to depolarization, uncoupling of oxidative phosphorylation, intracellular ATP depletion, and cell death. Protecting the heart during ischemia focuses on preventing mPTP opening and promoting the activation of the mitochondrial ATP-dependent potassium channel. This invokes 2 primary protective pathways: the reperfusion injury salvage kinase pathway, activated via G-protein-coupled receptors, and the survivor-activating factor enhancement pathway, which operates through tumor necrosis factor-alpha receptors.
+Document 2 (Title: Cell_Biology_Alberts): thousands of caspase substrates have been identified. Which ones are the critical proteins that must be cleaved to trigger the major cell remodeling events underlying apoptosis? how did the intrinsic pathway of apoptosis evolve, and what is the advantage of having mitochondria play such a central role in regulating apoptosis? how are “don’t eat me” signals eliminated or inactivated during apoptosis to allow the cells to be phagocytosed? Which statements are true? Explain why or why not. 18–1 In normal adult tissues, cell death usually balances cell division. 18–2 Mammalian cells that do not have cytochrome c should be resistant to apoptosis induced by DNA damage. Discuss the following problems.
+Document 3 (Title: Pathology_Robbins): (glucose, glutamine, ISCHEMIA, ATP Lipid, protein building blocks Fig. 1.11 Roles of the mitochondria. Besides the efficient generation of ATP from carbohydrate and fatty acid substrates, mitochondria play an important role in intermediary metabolism, serving as the source of molecules used to synthesize lipids and proteins, and they also are centrally involved in cell life and-death decisions. Mitochondria provide the enzymatic machinery for oxidative phosphorylation (and thus the relatively efficient generation of energy from glucose and fatty acid substrates). They also have central roles in anabolic metabolism and the regulation programmed cell death, so-called “apoptosis” ( Fig. 1.11
+
+Answer the following true/false question.
+Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -5,6 +5,7 @@ import sys
 import argparse
 from tqdm import tqdm
 from datetime import datetime
+import time
 
 # Import the RAG system
 sys.path.append("src")
@@ -58,18 +59,9 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
                 json.dump(q, f, indent=2)
         
         try:
-            # Use either standard or iterative RAG based on parameter
-            if iterative:
-                # Use the iterative RAG method
-                save_path = os.path.join(q_save_dir, "iterative_conversation.json") if q_save_dir else None
-                answer, messages = rag_system.i_rag_answer(
-                    q, 
-                    save_path=save_path,
-                    **kwargs
-                )
-            else:
-                # Use the standard RAG method
-                answer, snippets, scores = rag_system.rag_answer(q, save_dir=q_save_dir, **kwargs)
+            # Use the standard RAG method
+            time.sleep(10)
+            answer, snippets, scores = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
             
             # Extract valid JSON from the response
             raw_json = extract_valid_json(answer)
@@ -203,7 +195,7 @@ if __name__ == "__main__":
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    rag_system = RAG(model_type="openai") 
+    rag_system = RAG(model_type="gemini") 
     
     # Process questions
     print("Processing benchmark questions...")

@@ -46,7 +46,7 @@ def safe_json(response: str) -> dict:
 load_dotenv()
 class RAG:
     def __init__(self, rag=True, retriever_name="BM25", 
-         corpus_name="All", db_dir="./corpus", 
+         corpus_name="MedText", db_dir="./corpus", 
          cache_dir=None, corpus_cache=False, HNSW=False, 
          llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
          model_type="local",  
@@ -371,7 +371,7 @@ class RAG:
             
         return prompt
 
-    def rag_answer(self, question_data, k=3, rrf_k=85, save_dir=None, **kwargs):
+    def rag_answer(self, question_data, k=15, rrf_k=85, save_dir=None, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """
@@ -496,161 +496,127 @@ class RAG:
         
         return answer, retrieved_snippets, scores
 
-    def i_rag_answer(self, question_data, k=3, rrf_k=50, save_path=None, n_rounds=4, n_queries=3, qa_cache_path=None, **kwargs):
-        """Iterative RAG answer generation"""
+
+    def rag_answer_textgrad(self, question_data, k=3, rrf_k=85, save_dir=None, prompt=None, **kwargs):
+        """
+        RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
+        """
+        print(f"PROMPT BEING USED FOR RAG {prompt}")
         # Make a copy of question_data to avoid modifying the original
         question_data = question_data.copy()
-        
+        if prompt is None:
         # Check if essential fields exist
-        if "question" not in question_data:
-            question_data["question"] = "No question provided"
-        
-        # Format options based on question type
-        if "options" in question_data:
-            if isinstance(question_data["options"], dict):
-                # For multiple choice, keep the original dict for direct prompt creation
-                unformatted_options = question_data["options"].copy()
-                # Format for template
-                options_str = "\n".join([f"{key}. {value}" for key, value in question_data["options"].items()])
-                question_data["options"] = options_str
-            elif isinstance(question_data["options"], list):
-                # For list questions, keep the original list for direct prompt creation
-                unformatted_options = question_data["options"].copy()
-                # Format for template
-                options_str = "\n".join([f"{idx+1}. {option}" for idx, option in enumerate(question_data["options"])])
-                question_data["options"] = options_str
-            elif question_data["options"] is None:
+            if "question" not in question_data:
+                question_data["question"] = "No question provided"
+
+            # Format options based on question type
+            if "options" in question_data:
+                if isinstance(question_data["options"], dict):
+                    # For multiple choice, keep the original dict for direct prompt creation
+                    unformatted_options = question_data["options"].copy()
+                    # Format for template
+                    options_str = "\n".join([f"{key}. {value}" for key, value in question_data["options"].items()])
+                    question_data["options"] = options_str
+                elif isinstance(question_data["options"], list):
+                    # For list questions, keep the original list for direct prompt creation
+                    unformatted_options = question_data["options"].copy()
+                    # Format for template
+                    options_str = "\n".join([f"{idx+1}. {option}" for idx, option in enumerate(question_data["options"])])
+                    question_data["options"] = options_str
+                elif question_data["options"] is None:
+                    unformatted_options = None
+                    question_data["options"] = ""
+            else:
+                # If no options provided, set to empty
                 unformatted_options = None
                 question_data["options"] = ""
-        else:
-            # If no options provided, set to empty
-            unformatted_options = None
-            question_data["options"] = ""
-        
-        # Set default context
-        question_data["context"] = ""
-        
-        # First try to use the template system
-        use_direct_prompt = False
-        qtype = question_data.get("type", "multiple_choice")
-        try:
-            if qtype in self.templates:
-                main_prompt = self.templates[qtype].render(**question_data)
-            else:
-                main_prompt = self.templates["multiple_choice"].render(**question_data)
-        except Exception as e:
-            print(f"Template rendering error: {e}. Falling back to direct prompt creation.")
-            use_direct_prompt = True
-        
-        # If template rendering failed, use the direct prompt creation approach
-        if use_direct_prompt:
-            # Restore the original unformatted options for direct prompt creation
-            original_q = question_data.copy()
-            if unformatted_options is not None:
-                original_q["options"] = unformatted_options
-            main_prompt = self.create_direct_prompt(original_q)
-        
-        # Use the rendered main prompt as the base.
-        QUESTION_PROMPT = main_prompt
 
-        # Initialize context from cache if provided.
-        context = ""
-        qa_cache = []
-        if qa_cache_path is not None and os.path.exists(qa_cache_path):
-            with open(qa_cache_path, 'r') as f:
-                qa_cache = json.load(f)[:n_rounds]
-            if qa_cache:
-                context = qa_cache[-1]
-            n_rounds = n_rounds - len(qa_cache)
-        
-        last_context = ""
-        max_iterations = n_rounds + 3
-        # Start conversation with the system prompt.
-        saved_messages = [{"role": "system", "content": system_prompt}]
-        
-        # Define inline follow-up instructions (for iterative clarification).
-        follow_up_ask = f"Please analyze the above information and provide {n_queries} concise queries for further clarification."
-        follow_up_answer = "Based on all the gathered information, please provide your final answer in JSON format with the appropriate keys."
+            # Initialize default values
+        context_str = ""
+        retrieved_snippets = []
+        scores = []
+#----------------------------------------------------------------------------------------------important
+        # Retrieve context via the RAG system if enabled
+        if self.rag and self.retrieval_system is not None:
+            try:
+                retrieved_snippets, scores = self.retrieval_system.retrieve(
+                    question_data.get("question", ""), k=k, rrf_k=rrf_k
+                )
+                # More defensive check - ensure returned values are valid
+                if not isinstance(retrieved_snippets, list) or not isinstance(scores, list):
+                    print("⚠️ Warning: invalid return values from retrieval")
+                    retrieved_snippets, scores = [], []
+            except IndexError as e:
+                print(f"⚠️ Warning: retrieval index error: {e}")
+                retrieved_snippets, scores = [], []
+            except Exception as e:
+                print(f"⚠️ Warning: retrieval failed: {e}")
+                retrieved_snippets, scores = [], []
 
-        for i in range(max_iterations):
-            # Build the user prompt based on iteration stage.
-            if i < n_rounds:
-                if not context:
-                    user_msg = f"{QUESTION_PROMPT}\n\n{follow_up_ask}"
+        # Safely create context string
+        contexts = []
+        for idx, snippet in enumerate(retrieved_snippets):
+            if isinstance(snippet, dict) and "title" in snippet and "content" in snippet:
+                contexts.append(f"Document {idx+1} (Title: {snippet['title']}): {snippet['content']}")
+
+        context_str = "\n".join(contexts)
+        question_data["context"] = context_str
+#-------------------------------------------------------------------------------------------------------------------------------imbportant
+            # First try to use the template system
+        if prompt is None:
+            use_direct_prompt = False
+            qtype = question_data.get("type", "multiple_choice")
+            try:
+                if qtype in self.templates:
+                    prompt = self.templates[qtype].render(**question_data)
                 else:
-                    user_msg = f"{context}\n\n{QUESTION_PROMPT}\n\n{follow_up_ask}"
-            else:
-                user_msg = f"{context}\n\n{QUESTION_PROMPT}\n\n{follow_up_answer}"
-            
-            messages = [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_msg}
-            ]
-            saved_messages.append(messages[-1])
-            if save_path:
-                os.makedirs(os.path.dirname(save_path), exist_ok=True)
-                with open(save_path, 'w') as f:
-                    json.dump(saved_messages, f, indent=4)
-            
-            last_context = context
-            last_content = self.generate(messages, **kwargs)
-            response_message = {"role": "assistant", "content": last_content}
-            saved_messages.append(response_message)
-            if save_path:
-                with open(save_path, 'w') as f:
-                    json.dump(saved_messages, f, indent=4)
-            
-            # Check if the response appears to contain a final answer.
-            if i >= n_rounds and (('"answer":' in last_content) or ('"answer_choice":' in last_content)):
-                messages.append(response_message)
-                final_prompt = "Output the answer in JSON: {'answer': your_answer}"
-                messages.append({"role": "user", "content": final_prompt})
-                saved_messages.append(messages[-1])
-                final_answer = self.generate(messages, **kwargs)
-                final_response_message = {"role": "assistant", "content": final_answer}
-                messages.append(final_response_message)
-                saved_messages.append(final_response_message)
-                if save_path:
-                    with open(save_path, 'w') as f:
-                        json.dump(saved_messages, f, indent=4)
-                return final_answer, messages
-            
-            # Otherwise, if the response contains a queries section, parse and process the queries.
-            elif "queries" in last_content.lower():
-                # Expect the queries to be output in a JSON format like: {"output": ["query1", "query2", ...]}
-                try:
-                    m = re.search(r'["\']output["\']\s*:\s*(\[[^\]]*\])', last_content)
-                    if m:
-                        query_list_str = m.group(1)
-                        query_list = eval(query_list_str)
-                    else:
-                        query_list = []
-                except Exception as e:
-                    print("Error parsing queries:", e)
-                    query_list = []
-                
-                for query in query_list:
-                    if not query.strip():
-                        continue
-                    try:
-                        # For each extracted query, call the non-iterative rag_answer.
-                        sub_question_data = {"question": query, "type": "short_answer"}
-                        rag_result, _, _ = self.rag_answer(sub_question_data, k=k, rrf_k=rrf_k, **kwargs)
-                        context += f"\n\nQuery: {query}\nAnswer: {rag_result}"
-                        context = context.strip()
-                    except Exception as e:
-                        print("Error during query processing:", e)
-                qa_cache.append(context)
-                if qa_cache_path:
-                    with open(qa_cache_path, 'w') as f:
-                        json.dump(qa_cache, f, indent=4)
-            else:
-                messages.append(response_message)
-                print("No queries or answer detected. Continuing to next iteration.")
-                continue
+                    prompt = self.templates["multiple_choice"].render(**question_data)
+            except Exception as e:
+                print(f"Template rendering error: {e}. Falling back to direct prompt creation.")
+                use_direct_prompt = True
+
+            # If template rendering failed, use the direct prompt creation approach
+            if use_direct_prompt:
+                # Restore the original unformatted options for direct prompt creation
+                original_q = question_data.copy()
+                if unformatted_options is not None:
+                    original_q["options"] = unformatted_options
+                prompt = self.create_direct_prompt(original_q)
+
+            # Add context to the prompt if using RAG
+        if self.rag and context_str:
+            prompt = f"With your own knowledge and the help of the following document:\n\n{context_str}\n\n{prompt}"
+
+        # Prepend the system prompt
+        system_content = "You are a medical expert. Answer the question strictly in JSON format with no additional text."
         
-        # If no final answer is produced within the iterations, return the last output.
-        return messages[-1]["content"], messages
+        # Build the message list for the generation pipeline
+        print(f"PROMPT BEING USED FOR RAG {prompt}")
+        messages = [
+            {"role": "system", "content": system_content},
+            {"role": "user", "content": prompt}
+        ]
+        
+        # Log the prompt and retrieved snippets if a save directory is provided
+        if save_dir is not None:
+            os.makedirs(save_dir, exist_ok=True)
+            with open(os.path.join(save_dir, "prompt.txt"), "w") as f:
+                f.write(prompt)
+            with open(os.path.join(save_dir, "snippets.json"), "w") as f:
+                json.dump(retrieved_snippets, f, indent=4)
+        
+        # Generate the answer using your generate method
+
+        answer = self.generate(messages, **kwargs)
+        
+        # Log the generated answer if a save directory is provided
+        if save_dir is not None:
+            with open(os.path.join(save_dir, "response.txt"), "w") as f:
+                f.write(answer)
+            with open(os.path.join(save_dir, "response.json"), "w") as f:
+                json.dump({"response": answer}, f, indent=4)
+        
+        return answer, retrieved_snippets, scores, prompt
 
 
 class CustomStoppingCriteria(StoppingCriteria):
