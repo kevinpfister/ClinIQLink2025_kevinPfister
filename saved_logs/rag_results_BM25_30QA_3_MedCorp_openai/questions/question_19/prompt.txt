@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pharmacology_Katzung): Since bone and kidney play central roles in bone mineral homeostasis, conditions that alter bone mineral homeostasis usually affect one or both of these tissues secondarily. Effects on bone can result in osteoporosis (abnormal loss of bone; remaining bone histologically normal), osteomalacia (abnormal bone formation due to inadequate mineralization), or osteitis fibrosa (excessive bone resorption with fibrotic replacement of resorption cavities and marrow). Biochemical markers of skeletal involvement include changes in serum levels of the skeletal isoenzyme of alkaline phosphatase, osteocalcin, and Nand C-terminal propeptides of type I collagen (reflecting osteoblastic activity), and serum and urine levels of tartrateresistant acid phosphatase and collagen breakdown products (reflecting osteoclastic activity). The kidney becomes involved when the calcium × phosphate product in serum rises above the point at which ectopic calcification occurs (nephrocalcinosis) or when the calcium ×
+Document 2 (Title: Acid Phosphatase -- Clinical Significance -- Acid Phosphatase as a Marker): Bone tissue is a dynamic structure that is continuously formed and resorbed in a balanced process. Osteoclasts, the cells responsible for bone resorption, express another acid phosphatase isoform. Indeed, several studies have shown that acid phosphatase is directly involved in bone resorption. Bone acid phosphatase differs from prostatic acid phosphatase in being a tartrate-resistant acid phosphatase. In osteoporosis, the most common bone disease in humans, the resorption/formation balance becomes disrupted in favor of resorption. Several serum markers for bone resorption have been proposed, such as urinary hydroxyproline, total urinary pyridinoline, and bone sialoprotein. Tartrate-resistant acid phosphatase is precise, resistant to hemolysis, and shows minimal day-to-day variability, making it a potential marker for monitoring therapy response, though it is still under development. In addition, agents that inhibit tartrate-resistant acid phosphatases, such as fluoride, have been shown to improve and even reverse osteoporosis cases. [4] [5]
+Document 3 (Title: Biochemical Markers of Osteoporosis -- Introduction -- Bone Turnover Biomarkers): Bone turnover markers (BTMs) are byproducts of the bone remodeling process and can be measured in urine or serum. BTMs are categorized as markers of bone formation or bone resorption. Markers of bone formation include total and bone-specific alkaline phosphatase (ALP), procollagen type 1 N-propeptide (P1NP), osteocalcin, and procollagen type 1 C-propeptide (P1CP). Markers of bone resorption include hydroxyproline, pyridinoline, tartrate-resistant acid phosphatase 5b, deoxypyridinoline, the carboxy-terminal cross-linked telopeptide of type 1 collagen (CTX-1), and the amino-terminal cross-linked telopeptide of type 1 collagen (NTX-1). [11] [12]
+
+Answer the following list question.
+Question: Among the following markers, indicate the one(s) reflecting osteoblastic activity.
+Options:
+1. Osteocalcin (serum)
+2. Pyridinolines (urinary)
+3. Tartrate-resistant acid phosphatase (serum)
+4. Hydroxylysine glycosides (urinary)
+5. Bone alkaline phosphatase (serum)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

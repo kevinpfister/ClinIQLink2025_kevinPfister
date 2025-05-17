@@ -1,0 +1,15 @@
+{
+  "answer": [
+    "2",
+    "5"
+  ],
+  "options": [
+    "Zopiclone is an anxiolytic benzodiazepine",
+    "Oxazepam is a secondary metabolite of diazepam",
+    "Flunitrazepam is a very potent anxiolytic",
+    "Benzodiazepines cause extrapyramidal side effects",
+    "Some benzodiazepines can be used in anesthesiology"
+  ],
+  "question": "Select the correct statement(s):",
+  "type": "list"
+}

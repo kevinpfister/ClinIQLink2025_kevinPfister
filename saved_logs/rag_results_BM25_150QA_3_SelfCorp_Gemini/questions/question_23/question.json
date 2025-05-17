@@ -1,0 +1,11 @@
+{
+  "correct_answer": "D",
+  "options": {
+    "A": "Cytokine-independent activation of the JAK-STAT pathway",
+    "B": "Loss of function of the APC gene",
+    "C": "Altered expression of the retinoic acid receptor gene",
+    "D": "Unregulated expression of the ABL1 gene"
+  },
+  "question": "A 52-year-old woman comes to the physician because of a 6-month history of generalized fatigue, low-grade fever, and a 10-kg (22-lb) weight loss. Physical examination shows generalized pallor and splenomegaly. Her hemoglobin concentration is 7.5 g/dL and leukocyte count is 41,800/mm3. Leukocyte alkaline phosphatase activity is low. Peripheral blood smear shows basophilia with myelocytes and metamyelocytes. Bone marrow biopsy shows cellular hyperplasia with proliferation of immature granulocytic cells. Which of the following mechanisms is most likely responsible for this patient's condition?",
+  "type": "multiple_choice"
+}

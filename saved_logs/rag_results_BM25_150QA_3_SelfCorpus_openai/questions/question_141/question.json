@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "1",
+    "2",
+    "5"
+  ],
+  "options": [
+    "Leukocytosis",
+    "Serum hypervitaminosis B12",
+    "SaO2 <92%",
+    "Collapse of leukocyte alkaline phosphatase",
+    "Moderate thrombocytosis"
+  ],
+  "question": "Which of the following biological anomalies is/are frequently found in polycythemia vera?",
+  "type": "list"
+}

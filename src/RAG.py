@@ -12,7 +12,7 @@ from utils import RetrievalSystem
 from template import prompt_templates, system_prompt
 from huggingface_hub import HfFolder, hf_hub_download, login, hf_hub_download, try_to_load_from_cache 
 from llama_cpp import Llama
-from dotenv import load_dotenv
+from dotenv import load_dotenv,dotenv_values
 import re, json
 
 def extract_valid_json(text: str) -> str:
@@ -43,10 +43,9 @@ def safe_json(response: str) -> dict:
         pass
     return {}
 
-load_dotenv()
 class RAG:
     def __init__(self, rag=True, retriever_name="BM25", 
-         corpus_name="MedText", db_dir="./corpus", 
+         corpus_name="MedCorp", db_dir="./corpus", 
          cache_dir=None, corpus_cache=False, HNSW=False, 
          llm_name="google/gemma-3-12b-it-qat-q4_0-gguf",
          model_type="local",  
@@ -62,7 +61,11 @@ class RAG:
         self.db_dir = db_dir
         self.cache_dir = cache_dir
         self.docExt = None
-        
+
+        #Load environment variables from .env file
+        config = dotenv_values(".env")
+        load_dotenv()
+
         # Get HF token from environment variable or use provided token
         self.hf_token = hf_token or os.getenv("HUGGINGFACE_TOKEN")
         
@@ -78,7 +81,7 @@ class RAG:
             try:
                 from openai import OpenAI
                 self.openai_client = OpenAI(api_key=self.api_key)
-                print("Initialized OpenAI client for GPT-4o-mini")
+                print("Initialized OpenAI client for GPT-3.5-turbo-16k")
             except ImportError:
                 raise ImportError("OpenAI package not installed. Install with 'pip install openai'")
         
@@ -201,7 +204,7 @@ class RAG:
         if self.model_type == "openai":
             try:
                 resp = self.openai_client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model="gpt-3.5-turbo-16k",
                     messages=messages,
                     temperature=kwargs.get("temperature", 0.3),
                     max_tokens=kwargs.get("max_tokens", 1024),
@@ -371,7 +374,7 @@ class RAG:
             
         return prompt
 
-    def rag_answer(self, question_data, k=15, rrf_k=85, save_dir=None, **kwargs):
+    def rag_answer(self, question_data, k=5, rrf_k=85, save_dir=None, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """
