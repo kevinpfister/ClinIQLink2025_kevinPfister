@@ -1,0 +1,17 @@
+== Initial Prompt ==
+Question: A mother brings her 3-week-old infant to the pediatrician's office because she is concerned about his feeding habits. He was born without complications and has not had any medical problems up until this time. However, for the past 4 days, he has been fussy, is regurgitating all of his feeds, and his vomit is yellow in color. On physical exam, the child's abdomen is minimally distended but no other abnormalities are appreciated. Which of the following embryologic errors could account for this presentation?
+Options:
+A. Abnormal migration of ventral pancreatic bud
+B. Complete failure of proximal duodenum to recanalize
+C. Abnormal hypertrophy of the pylorus
+D. Failure of lateral body folds to move ventrally and fuse in the midline
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Initial Answer ==
+{"answer_choice": "B"}
+```json
+{"answer_choice": "B"}
+```

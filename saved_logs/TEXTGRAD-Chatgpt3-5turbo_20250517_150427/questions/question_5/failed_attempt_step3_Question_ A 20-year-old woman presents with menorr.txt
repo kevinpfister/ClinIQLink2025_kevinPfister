@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 20-year-old woman presents with menorrhagia for the past several years. She says that her menses “have always been heavy”, and she has experienced easy bruising for as long as she can remember. Family history is significant for her mother, who had similar problems with bruising easily. The patient's vital signs include: heart rate 98/min, respiratory rate 14/min, temperature 36.1°C (96.9°F), and blood pressure 110/87 mm Hg. Physical examination is unremarkable. Laboratory tests show the following: platelet count 200,000/mm3, PT 12 seconds, and PTT 43 seconds. Which of the following is the most likely cause of this patient’s symptoms?
+Options:
+A. Hemophilia A
+B. Lupus anticoagulant
+C. Protein C deficiency
+D. Von Willebrand disease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 20-year-old woman presents with significant menorrhagia. Based on her age, medical history, and hormonal profile, what is the most probable underlying cause of her heavy menstrual bleeding?
+
+Options:
+A. Hemophilia A
+B. Lupus anticoagulant
+C. Protein C deficiency
+D. Von Willebrand disease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "D"}
+
+== Feedback ==
+Correct answer: The answer is correct, but the prompt could be improved by specifying the relevant details of her medical history and hormonal profile to better guide the choice.
+
+== Improved Full Prompt ==
+A 20-year-old woman has been experiencing significant menorrhagia. Based on her medical history, symptoms, and any available test results, what is the most likely cause of her heavy menstrual bleeding?
+
+Options:
+A. Hemophilia A
+B. Lupus anticoagulant
+C. Protein C deficiency
+D. Von Willebrand disease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

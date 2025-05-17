@@ -1,0 +1,16 @@
+== Initial Prompt ==
+Question: A 1-year-old boy presents to the emergency department with weakness and a change in his behavior. His parents state that they first noticed the change in his behavior this morning and it has been getting worse. They noticed the patient was initially weak in his upper body and arms, but now he won’t move his legs with as much strength or vigor as he used to. Physical exam is notable for bilateral ptosis with a sluggish pupillary response, a very weak sucking and gag reflex, and shallow respirations. The patient is currently drooling and his diaper is dry. The parents state he has not had a bowel movement in over 1 day. Which of the following is the pathophysiology of this patient’s condition?
+Options:
+A. Autoantibodies against the presynaptic voltage-gated calcium channels
+B. Autoimmune demyelination of peripheral nerves
+C. Blockade of presynaptic acetylcholine release at the neuromuscular junction
+D. Lower motor neuron destruction in the anterior horn
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Initial Answer ==
+```json
+{"answer_choice": "C"}
+```

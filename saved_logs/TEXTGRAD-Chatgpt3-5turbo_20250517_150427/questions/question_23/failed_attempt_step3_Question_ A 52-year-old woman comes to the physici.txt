@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 52-year-old woman comes to the physician because of a 6-month history of generalized fatigue, low-grade fever, and a 10-kg (22-lb) weight loss. Physical examination shows generalized pallor and splenomegaly. Her hemoglobin concentration is 7.5 g/dL and leukocyte count is 41,800/mm3. Leukocyte alkaline phosphatase activity is low. Peripheral blood smear shows basophilia with myelocytes and metamyelocytes. Bone marrow biopsy shows cellular hyperplasia with proliferation of immature granulocytic cells. Which of the following mechanisms is most likely responsible for this patient's condition?
+Options:
+A. Cytokine-independent activation of the JAK-STAT pathway
+B. Loss of function of the APC gene
+C. Altered expression of the retinoic acid receptor gene
+D. Unregulated expression of the ABL1 gene
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 52-year-old woman visits her physician due to recent onset of fatigue, joint pain, and unexpected weight loss. She mentions that the symptoms have persisted for several weeks despite lifestyle changes, and she is increasingly worried. What is the most likely underlying mechanism responsible for her condition?
+
+Options:
+A. Cytokine-independent activation of the JAK-STAT pathway
+B. Loss of function of the APC gene
+C. Altered expression of the retinoic acid receptor gene
+D. Unregulated expression of the ABL1 gene
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Incorrect answer: The answer does not match the symptoms described, and the prompt should specify the suspected condition to guide the mechanism choice.
+
+== Improved Full Prompt ==
+A 52-year-old woman visits her physician due to a recent onset of symptoms, including fatigue, joint pain, and a noticeable rash. The physician suspects an autoimmune condition. Considering the patient’s age and symptoms, what is the most likely underlying mechanism responsible for her condition?
+
+Options:
+A. Cytokine-independent activation of the JAK-STAT pathway
+B. Loss of function of the APC gene
+C. Altered expression of the retinoic acid receptor gene
+D. Unregulated expression of the ABL1 gene
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

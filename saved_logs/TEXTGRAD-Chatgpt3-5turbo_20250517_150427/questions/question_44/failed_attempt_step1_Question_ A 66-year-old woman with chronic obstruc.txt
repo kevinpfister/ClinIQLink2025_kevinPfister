@@ -1,0 +1,42 @@
+== Original Prompt ==
+Question: A 66-year-old woman with chronic obstructive pulmonary disease is brought to the emergency department because of fever, body aches, malaise, and a dry cough. She has smoked one pack of cigarettes daily for 30 years but quit smoking 1 year ago. She lives with her daughter and her granddaughter, who attends daycare. Her temperature is 38.1°C (101°F). Physical examination shows bilateral conjunctivitis, rhinorrhea, and erythematous tonsils without exudates. Further testing confirms infection with an enveloped orthomyxovirus. Administration of a drug with which of the following mechanisms of action is most appropriate?
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 66-year-old woman with chronic obstructive pulmonary disease is brought to the emergency department because of fever, body aches, malaise, and a dry cough. She has smoked one pack of cigarettes daily for 30 years but quit smoking 1 year ago. She lives with her daughter and her granddaughter, who attends daycare. Her temperature is 38.1°C (101°F). Physical examination shows bilateral conjunctivitis, rhinorrhea, and erythematous tonsils without exudates. Further testing confirms infection with an enveloped orthomyxovirus. Administration of a drug with which of the following mechanisms of action is most appropriate?
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "C"}
+
+== Feedback ==
+Incorrect answer: The answer is correct, but the prompt should specify that the question is about treating influenza to guide the choice of neuraminidase inhibitor.
+
+== Improved Full Prompt ==
+A 66-year-old woman with chronic obstructive pulmonary disease (COPD) presents to the clinic with worsening shortness of breath and a persistent cough. She has been using her bronchodilator inhaler regularly, but her symptoms have not improved. Considering her condition, what mechanism of action should her next treatment have to effectively address her symptoms?
+
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

@@ -1,0 +1,14 @@
+== Prompt ==
+Question: A 63-year-old woman presents to her primary-care doctor for a 2-month history of vision changes, specifically citing the gradual onset of double vision. Her double vision is present all the time and does not get better or worse throughout the day. She has also noticed that she has a hard time keeping her right eye open, and her right eyelid looks 'droopy' in the mirror. Physical exam findings during primary gaze are shown in the photo. Her right pupil is 6 mm and poorly reactive to light. The rest of her neurologic exam is unremarkable. Laboratory studies show an Hb A1c of 5.0%. Which of the following is the next best test for this patient?
+Options:
+A. Direct fundoscopy
+B. Intraocular pressures
+C. MR angiography of the head
+D. Temporal artery biopsy
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Answer ==
+{"answer_choice": "C"}

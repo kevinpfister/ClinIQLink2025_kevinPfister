@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): The erythrocytic forms of Plasmodium are:
+Options:
+1. Sporozoite
+2. Cryptozoite
+3. Rosette bodies
+4. Schizont
+5. Gametocyte
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Select the correct statement(s) regarding the erythrocytic forms of Plasmodium:
+
+Options:
+1. Sporozoite
+2. Cryptozoite
+3. Rosette bodies
+4. Schizont
+5. Gametocyte
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["3", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer includes "3" and "5" which are not erythrocytic forms, and the prompt should clarify that only erythrocytic forms should be selected.
+
+== Improved Full Prompt ==
+Choose the accurate statement(s) about the erythrocytic stages of Plasmodium:
+
+Options:
+1. Sporozoite
+2. Cryptozoite
+3. Rosette bodies
+4. Schizont
+5. Gametocyte
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

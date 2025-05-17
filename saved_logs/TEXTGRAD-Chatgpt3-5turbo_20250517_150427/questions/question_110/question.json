@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "2",
+    "3",
+    "5"
+  ],
+  "options": [
+    "Kahler's disease",
+    "Infectious mononucleosis",
+    "Toxoplasmosis",
+    "Shigella infection",
+    "Cytomegalovirus"
+  ],
+  "question": "Among the following statements, indicate the correct one(s): A mononucleosis syndrome is associated with:",
+  "type": "list"
+}

@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3°F (37.4°C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient’s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management?
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 68-year-old man presents to the emergency department with acute chest pain that has persisted for the last hour, radiating to his left arm. He also experiences shortness of breath and is diaphoretic. His medical history includes hypertension and high cholesterol. Upon arrival, his vital signs are: BP 160/90 mmHg, HR 110 bpm, RR 22 breaths/min, and SpO2 92% on room air. What is the most appropriate immediate action to manage his condition?
+
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "D"}
+
+== Feedback ==
+Incorrect answer: The answer should be "B" for immediate anticoagulation, and the prompt could specify that the patient is suspected of having a myocardial infarction to clarify the context.
+
+== Improved Full Prompt ==
+A 68-year-old man arrives at the emergency department with sudden onset symptoms. Detail the specific symptoms he is experiencing, and based on this information, determine the most appropriate immediate action to manage his condition effectively.
+
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

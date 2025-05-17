@@ -9,6 +9,7 @@ import textgrad as tg
 import litellm
 
 from src.TEXTGRAD import refine_prompt_with_textgrad_from_example
+from src.askchatgpt import run_chatgpt_prompt
 
 #Setting Feedback Engine
 
@@ -96,8 +97,10 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
                 #original_prompt = prompt
 
                 #final_answer = refine_prompt_with_textgrad_from_example(prompt,answer,original_prompt,rag_system,q,q_save_dir,)
-                final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system)
+                q_save_dir = os.path.join(save_dir, f"question_{idx + 1}")
 
+                final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system,save_dir_folder=q_save_dir)
+                #final_answer = run_chatgpt_prompt(q, save_dir_folder=q_save_dir)
 
                 print(f"ANSWER {final_answer}")
 
@@ -212,7 +215,7 @@ if __name__ == "__main__":
     # Create an auto-generated output directory if none is specified
     if not args.output_dir:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        args.output_dir = f"./logs/rag_results_{timestamp}"
+        args.output_dir = f"./logs/textgrad_{timestamp}"
     
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)

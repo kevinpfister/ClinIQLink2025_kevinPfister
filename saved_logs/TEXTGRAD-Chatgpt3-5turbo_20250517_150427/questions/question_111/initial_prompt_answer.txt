@@ -1,0 +1,18 @@
+== Initial Prompt ==
+Question: Select the correct statement(s): Neurotransmitter receptors can be coupled:
+Options:
+1. To an ion channel
+2. To adenylcyclase
+3. To a tyrosine kinase
+4. To a phospholipase C
+5. To a membrane transporter
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Initial Answer ==
+{"answer": ["1", "2", "3", "4"]}
+```json
+{"answer": ["1", "2", "3", "4"]}
+```

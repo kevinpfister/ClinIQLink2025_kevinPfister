@@ -1,0 +1,14 @@
+== Prompt ==
+Question: A 35-year-old male presents to his primary care physician with complaints of seasonal allergies. He has been using intranasal vasoconstrictors several times per day for several weeks. What is a likely sequela of the chronic use of topical nasal decongestants?
+Options:
+A. Epistaxis
+B. Permanent loss of smell
+C. Persistent nasal crusting
+D. Persistent congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Answer ==
+{"answer_choice": "D"}

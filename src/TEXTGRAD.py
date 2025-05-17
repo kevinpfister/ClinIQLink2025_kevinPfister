@@ -6,14 +6,16 @@ import logging
 from textgrad.variable import Variable
 from textgrad.engine_experimental.litellm import LiteLLMEngine
 import re
+from litellm import completion
 
 from src.RAG import RAG
 
+
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAPI_KEY") #OpenAI Key
-tg.set_backward_engine("gpt-o4-mini", override=True)
+tg.set_backward_engine("gpt-4o", override=True)
 
 class PromptImprovingEngine:
-    def __init__(self, model_name="gpt-o4-mini"):
+    def __init__(self, model_name="gpt-4o"):
         self.llm = LiteLLMEngine(model_string=model_name)
 
     def __call__(self, variable, feedback: str = "", **kwargs):
@@ -59,7 +61,9 @@ def refine_prompt_with_textgrad_from_example(
     save_dir=None,
     kwargs=None,
     max_steps: int = 5,
+    save_dir_folder=None
 ):
+
     if q is not None:
         prompt = create_prompt_from_question(q)
         question_text = q.get("question", "")
@@ -71,6 +75,15 @@ def refine_prompt_with_textgrad_from_example(
 
     if answer == "":
         answer = ask_question_direct(rag_system.model,prompt)
+
+    # === Save initial prompt and answer ===
+    if save_dir_folder:
+        os.makedirs(save_dir_folder, exist_ok=True)
+        with open(os.path.join(save_dir_folder, f"initial_prompt_answer.txt"), "w", encoding="utf-8") as f:
+            f.write("== Initial Prompt ==\n")
+            f.write(prompt.strip() + "\n\n")
+            f.write("== Initial Answer ==\n")
+            f.write(answer.strip() + "\n")
 
     prompt_tg_object = tg.Variable(
         prompt,
@@ -97,12 +110,7 @@ def refine_prompt_with_textgrad_from_example(
 
     classifier_fn = tg.TextLoss(classification_instruction)
 
-    evaluation_instruction = (
-        f"Here is a Question: {question_text}"
-        "Evaluate the given answer. If the answer is incorrect or not in valid JSON format, explain clearly and briefly why.\n"
-        "Start your response directly with the problem (e.g., 'Invalid JSON', 'Incorrect answer', etc.).\n"
-        "Avoid general or polite language. Be critical and concise."
-    )
+
 
     evaluation_instruction = (
         "You are a strict evaluator. Review the answer in the context of the prompt.\n"
@@ -132,8 +140,11 @@ def refine_prompt_with_textgrad_from_example(
     for step in range(3):
         print(f"SCHRITT {step}")
 
-        classification_result = classifier_fn(answer_tg_object)
+        if save_dir_folder:
+            file_safe_prompt = re.sub(r'[^\w\-_. ]', '_', prompt[:50])
+            fail_path = os.path.join(save_dir_folder, f"failed_attempt_step{step + 1}_{file_safe_prompt}.txt")
 
+        classification_result = classifier_fn(answer_tg_object)
 
 
         if str(classification_result.value).strip() == "1":
@@ -143,18 +154,41 @@ def refine_prompt_with_textgrad_from_example(
 
         print(f"WRONG CONSIDERED ANSWER {answer_tg_object.value}")
         evaluation = eval_loss_fn(evaluation_input)
-        print(f"GPT Feedback {evaluation}")
         feedback_str = str(evaluation.value)
+
+        print(f"GPT Feedback {evaluation}")
         print(f"DEBUG FEEDBACK: {feedback_str}")
 
 
 
+        full_prompt_to_write = prompt if step == 0 else rebuild_prompt(prompt_tg_object.value, prompt_tail)
+
+        with open(fail_path, "w", encoding="utf-8") as f:
+            f.write("== Original Prompt ==\n")
+            f.write(prompt.strip() + "\n\n")
+            f.write("== Full Prompt ==\n")
+            f.write(full_prompt_to_write.strip() + "\n")
+            f.write("== Answer ==\n")
+            f.write(answer_tg_object.value.strip() + "\n\n")
+            f.write("== Feedback ==\n")
+            f.write(feedback_str.strip() + "\n\n")
 
 
+
+        # Jetzt erst den Optimierungsschritt durchführen
         optimizer.step()
         print(f"AFTER STEP – UPDATED prompt_tg_object.value:\n{prompt_tg_object.value}")
 
+
+        print(f"AFTER STEP – UPDATED prompt_tg_object.value:\n{prompt_tg_object.value}")
+
         full_prompt = rebuild_prompt(prompt_tg_object.value, prompt_tail)
+
+        if save_dir_folder:
+            with open(fail_path, "a", encoding="utf-8") as f:
+                f.write("== Improved Full Prompt ==\n")
+                f.write(full_prompt.strip() + "\n\n")
+
 
         evaluation_input.value = f"Prompt:\n{full_prompt}\n\nAnswer:\n{answer_tg_object.value}"
 
@@ -170,8 +204,10 @@ def refine_prompt_with_textgrad_from_example(
             prompt = full_prompt,
             **kwargs
         )"""
-        new_answer = ask_question_direct(rag_system.model,full_prompt)
-        print(f"ANTWORT CVON GEMMA {new_answer}")
+        #new_answer = ask_question_direct(rag_system.model,full_prompt) #FOR GEMMA
+        new_answer = run_chatgpt(full_prompt)
+        #print(f"ANTWORT CVON GEMMA {new_answer}")
+        print(f"ANSWER FROM CHATGPT{new_answer}")
         answer_tg_object = tg.Variable(new_answer, requires_grad=False, role_description="updated generated answer")
 
     print(f"NO PERFECT ANSWER COULD BE FOUND")
@@ -261,4 +297,18 @@ def create_prompt_from_question(question_data: dict) -> str:
             '{"answer": "your_answer"}\n\n'
             "Only output the JSON object. No explanation."
         )
+
+def run_chatgpt(full_prompt) -> str:
+
+        # Hole die Antwort von GPT
+        print(f"→ Sende an GPT:\n{full_prompt}")
+        response = completion(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": full_prompt}],
+            max_tokens=512,
+            temperature=0.3
+        )
+        answer = response['choices'][0]['message']['content'].strip()
+
+        return answer
 

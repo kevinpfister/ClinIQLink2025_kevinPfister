@@ -1,0 +1,47 @@
+== Original Prompt ==
+Question: Select the correct statement(s): IgD:
+Options:
+1. Are responsible for anaphylactic phenomena
+2. Have heavy chains consisting of 5 domains
+3. Are monomeric
+4. Are mainly membrane immunoglobulins
+5. Have a molecular mass of approximately 160 to 190 kDa
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: Select the correct statement(s): IgD:
+Options:
+1. Are responsible for anaphylactic phenomena
+2. Have heavy chains consisting of 5 domains
+3. Are monomeric
+4. Are mainly membrane immunoglobulins
+5. Have a molecular mass of approximately 160 to 190 kDa
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+```json
+{"answer": ["4", "5"]}
+```
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option 5, and the prompt should specify that only accurate statements about IgD should be selected to avoid confusion.
+
+== Improved Full Prompt ==
+Select the statement(s) that accurately describe IgD.
+
+Options:
+1. Are responsible for anaphylactic phenomena
+2. Have heavy chains consisting of 5 domains
+3. Are monomeric
+4. Are mainly membrane immunoglobulins
+5. Have a molecular mass of approximately 160 to 190 kDa
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

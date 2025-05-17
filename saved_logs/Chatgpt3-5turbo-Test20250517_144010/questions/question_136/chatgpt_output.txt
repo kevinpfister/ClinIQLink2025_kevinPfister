@@ -1,0 +1,15 @@
+== Prompt ==
+Question: Select the correct statement(s) regarding fluorescence spectroscopy:
+Options:
+1. Fluorescent molecules most often present delocalized electron systems
+2. A metal ion never exhibits fluorescence properties
+3. Groups that increase electron delocalization increase the fluorescence of the compound
+4. The rigidity of a molecule increases the fluorescence yield
+5. Quantitative assays are not possible
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Answer ==
+{"answer": ["1", "3", "4"]}

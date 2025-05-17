@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): Hepatitis A virus:
+Options:
+1. Is a DNA virus
+2. Belongs to the Picornaviridae family
+3. Can cause cirrhosis
+4. Is transmitted via the fecal-oral route
+5. Causes an infection that can be prevented by vaccination
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+List the correct factual statements about the Hepatitis A virus.
+
+Options:
+1. Is a DNA virus
+2. Belongs to the Picornaviridae family
+3. Can cause cirrhosis
+4. Is transmitted via the fecal-oral route
+5. Causes an infection that can be prevented by vaccination
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["2", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly omits option 2, and the prompt could be improved by specifying that the statements should be verified against reliable scientific sources.
+
+== Improved Full Prompt ==
+Please list accurate and verifiable factual statements regarding the Hepatitis A virus, ensuring clarity and precision in each statement.
+
+Options:
+1. Is a DNA virus
+2. Belongs to the Picornaviridae family
+3. Can cause cirrhosis
+4. Is transmitted via the fecal-oral route
+5. Causes an infection that can be prevented by vaccination
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

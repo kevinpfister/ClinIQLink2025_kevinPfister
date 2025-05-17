@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "1",
+    "3",
+    "5"
+  ],
+  "options": [
+    "Is isosorbide trinitrate",
+    "Is an anti-anginal drug",
+    "Is used orally for the treatment of angina attacks",
+    "Causes methemoglobinemia at high doses",
+    "Increases blood pressure"
+  ],
+  "question": "Among the following statements, indicate the incorrect one(s): Nitroglycerin:",
+  "type": "list"
+}

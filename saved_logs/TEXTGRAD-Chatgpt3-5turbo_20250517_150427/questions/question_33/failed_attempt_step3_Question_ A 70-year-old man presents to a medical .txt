@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 70-year-old man presents to a medical clinic reporting blood in his urine and lower abdominal pain for the past few days. He is also concerned about urinary frequency and urgency. He states that he recently completed a cycle of chemotherapy for non-Hodgkin lymphoma. Which medication in the chemotherapy regimen most likely caused his symptoms?
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 70-year-old man arrives at a medical clinic exhibiting unexplained symptoms. After reviewing his medication regimen, identify which medication or combination thereof is most likely causing these symptoms.
+
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "D"}
+
+== Feedback ==
+Incorrect answer: The prompt lacks specific symptoms or medication details, making it impossible to determine the correct answer.
+
+== Improved Full Prompt ==
+A 70-year-old man visits a medical clinic with a range of symptoms, including nausea, dizziness, and fatigue, all of which are currently unexplained. Given his age, potential underlying health conditions, and existing medications, identify which medication or combination of medications is most likely responsible for these symptoms, based on typical side effects and interactions. Consider common medications prescribed to elderly patients and their known side effects in your analysis.
+
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

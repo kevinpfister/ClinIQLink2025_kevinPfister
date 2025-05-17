@@ -1,0 +1,18 @@
+== Initial Prompt ==
+Question: Which of the following biological anomalies is/are frequently found in polycythemia vera?
+Options:
+1. Leukocytosis
+2. Serum hypervitaminosis B12
+3. SaO2 <92%
+4. Collapse of leukocyte alkaline phosphatase
+5. Moderate thrombocytosis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Initial Answer ==
+{"answer": ["1", "4", "5"]}
+```json
+{"answer": ["1", "4", "5"]}
+```

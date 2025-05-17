@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: In which of the following diseases can anemia be observed?
+Options:
+1. Candidiasis
+2. Malaria
+3. Fascioliasis
+4. Strongyloidiasis
+5. Toxoplasmosis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Can you list diseases where anemia is frequently observed? Please provide brief explanations for each.
+
+Options:
+1. Candidiasis
+2. Malaria
+3. Fascioliasis
+4. Strongyloidiasis
+5. Toxoplasmosis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["2", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes diseases not commonly associated with anemia, and the prompt should specify that only diseases with a strong association to anemia should be selected.
+
+== Improved Full Prompt ==
+Please provide a list of diseases commonly associated with anemia, along with brief explanations for each condition and how anemia is linked to it.
+
+Options:
+1. Candidiasis
+2. Malaria
+3. Fascioliasis
+4. Strongyloidiasis
+5. Toxoplasmosis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

@@ -1,0 +1,42 @@
+== Original Prompt ==
+Question: A 16-year-old boy is brought to the physician by his mother because she is worried about his behavior. Yesterday, he was expelled from school for repeatedly skipping classes. Over the past 2 months, he was suspended 3 times for bullying and aggressive behavior towards his peers and teachers. Once, his neighbor found him smoking cigarettes in his backyard. In the past, he consistently maintained an A grade average and had been a regular attendee of youth group events at their local church. The mother first noticed this change in behavior 3 months ago, around the time at which his father moved out after discovering his wife was having an affair. Which of the following defense mechanisms best describes the change in this patient's behavior?
+Options:
+A. Acting out
+B. Projection
+C. Passive aggression
+D. Regression
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 16-year-old boy is brought to the physician by his mother because she is worried about his behavior. Yesterday, he was expelled from school for repeatedly skipping classes. Over the past 2 months, he was suspended 3 times for bullying and aggressive behavior towards his peers and teachers. Once, his neighbor found him smoking cigarettes in his backyard. In the past, he consistently maintained an A grade average and had been a regular attendee of youth group events at their local church. The mother first noticed this change in behavior 3 months ago, around the time at which his father moved out after discovering his wife was having an affair. Which of the following defense mechanisms best describes the change in this patient's behavior?
+Options:
+A. Acting out
+B. Projection
+C. Passive aggression
+D. Regression
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Correct answer: The answer is correct, but the prompt could be improved by specifying that the JSON format should not include any additional text or explanation to ensure clarity.
+
+== Improved Full Prompt ==
+Describe a situation where a 16-year-old boy has experienced unexpected behavioral changes following a traumatic family event. What psychological defense mechanisms might explain this transformation in his behavior?
+
+Options:
+A. Acting out
+B. Projection
+C. Passive aggression
+D. Regression
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

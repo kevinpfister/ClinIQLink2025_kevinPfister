@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Regarding acute amitriptyline poisoning, which statement(s) is (are) correct?
+Options:
+1. A serotonin syndrome is observed
+2. An anticholinergic syndrome is observed
+3. Seizures may occur
+4. Prognosis depends on cardiovascular disorders
+5. The toxic dose is greater than 5 grams in adults
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify the correct statements about acute amitriptyline poisoning.
+
+Options:
+1. A serotonin syndrome is observed
+2. An anticholinergic syndrome is observed
+3. Seizures may occur
+4. Prognosis depends on cardiovascular disorders
+5. The toxic dose is greater than 5 grams in adults
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["2", "3", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "4" and omits option "1"; the prompt should specify that the correct statements are based on common clinical presentations and outcomes of acute amitriptyline poisoning.
+
+== Improved Full Prompt ==
+Please list and explain which statements accurately describe symptoms, treatment options, and potential complications associated with acute amitriptyline poisoning.
+
+Options:
+1. A serotonin syndrome is observed
+2. An anticholinergic syndrome is observed
+3. Seizures may occur
+4. Prognosis depends on cardiovascular disorders
+5. The toxic dose is greater than 5 grams in adults
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

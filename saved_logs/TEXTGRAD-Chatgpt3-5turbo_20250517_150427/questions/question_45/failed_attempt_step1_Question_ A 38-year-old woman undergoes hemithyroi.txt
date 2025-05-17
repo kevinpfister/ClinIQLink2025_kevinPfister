@@ -1,0 +1,42 @@
+== Original Prompt ==
+Question: A 38-year-old woman undergoes hemithyroidectomy for treatment of localized, well-differentiated papillary thyroid carcinoma. The lesion is removed with clear margins. However, during the surgery, a structure lying directly adjacent to the superior thyroid artery at the upper pole of the thyroid lobe is damaged. This patient is most likely to experience which of the following symptoms?
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 38-year-old woman undergoes hemithyroidectomy for treatment of localized, well-differentiated papillary thyroid carcinoma. The lesion is removed with clear margins. However, during the surgery, a structure lying directly adjacent to the superior thyroid artery at the upper pole of the thyroid lobe is damaged. This patient is most likely to experience which of the following symptoms?
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Correct answer: The answer is correct, but the prompt could be improved by specifying the JSON format requirement more clearly to ensure the response is strictly in JSON format without any additional text.
+
+== Improved Full Prompt ==
+A 38-year-old woman undergoes hemithyroidectomy for treatment of localized cancer. She is most likely to experience symptoms related to the body's ability to regulate calcium levels. What symptoms might she experience due to this procedure?
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

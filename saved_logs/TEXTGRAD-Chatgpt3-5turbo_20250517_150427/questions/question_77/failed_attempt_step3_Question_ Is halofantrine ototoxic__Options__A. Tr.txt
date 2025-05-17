@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Is halofantrine ototoxic?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Could you provide detailed information on whether halofantrine is associated with any ototoxic effects, including any known clinical evidence or studies?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "False"}
+
+== Feedback ==
+Incorrect answer: The answer should be "False" as there is no known clinical evidence associating halofantrine with ototoxic effects; the prompt could be improved by specifying that the answer should be based on current clinical evidence.
+
+== Improved Full Prompt ==
+Could you provide a comprehensive overview of any associations between halofantrine and ototoxic effects? This should include detailed clinical evidence, case studies, or research findings that highlight any ototoxic reactions linked to halofantrine. Please ensure the information is up-to-date and covers various perspectives, if available.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

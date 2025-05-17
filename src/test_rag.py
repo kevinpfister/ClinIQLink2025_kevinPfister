@@ -195,7 +195,8 @@ if __name__ == "__main__":
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    rag_system = RAG(model_type="gemini") 
+    #rag_system = RAG(model_type="gemini")
+    rag_system = RAG()
     
     # Process questions
     print("Processing benchmark questions...")

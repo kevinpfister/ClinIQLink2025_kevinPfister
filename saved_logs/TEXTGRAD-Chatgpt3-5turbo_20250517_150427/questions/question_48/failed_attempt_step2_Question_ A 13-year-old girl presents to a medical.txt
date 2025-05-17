@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 13-year-old girl presents to a medical office for the evaluation of a lump on the front of her neck. The patient denies pain, but states that the mass bothers her because “it moves when I swallow”. The physical examination reveals a midline neck mass that is above the hyoid bone but below the level of the mandible. The mass is minimally mobile and feels fluctuant without erythema. The patient is afebrile and all vital signs are stable. A complete blood count and thyroid function tests are performed and are within normal limits. What is the most likely cause of this patient’s presentation?
+Options:
+A. Persistent thyroid tissue at the tongue base
+B. Deletion of the 22q11 gene
+C. Cyst formation in a persistent thyroglossal duct
+D. Lymph node enlargement
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 13-year-old girl presents to the medical office with specific symptoms and concerns. Review her medical history, symptoms, and any relevant test results to determine the most likely cause of her condition.
+
+Options:
+A. Persistent thyroid tissue at the tongue base
+B. Deletion of the 22q11 gene
+C. Cyst formation in a persistent thyroglossal duct
+D. Lymph node enlargement
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "C"}
+
+== Feedback ==
+Incorrect format: The answer includes markdown formatting, and the prompt should specify to output plain JSON without any formatting.
+
+== Improved Full Prompt ==
+A 13-year-old girl comes to the medical office displaying specific symptoms. Please list the tests and their predicted outcomes needed to most accurately diagnose the cause of her condition.
+
+Options:
+A. Persistent thyroid tissue at the tongue base
+B. Deletion of the 22q11 gene
+C. Cyst formation in a persistent thyroglossal duct
+D. Lymph node enlargement
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

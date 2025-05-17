@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): Cholestasis syndrome is characterized by:
+Options:
+1. An increase in serum concentration of conjugated bilirubin
+2. An increase in serum alkaline phosphatase activity
+3. An increase in serum aspartate aminotransferase activity
+4. Pale stools
+5. A decrease in fecal urobilinogen
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please select the option that best describes the key characteristics of cholestasis syndrome.
+
+Options:
+1. An increase in serum concentration of conjugated bilirubin
+2. An increase in serum alkaline phosphatase activity
+3. An increase in serum aspartate aminotransferase activity
+4. Pale stools
+5. A decrease in fecal urobilinogen
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option 4, and the prompt could be improved by specifying that only the most direct indicators of cholestasis should be selected.
+
+== Improved Full Prompt ==
+Please select the option that most accurately describes the primary characteristics and symptoms associated with cholestasis syndrome.
+
+Options:
+1. An increase in serum concentration of conjugated bilirubin
+2. An increase in serum alkaline phosphatase activity
+3. An increase in serum aspartate aminotransferase activity
+4. Pale stools
+5. A decrease in fecal urobilinogen
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Among the following solid oral forms, indicate which one(s) release(s) the active ingredient continuously:
+Options:
+1. Hydrophilic matrix
+2. Tablet with insoluble film coating
+3. Double-core tablets
+4. Tablets based on ion exchange resins
+5. Lipophilic matrix
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please determine which solid oral dosage forms are intended for extended release of the active ingredient.
+
+Options:
+1. Hydrophilic matrix
+2. Tablet with insoluble film coating
+3. Double-core tablets
+4. Tablets based on ion exchange resins
+5. Lipophilic matrix
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "3", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer includes option 5, which is not typically associated with extended release, and the prompt should specify which options are correct to avoid ambiguity.
+
+== Improved Full Prompt ==
+Identify which solid oral dosage forms are specifically designed for the extended release of the active ingredient.
+
+Options:
+1. Hydrophilic matrix
+2. Tablet with insoluble film coating
+3. Double-core tablets
+4. Tablets based on ion exchange resins
+5. Lipophilic matrix
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

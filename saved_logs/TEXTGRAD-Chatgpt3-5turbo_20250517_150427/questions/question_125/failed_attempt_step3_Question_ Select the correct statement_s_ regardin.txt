@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s) regarding co-trimoxazole:
+Options:
+1. Is an association of sulfamethoxazole and trimethoprim
+2. Is indicated in the treatment of toxoplasmosis
+3. Trimethoprim is an inhibitor of dihydrofolate synthetase
+4. Can cause severe skin disorders such as Lyell syndrome
+5. Combination with methotrexate is contraindicated
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+List the accurate statements regarding co-trimoxazole.
+
+Options:
+1. Is an association of sulfamethoxazole and trimethoprim
+2. Is indicated in the treatment of toxoplasmosis
+3. Trimethoprim is an inhibitor of dihydrofolate synthetase
+4. Can cause severe skin disorders such as Lyell syndrome
+5. Combination with methotrexate is contraindicated
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "3", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "3" which is false; the prompt should clarify the specific enzyme inhibited by trimethoprim to avoid confusion.
+
+== Improved Full Prompt ==
+Provide accurate and detailed information about co-trimoxazole, including its uses, side effects, and contraindications.
+
+Options:
+1. Is an association of sulfamethoxazole and trimethoprim
+2. Is indicated in the treatment of toxoplasmosis
+3. Trimethoprim is an inhibitor of dihydrofolate synthetase
+4. Can cause severe skin disorders such as Lyell syndrome
+5. Combination with methotrexate is contraindicated
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

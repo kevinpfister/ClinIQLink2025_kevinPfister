@@ -1,0 +1,48 @@
+== Original Prompt ==
+Question: In untreated chronic renal failure, the following is/are observed:
+Options:
+1. Progressive destruction of nephrons
+2. Hypocalcemia
+3. Anemia
+4. Hypokalemia
+5. Decreased renal clearance of creatinine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: In untreated chronic renal failure, the following is/are observed:
+Options:
+1. Progressive destruction of nephrons
+2. Hypocalcemia
+3. Anemia
+4. Hypokalemia
+5. Decreased renal clearance of creatinine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "3"]}
+```json
+{"answer": ["1", "3", "2"]}
+```
+
+== Feedback ==
+Incorrect answer: The answer includes "2" which is correct, but the prompt should clarify that only valid JSON should be output to avoid the inclusion of non-JSON text.
+
+== Improved Full Prompt ==
+Identify the common physiological changes or symptoms associated with untreated chronic renal failure.
+
+Options:
+1. Progressive destruction of nephrons
+2. Hypocalcemia
+3. Anemia
+4. Hypokalemia
+5. Decreased renal clearance of creatinine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

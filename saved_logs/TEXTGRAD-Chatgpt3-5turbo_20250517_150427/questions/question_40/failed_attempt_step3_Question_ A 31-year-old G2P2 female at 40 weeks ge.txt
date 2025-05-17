@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 31-year-old G2P2 female at 40 weeks gestation presents to the hospital following a rush of water that came from her vagina. She is 4 cm dilated and 80% effaced. Fetal heart tracing shows a pulse of 155/min with variable decelerations. About 12 hours after presentation, she gives birth to a 6 lb 15 oz baby boy with APGAR scores of 8 and 9 at 1 and 5 minutes, respectively. Which of the following structures is responsible for inhibition of female internal genitalia?
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 31-year-old pregnant woman expecting her second child is curious about the hormone responsible for inhibiting the formation of female internal reproductive organs during fetal development. Could you provide detailed information on this hormone's role and its effects during pregnancy?
+
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "D"}
+
+== Feedback ==
+Incorrect answer: The prompt should clarify that the correct answer is "Anti-Müllerian Hormone (AMH)" produced by Sertoli cells, not the cells themselves, to avoid confusion.
+
+== Improved Full Prompt ==
+A 31-year-old pregnant woman expecting her second child wants to understand insulin, its function, and how it affects her and the baby during pregnancy. Can you provide detailed information on this hormone's role and its effects throughout pregnancy?
+
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

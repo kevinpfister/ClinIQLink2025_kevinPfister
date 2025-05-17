@@ -1,0 +1,14 @@
+== Initial Prompt ==
+Question: A 69-year-old man is brought by his son to the emergency department with weakness in his right arm and leg. The man insists that he is fine and blames his son for "creating panic". Four hours ago the patient was having tea with his wife when he suddenly dropped his teacup. He has had difficulty moving his right arm since then and cannot walk because his right leg feels stuck. He has a history of hypertension and dyslipidemia, for which he currently takes lisinopril and atorvastatin, respectively. He is allergic to aspirin and peanuts. A computerized tomography (CT) scan shows evidence of an ischemic stroke. Which medication would most likely prevent such attacks in this patient in the future?
+Options:
+A. Alteplase
+B. Urokinase
+C. Celecoxib
+D. Clopidogrel
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Initial Answer ==
+{"answer_choice": "D"}

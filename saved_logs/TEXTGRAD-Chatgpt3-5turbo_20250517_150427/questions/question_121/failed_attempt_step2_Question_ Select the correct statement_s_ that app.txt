@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s) that apply to the diffusion of an electrically neutral solute in a solvent:
+Options:
+1. The diffusion coefficient is expressed in m²·s⁻¹
+2. The diffusion flux has the same direction as the concentration gradient
+3. Diffusion decreases when temperature decreases
+4. Diffusion increases when the viscosity of the solvent increases
+5. Diffusion decreases when the molar mass of the solute decreases
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Select all applicable statements about the diffusion process of an electrically neutral solute in a solvent.
+
+Options:
+1. The diffusion coefficient is expressed in m²·s⁻¹
+2. The diffusion flux has the same direction as the concentration gradient
+3. Diffusion decreases when temperature decreases
+4. Diffusion increases when the viscosity of the solvent increases
+5. Diffusion decreases when the molar mass of the solute decreases
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "5" and omits option "2"; the prompt should clarify the relationship between diffusion flux and concentration gradient to avoid confusion.
+
+== Improved Full Prompt ==
+Select all applicable statements that accurately describe the diffusion process of an electrically neutral solute in a solvent.
+
+Options:
+1. The diffusion coefficient is expressed in m²·s⁻¹
+2. The diffusion flux has the same direction as the concentration gradient
+3. Diffusion decreases when temperature decreases
+4. Diffusion increases when the viscosity of the solvent increases
+5. Diffusion decreases when the molar mass of the solute decreases
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

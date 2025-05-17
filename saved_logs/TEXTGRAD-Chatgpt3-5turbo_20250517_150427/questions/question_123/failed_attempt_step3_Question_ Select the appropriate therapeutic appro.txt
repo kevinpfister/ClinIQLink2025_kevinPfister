@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the appropriate therapeutic approach(es) for a young woman who has just ingested 8 mg of digitoxin:
+Options:
+1. Monitoring of potassium levels
+2. Osmotic diuresis
+3. Gastric lavage
+4. Infusion enriched with K+
+5. Cardiac monitoring
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Identify the most effective therapeutic approaches for a young woman prescribed digitoxin, considering her age, appropriate dosage, and potential symptoms.
+
+Options:
+1. Monitoring of potassium levels
+2. Osmotic diuresis
+3. Gastric lavage
+4. Infusion enriched with K+
+5. Cardiac monitoring
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer should include monitoring potassium levels and cardiac monitoring, but the prompt should specify the context of potential digitoxin toxicity to guide the selection of therapeutic approaches.
+
+== Improved Full Prompt ==
+Identify the safest and most effective therapeutic approaches for a young woman prescribed digitoxin. Consider her age, determine an appropriate dosage, and assess how to manage potential symptoms she might experience.
+
+Options:
+1. Monitoring of potassium levels
+2. Osmotic diuresis
+3. Gastric lavage
+4. Infusion enriched with K+
+5. Cardiac monitoring
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

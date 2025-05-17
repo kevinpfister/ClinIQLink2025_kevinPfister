@@ -1,0 +1,42 @@
+== Original Prompt ==
+Question: A 27-year-old man presents to the emergency room with persistent fever, nausea, and vomiting for the past 3 days. While waiting to be seen, he quickly becomes disoriented and agitated. Upon examination, he has visible signs of difficulty breathing with copious oral secretions and generalized muscle twitching. The patient’s temperature is 104°F (40°C), blood pressure is 90/64 mmHg, pulse is 88/min, and respirations are 18/min with an oxygen saturation of 90% on room air. When the nurse tries to place a nasal cannula, the patient becomes fearful and combative. The patient is sedated and placed on mechanical ventilation. Which of the following is a risk factor for the patient’s most likely diagnosis?
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 27-year-old man presents to the emergency room with persistent fever, nausea, and vomiting for the past 3 days. While waiting to be seen, he quickly becomes disoriented and agitated. Upon examination, he has visible signs of difficulty breathing with copious oral secretions and generalized muscle twitching. The patient’s temperature is 104°F (40°C), blood pressure is 90/64 mmHg, pulse is 88/min, and respirations are 18/min with an oxygen saturation of 90% on room air. When the nurse tries to place a nasal cannula, the patient becomes fearful and combative. The patient is sedated and placed on mechanical ventilation. Which of the following is a risk factor for the patient’s most likely diagnosis?
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Incorrect answer: The answer should be "D" for spelunking as a risk factor for histoplasmosis, and the prompt should specify the need to identify the risk factor for the most likely diagnosis of histoplasmosis.
+
+== Improved Full Prompt ==
+A 27-year-old man arrives at the emergency room displaying symptoms. Considering his medical history, current symptoms, and lifestyle factors, what is a potential risk factor for his most probable diagnosis?
+
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
