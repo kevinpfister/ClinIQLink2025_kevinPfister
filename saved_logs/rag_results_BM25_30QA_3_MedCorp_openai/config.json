@@ -1,0 +1,5 @@
+{
+  "benchmark_file": "./Benchmark_validation_testset.json",
+  "output_dir": "./logs/rag_results_20250517_141049",
+  "limit": null
+}

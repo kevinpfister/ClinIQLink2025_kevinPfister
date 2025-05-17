@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Using anticoagulants safely. Guidelines for therapeutic and prophylactic regimens.): Heparin and warfarin sodium (Coumadin, Panwarfin, Sofarin) are used most often to treat acute and recurrent venous thromboembolic disease, arterial disease, valvular heart disease, and atrial fibrillation. These agents along with dextran, pneumatic compression devices, and gradient stockings are also used to prevent deep venous thrombosis and pulmonary embolism in patients at high risk (eg, those with venous stasis, lower limb or spinal cord trauma, clotting abnormalities). Anticoagulation therapy is monitored by maintaining the activated partial thromboplastin time and the prothrombin time in the therapeutic range.
+Document 2 (Title: Prothrombin time): A significant advantage of home testing is the evidence that patient self-testing with medical support and patient self-management (where patients adjust their own anticoagulant dose) improves anticoagulant control. A meta analysis which reviewed 14 trials showed that home testing led to a reduced incidence of complications (bleeding and thrombosis) and improved the time in the therapeutic range, which is an indirect measure of anticoagulant control.
+Document 3 (Title: Astrocytoma -- Treatment / Management -- Other Medications): Venous thromboembolic disease occurs in 20% to 30% of patients with high-grade gliomas and brain metastasis; hence, prophylactic anticoagulants should be used during hospitalization and in nonambulatory patients. Those who have had deep venous thrombosis or pulmonary embolus can safely receive therapeutic doses of anticoagulation without increasing the risk of hemorrhage into the tumor.
+Document 4 (Title: InternalMed_Harrison): Patients undergoing tooth extraction or alveolar and gingival surgery rarely experience uncontrolled bleeding when warfarin anticoagulation is maintained within the therapeutic range currently recommended for prevention of venous thrombosis, atrial fibrillation, or mechanical heart valve. Embolic complications and death, however, have been reported during subtherapeutic anticoagulation. Therapeutic anticoagulation should be confirmed before and continued through the procedure. Likewise, low-dose aspirin (e.g., 81–325 mg) can safely be continued. For patients taking aspirin and another antiplatelet medication (e.g., clopidogrel), the decision to continue the second antiplatelet
+Document 5 (Title: Elbow Arthrocentesis -- Technique or Treatment -- Other Considerations): Joint aspiration is safe within the therapeutic range of anticoagulation with warfarin or properly dosed DOAC.  Considerations for the anticoagulated patient includes using a smaller needle size. [6] [7] [8] Ultrasonography may be used in a sterile fashion to guide the needle if dry tap occurs, and septic arthritis is suspected. [9] Shaving is of no benefit.
+
+Answer the following true/false question.
+Question: Therapeutic anticoagulation in the trauma patient: is it safe?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

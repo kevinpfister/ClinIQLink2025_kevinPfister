@@ -60,7 +60,6 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
         
         try:
             # Use the standard RAG method
-            time.sleep(10)
             answer, snippets, scores = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
             
             # Extract valid JSON from the response
@@ -159,7 +158,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Test RAG system on medical benchmark')
     
     # Input/output parameters
-    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_testset.json',
+    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_enhanced_testset.json',
                         help='Path to the benchmark file')
     parser.add_argument('--output_dir', type=str, default=None,
                         help='Directory to save results (default: auto-generated with timestamp)')
@@ -195,8 +194,7 @@ if __name__ == "__main__":
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    #rag_system = RAG(model_type="gemini")
-    rag_system = RAG()
+    rag_system = RAG(model_type="openai") 
     
     # Process questions
     print("Processing benchmark questions...")

@@ -16,3 +16,4 @@ litellm
 textgrad
 dotenv
 google-generativeai
+openai

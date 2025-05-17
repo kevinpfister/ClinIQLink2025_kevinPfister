@@ -1,0 +1,34 @@
+{
+  "true_false": {
+    "TP": 5,
+    "FP": 0,
+    "FN": 5,
+    "accuracy": 0.5,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666
+  },
+  "multiple_choice": {
+    "TP": 7,
+    "FP": 3,
+    "FN": 0,
+    "accuracy": 0.7,
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1_score": 0.8235294117647058
+  },
+  "list": {
+    "TP": 21,
+    "FP": 2,
+    "FN": 9,
+    "accuracy": 0.65625,
+    "precision": 0.9130434782608695,
+    "recall": 0.7,
+    "f1_score": 0.7924528301886793
+  },
+  "model_info": {
+    "name": "GPT-3.5 Turbo 16k (OpenAI API)",
+    "type": "openai",
+    "timestamp": "20250517_135152"
+  }
+}
