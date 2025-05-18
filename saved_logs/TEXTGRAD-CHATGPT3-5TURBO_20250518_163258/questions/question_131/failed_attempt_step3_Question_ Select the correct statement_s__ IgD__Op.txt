@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): IgD:
+Options:
+1. Are responsible for anaphylactic phenomena
+2. Have heavy chains consisting of 5 domains
+3. Are monomeric
+4. Are mainly membrane immunoglobulins
+5. Have a molecular mass of approximately 160 to 190 kDa
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify which of the following statements about Immunoglobulin D (IgD) are accurate:
+
+Options:
+1. Are responsible for anaphylactic phenomena
+2. Have heavy chains consisting of 5 domains
+3. Are monomeric
+4. Are mainly membrane immunoglobulins
+5. Have a molecular mass of approximately 160 to 190 kDa
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["3", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "4" which is not accurate for IgD, and the prompt could be improved by specifying that only universally accepted characteristics should be considered.
+
+== Improved Full Prompt ==
+Identify the accurate statements regarding Immunoglobulin D (IgD) from the options provided below:
+
+Options:
+1. Are responsible for anaphylactic phenomena
+2. Have heavy chains consisting of 5 domains
+3. Are monomeric
+4. Are mainly membrane immunoglobulins
+5. Have a molecular mass of approximately 160 to 190 kDa
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

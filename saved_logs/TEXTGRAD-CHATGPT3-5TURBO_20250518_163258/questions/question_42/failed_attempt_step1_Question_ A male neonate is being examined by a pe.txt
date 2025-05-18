@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: A male neonate is being examined by a pediatrician. His mother informs the doctor that she had a mild fever with rash, muscle pain, and swollen and tender lymph nodes during the second month of gestation. The boy was born at 39 weeks gestation via spontaneous vaginal delivery with no prenatal care. On physical examination, the neonate has normal vital signs. Retinal examination reveals the findings shown in the image. Which of the following congenital heart defects is most likely to be present in this neonate?
+Options:
+A. Atrial septal defect
+B. Ventricular septal defect
+C. Tetralogy of Fallot
+D. Patent ductus arteriosus
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A male neonate is being examined by a pediatrician. His mother informs the doctor that she had a mild fever with rash, muscle pain, and swollen and tender lymph nodes during the second month of gestation. The boy was born at 39 weeks gestation via spontaneous vaginal delivery with no prenatal care. On physical examination, the neonate has normal vital signs. Retinal examination reveals the findings shown in the image. Which of the following congenital heart defects is most likely to be present in this neonate?
+Options:
+A. Atrial septal defect
+B. Ventricular septal defect
+C. Tetralogy of Fallot
+D. Patent ductus arteriosus
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "C"
+}
+
+== Feedback ==
+Incorrect answer: The JSON format is correct, but the answer should be "D" for Patent ductus arteriosus, which is associated with maternal rubella infection; the prompt should specify the image findings to guide the answer.
+
+== Improved Full Prompt ==
+A male newborn is undergoing a pediatric examination. Identify the most likely congenital defect that may be present in this infant.
+
+Options:
+A. Atrial septal defect
+B. Ventricular septal defect
+C. Tetralogy of Fallot
+D. Patent ductus arteriosus
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

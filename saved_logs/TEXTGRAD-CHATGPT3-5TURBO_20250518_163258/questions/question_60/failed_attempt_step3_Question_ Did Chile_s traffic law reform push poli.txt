@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Did Chile's traffic law reform push police enforcement?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+How have Chile's traffic law reforms affected police enforcement practices, and to what extent have these changes been effective?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect answer: The prompt requires an evaluative response, not a true/false format; it should be revised to ask a question that can be answered with "True" or "False."
+
+== Improved Full Prompt ==
+Evaluate the impact of recent reforms in Chile's traffic laws on police enforcement tactics and analyze the effectiveness of these changes.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+How do mitochondria contribute to the remodelling of lace plant leaves during programmed cell death?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect answer: The prompt should provide a clear statement about mitochondria's role in lace plant leaf remodelling to determine if it is true or false.
+
+== Improved Full Prompt ==
+What role do mitochondria play in the process of programmed cell death and leaf remodeling in lace plants?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: A 38-year-old woman undergoes hemithyroidectomy for treatment of localized, well-differentiated papillary thyroid carcinoma. The lesion is removed with clear margins. However, during the surgery, a structure lying directly adjacent to the superior thyroid artery at the upper pole of the thyroid lobe is damaged. This patient is most likely to experience which of the following symptoms?
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 38-year-old woman undergoes hemithyroidectomy for treatment of localized, well-differentiated papillary thyroid carcinoma. The lesion is removed with clear margins. However, during the surgery, a structure lying directly adjacent to the superior thyroid artery at the upper pole of the thyroid lobe is damaged. This patient is most likely to experience which of the following symptoms?
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "A"
+}
+
+== Feedback ==
+Incorrect format: The answer includes unnecessary whitespace and line breaks; the prompt should specify that the JSON object must be compact and on a single line to avoid this issue.
+
+== Improved Full Prompt ==
+A 38-year-old woman has undergone a hemithyroidectomy to treat localized thyroid disease. Based on this information, which symptom is she most likely to experience post-surgery?
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

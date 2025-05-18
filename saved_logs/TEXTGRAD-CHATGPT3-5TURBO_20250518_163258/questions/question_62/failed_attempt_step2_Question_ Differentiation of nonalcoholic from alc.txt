@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Differentiation of nonalcoholic from alcoholic steatohepatitis: are routine laboratory markers useful?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Can routine laboratory markers effectively differentiate between nonalcoholic and alcoholic steatohepatitis?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "False"}
+
+== Feedback ==
+Correct answer: The answer is correct, but the prompt could be improved by specifying the criteria for determining the effectiveness of laboratory markers.
+
+== Improved Full Prompt ==
+How reliable are routine laboratory markers in distinguishing between nonalcoholic and alcoholic steatohepatitis?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

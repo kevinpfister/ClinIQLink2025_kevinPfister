@@ -1,0 +1,54 @@
+== Original Prompt ==
+Question: Does diabetes mellitus influence the efficacy of FDG-PET in the diagnosis of cervical cancer?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Question: Does diabetes mellitus influence the efficacy of FDG-PET in the diagnosis of cervical cancer?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Correct answer: The response is valid JSON and adheres to the prompt's requirements.
+
+== Improved Full Prompt ==
+How does diabetes mellitus affect the effectiveness of FDG-PET scans in diagnosing cervical cancer?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

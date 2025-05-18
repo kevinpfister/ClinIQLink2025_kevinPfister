@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Visceral adipose tissue area measurement at a single level: can it represent visceral adipose tissue volume?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+How accurately does a single cross-sectional measurement of visceral adipose tissue area indicate the overall volume of visceral adipose tissue?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "False"}
+
+== Feedback ==
+Incorrect answer: The prompt should clarify the context or assumptions about the relationship between cross-sectional area and volume to ensure the answer aligns with the expected interpretation.
+
+== Improved Full Prompt ==
+To what extent does a single cross-sectional measurement of visceral adipose tissue area accurately reflect the total visceral adipose tissue volume?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

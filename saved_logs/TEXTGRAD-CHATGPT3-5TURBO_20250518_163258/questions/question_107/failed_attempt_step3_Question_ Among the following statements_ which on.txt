@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Among the following statements, which one(s) is (are) correct? A diode array detector is a detector:
+Options:
+1. Spectrophotometric using monochromatic light
+2. Spectrophotometric using polychromatic light
+3. Refractometric
+4. Usable in gas chromatography
+5. Usable in liquid chromatography
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify the accurate statement(s) regarding the functionality and characteristics of a diode array detector from the given options.
+
+Options:
+1. Spectrophotometric using monochromatic light
+2. Spectrophotometric using polychromatic light
+3. Refractometric
+4. Usable in gas chromatography
+5. Usable in liquid chromatography
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "2" which is not a characteristic of a diode array detector; the prompt should specify that the detector uses polychromatic light to avoid confusion.
+
+== Improved Full Prompt ==
+Identify the correct statements about how a diode array detector works and its features from the options provided.
+
+Options:
+1. Spectrophotometric using monochromatic light
+2. Spectrophotometric using polychromatic light
+3. Refractometric
+4. Usable in gas chromatography
+5. Usable in liquid chromatography
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

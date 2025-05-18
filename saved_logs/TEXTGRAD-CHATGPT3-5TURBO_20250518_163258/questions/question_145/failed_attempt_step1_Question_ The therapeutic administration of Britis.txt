@@ -1,0 +1,47 @@
+== Original Prompt ==
+Question: The therapeutic administration of British Anti Lewisite (BAL) or 2,3-dimercaptopropanol (DIMERCAPROL®) is recommended in case of poisoning by salts of:
+Options:
+1. Arsenic
+2. Aluminum
+3. Mercury
+4. Iron
+5. Copper
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: The therapeutic administration of British Anti Lewisite (BAL) or 2,3-dimercaptopropanol (DIMERCAPROL®) is recommended in case of poisoning by salts of:
+Options:
+1. Arsenic
+2. Aluminum
+3. Mercury
+4. Iron
+5. Copper
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{
+    "answer": ["1", "3"]
+}
+
+== Feedback ==
+Incorrect format: The JSON object should not include extra spaces or line breaks; the prompt should specify a single-line JSON format to avoid this issue.
+
+== Improved Full Prompt ==
+For which heavy metal poisoning is British Anti-Lewisite (BAL) or DIMERCAPROL® often used as an antidote?
+
+Options:
+1. Arsenic
+2. Aluminum
+3. Mercury
+4. Iron
+5. Copper
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

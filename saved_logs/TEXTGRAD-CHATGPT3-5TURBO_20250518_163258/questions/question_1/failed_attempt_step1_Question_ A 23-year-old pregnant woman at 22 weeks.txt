@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?
+Options:
+A. Ampicillin
+B. Ceftriaxone
+C. Doxycycline
+D. Nitrofurantoin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?
+Options:
+A. Ampicillin
+B. Ceftriaxone
+C. Doxycycline
+D. Nitrofurantoin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect answer: The prompt should specify that the best treatment for a urinary tract infection in a pregnant woman is being asked to avoid confusion.
+
+== Improved Full Prompt ==
+A 23-year-old pregnant woman, currently at 22 weeks of gestation, presents with [specific symptoms]. Given these symptoms and her current stage of pregnancy, what is the most appropriate treatment option? Consider [possible considerations such as medical history, allergies, or other factors] in your response.
+
+Options:
+A. Ampicillin
+B. Ceftriaxone
+C. Doxycycline
+D. Nitrofurantoin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

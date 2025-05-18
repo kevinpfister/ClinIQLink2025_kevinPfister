@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s) regarding Bence-Jones protein:
+Options:
+1. It is a thermostable urinary protein
+2. It allows excluding multiple myeloma of bones
+3. It is a light chain of immunoglobulin
+4. It is a protein whose level is increased during inflammatory states
+5. It can be revealed by immuno-electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Identify the accurate statement(s) regarding Bence-Jones protein, focusing on its clinical significance and biochemical characteristics.
+
+Options:
+1. It is a thermostable urinary protein
+2. It allows excluding multiple myeloma of bones
+3. It is a light chain of immunoglobulin
+4. It is a protein whose level is increased during inflammatory states
+5. It can be revealed by immuno-electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "3", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "1" which is false; the prompt should specify that Bence-Jones protein is thermostable only at specific temperatures to avoid confusion.
+
+== Improved Full Prompt ==
+Identify the precise statement(s) about Bence-Jones protein, emphasizing its clinical importance and biochemical properties.
+
+Options:
+1. It is a thermostable urinary protein
+2. It allows excluding multiple myeloma of bones
+3. It is a light chain of immunoglobulin
+4. It is a protein whose level is increased during inflammatory states
+5. It can be revealed by immuno-electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

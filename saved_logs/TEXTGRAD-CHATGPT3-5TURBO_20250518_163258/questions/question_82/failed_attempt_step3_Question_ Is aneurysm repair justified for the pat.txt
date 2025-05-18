@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Is aneurysm repair justified for the patients aged 80 or older after aneurysmal subarachnoid hemorrhage?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Please describe the advantages and potential drawbacks of aneurysm repair in patients aged 80 and older who have experienced an aneurysmal subarachnoid hemorrhage.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect prompt format: The prompt asks for a descriptive analysis but provides a true/false format, which is inconsistent; it should be revised to match the question type with the response format.
+
+== Improved Full Prompt ==
+Please provide a detailed analysis of the benefits and possible risks associated with aneurysm repair in individuals aged 80 and older who have suffered an aneurysmal subarachnoid hemorrhage. Include considerations for surgical and non-surgical options, potential outcomes, and quality of life post-treatment.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

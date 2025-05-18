@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 66-year-old woman with chronic obstructive pulmonary disease is brought to the emergency department because of fever, body aches, malaise, and a dry cough. She has smoked one pack of cigarettes daily for 30 years but quit smoking 1 year ago. She lives with her daughter and her granddaughter, who attends daycare. Her temperature is 38.1°C (101°F). Physical examination shows bilateral conjunctivitis, rhinorrhea, and erythematous tonsils without exudates. Further testing confirms infection with an enveloped orthomyxovirus. Administration of a drug with which of the following mechanisms of action is most appropriate?
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Evaluate the following scenario: A 66-year-old woman with chronic obstructive pulmonary disease (COPD) is seeking treatment. Identify the drug and its mechanism of action that would most effectively manage her COPD symptoms. Consider factors such as the drug's efficacy, side effects, and how it targets the underlying pathophysiology of COPD.
+
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "B"}
+
+== Feedback ==
+Incorrect answer: The chosen option does not relate to COPD treatment, and the prompt could be improved by providing options that are relevant to COPD management.
+
+== Improved Full Prompt ==
+Evaluate the management plan for a 66-year-old woman with chronic obstructive pulmonary disease (COPD). Consider her current medication regimen, potential side effects, and how the treatments mitigate the disease's underlying pathophysiology, focusing on optimizing her quality of life and respiratory function.
+
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

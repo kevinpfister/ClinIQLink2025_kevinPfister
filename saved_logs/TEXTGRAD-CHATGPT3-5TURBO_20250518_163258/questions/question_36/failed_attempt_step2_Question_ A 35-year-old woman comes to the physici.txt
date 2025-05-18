@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 35-year-old woman comes to the physician because of a 1-month history of double vision, difficulty climbing stairs, and weakness when trying to brush her hair. She reports that these symptoms are worse after she exercises and disappear after she rests for a few hours. Physical examination shows drooping of her right upper eyelid that worsens when the patient is asked to gaze at the ceiling for 2 minutes. There is diminished motor strength in the upper extremities. The remainder of the examination shows no abnormalities. Which of the following is the most likely diagnosis?
+Options:
+A. Myasthenia gravis
+B. Polymyositis
+C. Amyotrophic lateral sclerosis
+D. Multiple sclerosis
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 35-year-old woman presents with specific symptoms and history suggestive of an underlying condition. Based on the given information, determine the most likely diagnosis from the options provided.
+
+Options:
+A. Myasthenia gravis
+B. Polymyositis
+C. Amyotrophic lateral sclerosis
+D. Multiple sclerosis
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Incorrect format: The answer includes unnecessary whitespace and newlines; the prompt should specify a single-line JSON format to avoid this.
+
+== Improved Full Prompt ==
+A 35-year-old woman presents with specific symptoms including fatigue, fever, and joint pain, along with a history of autoimmune disorders. Based on this information, assess the details provided and determine the most likely diagnosis from the given options.
+
+Options:
+A. Myasthenia gravis
+B. Polymyositis
+C. Amyotrophic lateral sclerosis
+D. Multiple sclerosis
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

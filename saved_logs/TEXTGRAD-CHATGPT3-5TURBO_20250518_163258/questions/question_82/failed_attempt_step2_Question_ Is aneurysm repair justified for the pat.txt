@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Is aneurysm repair justified for the patients aged 80 or older after aneurysmal subarachnoid hemorrhage?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+What are the benefits and risks of aneurysm repair for patients aged 80 or older following aneurysmal subarachnoid hemorrhage?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect prompt format: The prompt asks for a discussion of benefits and risks but provides a true/false format, which should be revised to a question that can be answered with true or false.
+
+== Improved Full Prompt ==
+Please describe the advantages and potential drawbacks of aneurysm repair in patients aged 80 and older who have experienced an aneurysmal subarachnoid hemorrhage.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

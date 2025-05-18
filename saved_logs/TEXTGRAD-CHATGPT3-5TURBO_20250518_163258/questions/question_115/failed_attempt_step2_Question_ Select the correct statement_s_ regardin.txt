@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s) regarding paracetamol poisoning:
+Options:
+1. Early administration of activated charcoal decreases the bioavailability of paracetamol
+2. N-acetylcysteine used orally, in combination with activated charcoal, loses its detoxifying activity
+3. Acute tubular nephropathy constitutes an early sign of intoxication
+4. Early gastric lavage constitutes an essential therapeutic measure
+5. The toxifying metabolic pathway uses cytochrome P450
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please choose all accurate statements concerning paracetamol poisoning.
+
+Options:
+1. Early administration of activated charcoal decreases the bioavailability of paracetamol
+2. N-acetylcysteine used orally, in combination with activated charcoal, loses its detoxifying activity
+3. Acute tubular nephropathy constitutes an early sign of intoxication
+4. Early gastric lavage constitutes an essential therapeutic measure
+5. The toxifying metabolic pathway uses cytochrome P450
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer includes option "4", which is not an accurate statement about paracetamol poisoning; the prompt should clarify the correct therapeutic measures to avoid confusion.
+
+== Improved Full Prompt ==
+Please select all the correct statements related to paracetamol toxicity.
+
+Options:
+1. Early administration of activated charcoal decreases the bioavailability of paracetamol
+2. N-acetylcysteine used orally, in combination with activated charcoal, loses its detoxifying activity
+3. Acute tubular nephropathy constitutes an early sign of intoxication
+4. Early gastric lavage constitutes an essential therapeutic measure
+5. The toxifying metabolic pathway uses cytochrome P450
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

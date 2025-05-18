@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 70-year-old man presents to a medical clinic reporting blood in his urine and lower abdominal pain for the past few days. He is also concerned about urinary frequency and urgency. He states that he recently completed a cycle of chemotherapy for non-Hodgkin lymphoma. Which medication in the chemotherapy regimen most likely caused his symptoms?
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+What medication in this 70-year-old man's chemotherapy regimen is most likely responsible for his reported symptoms?
+
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "C"}
+
+== Feedback ==
+Incorrect format: The answer should be provided in a single line JSON format without extra spaces or indentation, and the prompt should specify this requirement.
+
+== Improved Full Prompt ==
+In this 70-year-old man's chemotherapy regimen, which specific medication is most likely causing his observed symptoms?
+
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

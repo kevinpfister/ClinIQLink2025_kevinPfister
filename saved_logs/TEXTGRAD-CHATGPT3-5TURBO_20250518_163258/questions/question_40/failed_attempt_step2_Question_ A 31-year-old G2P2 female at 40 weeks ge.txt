@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 31-year-old G2P2 female at 40 weeks gestation presents to the hospital following a rush of water that came from her vagina. She is 4 cm dilated and 80% effaced. Fetal heart tracing shows a pulse of 155/min with variable decelerations. About 12 hours after presentation, she gives birth to a 6 lb 15 oz baby boy with APGAR scores of 8 and 9 at 1 and 5 minutes, respectively. Which of the following structures is responsible for inhibition of female internal genitalia?
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 31-year-old woman, who is pregnant with her second child and has given birth twice before, is at full term (40 weeks) and presents to the clinic. Which anatomical structure is responsible for inhibiting the development of the female internal genitalia during embryonic development?
+
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "D"}
+
+== Feedback ==
+Incorrect answer: The answer should be "D" (Sertoli cells), but the prompt should clarify that the question is about male embryonic development to avoid confusion.
+
+== Improved Full Prompt ==
+A 31-year-old pregnant woman inquiring about the stages and factors influencing the development of female internal genitalia during embryonic development seeks detailed insights on the topic.
+
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

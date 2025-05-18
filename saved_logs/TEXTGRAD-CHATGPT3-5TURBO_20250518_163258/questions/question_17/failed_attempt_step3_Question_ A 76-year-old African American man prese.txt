@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 76-year-old African American man presents to his primary care provider complaining of urinary frequency. He wakes up 3-4 times per night to urinate while he previously only had to wake up once per night. He also complains of post-void dribbling and difficulty initiating a stream of urine. He denies any difficulty maintaining an erection. His past medical history is notable for non-alcoholic fatty liver disease, hypertension, hyperlipidemia, and gout. He takes aspirin, atorvastatin, enalapril, and allopurinol. His family history is notable for prostate cancer in his father and lung cancer in his mother. He has a 15-pack-year smoking history and drinks alcohol socially. On digital rectal exam, his prostate is enlarged, smooth, and non-tender. Which of the following medications is indicated in this patient?
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 76-year-old African American man visits his primary care physician complaining of shortness of breath and fatigue that has worsened over the past month. He has a history of hypertension and diabetes. Which of the following treatments is most appropriate for managing his current condition? Consider options such as lifestyle changes, medical interventions, and any relevant medications. Select the best option from the choices provided.
+
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Incorrect answer: The answer does not address the prompt's request for the most appropriate treatment for shortness of breath and fatigue, and the prompt could be improved by specifying the underlying condition causing these symptoms to guide the choice of treatment.
+
+== Improved Full Prompt ==
+A 76-year-old African American man visits his primary care physician to discuss his medical history, current health issues, and medications he is currently taking. Provide detailed information and select the best option from the choices below.
+
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

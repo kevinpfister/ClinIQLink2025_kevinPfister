@@ -1,0 +1,14 @@
+== Initial Prompt ==
+Question: A 35-year-old woman with a history of Crohn disease presents for a follow-up appointment. She says that lately, she has started to notice difficulty walking. She says that some of her friends have joked that she appears to be walking as if she was drunk. Past medical history is significant for Crohn disease diagnosed 2 years ago, managed with natalizumab for the past year because her intestinal symptoms have become severe and unresponsive to other therapies. On physical examination, there is gait and limb ataxia present. Strength is 4/5 in the right upper limb. A T1/T2 MRI of the brain is ordered and is shown. Which of the following is the most likely diagnosis?
+Options:
+A. Sporadic Creutzfeldt-Jakob disease (sCJD)
+B. Variant Creutzfeldt-Jakob disease (vCJD)
+C. Subacute sclerosing panencephalitis (SSPE)
+D. Progressive multifocal encephalopathy (PML)
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Initial Answer ==
+{"answer_choice": "A"}

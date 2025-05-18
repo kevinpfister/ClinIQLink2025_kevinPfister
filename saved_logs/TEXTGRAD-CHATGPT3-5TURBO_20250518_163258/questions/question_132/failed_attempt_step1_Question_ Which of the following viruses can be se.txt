@@ -1,0 +1,47 @@
+== Original Prompt ==
+Question: Which of the following viruses can be sexually transmitted?
+Options:
+1. Herpes simplex virus type 2
+2. Influenza virus
+3. Hepatitis A virus (HAV)
+4. Human immunodeficiency virus (HIV)
+5. Poliomyelitis virus
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: Which of the following viruses can be sexually transmitted?
+Options:
+1. Herpes simplex virus type 2
+2. Influenza virus
+3. Hepatitis A virus (HAV)
+4. Human immunodeficiency virus (HIV)
+5. Poliomyelitis virus
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{
+    "answer": ["1", "4"]
+}
+
+== Feedback ==
+Incorrect answer: The answer should include only sexually transmitted viruses, so the prompt should clarify that only options 1 and 4 are correct to avoid confusion.
+
+== Improved Full Prompt ==
+Identify which of the following viruses can be transmitted through sexual contact.
+
+Options:
+1. Herpes simplex virus type 2
+2. Influenza virus
+3. Hepatitis A virus (HAV)
+4. Human immunodeficiency virus (HIV)
+5. Poliomyelitis virus
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: An investigator is studying the function of the lateral nucleus of the hypothalamus in an experimental animal. Using a viral vector, the genes encoding chloride-conducting channelrhodopsins are injected into this nucleus. Photostimulation of the channels causes complete inhibition of action potential generation. Persistent photostimulation is most likely to result in which of the following abnormalities in these animals?
+Options:
+A. Hypothermia
+B. Hyperthermia
+C. Polydipsia
+D. Anorexia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: An investigator is studying the function of the lateral nucleus of the hypothalamus in an experimental animal. Using a viral vector, the genes encoding chloride-conducting channelrhodopsins are injected into this nucleus. Photostimulation of the channels causes complete inhibition of action potential generation. Persistent photostimulation is most likely to result in which of the following abnormalities in these animals?
+Options:
+A. Hypothermia
+B. Hyperthermia
+C. Polydipsia
+D. Anorexia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "A"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "D" for anorexia, and the prompt should clarify the role of the lateral hypothalamus in feeding behavior to guide the correct choice.
+
+== Improved Full Prompt ==
+An investigator is examining the function of the lateral part of the brain in a particular species of animal. What abnormalities might be observed in these animals if this brain region is altered?
+
+Options:
+A. Hypothermia
+B. Hyperthermia
+C. Polydipsia
+D. Anorexia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

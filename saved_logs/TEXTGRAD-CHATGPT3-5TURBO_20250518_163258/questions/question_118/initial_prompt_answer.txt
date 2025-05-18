@@ -1,0 +1,17 @@
+== Initial Prompt ==
+Question: Select the correct statement(s):
+Options:
+1. Zopiclone is an anxiolytic benzodiazepine
+2. Oxazepam is a secondary metabolite of diazepam
+3. Flunitrazepam is a very potent anxiolytic
+4. Benzodiazepines cause extrapyramidal side effects
+5. Some benzodiazepines can be used in anesthesiology
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Initial Answer ==
+{
+  "answer": ["2", "5"]
+}

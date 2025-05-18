@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: A 48-year-old woman comes to the emergency department because of a photosensitive blistering rash on her hands, forearms, and face for 3 weeks. The lesions are not itchy. She has also noticed that her urine has been dark brown in color recently. Twenty years ago, she was successfully treated for Coats disease of the retina via retinal sclerotherapy. She is currently on hormonal replacement therapy for perimenopausal symptoms. Her aunt and sister have a history of a similar skin lesions. Examination shows multiple fluid-filled blisters and oozing erosions on the forearms, dorsal side of both hands, and forehead. There is hyperpigmented scarring and patches of bald skin along the sides of the blisters. Laboratory studies show a normal serum ferritin concentration. Which of the following is the most appropriate next step in management to induce remission in this patient?
+Options:
+A. Pursue liver transplantation
+B. Begin oral thalidomide therapy
+C. Begin phlebotomy therapy
+D. Begin oral hydroxychloroquine therapy
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 48-year-old woman comes to the emergency department because of a photosensitive blistering rash on her hands, forearms, and face for 3 weeks. The lesions are not itchy. She has also noticed that her urine has been dark brown in color recently. Twenty years ago, she was successfully treated for Coats disease of the retina via retinal sclerotherapy. She is currently on hormonal replacement therapy for perimenopausal symptoms. Her aunt and sister have a history of a similar skin lesions. Examination shows multiple fluid-filled blisters and oozing erosions on the forearms, dorsal side of both hands, and forehead. There is hyperpigmented scarring and patches of bald skin along the sides of the blisters. Laboratory studies show a normal serum ferritin concentration. Which of the following is the most appropriate next step in management to induce remission in this patient?
+Options:
+A. Pursue liver transplantation
+B. Begin oral thalidomide therapy
+C. Begin phlebotomy therapy
+D. Begin oral hydroxychloroquine therapy
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "C"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "D" for oral hydroxychloroquine therapy, and the prompt could be improved by specifying the condition as porphyria cutanea tarda to guide the correct treatment choice.
+
+== Improved Full Prompt ==
+A 48-year-old woman presents to the emergency department with symptoms suggestive of an acute medical condition. After a thorough examination and assessment, what should be the next step in management to induce remission in her condition?
+
+Options:
+A. Pursue liver transplantation
+B. Begin oral thalidomide therapy
+C. Begin phlebotomy therapy
+D. Begin oral hydroxychloroquine therapy
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

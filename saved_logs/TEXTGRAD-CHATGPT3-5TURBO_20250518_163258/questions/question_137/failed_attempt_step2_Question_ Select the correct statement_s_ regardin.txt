@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s) regarding hepatitis B virus:
+Options:
+1. It can be responsible for nosocomial infections
+2. It can be involved in chronic hepatitis
+3. It is an RNA virus
+4. It can be responsible for fulminant hepatitis
+5. The vaccine used in France against this virus is a live attenuated vaccine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Identify the accurate statement(s) concerning the hepatitis B virus:
+
+Options:
+1. It can be responsible for nosocomial infections
+2. It can be involved in chronic hepatitis
+3. It is an RNA virus
+4. It can be responsible for fulminant hepatitis
+5. The vaccine used in France against this virus is a live attenuated vaccine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "3" instead of excluding it, and the prompt could be improved by specifying that hepatitis B is a DNA virus to avoid confusion.
+
+== Improved Full Prompt ==
+List the true statements about the hepatitis B virus from the options provided.
+
+Options:
+1. It can be responsible for nosocomial infections
+2. It can be involved in chronic hepatitis
+3. It is an RNA virus
+4. It can be responsible for fulminant hepatitis
+5. The vaccine used in France against this virus is a live attenuated vaccine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

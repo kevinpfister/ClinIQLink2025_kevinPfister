@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Among the following markers, indicate the one(s) reflecting osteoblastic activity.
+Options:
+1. Osteocalcin (serum)
+2. Pyridinolines (urinary)
+3. Tartrate-resistant acid phosphatase (serum)
+4. Hydroxylysine glycosides (urinary)
+5. Bone alkaline phosphatase (serum)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please list the markers that specifically indicate osteoblastic activity from the options given.
+
+Options:
+1. Osteocalcin (serum)
+2. Pyridinolines (urinary)
+3. Tartrate-resistant acid phosphatase (serum)
+4. Hydroxylysine glycosides (urinary)
+5. Bone alkaline phosphatase (serum)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option 1, which is not specific to osteoblastic activity; the prompt should clarify the specificity required for osteoblastic markers.
+
+== Improved Full Prompt ==
+Identify and list the markers that are indicative of osteoblastic activity from the provided options.
+
+Options:
+1. Osteocalcin (serum)
+2. Pyridinolines (urinary)
+3. Tartrate-resistant acid phosphatase (serum)
+4. Hydroxylysine glycosides (urinary)
+5. Bone alkaline phosphatase (serum)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

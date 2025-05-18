@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Does immediate breast reconstruction compromise the delivery of adjuvant chemotherapy?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Does undergoing immediate breast reconstruction affect the administration or effectiveness of adjuvant chemotherapy?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "False"}
+
+== Feedback ==
+Incorrect answer: The prompt should provide specific information or context about the relationship between breast reconstruction and chemotherapy to ensure the answer aligns with current medical consensus.
+
+== Improved Full Prompt ==
+What impact does immediate breast reconstruction have on the timing or effectiveness of adjuvant chemotherapy?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

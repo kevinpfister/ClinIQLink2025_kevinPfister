@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Implementation of epidural analgesia for labor: is the standard of effective analgesia reachable in all women?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+How can the standard of effective epidural analgesia for labor be universally achieved for all women?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "False"}
+
+== Feedback ==
+Incorrect answer: The prompt is flawed as it asks a complex question that cannot be answered with a simple true/false format; it should be revised to allow for a more nuanced response.
+
+== Improved Full Prompt ==
+What strategies can be implemented to ensure all women receive effective epidural analgesia during labor?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

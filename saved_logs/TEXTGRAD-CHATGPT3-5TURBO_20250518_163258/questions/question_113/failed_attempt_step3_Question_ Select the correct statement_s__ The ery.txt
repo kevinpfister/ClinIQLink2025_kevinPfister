@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): The erythrocytic forms of Plasmodium are:
+Options:
+1. Sporozoite
+2. Cryptozoite
+3. Rosette bodies
+4. Schizont
+5. Gametocyte
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Identify accurate statement(s) concerning the life cycle and characteristics of the erythrocytic stages of Plasmodium species.
+
+Options:
+1. Sporozoite
+2. Cryptozoite
+3. Rosette bodies
+4. Schizont
+5. Gametocyte
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer includes "3" and "5," which are not part of the erythrocytic stages, and the prompt should clarify the specific stages to be identified.
+
+== Improved Full Prompt ==
+List and explain the key features and processes involved in the erythrocytic stages of Plasmodium species' life cycle, including their implications for disease transmission and symptoms.
+
+Options:
+1. Sporozoite
+2. Cryptozoite
+3. Rosette bodies
+4. Schizont
+5. Gametocyte
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

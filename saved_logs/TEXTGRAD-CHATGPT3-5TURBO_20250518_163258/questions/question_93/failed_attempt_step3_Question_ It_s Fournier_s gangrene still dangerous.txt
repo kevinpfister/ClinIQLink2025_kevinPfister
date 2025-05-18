@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: It's Fournier's gangrene still dangerous?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Please provide a detailed update on the current risks, prevalence, and seriousness of Fournier's gangrene, including any recent advances in diagnosis and treatment strategies.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect answer: The prompt asks for a detailed update on Fournier's gangrene, not a true/false question, and should be revised to match the response format.
+
+== Improved Full Prompt ==
+Please provide a comprehensive and detailed update on current risks, prevalence, causes, and consequences of gangrene, along with any recent advances in diagnosis and treatment strategies. Include statistical data, expert opinions, and relevant case studies if available.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

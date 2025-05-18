@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): Hemophilia is a hemorrhagic disease:
+Options:
+1. Whose clinical signs appear at birth
+2. Which is linked to a decrease in coagulation factor X
+3. With sex-linked transmission
+4. Which can be complicated by the appearance of circulating anticoagulant after administration of substitutive therapy
+5. For which prenatal diagnosis can be performed
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Select the correct statement(s) regarding Hemophilia, a hemorrhagic disease.
+
+Options:
+1. Whose clinical signs appear at birth
+2. Which is linked to a decrease in coagulation factor X
+3. With sex-linked transmission
+4. Which can be complicated by the appearance of circulating anticoagulant after administration of substitutive therapy
+5. For which prenatal diagnosis can be performed
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "3", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "1" which is not a correct statement about Hemophilia; the prompt should clarify that clinical signs do not typically appear at birth to avoid this mistake.
+
+== Improved Full Prompt ==
+Identify the accurate statement(s) about Hemophilia, a bleeding disorder.
+
+Options:
+1. Whose clinical signs appear at birth
+2. Which is linked to a decrease in coagulation factor X
+3. With sex-linked transmission
+4. Which can be complicated by the appearance of circulating anticoagulant after administration of substitutive therapy
+5. For which prenatal diagnosis can be performed
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

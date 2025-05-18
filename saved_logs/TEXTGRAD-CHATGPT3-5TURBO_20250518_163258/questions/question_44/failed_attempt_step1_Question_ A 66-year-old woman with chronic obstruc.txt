@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: A 66-year-old woman with chronic obstructive pulmonary disease is brought to the emergency department because of fever, body aches, malaise, and a dry cough. She has smoked one pack of cigarettes daily for 30 years but quit smoking 1 year ago. She lives with her daughter and her granddaughter, who attends daycare. Her temperature is 38.1°C (101°F). Physical examination shows bilateral conjunctivitis, rhinorrhea, and erythematous tonsils without exudates. Further testing confirms infection with an enveloped orthomyxovirus. Administration of a drug with which of the following mechanisms of action is most appropriate?
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 66-year-old woman with chronic obstructive pulmonary disease is brought to the emergency department because of fever, body aches, malaise, and a dry cough. She has smoked one pack of cigarettes daily for 30 years but quit smoking 1 year ago. She lives with her daughter and her granddaughter, who attends daycare. Her temperature is 38.1°C (101°F). Physical examination shows bilateral conjunctivitis, rhinorrhea, and erythematous tonsils without exudates. Further testing confirms infection with an enveloped orthomyxovirus. Administration of a drug with which of the following mechanisms of action is most appropriate?
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "C"
+}
+
+== Feedback ==
+Incorrect answer: The answer is correct, but the prompt should specify that the JSON response should not include any formatting or extra spaces to avoid confusion.
+
+== Improved Full Prompt ==
+Consider the following case: A 66-year-old woman with chronic obstructive pulmonary disease is being treated for a related complication. Among the available treatments, determine the mechanism of action that would most effectively address her condition.
+
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

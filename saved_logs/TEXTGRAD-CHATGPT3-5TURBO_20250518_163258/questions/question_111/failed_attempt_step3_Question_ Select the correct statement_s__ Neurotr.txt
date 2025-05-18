@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s): Neurotransmitter receptors can be coupled:
+Options:
+1. To an ion channel
+2. To adenylcyclase
+3. To a tyrosine kinase
+4. To a phospholipase C
+5. To a membrane transporter
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify the correct statements that explain the different ways in which neurotransmitter receptors may be coupled.
+
+Options:
+1. To an ion channel
+2. To adenylcyclase
+3. To a tyrosine kinase
+4. To a phospholipase C
+5. To a membrane transporter
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "4", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes "5" and omits "2" and "3"; the prompt should clarify that membrane transporters are not typically coupled to neurotransmitter receptors to prevent confusion.
+
+== Improved Full Prompt ==
+Identify and explain the mechanisms through which neurotransmitter receptors are coupled, ensuring correct and comprehensive coverage of each method.
+
+Options:
+1. To an ion channel
+2. To adenylcyclase
+3. To a tyrosine kinase
+4. To a phospholipase C
+5. To a membrane transporter
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
