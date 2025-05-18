@@ -29,6 +29,20 @@
   "model_info": {
     "name": "GPT-3.5 Turbo 16k (OpenAI API)",
     "type": "openai",
-    "timestamp": "20250517_135152"
+    "timestamp": "20250517_135152",
+    "num_questions": 30,
+    "test_type": "Baseline",
+    "rag_enabled": false,
+    "file_type": "benchmark_scores"
+  },
+  "global_metrics": {
+    "TP": 33,
+    "FP": 5,
+    "FN": 14,
+    "total_questions": 30,
+    "precision": 0.868421052631579,
+    "recall": 0.7021276595744681,
+    "f1_score": 0.7764705882352942,
+    "accuracy": 0.7021276595744681
   }
 }

@@ -1,4 +1,13 @@
 {
+  "model_info": {
+  "num_questions": 150,
+  "test_type": "Baseline",
+  "rag_enabled": false,
+  "name": "Gemma-3",
+  "type": "gemma",
+  "file_type": "raw_results",
+  "timestamp": "20250518_130510"
+  },
   "true_false": [
     [
       "true",

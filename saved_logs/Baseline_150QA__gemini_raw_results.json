@@ -1,8 +1,12 @@
 {
   "model_info": {
-    "name": "Gemini-2.0-flash (Google API)",
+    "name": "Gemini",
     "type": "gemini",
-    "timestamp": "20250516_223929"
+    "timestamp": "20250516_223929",
+    "num_questions": 150,
+    "test_type": "Baseline",
+    "rag_enabled": false,
+    "file_type": "raw_results"
   },
   "true_false": [
     [

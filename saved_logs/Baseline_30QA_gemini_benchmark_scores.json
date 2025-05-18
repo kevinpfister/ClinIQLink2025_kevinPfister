@@ -27,8 +27,22 @@
     "f1_score": 0.9473684210526316
   },
   "model_info": {
-    "name": "Gemini-2.0-flash (Google API)",
+    "name": "Gemini",
     "type": "gemini",
-    "timestamp": "20250516_221720"
+    "timestamp": "20250516_221720",
+    "num_questions": 30,
+    "test_type": "Baseline",
+    "rag_enabled": false,
+    "file_type": "benchmark_scores"
+  },
+  "global_metrics": {
+    "TP": 42,
+    "FP": 0,
+    "FN": 8,
+    "total_questions": 30,
+    "precision": 1.0,
+    "recall": 0.84,
+    "f1_score": 0.9130434782608696,
+    "accuracy": 0.84
   }
 }

@@ -1020,5 +1020,16 @@
         "4"
       ]
     ]
-  ]
+  ],
+  "model_info": {
+    "num_questions": 150,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 3,
+    "name": "Gemma-3",
+    "type": "gemma",
+    "corpus": "SelfCorp",
+    "file_type": "raw_results",
+    "timestamp": "20250518_130510"
+  }
 }
