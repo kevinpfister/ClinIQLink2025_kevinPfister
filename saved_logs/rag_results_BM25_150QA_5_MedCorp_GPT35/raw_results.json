@@ -967,5 +967,16 @@
         "2"
       ]
     ]
-  ]
+  ],
+  "model_info": {
+    "num_questions": 150,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 5,
+    "name": "OpenAI",
+    "type": "openai",
+    "corpus": "MedCorp",
+    "file_type": "raw_results",
+    "timestamp": "20250518_130510"
+  }
 }

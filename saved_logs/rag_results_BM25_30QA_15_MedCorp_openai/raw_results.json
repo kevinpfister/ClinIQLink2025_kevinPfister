@@ -197,5 +197,16 @@
         "5"
       ]
     ]
-  ]
+  ],
+  "model_info": {
+    "num_questions": 30,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 15,
+    "name": "GPT-3.5 Turbo 16k (OpenAI API)",
+    "type": "openai",
+    "corpus": "MedCorp",
+    "file_type": "raw_results",
+    "timestamp": "20250518_130510"
+  }
 }

@@ -25,5 +25,26 @@
     "precision": 0.9090909090909091,
     "recall": 0.6666666666666666,
     "f1_score": 0.7692307692307692
+  },
+  "model_info": {
+    "num_questions": 30,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 3,
+    "name": "Gemma-3",
+    "type": "gemma",
+    "corpus": "MedCorp",
+    "file_type": "benchmark_scores",
+    "timestamp": "20250518_130510"
+  },
+  "global_metrics": {
+    "TP": 30,
+    "FP": 7,
+    "FN": 15,
+    "total_questions": 30,
+    "precision": 0.8108108108108109,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.7317073170731707,
+    "accuracy": 0.6666666666666666
   }
 }

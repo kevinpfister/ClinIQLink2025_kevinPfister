@@ -25,5 +25,26 @@
     "precision": 0.9316770186335404,
     "recall": 0.967741935483871,
     "f1_score": 0.949367088607595
+  },
+  "model_info": {
+    "num_questions": 150,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 3,
+    "name": "Gemma-3",
+    "type": "gemma",
+    "corpus": "SelfCorp",
+    "file_type": "benchmark_scores",
+    "timestamp": "20250518_130510"
+  },
+  "global_metrics": {
+    "TP": 240,
+    "FP": 18,
+    "FN": 8,
+    "total_questions": 150,
+    "precision": 0.9302325581395349,
+    "recall": 0.967741935483871,
+    "f1_score": 0.9486166007905139,
+    "accuracy": 0.967741935483871
   }
 }

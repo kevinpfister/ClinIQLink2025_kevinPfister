@@ -1,0 +1,50 @@
+{
+  "true_false": {
+    "TP": 48,
+    "FP": 0,
+    "FN": 2,
+    "accuracy": 0.96,
+    "precision": 1.0,
+    "recall": 0.96,
+    "f1_score": 0.9795918367346939
+  },
+  "multiple_choice": {
+    "TP": 46,
+    "FP": 4,
+    "FN": 0,
+    "accuracy": 0.92,
+    "precision": 0.92,
+    "recall": 1.0,
+    "f1_score": 0.9583333333333334
+  },
+  "list": {
+    "TP": 113,
+    "FP": 7,
+    "FN": 42,
+    "accuracy": 0.6975308641975309,
+    "precision": 0.9416666666666667,
+    "recall": 0.7290322580645161,
+    "f1_score": 0.8218181818181819
+  },
+  "model_info": {
+    "num_questions": 150,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 3,
+    "name": "GPT-3.5 Turbo 16k (OpenAI API)",
+    "type": "openai",
+    "corpus": "SelfCorp",
+    "file_type": "benchmark_scores",
+    "timestamp": "20250518_130510"
+  },
+  "global_metrics": {
+    "TP": 207,
+    "FP": 11,
+    "FN": 44,
+    "total_questions": 150,
+    "precision": 0.9495412844036697,
+    "recall": 0.8247011952191236,
+    "f1_score": 0.8827292110874201,
+    "accuracy": 0.8247011952191236
+  }
+}
