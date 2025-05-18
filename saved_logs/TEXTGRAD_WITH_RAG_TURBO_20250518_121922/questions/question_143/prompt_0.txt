@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Resinous glaze): Pharmaceutical glaze is used by the drug and nutritional supplement industry as a coating material for tablets and capsules. It serves to improve the product's appearance, extend shelf life and protect it from moisture, as well as provide a solid finishing film for pre-print coatings. It also serves to mask unpleasant odors and aid in the swallowing of the tablet. The shellac coating is insoluble in stomach acid and may make the tablet difficult for the body to break down or assimilate. For this reason, it can also be used as an ingredient in time-released, sustained or delayed-action pills. The product is listed on the U.S. Food and Drug Administration's (FDA) inactive ingredient list.
+Document 2 (Title: [Prolongation of theophylline derivative release with cellulose acetate based tablets].): Sustained-release tablets were prepared with three theophylline compounds of increasing solubility: theophylline, dyphylline and proxyphylline. Cellulose acetate was used as the matrix polymer. Two formulation parameters were studied: incorporated theophylline dose and percentage of polymer constituting the matrix. Drug release was enhanced as these parameter values rose. A mixed mineral and plastic matrix was formed by the two insoluble excipients, i.e. cellulose acetate and dibasic calcium phosphate for direct compression. Drug release could be optimized either by 2(2) factorial analysis or by multiple linear regression. Drug solubility was found to have an especially important influence on the release and did not allow sustained-release tablets to be obtained when it was too great. In the case of dyphylline and proxyphylline, only the additional application of a barrier-coating over the surface of the matrix tablets enabled prevention of their premature erosion and the massive release of drugs.
+Document 3 (Title: Quinidine -- Administration -- Dosage Regimens): Oral immediate-release formulation: The initial therapy involves administering 2 tablets of 200 mg each every 6 hours to the patients. The dose may be cautiously increased if the desired pharmacological conversion is not achieved after 4 to 5 doses. Oral extended-release formulation: For the first treatment option, patients are administered 2 tablets of 324 mg each (equivalent to 403 mg of quinidine base) every 8 hours. If the desired pharmacological conversion is not achieved after 3 or 4 doses, the dose may be increased cautiously. As an alternative regimen, patients may have been prescribed 1 tablet (equivalent to 202 mg of quinidine base) every 8 hours for 2 days, followed by 2 tablets (equivalent to 403 mg of quinidine base) every 12 hours for 2 days, and, finally, 2 tablets (equivalent to 403 mg of quinidine base) every 8 hours for up to 4 days. For the final 4-day treatment plan, the lower dose may be opted at the physician's discretion.
+
+Please identify which of the following solid oral forms are designed to release the active ingredient continuously.
+
+Options:
+1. Hydrophilic matrix
+2. Tablet with insoluble film coating
+3. Double-core tablets
+4. Tablets based on ion exchange resins
+5. Lipophilic matrix
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

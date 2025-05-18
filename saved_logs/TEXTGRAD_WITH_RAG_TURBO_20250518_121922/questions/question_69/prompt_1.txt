@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: The pattern of rheumatic disorders seen amongst patients attending urban and rural clinics in west Africa.): There is a growing interest in the study of the pattern of rheumatic disorders in Africa. This has led to our studying the pattern of rheumatic disorders seen among patients attending both urban and rural clinics in West Africa. A wide spectrum of rheumatic diseases was observed among those attending both clinics. Osteoarthritis and soft tissue lesions were most commonly seen while inflammatory joint disease and connective tissue disorders were less commonly observed. We consider that these observations have significant rheumatological health care implications for West Africa and may provide useful aetiopathogenic clues.
+Document 2 (Title: Human African Trypanosomiasis (Sleeping Sickness) -- Introduction): Human African trypanosomiasis (HAT), or African sleeping sickness, is a potentially life-threatening infectious illness caused by the protozoans Trypanosoma brucei gambiense ( T brucei gambiense ) or Trypanosoma brucei rhodesiense ( T brucei  rhodesiense) transmitted by the tsetse fly (see Image . Vector and Organism of Human African Trypanosomiasis). [1] This disease is endemic in sub-Saharan Africa but can be seen outside of endemic areas among travelers. These parasites produce illnesses with different clinical and epidemiological characteristics. East African HAT is caused by T brucei rhodesiense . West African HAT is caused by T brucei gambiense. Both conditions have hemolymphatic and meningoencephalitic stages. [2] HAT is considered a neglected tropical disease and is a significant public health threat in rural Africa. [3]
+Document 3 (Title: InternalMed_Harrison): these pathogens account for only ~1% of deaths in this population. Cardiovascular disease and injuries are the most frequent causes of death among travelers from the United States, accounting for 49% and 22% of deaths, respectively. Age-specific rates of death due to cardiovascular disease are similar among travelers and nontravelers. In contrast, rates of death due to injury (the majority from 794 10.001% 0.0001% 0.01% 0.1% Cholera Meningococcal disease Typhoid (other areas) Legionella infection Typhoid (India, northern/ northwestern Africa, Peru) HIV infection Hepatitis B (expatriates) Hepatitis A Gonorrhea Animal bites with rabies risk Dengue infection (Southeast Asia) Acute febrile respiratory tract infection Malaria (no chemoprophylaxis, West Africa) Travelers’ diarrhea ETEC diarrhea 10% 100% 30–80% 100,000 10,000 10 100 1% 1,000 recommended (immunizations that are desirable because of travel-related risks).
+
+What is the significance of resting heart rate in evaluating cardiovascular health risks among rural adults in West Africa?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

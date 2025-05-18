@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pediatric Emergency Medicine Fellowship survey: 1991-1992.): This study was designed to determine the general characteristics, training expectations, and career goals of those individuals entering Pediatric Emergency Medicine Fellowships in 1992 through the NRMP Pediatric Emergency Medicine Match. A 20-item questionnaire was developed and sent to those individuals who successfully obtained fellowship positions through the 1991-1992 Match. All of the respondents will have completed a formal pediatric residency program, and 90% will have completed their residency since 1990. Eighty-eight percent of the respondents have not completed formal postgraduate training other than a pediatric residency, and none of the respondents were from training programs in emergency medicine. Ninety percent of the respondents are planning on two years of training, while 10% are either entering a three-year program or planning an optional third year. Ninety-four percent of the individuals who responded had not applied for Pediatric Emergency Medicine Fellowships in the past, but, while many of the individuals were concerned about obtaining a position, only 6% applied for a fellowship in an alternative field. If the respondents had not obtained positions this year, 79% felt that they would have reapplied next year. When asked why they are pursuing a Pediatric Emergency Medicine Fellowship, 85% listed opportunities in clinical medicine as their primary reason, while 10% claimed that research opportunity was the most important factor. When their fellowships are completed, 77% hope to practice at a university-based children's hospital, and 10% hope to practice at a private children's hospital.(ABSTRACT TRUNCATED AT 250 WORDS)
+Document 2 (Title: Emergency ultrasound): Training Emergency and point-of-care ultrasound is taught in a variety of settings. Many physicians are currently taught bedside ultrasound during the emergency medicine residency or critical care fellowship training programs in the United States. It can also be learned as part of the continuing education process, through formal didactics, one-on-one training, training software, and clinical application and practice. Other specialists may learn during their residency or fellowship training programs. There are specialized fellowship training programs for bedside ultrasound in emergency medicine, but these are not required nor expected for the use of this tool in practice. Training has been expanded to other specialties in medical and surgical fields and is expected to expand in the future. See also Duplex ultrasonography Pre-hospital ultrasound References External links Free Ultrasound Training – Yale School of Medicine Professor Presents Ultrasound
+Document 3 (Title: Sonography Physical Principles And Instrumentation -- Clinical Significance): Outside of ultrasound technician training, medical residents and fellows study ultrasound. Specifically, cardiology fellows focus on the cardiac application, nephrology on renal images, and formal fellowships for using ultrasound for emergency medicine residents and attendings. Lastly, radiology residency has formal training in obtaining and interpreting sonographic images. [9]
+
+How do emergency ultrasound fellowship programs influence the ultrasound training experience of emergency medicine residents?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

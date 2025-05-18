@@ -8,8 +8,9 @@ from textgrad.engine_experimental.litellm import LiteLLMEngine
 import re
 from litellm import completion
 
-from src.RAG import RAG
 
+from src.RAG import RAG
+from src.askchatgpt import run_chatgpt_prompt
 
 os.environ["OPENAI_API_KEY"] = os.getenv("OPENAPI_KEY") #OpenAI Key
 tg.set_backward_engine("gpt-4o", override=True)
@@ -61,7 +62,8 @@ def refine_prompt_with_textgrad_from_example(
     save_dir=None,
     kwargs=None,
     max_steps: int = 5,
-    save_dir_folder=None
+    save_dir_folder=None,
+
 ):
 
     if q is not None:
@@ -74,7 +76,9 @@ def refine_prompt_with_textgrad_from_example(
     logging.getLogger("textgrad").disabled = True
 
     if answer == "":
-        answer = ask_question_direct(rag_system.model,prompt)
+        #answer = ask_question_direct(rag_system.model,prompt)
+        answer =run_chatgpt_prompt(full_prompt=prompt)
+        print(f"ERSTE ANTanswer{answer}")
 
     # === Save initial prompt and answer ===
     if save_dir_folder:
@@ -200,14 +204,15 @@ def refine_prompt_with_textgrad_from_example(
         # Neue Antwort mit optimiertem Prompt generieren
         """new_answer, _, _, _ = rag_system.rag_answer_textgrad(
             question_data,
-            save_dir,
+            save_dir = save_dir_folder,
             prompt = full_prompt,
+            step = step,
             **kwargs
         )"""
         #new_answer = ask_question_direct(rag_system.model,full_prompt) #FOR GEMMA
-        new_answer = run_chatgpt(full_prompt)
+        new_answer = run_chatgpt_prompt(full_prompt)
         #print(f"ANTWORT CVON GEMMA {new_answer}")
-        print(f"ANSWER FROM CHATGPT{new_answer}")
+        print(f"ANSWER FROM CHATGPT RAG{new_answer}")
         answer_tg_object = tg.Variable(new_answer, requires_grad=False, role_description="updated generated answer")
 
     print(f"NO PERFECT ANSWER COULD BE FOUND")
@@ -298,7 +303,7 @@ def create_prompt_from_question(question_data: dict) -> str:
             "Only output the JSON object. No explanation."
         )
 
-def run_chatgpt(full_prompt) -> str:
+def run_chatgpt_prompt(full_prompt) -> str:
 
         # Hole die Antwort von GPT
         print(f"→ Sende an GPT:\n{full_prompt}")

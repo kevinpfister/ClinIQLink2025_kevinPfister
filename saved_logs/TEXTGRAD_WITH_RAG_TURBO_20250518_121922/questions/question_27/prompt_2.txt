@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Luteinizing hormone-releasing hormone (LHRH)-independent precocious puberty unresponsive to LHRH agonist therapy in two girls lacking features of the McCune-Albright syndrome.): Two girls with precocious puberty (chronological age, 1 and 4 yr; bone age, 3 and 6 yr, respectively) were initially given the diagnosis of idiopathic, central precocious puberty and treated with the LHRH agonist deslorelin (D-Trp6-Pro9-NEt-LHRH) for 5 yr. Unlike other girls with central precocious puberty, both had persistently elevated rates of growth and bone maturation, and both menstruated during therapy. One girl had episodic ovarian enlargement and markedly elevated serum estradiol levels due to recurrent unilateral ovarian cysts. Although the bone and skin manifestations of McCune-Albright syndrome were absent, we hypothesize that the underlying defect of McCune-Albright syndrome was expressed in the ovaries, but not in the skin or bones, of these two girls. One of these girls appeared to benefit from the aromatase inhibitor testolactone, which is effective in suppressing precocious puberty in girls with the McCune-Albright syndrome.
+Document 2 (Title: First_Aid_Step1): Central precocious puberty ( GnRH secretion): idiopathic (most common; early activation of hypothalamic-pituitary gonadal axis), CNS tumors. Peripheral precocious puberty (GnRH-independent;  sex hormone production or exposure to exogenous sex steroids): congenital adrenal hyperplasia, estrogen-secreting ovarian tumor (eg, granulosa cell tumor), Leydig cell tumor, McCune-Albright syndrome. Sex chromosome Aneuploidy most commonly due to meiotic nondisjunction. disorders Klinefelter syndrome Male, 47,XXY. Dysgenesis of seminiferous tubules Testicular atrophy, eunuchoid body shape,  inhibin B  FSH. tall, long extremities, gynecomastia, female Abnormal Leydig cell function  testosterone A . May present with  LH  estrogen. developmental delay. Presence of inactivated X chromosome (Barr body). Common cause of hypogonadism seen in infertility work-up.
+Document 3 (Title: Peripheral Precocious Puberty -- Etiology -- Ovarian tumors): Ovarian tumors such as granulosa cell tumors, Sertoli/Leydig cell tumors, Leydig cell tumors, and gonadoblastoma can all result in precocious puberty. Granulosa cell tumor is the most common sex cord tumor in girls and is associated with excess estrogen production, which can lead to isosexual precocious puberty. On the other hand, gonadoblastoma, Leydig cell tumors, and Sertoli/Leydig tumors lead to excess androgen production and can present with contrasexual precocious puberty. [3] [2]
+
+A 5-year-old girl comes to the clinic with early breast development and other signs of puberty. Considering her age and symptoms, what is the most probable diagnosis for her condition?
+
+Options:
+A. Granulosa cell tumor
+B. Idiopathic precocious puberty
+C. McCune-Albright syndrome
+D. Sertoli-Leydig tumor
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

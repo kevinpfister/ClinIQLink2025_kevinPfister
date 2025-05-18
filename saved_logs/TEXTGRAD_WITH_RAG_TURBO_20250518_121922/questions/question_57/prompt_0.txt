@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Delayed sleep phase disorder): The altered phase relationship between the timing of sleep and the circadian rhythm of body core temperature has been reported previously in DSPD patients studied in entrained conditions. That such an alteration has also been observed in temporal isolation (free-running clock) supports the notion that the etiology of DSPD goes beyond simply a reduced capacity to achieve and maintain the appropriate phase relationship between sleep timing and the 24-hour day. Rather, the disorder may also reflect a fundamental inability of the endogenous circadian timing system to maintain normal internal phase relationships among physiological systems, and to properly adjust those internal relationships within the confines of the 24-hour day. In normal subjects, the phase relationship between sleep and temperature changes in temporal isolation relative to that observed under entrained conditions: in isolation, tmin tends to occur toward the beginning of sleep, whereas under entrained conditions, tmin
+Document 2 (Title: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios -- Issues of Concern -- Application Exercise): Let’s calculate the sensitivity, specificity, PPV, NPV, LR+, and LR-. We first can start with a 2X2 Table. The information above allows us to enter the values in the table below. Notice that values in blue cells were not provided, but we can get them based on the numbers above and the utilization of total cells. See Image. Diagnostic Testing Accuracy Table 2. The provider found that a total of 384 individuals actually had the disease, but how accurate was the blood test? Results: Sensitivity Sensitivity=(True Positives (A))/(True Positives (A)+False Negatives (C)) Sensitivity=(369 (A))/(369(A)+15 (C)) Sensitivity=369/384 Sensitivity=0.961 Specificity Specificity=(True Negatives (D))/(True Negatives (D)+False Positives (B)) Specificity=(558 (D))/(558(D)+58 (B)) Specificity=558/616 Specificity=0.906 Positive Predictive Value PPV =(True Positives (A))/(True Positives (A)+False Positives (B)) PPV =(369  (A))/(369 (A)+58(B)) PPV =369/427 PPV =0.864 Negative Predictive Value
+Document 3 (Title: Immunology_Janeway): 1.14 True or False: each lymphocyte carries cell-surface receptors with multiple antigen specificity. 1.15 Multiple Choice: Which cell type forms an important link between the innate immune response and the adaptive immune response? A. dendritic cell B. neutrophil C. B cell D. Innate lymphoid cell (IlC) 1.16 Multiple Choice: Which of the following options is not a mechanism by which an antibody can protect against a pathogen? A. neutralization B. Co-stimulation of t cells C. opsonization D. Complement activation/deposition 1.17 True or False: tH2 cells do not possess mHC class I molecules. General references. Burnet, F.M.: The Clonal Selection Theory of Acquired Immunity. London: Cambridge University Press, 1959. Gowans, J.L.: The lymphocyte—a disgraceful gap in medical knowledge. Immunol. Today 1996, 17:288–291. Landsteiner, K.: The Specificity of Serological Reactions, 3rd ed. Boston: Harvard University Press, 1964.
+
+Is it necessary to adjust for reporting heterogeneity in studies on sleep disorders?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

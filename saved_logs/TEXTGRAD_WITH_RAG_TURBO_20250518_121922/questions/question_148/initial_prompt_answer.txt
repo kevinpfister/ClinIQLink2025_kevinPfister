@@ -1,0 +1,17 @@
+== Initial Prompt ==
+Question: Select the correct statement(s) regarding aspirin:
+Options:
+1. The prolongation of bleeding time by taking aspirin lasts only for 6 hours
+2. The anti-aggregating action on platelets is linked to inhibition of glycoprotein IIb-IIIa
+3. Aspirin has proven its effectiveness in preventing recurrences of myocardial infarction
+4. Aspirin potentiates the anticoagulant action of vitamin K antagonists
+5. The usual anti-platelet aggregation dose of aspirin is less than 500 mg/24 hours
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Initial Answer ==
+{
+    "answer": ["1", "3"]
+}

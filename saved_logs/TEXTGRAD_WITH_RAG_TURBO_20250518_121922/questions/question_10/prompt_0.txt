@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Vasomotor Rhinitis -- Treatment / Management): Sympathomimetic medications, specifically topical decongestants, can provide short-term symptomatic relief. Topical decongestants work primarily by stimulating alpha-1 and alpha-2 adrenoreceptors on the vasculature of the nasal mucosa. This action leads to vasoconstriction, decreased blood flow, and subsequently decreased congestion and rhinorrhea of the nasal cavity. To date, no study has determined the effectiveness of topical decongestants on chronic non-allergic rhinitis. Long-term use of topical decongestants can lead to rebound vasodilation and increased congestion. This condition is termed rhinitis medicamentosa, a form of drug-induced rhinitis. By limiting the use of nasal decongestants to five days and not exceeding the recommended dosing, rhinitis medicamentosa and addiction are avoidable. [32]
+Document 2 (Title: New directions and dimensions in the treatment of allergic rhinitis.): Physicians who treat patients with allergic rhinitis have a number of therapeutic options, including antihistamines, decongestants, cromolyn, anticholinergics, corticosteroids, and immunotherapy. Antihistamines are widely used for the treatment of mild allergic rhinitis and are often effective, although more severe cases will require other medications. The newer antihistamines may induce less drowsiness, which is the most prominent side effect of the older antihistamines. Topical nasal decongestants give fast relief from nasal congestion, but their overuse may result in rebound congestion. Because their efficacy in allergic rhinitis is variable, oral decongestants are usually used in combination with antihistamines. Nasal cromolyn is effective for many patients with allergic rhinitis, but its effect is variable and it is useful in severe allergic rhinitis.
+Document 3 (Title: Pediatrics_Nelson): Decongestants, taken orally or intranasally, may be used to relieve nasal congestion. Oral medications, such as pseudoephedrine and phenylephrine, are available either alone or in combination with antihistamines. Adverse effects of oral decongestants include insomnia, nervousness, irritability, tachycardia, tremors, and palpitations. For older children participating in sports, oral decongestant use may be restricted. Topical nasal decongestant sprays are effective for immediate relief of nasal obstruction but should be used for less than 5 to 7 days to prevent rebound nasal congestion (rhinitis medicamentosa). Topical ipratropium bromide, an anticholinergic nasalspray, is used primarily for nonallergic rhinitis and rhinitis associated with viral upper respiratory infection. Leukotrienemodifiers have been studied in the treatment of allergic rhinitis. Montelukast is approved for use in seasonal allergicrhinitis.
+
+A 35-year-old male visits his primary care physician with a history of chronic use of topical nasal decongestants. What is the most likely complication or side effect associated with long-term use of these medications?
+
+Options:
+A. Epistaxis
+B. Permanent loss of smell
+C. Persistent nasal crusting
+D. Persistent congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

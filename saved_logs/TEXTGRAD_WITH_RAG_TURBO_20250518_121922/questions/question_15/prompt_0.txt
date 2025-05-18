@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: A chronic "postinfectious" fatigue syndrome associated with benign lymphoproliferation, B-cell proliferation, and active replication of human herpesvirus-6.): A 17-year-old, previously healthy woman developed an acute "mononucleosis-like" illness with an associated "atypical" pneumonitis, followed by years of debilitating chronic fatigue, fevers, a 10-kg weight loss, night sweats, and neurocognitive symptoms. Thereafter, her sister developed a similar but less severe illness. The patient developed marked, chronic lymphadenopathy and splenomegaly, with associated persistent relative lymphocytosis and atypical lymphocytosis and with thrombocytopenia. After 3 years of illness, a splenectomy was performed, which resulted in some symptomatic improvement, prompt weight gain, and resolution of all hematologic abnormalities. Serial immunologic studies revealed a strikingly elevated number of activated B lymphocytes and a T lymphopenia, which improved but did not return to normal postsplenectomy. No causal association was found with any of several infectious agents that could produce such a lymphoproliferative illness. However, both the patient and her sister had evidence of active infection with the recently discovered human herpesvirus-6. Seven years after the onset of the illness, the patient and her sister remain chronically ill.
+Document 2 (Title: Sheehan's syndrome): The most common initial symptoms of Sheehan's syndrome are agalactorrhea (absence of lactation) and/or difficulties with lactation. Many women also report amenorrhea or oligomenorrhea after delivery. In some cases, a woman with Sheehan syndrome is relatively asymptomatic; therefore, the diagnosis would not be made until years later, with features of hypopituitarism. Such features include secondary hypothyroidism (hypothyroidism due to pituitary dysfunction) with tiredness, intolerance to cold, constipation, weight gain, hair loss and slowed thinking, as well as a slowed heart rate and low blood pressure. Another such feature is secondary adrenal insufficiency (lack of ACTH secretion from the anterior pituitary). In a more chronic case, it is similar to Addison's disease with symptoms including fatigue, weight loss, hypoglycemia (low blood sugar levels), anemia and hyponatremia (low sodium levels). Such a patient may become acutely exacerbated when her body is stressed by a severe
+Document 3 (Title: The Health Belief Model of Behavior Change -- Summary / Explanation -- Key Cognitive Constructs): Perceived susceptibility is a 56-year-old woman considering her lifetime risk of developing breast cancer due to her age and risk factors.
+
+A 62-year-old woman visits her physician due to symptoms of fatigue, weight gain, and cold intolerance. Considering her age and symptoms, what is the most likely underlying cause of her condition?
+
+Options:
+A. Chronic decrease in pulmonary compliance
+B. Local accumulation of kinins
+C. Progressive obstruction of expiratory airflow
+D. Incremental loss of functional residual capacity
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

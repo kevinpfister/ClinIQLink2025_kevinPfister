@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Among the following statements, indicate the incorrect one(s): Nitroglycerin:
+Options:
+1. Is isosorbide trinitrate
+2. Is an anti-anginal drug
+3. Is used orally for the treatment of angina attacks
+4. Causes methemoglobinemia at high doses
+5. Increases blood pressure
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify the incorrect statement from the list of statements regarding Nitroglycerin below:
+
+Options:
+1. Is isosorbide trinitrate
+2. Is an anti-anginal drug
+3. Is used orally for the treatment of angina attacks
+4. Causes methemoglobinemia at high doses
+5. Increases blood pressure
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "5"]}
+
+== Feedback ==
+Incorrect answer: The answer should include option "1" as well, and the prompt could be improved by specifying that multiple incorrect statements may exist.
+
+== Improved Full Prompt ==
+Identify the incorrect statement about Nitroglycerin from the following list:
+
+Options:
+1. Is isosorbide trinitrate
+2. Is an anti-anginal drug
+3. Is used orally for the treatment of angina attacks
+4. Causes methemoglobinemia at high doses
+5. Increases blood pressure
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

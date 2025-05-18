@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: List of diseases (F)): Fan–Faz Fan death Fanconi anemia type 1 Fanconi anemia type 2 Fanconi anemia type 3 Fanconi–Bickel syndrome Fanconi ichthyosis dysmorphism Fanconi like syndrome Fanconi pancytopenia Fanconi syndrome Fanconi syndrome, renal, with nephrocalcinosis and renal stones Fanconi anemia Fara–Chlupackova syndrome Farber's disease Farmer's lung Fas deficiency Fascioliasis Fatal familial insomnia Fatty liver Faulk–Epstein–Jones syndrome Faye–Petersen–Ward–Carey syndrome Fazio–Londe syndrome Fe
+Document 2 (Title: Plasmodium falciparum Malaria -- History and Physical -- Physical Examination): Physical examination is usually unremarkable, especially of patients with uncomplicated malaria. They frequently present with irregular and erratic fever, reaching up to 41°C, sometimes accompanied by agitation or confusion. [3] [13] Mild spontaneously resolving jaundice can sometimes be seen in patients with otherwise-uncomplicated falciparum malaria. [3] [22] Other physical signs can include anemia and postural hypotension. [13] In some cases, patients can present with tender hepatosplenomegaly after some days. However, a palpable spleen is particularly common in otherwise healthy populations in endemic areas, reflecting repeated infections. [3] The comprehensive list of clinical features associated with severe malaria is shown in Table 1 - Diagnostic criteria for severe P. falciparum malaria. [13] [18]
+Document 3 (Title: InternalMed_Harrison): Parasitic Amebiasis, babesiosis, echinococcosis, fascioliasis, malaria, schistosomiasis, strongyloidiasis, toxocariasis, toxoplasmosis, trichinellosis, trypanosomiasis, visceral leishmaniasis Viral Colorado tick fever, coxsackievirus infection, cytomegalovirus infection, dengue, Epstein-Barr virus infection, hantavirus infection, hepatitis (A, B, C, D, E), herpes simplex, HIV infection, human herpesvirus 6 infection, parvovirus infection, West Nile virus infection Systemic rheumatic and autoimmune Ankylosing spondylitis, antiphospholipid syndrome, autoimmune hemolytic anemia, autoimmune hepatitis, Behçet’s diseases disease, cryoglobulinemia, dermatomyositis, Felty syndrome, gout, mixed connective-tissue disease, polymyositis, pseudogout, reactive arthritis, relapsing polychondritis, rheumatic fever, rheumatoid arthritis, Sjögren’s syndrome, systemic lupus erythematosus, Vogt-Koyanagi-Harada syndrome
+
+List the diseases commonly associated with anemia.
+
+Options:
+1. Candidiasis
+2. Malaria
+3. Fascioliasis
+4. Strongyloidiasis
+5. Toxoplasmosis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

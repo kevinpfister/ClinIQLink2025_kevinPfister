@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Among the following statements, which one(s) is (are) correct? The catabolism of saturated fatty acids:
+Options:
+1. Occurs in the cytoplasm
+2. Is accompanied by ATP biosynthesis
+3. Requires NADP-dependent dehydrogenase
+4. Requires substrates activated by coenzyme A
+5. Gives rise to alpha-beta unsaturated metabolites of the trans form
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Explain the steps involved in the catabolism of saturated fatty acids, highlighting key enzymes and pathways.
+
+Options:
+1. Occurs in the cytoplasm
+2. Is accompanied by ATP biosynthesis
+3. Requires NADP-dependent dehydrogenase
+4. Requires substrates activated by coenzyme A
+5. Gives rise to alpha-beta unsaturated metabolites of the trans form
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "1" and omits "2" and "4"; the prompt should specify that catabolism occurs in the mitochondria and involves ATP synthesis and coenzyme A activation.
+
+== Improved Full Prompt ==
+Describe the process of saturated fatty acid catabolism, focusing on the key enzymes and metabolic pathways involved. Include the sequence of reactions and any regulatory mechanisms.
+
+Options:
+1. Occurs in the cytoplasm
+2. Is accompanied by ATP biosynthesis
+3. Requires NADP-dependent dehydrogenase
+4. Requires substrates activated by coenzyme A
+5. Gives rise to alpha-beta unsaturated metabolites of the trans form
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

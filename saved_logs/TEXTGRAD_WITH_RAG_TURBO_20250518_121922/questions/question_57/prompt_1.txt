@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Chandogya Upanishad): The section is notable for the mention of "hermit's life in the forest" cultural practice, in verse 8.5.3. The false and true Atman The sections 8.7 through 8.12 of the Chandogya Upanishad return to the question, "what is true Self, and what is not"? The opening passage declares Self as the one that is eternally free of grief, suffering and death; it is happy, serene being that desires, feels and thinks what it ought to. Thereafter, the text structures its analysis of true and false Atman as four answers. The three Self, which are false Self, asserts the text are the material body, corporeal self in dreams, individual self in deep sleep, while the fourth is the true Self – the self in beyond deep sleep state that is one with others and the entire universe. This theory is also known as the "four states of consciousness", explained as the awake state, dream-filled sleep state, deep sleep state, and beyond deep sleep state.
+Document 2 (Title: Immunology_Janeway): 1.14 True or False: each lymphocyte carries cell-surface receptors with multiple antigen specificity. 1.15 Multiple Choice: Which cell type forms an important link between the innate immune response and the adaptive immune response? A. dendritic cell B. neutrophil C. B cell D. Innate lymphoid cell (IlC) 1.16 Multiple Choice: Which of the following options is not a mechanism by which an antibody can protect against a pathogen? A. neutralization B. Co-stimulation of t cells C. opsonization D. Complement activation/deposition 1.17 True or False: tH2 cells do not possess mHC class I molecules. General references. Burnet, F.M.: The Clonal Selection Theory of Acquired Immunity. London: Cambridge University Press, 1959. Gowans, J.L.: The lymphocyte—a disgraceful gap in medical knowledge. Immunol. Today 1996, 17:288–291. Landsteiner, K.: The Specificity of Serological Reactions, 3rd ed. Boston: Harvard University Press, 1964.
+Document 3 (Title: Diagnostic Testing Accuracy: Sensitivity, Specificity, Predictive Values and Likelihood Ratios -- Issues of Concern -- Application Exercise): Let’s calculate the sensitivity, specificity, PPV, NPV, LR+, and LR-. We first can start with a 2X2 Table. The information above allows us to enter the values in the table below. Notice that values in blue cells were not provided, but we can get them based on the numbers above and the utilization of total cells. See Image. Diagnostic Testing Accuracy Table 2. The provider found that a total of 384 individuals actually had the disease, but how accurate was the blood test? Results: Sensitivity Sensitivity=(True Positives (A))/(True Positives (A)+False Negatives (C)) Sensitivity=(369 (A))/(369(A)+15 (C)) Sensitivity=369/384 Sensitivity=0.961 Specificity Specificity=(True Negatives (D))/(True Negatives (D)+False Positives (B)) Specificity=(558 (D))/(558(D)+58 (B)) Specificity=558/616 Specificity=0.906 Positive Predictive Value PPV =(True Positives (A))/(True Positives (A)+False Positives (B)) PPV =(369  (A))/(369 (A)+58(B)) PPV =369/427 PPV =0.864 Negative Predictive Value
+
+What is the importance of adjusting for reporting heterogeneity in studies on sleep disorders?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

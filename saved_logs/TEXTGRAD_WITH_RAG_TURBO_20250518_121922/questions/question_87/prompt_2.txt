@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: PET Scanning -- Indications -- Oncology): A positive FDG-PET scan means a tissue biopsy is indicated in that location. [8] In FDG-PET evaluation of cancers of the esophagus and gastroesophageal junction, FDG-PET had lower accuracy in the diagnosis of locoregional nodes (N1–2) than combined CT (computed tomography) and EUS (endoscopic ultrasound) (48% vs. 69%) because of a lack of sensitivity (22% vs. 83%). The accuracy for distant nodal metastasis was significantly higher for FDG-PET than the combined use of CT & EUS. Sensitivity was no different; however, specificity was higher. FDG-PET correctly upstaged 5 patients (12%) from the N1–2 stage to the M+Ly stage, while 1 was falsely downstaged by FDG-PET scanning. [9] In a study on the role of FDG PET scan in colorectal cancer screening in asymptomatic adults, it was found that the sensitivity of FDG-PET to detect primary colorectal cancer is high, with primary colorectal cancer being detected with FDG PET in a resectable stage. FDG-PET could detect large size (> 0.7 cm) and pre-malignant change of colonic adenomas. It’s possible to differentiate adenoma from colon carcinoma by assessing the increase in the rate of glycolysis in carcinoma. [10]
+Document 2 (Title: InternalMed_Harrison): radiographic imaging with CT scan, positron emission tomography (PET), or preferably CT-PET. PET scanning attempts to identify sites of malignancy based on glucose metabolism by measuring the uptake of 18F-fluorodeoxyglucose (FDG). Rapidly dividing cells, presumably in the lung tumors, will preferentially take up 18F-FDG and appear as a “hot spot.” To date, PET has been mostly used for staging and detection of metastases in lung cancer and in the detection of nodules >15 mm in diameter. Combined 18F-FDG PET-CT imaging has been shown to improve the accuracy of staging in NSCLC compared to visual correlation of PET and CT or either study alone. CT-PET has been found to be superior in identifying pathologically enlarged mediastinal lymph nodes and extrathoracic metastases. A standardized uptake value (SUV) of >2.5 on PET is highly suspicious for malignancy. False negatives can be seen in diabetes, in lesions <8 mm, and in slow-growing tumors (e.g., carcinoid tumors or well-differentiated
+Document 3 (Title: Primary and metastatic breast carcinoma: initial clinical evaluation with PET with the radiolabeled glucose analogue 2-[F-18]-fluoro-2-deoxy-D-glucose.): The authors assessed whether breast cancers can be detected by means of positron emission tomography (PET) with the positron-emitter-labeled glucose analogue 2-[fluorine-18]-fluoro-2-deoxy-D-glucose (FDG). In 12 patients with primary and/or metastatic breast cancer, PET images of F-18 distribution in vivo were obtained approximately 1 hour after intravenous injection of 10 mCi of FDG. Scan findings were correlated with other imaging data and physical examination and biopsy results. Ten of 10 primary breast cancers were imaged by means of FDG PET with a tumor:background FDG uptake ratio of 8.1 (median). Ten of 10 bone metastases were imaged with a tumor:normal bone uptake ratio of 6.05 (median). Five of five known soft-tissue metastases and four previously unsuspected nodal lesions were found with PET. No false-positive foci of FDG uptake were demonstrated. In two cases with negative mammograms due to dense breast parenchyma, FDG PET clearly delineated the primary tumors. These preliminary data demonstrate the feasibility and substantial potential of PET scanning with FDG to detect and localize both primary and metastatic breast cancers.
+
+How does diabetes mellitus affect the accuracy and reliability of FDG-PET scans in the detection of cervical cancer?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

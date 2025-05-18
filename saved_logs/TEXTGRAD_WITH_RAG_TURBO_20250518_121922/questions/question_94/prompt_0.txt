@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Renal Transplantation Rejection -- Etiology): Certain factors correlate with an increased risk of rejection of the renal allograft after the transplantation. These factors are: Prior sensitization - high panel reactive antibodies Type of transplant: A deceased donor has a higher rejection than a living transplant The advanced age of the donor Prolonged cold ischemia time Prolonged warm ischemia time [3] HLA mismatch Positive B cell crossmatch ABO incompatibility Recipient’s age: Younger recipients have more rejection than older ones Recipient’s race: Black race greater than White race Delayed graft function Therapy non-compliance Previous episodes of rejections Inadequate immunosuppression [2] [4] [5]
+Document 2 (Title: Organ replacement in animals): Kidney transplantation Kidney transplantation has so far only been performed with any degree of success on cats and dogs, most usually cats as they are particularly prone to kidney diseases. The School of Veterinary Medicine at U.C. Davis initiated the Renal Transplantation Program in 1987. Cats can tolerate transplantation from unrelated cats, but must be supported with immunosuppressive drugs for the rest of their lives. When the transplanted kidney is implanted in the recipient the original kidneys are usually left in place. There are currently ten centers in the world that offer kidney transplants for cats. Most are in the US. UC Davis have since abandoned their program. Kidney transplantation is a controversial treatment option, with longevity, quality of life, as well as ethical considerations. The United Kingdom permitted this procedure in 2003, but a review in 2013 suspended it. Many argue that it causes unnecessary suffering to donor animals.
+Document 3 (Title: Effect of age on kidney transplants.): 1. Graft survival rates ranged from 72-78% at 1 year for recipients over the age of 6 years. Only the very young pediatric recipients had a low 64% 1-year graft survival rate. 2. Older recipients (over 55 years) had a significantly lower 1-year patient survival rate. When we considered death with a functioning graft as a transplant success, older patients actually had the highest graft survival rate. 3. Donor age had an overriding effect on graft survival. The 1-year graft survival rates were 78% for recipients of kidneys from adult donors, 59% from younger pediatric donors, and 67% from older donors. 4. One-year graft survival rates were uniformly over 80% in transplants with no HLA-B,DR antigens mismatched, regardless of recipient or donor age (except when the donor was over 55). The 1-year survival rate for younger pediatric donor kidneys was 62% or less when there were HLA-B,DR mismatches. 5. Pretransplant transfusions improved graft survival by 2-4% in recipients of adult donor kidneys. In recipients of younger pediatric kidneys, graft survival improved by 20% at 1 year with 1-2 transfusions. The enhancing effect of transfusions and matching in recipients of smaller pediatric kidneys is consistent with the idea that these kidneys are more vulnerable to rejection than those from adult donors. 6. Pediatric donors (younger than 15 years of age) accounted for approximately 15% of all donors, whereas pediatric recipients only constituted 2.8% of all recipients in the period of 1984 to 1988. Most kidneys derived from pediatric donors have to be given to adult or older recipients.
+
+Is it suitable and beneficial to transplant kidneys from older donors into younger recipients, considering medical, ethical, and longevity perspectives?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

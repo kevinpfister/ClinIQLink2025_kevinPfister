@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: Select the medication(s) used as tissue amebicide(s):
+Options:
+1. Flubendazole (FLUVERMAL®)
+2. Metronidazole (FLAGYL®)
+3. Secnidazole (FLAGENTYL®)
+4. Econazole (PEVARYL®)
+5. Ornidazole (TIBÉRAL)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: Select the medication(s) used as tissue amebicide(s):
+Options:
+1. Flubendazole (FLUVERMAL®)
+2. Metronidazole (FLAGYL®)
+3. Secnidazole (FLAGENTYL®)
+4. Econazole (PEVARYL®)
+5. Ornidazole (TIBÉRAL)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["2"]}
+
+== Feedback ==
+Incorrect answer: The answer should include both "2" and "5" as Metronidazole and Ornidazole are used as tissue amebicides; the prompt could specify that multiple selections may be correct to guide the respondent.
+
+== Improved Full Prompt ==
+Please identify the medication(s) that act as tissue amebicides.
+
+Options:
+1. Flubendazole (FLUVERMAL®)
+2. Metronidazole (FLAGYL®)
+3. Secnidazole (FLAGENTYL®)
+4. Econazole (PEVARYL®)
+5. Ornidazole (TIBÉRAL)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

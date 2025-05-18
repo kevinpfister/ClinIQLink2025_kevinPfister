@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Clinical symptoms in young adults with atypical chest pain attending the emergency department.): Clinical symptoms were studied in 69 consecutive patients below the age of 40 years who were attending the emergency unit because of unexplained chest pain. In a structured interview a few weeks after the emergency visit, only one-third of the patients reported that they believed in the doctor's diagnosis; they believed in a psychological or cardiac origin of the pain more often than the doctors. The chest pain was most often described as oppressive and/or stabbing. In 95% of cases it was central or left-sided. Associated symptoms were commonly reported, breathlessness being most commonly reported by two-thirds of the patients, followed by dizziness, palpitation and numbness/tingling. Mental symptoms such as tiredness, anxiety and tension were frequently reported. On the basis of the background literature the aetiology is discussed. We conclude that immediate symptom analysis, including psychosomatic symptoms, particularly breathing problems, is of central importance.
+Document 2 (Title: Emergency department): Patients who exhibit signs of being seriously ill but are not in immediate danger of life or limb will be triaged to "acute care" or "majors", where they will be seen by a physician and receive a more thorough assessment and treatment. Examples of "majors" include chest pain, difficulty breathing, abdominal pain and neurological complaints. Advanced diagnostic testing may be conducted at this stage, including laboratory testing of blood and/or urine, ultrasonography, CT or MRI scanning. Medications appropriate to manage the patient's condition will also be given. Depending on underlying causes of the patient's chief complaint, he or she may be discharged home from this area or admitted to the hospital for further treatment.
+Document 3 (Title: Case Study: 60-Year-Old Female Presenting With Shortness of Breath (Archived) -- Case Presentation): The patient is a 60-year-old white female presenting to the emergency department with acute onset shortness of breath.  Symptoms began approximately 2 days before and had progressively worsened with no associated, aggravating, or relieving factors noted. She had similar symptoms approximately 1 year ago with an acute, chronic obstructive pulmonary disease (COPD) exacerbation requiring hospitalization. She uses BiPAP ventilatory support at night when sleeping and has requested to use this in the emergency department due to shortness of breath and wanting to sleep. She denies fever, chills, cough, wheezing, sputum production, chest pain, palpitations, pressure, abdominal pain, abdominal distension, nausea, vomiting, and diarrhea.
+
+Consider a 68-year-old man who arrives at the emergency department with acute symptoms of chest pain, shortness of breath, and dizziness. Conduct a thorough clinical examination and diagnostic testing to swiftly assess the situation and determine the most appropriate and immediate next step in his management plan.
+
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

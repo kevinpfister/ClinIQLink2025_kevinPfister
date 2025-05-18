@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: Select the incorrect statement(s) regarding oxyuriasis:
+Options:
+1. Löffler's syndrome manifests late in the course of oxyuriasis
+2. The laying of eggs by female pinworms occurs 3 months after human infection
+3. There may be moderate hypereosinophilia during oxyuriasis
+4. The adult pinworm can be evacuated through the mouth
+5. Flubendazole (FLUVERMAL®) is a medication used in oxyuriasis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: Select the incorrect statement(s) regarding oxyuriasis:
+Options:
+1. Löffler's syndrome manifests late in the course of oxyuriasis
+2. The laying of eggs by female pinworms occurs 3 months after human infection
+3. There may be moderate hypereosinophilia during oxyuriasis
+4. The adult pinworm can be evacuated through the mouth
+5. Flubendazole (FLUVERMAL®) is a medication used in oxyuriasis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "3"]}
+
+== Feedback ==
+Incorrect answer: The answer includes option "2" which is not incorrect, and the prompt could be improved by specifying that only truly incorrect statements should be selected.
+
+== Improved Full Prompt ==
+Select the statement(s) that do not accurately describe oxyuriasis.
+
+Options:
+1. Löffler's syndrome manifests late in the course of oxyuriasis
+2. The laying of eggs by female pinworms occurs 3 months after human infection
+3. There may be moderate hypereosinophilia during oxyuriasis
+4. The adult pinworm can be evacuated through the mouth
+5. Flubendazole (FLUVERMAL®) is a medication used in oxyuriasis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

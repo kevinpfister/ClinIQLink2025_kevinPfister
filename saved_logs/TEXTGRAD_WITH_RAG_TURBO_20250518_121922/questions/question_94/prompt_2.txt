@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Organ replacement in animals): Kidney transplantation Kidney transplantation has so far only been performed with any degree of success on cats and dogs, most usually cats as they are particularly prone to kidney diseases. The School of Veterinary Medicine at U.C. Davis initiated the Renal Transplantation Program in 1987. Cats can tolerate transplantation from unrelated cats, but must be supported with immunosuppressive drugs for the rest of their lives. When the transplanted kidney is implanted in the recipient the original kidneys are usually left in place. There are currently ten centers in the world that offer kidney transplants for cats. Most are in the US. UC Davis have since abandoned their program. Kidney transplantation is a controversial treatment option, with longevity, quality of life, as well as ethical considerations. The United Kingdom permitted this procedure in 2003, but a review in 2013 suspended it. Many argue that it causes unnecessary suffering to donor animals.
+Document 2 (Title: Surgery_Schwartz): transplant waiting list, while nearly 20,000 patients underwent renal transplantation. Trends over the past decade indicated that living related transplants remained rela-tively stable, while the number of deceased donor transplants rose. Posttransplant outcomes have continued to improve: in 2015, the 1-year graft survival rate with a living donor kidney was nearly 98%; with a deceased donor kidney, the rate was approximately 95.0%.71The advantages of a living donor kidney transplant include better posttransplant outcomes, avoidance of prolonged waiting time and dialysis, and the ability to coordinate the donor and recipient procedures in a timely fashion. Living donor kidney recipients enjoy better long-term outcomes, a low incidence of delayed graft function, and reduced risks of posttransplant complications. Furthermore, the elective nature of living donor kidney transplants provides unique opportunities for recipient desensitization treatment if the donor and recipient are
+Document 3 (Title: Renal Transplantation Rejection -- Introduction): Kidney transplantation is the treatment of choice in patients with end-stage renal disease or severe chronic kidney disease as it improves the quality of life and has better survival advantages compared to dialysis. Various factors merit consideration in matching the donor kidney with the recipient, as the donor kidney acts as an alloantigen. In general, when transplanting tissue or cells from a genetically different donor to the graft recipient, the alloantigen of the donor induces an immune response in the recipient against the graft. This response can destroy the graft if not controlled. The whole process is called allograft rejection. [1] Allograft rejection is inflammation with specific pathologic changes in the allograft due to the recipient’s immune system recognizing the non-self antigen in the allograft, with or without dysfunction of the allograft. Both innate and adaptive immune systems play a significant role in rejection, but the T lymphocytes are the principal cells that recognize the allograft. There are other costimulatory molecules, and cytokines also play a major role in this reaction. Depending on the histopathology and immunological characteristics, renal transplant rejections can be classified broadly under the following categories:
+
+Analyze the appropriateness and advantages of using kidneys from elderly donors for transplantation, focusing on medical outcomes, ethical considerations, and implications for recipients' longevity.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

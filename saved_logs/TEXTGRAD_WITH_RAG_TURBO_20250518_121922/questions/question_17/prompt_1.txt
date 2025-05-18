@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Postpartum period): spacing and contraception, chronic disease management, and preventive health care and health maintenance. Women with hypertensive disorders should have a blood pressure check within three to ten days postpartum. More than one half of postpartum strokes occur within ten days of discharge after delivery. Women with chronic medical (e.g., hypertensive disorders, diabetes, kidney disease, thyroid disease) and psychiatric conditions should continue to follow with their obstetric or primary care provider for ongoing disease management. Women with pregnancies complicated by hypertension, gestational diabetes, or preterm birth should undergo counseling and evaluation for cardiometabolic disease, as lifetime risk of cardiovascular disease is higher in these women.
+Document 2 (Title: Biochemistry_Lippinco): .5. A 67-year-old man presented to the emergency department with a 1-week history of angina and shortness of breath. He complained that his face and extremities had taken on a blue color. His medical history included chronic stable angina treated with isosorbide dinitrate and nitroglycerin. Blood obtained for analysis was brown. Which one of the following is the most likely diagnosis? A. Carboxyhemoglobinemia B. Hemoglobin SC disease C. Methemoglobinemia D. Sickle cell anemia E. β-Thalassemia
+Document 3 (Title: 38-Year-Old Male Presents With Lower Extremity Edema -- Case Presentation): A 38-year-old African American male, who emigrated from Somalia 10 years ago, presented with a 6-month history of lower extremity swelling, 20-pound (9 kg) weight gain over 4 weeks, and new-onset microscopic hematuria. He had no prior history of edema, proteinuria, or hematuria. There was no prior history of any systemic illness or any heart, lung, or kidney disease. He reported no over-the-counter drug use, herbal medication use, or NSAID intake. His review of systems was positive for lethargy, fatigue, and edema at his lower extremities. His family history was negative for any kidney disease. He reported a monogamous relationship with his wife and no current or past alcohol or drug use. His medical history included recently diagnosed hypertension, latent tuberculosis, and anemia. His vital signs included a blood pressure of 160/90 and a heart rate of 78.
+
+Consider a 76-year-old African American man visiting his primary care physician. His medical history includes hypertension, type 2 diabetes, and chronic kidney disease. Based on his condition and medical history, determine the most suitable medication from the available options.
+
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

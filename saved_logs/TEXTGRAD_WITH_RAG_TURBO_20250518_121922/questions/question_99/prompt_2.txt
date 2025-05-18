@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: The impact of breast cancer on sexuality, body image, and intimate relationships.): For women, breast cancer remains a common and dreaded experience. It is normal for a diagnosis of breast cancer to evoke grief, anger, and intense fear. Most women, however, face this crisis and master it without developing major psychiatric disorders or severe sexual dysfunction. The options of breast conservation and reconstruction give women a new sense of control over their treatment and are quite successful in helping women feel comfortable with their bodies again. The effectiveness of breast conservation and reconstruction in preventing or ameliorating sexual problems after breast cancer diagnosis is less clear, however. Any impact these options have on sexuality is subtle and may relate more to a woman's feelings of being desirable than to how often she has sex, her lovemaking practices, or how much she enjoys sex. We need more information on how chemotherapy and hormonal therapy affect women's sex lives. As clinicians, we should pay more attention to our patients' complaints of vaginal pain, dryness, and overall loss of sexual desire during systemic treatment. Practical advice on lovemaking techniques and a clinician's open attitude towards discussing sexual issues can prevent a great deal of anxiety and sadness as women with breast cancer search for ways to keep their sex lives satisfying.
+Document 2 (Title: Flibanserin -- Indications): Sexual dysfunction affects approximately 50% of women in the United States. Among the various factors contributing to sexual dysfunction in women, hypoactive sexual desire disorder (HSDD) is the most commonly identified cause. HSDD is characterized by limited or absent sexual fantasies or desires, resulting in interpersonal strain or heightened distress, which persist for a minimum of 6 months. [1] [2] The diagnosis of this condition is unrelated to relationship issues, psychiatric or medical conditions, or the effects of medication or drugs. Although the exact physiological causes of HSDD remain inconclusive, a hypothesis suggests that HSDD may be influenced by neurotransmitter function and hormonal levels. [2]
+Document 3 (Title: Feminizing hormone therapy): Firstly, if one is to decrease testosterone in feminizing gender transition, it is likely that sexual desire and arousal would be inhibited; alternatively, if high doses of estrogen negatively impact sexual desire, which has been found in some research with cisgender women, it is hypothesized that combining androgens with high levels of estrogen would intensify this outcome. Unfortunately, to date there haven't been any randomized clinical trials looking at the relationship between type and dose of transgender hormone therapy, so the relationship between them remains unclear. Typically, the estrogens given for feminizing gender transition are 2 to 3 times higher than the recommended dose for HRT in postmenopausal women. Pharmacokinetic studies indicate taking these increased doses may lead to a higher boost in plasma estradiol levels; however, the long-term side effects haven't been studied and the safety of this route is unclear.
+
+Explain the influence of androgen levels on women's sexual desire and identify factors that may impact this relationship.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

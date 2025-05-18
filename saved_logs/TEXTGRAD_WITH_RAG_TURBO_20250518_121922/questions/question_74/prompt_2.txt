@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Bell Palsy -- Treatment / Management -- Chronic facial nerve dysfunction): While every patient with true Bell palsy recovers facial motor function to some extent, many will develop synkinesis, particularly if presenting with severe or total hemifacial paralysis. The clinician is responsible for identifying these aberrant facial movements, as patients may not recognize the difference between the initial flaccid weakness and the hypertonicity that follows it, characterizing the chronic movement disorder as a continuation of the acute palsy rather than as a different, but related, clinical entity. Nevertheless, persistent facial asymmetry and mimetic dysfunction can have major adverse impacts on quality of life, causing patients to seek care. Physiotherapy and chemodenervation are sufficient for most individuals, although operative options do exist for patients who are dissatisfied with the results of conservative measures or who would prefer to avoid a prolonged course of regular botulinum toxin injections.
+Document 2 (Title: Somatization disorder): Diagnosis of somatization disorder is difficult because it is hard to determine to what degree psychological factors are exacerbating subjective feelings of pain. For instance, chronic pain is common in 30% of the U.S. population, making it difficult to determine whether or not the pain is due to predominately psychological factors. ICD-10 In ICD-10, the latest version of the International Statistical Classification of Diseases and Related Health Problems, somatization syndrome is described as: ICD-10 also includes the following subgroups of somatization syndrome: Undifferentiated somatoform disorder. Hypochondriasis. Somatoform autonomic dysfunction. Persistent somatoform pain disorder. Other somatoform disorders, such ones predominated by dysmenorrhoea, dysphagia, pruritus and torticollis. Somatoform disorder, unspecified.
+Document 3 (Title: Immunology_Janeway): 14.4 True or False: Like other antibodies, IgE is mainly found in body fluids. 14.5 Matching: Match the following options with the best 14.6 Which of the following statements is true? A. Connective tissue mast cells do not participate in the initiation of an anaphylactic reaction. B. Epinephrine should be avoided in patients suffering from anaphylactic shock as it may worsen the patient’s condition. C. During anaphylactic shock, blood vessels lose permeability, and high blood pressure leads to death. D. Penicillin can modify self proteins, causing an immune response with IgE production in some individuals that can lead to anaphylaxis upon re-encountering the drug. 14.7 Multiple Choice: Hypersensitivity reactions can cause pathology through the deposition of immune complexes. Which of the following is a mechanism by which immune complexes can be pathogenic? (More than one may apply.) ___ A. Immune complexes deposit in blood vessel walls.
+
+How do reports of mechanical dysfunction relate to somatization in individuals with chronic oro-facial pain?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

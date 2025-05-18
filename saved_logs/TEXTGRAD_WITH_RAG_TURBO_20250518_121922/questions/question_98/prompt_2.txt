@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Mindset): Implications for at risk students Dweck's research and theory of growth and fixed mindsets has been useful in intervention strategies with at risk students, dispelling negative stereotypes in education held by teachers and students, understanding the impacts of self-theories on resilience, and understanding how process praise can foster a growth mindset and positively impact students' motivation levels. In particular, a study by Rhew, Piro, Goolkasian & Cosentino (2018), suggested that a growth mindset intervention can increase the motivation levels of adolescent special education participants. In another study, it was suggested that substance use has adverse effects on adolescent reasoning. Developing a growth mindset in these adolescents was shown to reduce this adverse effect. These studies further illustrate how educators can use intervention strategies, targeting a growth mindset, by allowing students to see that their behaviour can be changed with effort. Criticism
+Document 2 (Title: How serious are the adverse effects of screening?): The adverse effects of screening are not commonly studied. False-positive tests lead to discomfort, costs, and risks from additional diagnostic and therapeutic procedures. False-negative tests lead to a sense of security and delays in seeking medical help when symptoms develop. Labeling an individual with a false-positive test, or with a true-positive test for which there is no evidence that intervention makes a difference, e.g., intervention on an 80-year-old asymptomatic woman with hypercholesterolemia, can have a markedly negative impact on the quality of life. Interpreting statistical abnormalities out of clinical context, e.g., lending importance to a multiphasic blood screen showing "high" alkaline phosphatase in a teenager, leads to unnecessary costs and anxiety. The cost of screening programs that may not have been shown to do more good than harm is already having an impact on the resources available to diagnose and treatment symptomatic persons. Premature implementation of unproved screening programs will continue to decrease physician and public confidence in prevention.
+Document 3 (Title: Surgery_Schwartz): Curves and Expertise-Based Design. Pharma-ceutical-based RCTs normally have higher internal validity compared to surgical trials because of the effect of surgeon experience and technique affecting patient outcomes; this is especially impactful when new surgical procedures are intro-duced. While the administration of a drug is a straightforward process without measurable deviation, the same cannot be said Brunicardi_Ch51_p2137-p2152.indd 214628/02/19 4:19 PM 2147UNDERSTANDING, EVALUATING, AND USING EVIDENCE FOR SURGICAL PRACTICECHAPTER 51Table 51-3Decisions regarding the null hypothesisTABLE OF ERROR TYPES NULL HYPOTHESIS (H0) ISTRUEFALSEDecision about null hypothesis (H0) RejectType I error (false positive)Correct inference (true positive)Fail to rejectCorrect inference (true negative)Type II error (false negative)regarding surgery. Novel surgical procedures have defined learning curves even for the most experienced surgeons. During this learning process, surgeon inexperience,
+
+How do processing fluency effects impact recruitment and intervention strategies, especially regarding the content and presentation of information sheets?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

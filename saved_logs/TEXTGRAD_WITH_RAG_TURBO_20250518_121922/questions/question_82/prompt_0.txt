@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Left Ventricular False Aneurysm -- Differential Diagnosis): Left ventricular true aneurysms merit consideration as this can mimic false aneurysms (see Image. Left Ventricular Aneurysm, Ultrasound). This is a relatively frequent complication compared to false aneurysms and occurs in 10% to 35% of patients following myocardial infarction. [17] Differentiating can often be difficult pre-operatively. Unlike a false aneurysm, a true aneurysm contains all 3 layers of the myocardial wall. A true aneurysm is an abnormal left ventricular diastolic contour with systolic dyskinesia or paradoxical bulging, leading to decreased ejection fraction. True aneurysms tend to be on the anterior or apical segments, whereas false aneurysms are more common posteriorly. [9] True aneurysms are generally non-contractile and have a thinned myocardium. Upon evaluation, the neck of the true aneurysm was not seen to be narrower than the size of the cavity. These patients have a much lower risk of rupture than false aneurysms and thus can be managed medically or surgically. [18] Patients with symptoms of angina, arrhythmias, or heart failure benefit from surgical repair. During surgery, true aneurysms can be seen to collapse fully during left ventricular decompression.
+Document 2 (Title: Clinical features and outcome in 68 cases of aneurysmal subarachnoid hemorrhage without aneurysm repair--a community hospital study.): The authors studied the clinical features and outcome at 6 months in 191 patients with subarachnoid hemorrhage (SAH) from ruptured aneurysms. Aneurysm repair (AR) was undertaken in 123 cases (64.4%). In the non-AR group (n = 68), 48.5% of the patients were 70 years of age or older, compared with 12.2% in the AR group. The duration from onset to admission was less than 3 hours in 48 non-AR cases (70.6%) and in 42 AR cases (34.1%). Among non-AR patients, 63.2% were Hunt and Hess grade IV or V, whereas the figure for AR patients was only 14.7%. By 6 months after SAH, 94.1% of non-AR patients had died, and the remainder were vegetative or severely disabled. In contrast, only 15.4% in the AR group died, and over 50% showed good recovery. The large majority of non-AR patients were treated conservatively because they were judged to be poor surgical risks and, among these patients, nearly one half were elderly. In the 10 elderly patients considered good surgical candidates, vasospasm was the most common reason (70%) for not performing AR.
+Document 3 (Title: Intracranial aneurysm): Subarachnoid bleed If an aneurysm ruptures, blood leaks into the space around the brain. This is called a subarachnoid hemorrhage. Onset is usually sudden without prodrome, classically presenting as a "thunderclap headache" worse than previous headaches. Symptoms of a subarachnoid hemorrhage differ depending on the site and size of the aneurysm. Symptoms of a ruptured aneurysm can include: a sudden severe headache that can last from several hours to days nausea and vomiting drowsiness, confusion and/or loss of consciousness visual abnormalities meningism dizziness Almost all aneurysms rupture at their apex. This leads to hemorrhage in the subarachnoid space and sometimes in brain parenchyma. Minor leakage from aneurysm may precede rupture, causing warning headaches. About 60% of patients die immediately after rupture. Larger aneurysms have a greater tendency to rupture, though most ruptured aneurysms are less than 10 mm in diameter.
+
+Is performing aneurysm repair on patients aged 80 or older justified following an aneurysmal subarachnoid hemorrhage?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

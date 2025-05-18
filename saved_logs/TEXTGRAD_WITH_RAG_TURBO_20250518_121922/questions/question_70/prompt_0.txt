@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: First_Aid_Step1): Accuracy (validity) The closeness of test results to the true values. Systematic error  accuracy in a test. The absence of systematic error or bias in a test. ROC curve demonstrates how well a diagnostic 1 test can distinguish between 2 groups (eg, disease vs healthy). Plots the true-positive rate (sensitivity) against the false-positive rate (1 – specificity). The better performing test will have a higher area under the curve (AUC), with the curve closer to the upper left corner. No predictive value (AUC = 0.5)TP rate (sensitivity) FP rate (1 – specifcity) 1 A ctual test (0.5 < AU C < 1 ) Selection bias Nonrandom sampling or treatment allocation of subjects such that study population is not representative of target population. Most commonly a sampling bias. Berkson bias—cases and/ or controls selected from hospitals are less healthy and have different exposures than general population
+Document 2 (Title: Emergency Preparedness -- Definition/Introduction): External disasters occur at locations separate from the hospital, such as transportation incidents or industrial accidents. Disasters can be both internal and external disasters concomitantly, such as natural disasters that cause mass casualties as well as damage hospital structure. Disasters can be acute or ongoing. Acute disasters have a general time of onset of the time of an event occurring. Acute disasters have a typical patient flow, which produces numerous low acuity patients presenting to the hospital, overwhelming the surge capacity, or the number of patients the facility can care for presenting at a single time. This surge event is followed by the majority of patients presenting by personal transport and later EMS or prehospital transport of the critically ill. Peak volumes in acute disasters are expected at two to three hours post-event. Evolving disasters such as infectious pandemics have a gradual progression to critical populations, but volumes and resource strain remain for extended periods. Disaster types can further subdivide into categories such as natural disasters, chemical disasters, and bioterrorism; each subdivision produces a specific injury or exposure profile and individual strain on resources that can guide emergency preparedness planning and response.
+Document 3 (Title: Modern war surgery: operations in an evacuation hospital during the October 1973 Arab-Israeli war.): A forward evacuation hospital functioned in the southern front in October 1973 Israeli-Arab War as an intermediate unit in the Israeli casualty management logistics. Casualties were characterized by frequent multiple-system injuries and variable combinations of penetrating wounds, blunt trauma, burns, and inhalation injury, with an increased incidence of associated blunt trauma. As the result of the systems organization, the EH was able to provide the wounded with early intensive and definitive resuscitation therapy which permitted further evacuation of the casualties to the central hospitals in a better state of physiological stability. In the most critically wounded when there was imminent threat to survival, operations were performed at the EH as an integral part of the resuscitation process. Performance of operations in a forward evacuation hospital did not increase the number or severity of postoperative complications. Morbidity and mortality were related to the nature and magnitude of injury.
+
+How can Israeli hospitals enhance their preparedness for terrorism-related incidents by better predicting surge capacity needs and injury severity distributions?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

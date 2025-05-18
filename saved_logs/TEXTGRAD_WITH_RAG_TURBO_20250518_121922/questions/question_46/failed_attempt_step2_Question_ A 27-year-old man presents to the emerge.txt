@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 27-year-old man presents to the emergency room with persistent fever, nausea, and vomiting for the past 3 days. While waiting to be seen, he quickly becomes disoriented and agitated. Upon examination, he has visible signs of difficulty breathing with copious oral secretions and generalized muscle twitching. The patient’s temperature is 104°F (40°C), blood pressure is 90/64 mmHg, pulse is 88/min, and respirations are 18/min with an oxygen saturation of 90% on room air. When the nurse tries to place a nasal cannula, the patient becomes fearful and combative. The patient is sedated and placed on mechanical ventilation. Which of the following is a risk factor for the patient’s most likely diagnosis?
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 27-year-old man arrives at the emergency room with symptoms that suggest a specific diagnosis. Based on his clinical presentation and medical history, what known risk factor could contribute to his most likely diagnosis?
+
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect answer: The answer does not address the prompt's requirement to identify a risk factor related to the most likely diagnosis, and the prompt could be improved by specifying the symptoms and medical history to guide the selection of the correct risk factor.
+
+== Improved Full Prompt ==
+A 27-year-old man presents at the emergency department with acute symptoms of chest pain, shortness of breath, and dizziness. Considering his age, lifestyle, and medical history, determine which specific risk factor could most likely lead to his current condition. Provide a comprehensive explanation of how this risk factor correlates with his symptoms.
+
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

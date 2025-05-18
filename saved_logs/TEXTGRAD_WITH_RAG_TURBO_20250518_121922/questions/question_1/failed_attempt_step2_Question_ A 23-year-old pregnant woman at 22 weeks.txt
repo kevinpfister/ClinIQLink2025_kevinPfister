@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 23-year-old pregnant woman at 22 weeks gestation presents with burning upon urination. She states it started 1 day ago and has been worsening despite drinking more water and taking cranberry extract. She otherwise feels well and is followed by a doctor for her pregnancy. Her temperature is 97.7°F (36.5°C), blood pressure is 122/77 mmHg, pulse is 80/min, respirations are 19/min, and oxygen saturation is 98% on room air. Physical exam is notable for an absence of costovertebral angle tenderness and a gravid uterus. Which of the following is the best treatment for this patient?
+Options:
+A. Ampicillin
+B. Ceftriaxone
+C. Doxycycline
+D. Nitrofurantoin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 23-year-old pregnant woman at 22 weeks gestation presents with specific symptoms. Considering her condition and gestational age, what is the most appropriate treatment to ensure the wellbeing of both the mother and the fetus?
+
+Options:
+A. Ampicillin
+B. Ceftriaxone
+C. Doxycycline
+D. Nitrofurantoin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Incorrect answer: The answer should be "A" (Ampicillin) for a pregnant woman with a urinary tract infection, and the prompt should specify the symptoms to guide the treatment choice.
+
+== Improved Full Prompt ==
+Please provide a comprehensive assessment plan for a 23-year-old pregnant woman at 22 weeks gestation, addressing both her health and that of the fetus. Consider medical history, current symptoms, and any necessary interventions to ensure the wellbeing of both.
+
+Options:
+A. Ampicillin
+B. Ceftriaxone
+C. Doxycycline
+D. Nitrofurantoin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

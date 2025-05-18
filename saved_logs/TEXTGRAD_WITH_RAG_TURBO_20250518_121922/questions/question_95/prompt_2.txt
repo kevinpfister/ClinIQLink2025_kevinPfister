@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Health-insurance products and plan options.): Trends in health insurance are discussed, with emphasis on insurers' efforts to offer an array of cost-effective plans tailored to the needs of employers and subscribers. Health-insurance companies, responding to employers' demands to curtail the rising costs of premiums, now offer a variety of insurance products. While indemnity plans, health maintenance organizations (HMOs), and preferred-provider organizations (PPOs) remain as the three basic types of plans, insurers are combining these elements in different ways, creating dual- and triple-option plans that consist of indemnity insurance and an HMO, a PPO and an HMO, or other variations. Insurers offering multiple options may effect internal cost savings through shared personnel and administrative expenses. Four factors influence the development and marketing of insurance products: cost and volume of healthcare services, adverse selection, competition, and the profit incentive. Many of the insurance products have been developed in response to requests for maximum freedom of choice of provider; as an example, the fastest-growing HMO product in 1989 was the point-of-service HMO, which allows the subscriber to seek care from a provider who is not part of the HMO network. PPOs and exclusive-provider organizations (EPOs) are growing; these are often organized by hospitals or physician networks. Among the new trends in product-line development are "riders" for specialty services such as vision care and prescription drugs. As competition intensifies, marketing efforts are focusing on previously overlooked groups such as the small employer and certain ethnic communities. Cost and freedom of choice will remain important criteria in the selection of insurance products.(ABSTRACT TRUNCATED AT 250 WORDS)
+Document 2 (Title: InternalMed_Harrison): Service Delivery Reforms to Make Health Systems People-Centered Health systems have often been organized around the needs of those who provide health care services, such as clinicians and policymakers. The result is a centralization of services or the provision of vertical programs that target single diseases. The principles of primary health Extend to uninsured Depth: which benefits Height: what proportion of the costs is covered? Public expenditure on health are covered? Breadth: who is insured? FIGURE 13e-7 Three ways of moving toward universal coverage. care, including the development of primary care, reorient care around 13e-5 the needs of the people to whom services cater. This “people-centered” approach aims to provide health care that is both more effective and appropriate.
+Document 3 (Title: Health insurance in the United States): Health Maintenance Organizations A health maintenance organization (HMO) is a type of managed care organization (MCO) that provides a form of health care coverage that is fulfilled through hospitals, doctors, and other providers with which the HMO has a contract. The Health Maintenance Organization Act of 1973 required employers with 25 or more employees to offer federally certified HMO options. Unlike traditional indemnity insurance, an HMO covers only care rendered by those doctors and other professionals who have agreed to treat patients in accordance with the HMO's guidelines and restrictions in exchange for a steady stream of customers. Benefits are provided through a network of providers. Providers may be employees of the HMO ("staff model"), employees of a provider group that has contracted with the HMO ("group model"), or members of an independent practice association ("IPA model"). HMOs may also use a combination of these approaches ("network model"). Managed care
+
+How do provider service networks influence the cost-effectiveness of programs compared to health maintenance organizations (HMOs) and primary care case management models?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

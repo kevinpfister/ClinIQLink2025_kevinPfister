@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Federally Qualified Health Center): In June 2011, the Department of Health and Human Services announced the Federally Qualified Health Center Advanced Primary Care Practice (FQHC APCP) demonstration project. This demonstration project is conducted under the authority of Section 1115A of the Social Security Act, which was added by section 3021 of the ACA and establishes the Center for Medicare and Medicaid Innovation (Innovation Center). The CMS and Innovation Center in partnership with HRSA will operate the demonstration. This initiative was designed to evaluate the impact of the advanced primary care practice (APCP) model, also referred to as the patient-centered medical home (PCMH) on improving health, quality of care and lowering the cost of care provided to Medicare beneficiaries. The ACA will pay an estimated $42 million over three years (November 1, 2011 to October 31, 2014) to 500 FQHCs to coordinate care for 195,000 Medicare patients. Participating FQHCs agree to adopt care coordination practices set by the
+Document 2 (Title: Change Management In Health Care -- Issues of Concern): Rogers' change theory highlights the varying rates at which staff members adopt changes through innovation diffusion. During pre-change planning, change agents should assess their team to identify which category each staff member falls into. Rogers classified these groups as innovators, early adopters, early majority, late majority, and laggards. [4] He further defined these change acceptance categories as follows: Innovator: Enthusiastic about change and technology; often suggests new ideas for departmental improvements. Early adopter: Highly influential within the department; respected by peers for their leadership. Early majority: Prefer the status quo but follows early adopters once changes are announced. Late majority: Skeptical of change but accepts it once most others have; influenced by growing social pressure within the department. Laggard: Extremely skeptical; openly resists change. [4]
+Document 3 (Title: InternalMed_Harrison): By illuminating the genetic information that encodes the most fundamental processes of life, genomic technologies are transforming many aspects of medicine. In infectious diseases, methods such as next-generation sequencing and genome-scale expression analysis offer information of unprecedented depth about individual microbes as well as microbial communities. This information is expanding our understanding of the interactions of these microorganisms and communities with one another, with their human hosts, and with the environment. Despite significant progress and the abundant genomic data now available, technological and financial barriers continue to impede the widespread adoption of large-scale pathogen sequencing in clinical, public health, and research settings. As even vaster amounts of data are generated, innovations in storage, development of bioinformatics tools to manipulate the data, standardization of methods, and training of end-users in both the research and clinical
+
+What factors influence the adoption of information technology innovations in general practice within primary care settings?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

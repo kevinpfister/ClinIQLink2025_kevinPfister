@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Cefotiam): Cefotiam is a parenteral second-generation cephalosporin antibiotic. It has broad-spectrum activity against Gram-positive and Gram-negative bacteria. As a beta-lactam, its bactericidal activity results from the inhibition of cell wall synthesis via affinity for penicillin-binding proteins. It was patented in 1973 and approved for medical use in 1981. Medical uses This drug is indicated for prophylaxis for surgical infection, postoperative infections, bacterial septicaemia, bone and joint infections, cholangitis, cholecystitis, peritonitis, prostatitis, pyelonephritis, respiratory tract infections, skin and soft tissue infections, cystitis, urethritis, and infections caused by susceptible organisms. It does not have activity against Pseudomonas aeruginosa. Dosage For adults, the dose is up to 6 grams daily by intravenous or intramuscular route in divided doses according to severity of infection. In patients with renal impairment a dose reduction may be needed.
+Document 2 (Title: Cephalosporins -- Administration -- Available Dosage Forms, Strengths, and Adult Dosages): First-generation: Cefazolin, cephalothin, and cephapirin are administered parenterally. The administration route for cefadroxil and cephalexin is oral. Cephradine administration can be parenteral or oral. Second-generation: Cefuroxime can be administered parenterally or orally. Cefprozil is administered orally. Cefmetazole, cefotetan, and cefoxitin are administered parenterally. Third-generation: Cefotaxime, ceftazidime, and ceftriaxone administration via the parenteral route. Cefdinir, cefixime, and cefpodoxime are administered orally. A single intramuscular shot of 125 or 250 mg of ceftriaxone effectively treats uncomplicated gonococcal infection or its complications, such as pelvic inflammatory disease or epididymo-orchitis. [23] [24] [25] Fourth-generation: Cefepime is administered parenterally. Fifth-generation: Ceftaroline is administered parenterally. Cefiderocol: Cefiderocol is administered parenterally. [13]
+Document 3 (Title: InternalMed_Harrison): cephalosporins are characterized by greater potency against gram-negative bacilli and reduced potency against gram-positive cocci. These cephalosporins, which include cefoperazone, cefotaxime, ceftazidime, ceftriaxone, cefdinir, cefixime, and cefpodoxime, are used for infections caused by Enterobacteriaceae, although resistance is an increasing concern. It is noteworthy that ceftazidime is the only third-generation cephalosporin with activity against P. aeruginosa but lacks activity against gram-positive bacteria. This drug is frequently used for pulmonary infections in cystic fibrosis and febrile neutropenia. Ceftriaxone penetrates the CSF and can be used to treat meningitis caused by H. influenzae, N. meningitidis, and susceptible strains of S. pneumoniae. It is also used for the treatment of later-stage Lyme disease. The fourth generation includes cefepime and cefpirome, broad-coverage agents that provide potent activity against both gram-negative bacilli, including P. aeruginosa,
+
+Please identify the correct statements related to ceftriaxone (ROCEPHINE®):
+
+Options:
+1. It is a third-generation cephalosporin
+2. It is usually effective in infections with Gram-negative bacilli
+3. Its significant elimination half-life is compatible with a single daily administration
+4. It has poor bioavailability via intramuscular route
+5. It is used in outpatient settings for severe infections
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

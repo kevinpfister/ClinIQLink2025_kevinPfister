@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Paget-Schroetter Syndrome -- Treatment / Management): PSS is a deep venous thrombosis, and, as such, the first step in the management is to initiate anticoagulation therapy, typically, via an intravenous (IV) heparin drip. Patients are given an initial bolus of intravenous (IV) heparin and then kept on a maintenance IV heparin drip. The dose of the bolus and maintenance heparin drip is weight-based. The IV heparin drip is titrated according to APTT levels or factor X levels. The affected extremity should be elevated to mitigate edema. If the patient presents within 2 weeks of the onset of symptoms, it is reasonable to consider a venogram and catheter-directed thrombolysis to reduce the clot burden. Under fluoroscopic guidance, a lysis catheter is placed to drip a thrombolytic agent such as alteplase for 24 to 48 hours. Alternatively, a pharmacomechanical thrombectomy system can be used. When using alteplase, the fibrinogen levels should be monitored closely to direct the dosing and duration of the catheter-directed lysis. When using pharmacomechanical thrombectomy, one should be mindful of the risk of acute kidney injury associated with hemolysis. If the presentation is more than 2 to 4 weeks from the onset of symptoms, heparinization alone may be initiated without thrombolytic therapy as the success of thrombolytic therapy is low beyond that window of time. [10] [11] [12]
+Document 2 (Title: Biochemistry_Lippinco): .5. A 67-year-old man presented to the emergency department with a 1-week history of angina and shortness of breath. He complained that his face and extremities had taken on a blue color. His medical history included chronic stable angina treated with isosorbide dinitrate and nitroglycerin. Blood obtained for analysis was brown. Which one of the following is the most likely diagnosis? A. Carboxyhemoglobinemia B. Hemoglobin SC disease C. Methemoglobinemia D. Sickle cell anemia E. β-Thalassemia
+Document 3 (Title: Anterior cerebral artery syndrome): For the patients that present within the therapeutic window, the decision to treat with intravenous recombinant tissue plasminogen (less than 4.5 hours from symptom onset) or endovascular treatment with mechanical thrombectomy should be made. Initiation of IV alteplase treatment in the 3 to 4.5-hour window is the current recommendation for patients less than 80 years of age, no history of both diabetes mellitus and prior stroke, use of anticoagulants, and NIHSS score of less than 25. Only patients with disabling symptoms are considered eligible for thrombolytic treatment. Eligibility and absolute and relative contraindications should undergo rapid assessment. Randomized controlled trials have shown that intravenous administration of recombinant tissue plasminogen activator (alteplase) decrease functional disability with an absolute reduction risk of 7%-13% relative to placebo.[21]
+
+A 68-year-old man arrives at the emergency department with symptoms suggestive of acute coronary syndrome. Considering his medical history, current medications, and initial assessment, determine the most appropriate next step in his management.
+
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3°F (37.4°C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient’s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management?
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 68-year-old man arrives at the emergency department with symptoms suggestive of acute coronary syndrome. Considering his medical history, current medications, and initial assessment, determine the most appropriate next step in his management.
+
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "B"
+}
+
+== Feedback ==
+Incorrect answer: The answer does not consider the patient's full clinical context, and the prompt should specify more details about the patient's medical history and current medications to guide the decision.
+
+== Improved Full Prompt ==
+Consider a 68-year-old man who arrives at the emergency department with acute symptoms of chest pain, shortness of breath, and dizziness. Conduct a thorough clinical examination and diagnostic testing to swiftly assess the situation and determine the most appropriate and immediate next step in his management plan.
+
+Options:
+A. Graded exercise and aspirin
+B. Heparin drip
+C. Surgical thrombectomy
+D. Tissue plasminogen activator
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

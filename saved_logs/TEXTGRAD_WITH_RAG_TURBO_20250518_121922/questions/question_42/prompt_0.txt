@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pediatrics_Nelson): VACTERL association† VSD (vertebral, anal, cardiac, tracheoesophageal, radial, renal, limb anomalies) Marfan syndrome Dilated and dissecting aorta, aortic valve regurgitation, mitral valve prolapse William syndrome Supravalvular aortic stenosis, peripheral pulmonary stenosis Infant of diabetic mother Hypertrophic cardiomyopathy, VSD, conotruncal anomalies Asplenia syndrome Complex cyanotic heart lesions, anomalous pulmonary venous return, dextrocardia, single ventricle, single AV valve Polysplenia syndrome Azygos continuation of inferior vena cava, pulmonary atresia, dextrocardia, single ventricle Fetal alcohol syndrome VSD, ASD Fetal hydantoin syndrome TGA, VSD, TOF ASD, Atrial septal defect; AV, atrioventricular; PDA, patent ductus arteriosus; PS, pulmonic stenosis; TGA, transposition of great arteries; TOF, tetralogy of Fallot; VSD, ventricular septal defect. *Conotruncal—tetralogy of Fallot, pulmonary atresia, truncus arteriosus, transposition of great arteries.
+Document 2 (Title: Alagille syndrome): Heart Common signs of Alagille syndrome include congenital heart problems varying from heart murmurs to significant structural abnormalities, such as Tetralogy of Fallot. Pulmonary Stenosis, overriding aorta, ventricular septal defect, and right ventricular hypertrophy are common amongst Alagille patients. Patients may also present with Ventricular septal defect, Atrial septal defect, Patent ductus arteriosus, and Coarctation of the aorta. The mortality rate of Tetralogy of Fallot when untreated ranges from 70% by age 10 to 95% by age 40. However, complete surgical repair can significantly improve both longevity and quality of life in patients with Alagille syndrome.
+Document 3 (Title: Infective endocarditis complicating congenital heart disease.): The pathological alterations in 34 patients with infective endocarditis complicating congenital heart defects were studied. The overall incidence of infective endocarditis in patients with major congenital cardiac defects was 4,7%. Most patients were under 31 years of age and males predominated. The infection was associated with Fallot's tetralogy in 10 patients (17%), ventricular septal defect in 7 (4%), bicuspid aortic valve in 7 (16%), coarctation of the aorta in 6 (8%), atrial septal defects in 2 (1%), and patent ductus arteriosus and pulmonary artery branch stenosis in 1 patient each. The causative micro-organisms were successfully cultured from only 29% of patients. Fourteen of the 34 patients had infection of an associated 'jet' lesion. Patients with isolated ventricular septal defect showed tricuspid valve endocarditis more commonly than did patients with Fallot's tetralogy. The infection had been missed clinically in 34,8% of patients, 50% of whom were aged 3 years or younger.
+
+A male newborn is being examined by a pediatrician. Considering the potential complications and common congenital conditions associated with this scenario, which developmental defect is most likely to be observed in this neonate?
+
+Options:
+A. Atrial septal defect
+B. Ventricular septal defect
+C. Tetralogy of Fallot
+D. Patent ductus arteriosus
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

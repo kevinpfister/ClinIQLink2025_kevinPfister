@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: An investigator is studying the function of the lateral nucleus of the hypothalamus in an experimental animal. Using a viral vector, the genes encoding chloride-conducting channelrhodopsins are injected into this nucleus. Photostimulation of the channels causes complete inhibition of action potential generation. Persistent photostimulation is most likely to result in which of the following abnormalities in these animals?
+Options:
+A. Hypothermia
+B. Hyperthermia
+C. Polydipsia
+D. Anorexia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+When studying lateral function in animals, what potential abnormalities should an investigator be aware of and monitor for during the research?
+
+Options:
+A. Hypothermia
+B. Hyperthermia
+C. Polydipsia
+D. Anorexia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "A"}
+
+== Feedback ==
+Incorrect answer: The prompt should specify which abnormalities are directly related to lateral function in animals to guide the selection of the correct answer.
+
+== Improved Full Prompt ==
+What potential abnormalities should researchers monitor for when investigating lateral function in animals, and how can they proactively address these issues during the study?
+
+Options:
+A. Hypothermia
+B. Hyperthermia
+C. Polydipsia
+D. Anorexia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Is it appropriate to implant kidneys from elderly donors in young recipients?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Is it suitable and beneficial to transplant kidneys from older donors into younger recipients, considering medical, ethical, and longevity perspectives?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "False"}
+
+== Feedback ==
+Incorrect answer: The prompt should clarify the criteria for determining the suitability and benefits of kidney transplants from older donors to younger recipients to ensure a more informed response.
+
+== Improved Full Prompt ==
+Evaluate the suitability and benefits of transplanting kidneys from older donors into younger recipients, addressing medical outcomes, ethical considerations, and implications for longevity.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Viral hepatitis): Hepatitis C is the most common chronic blood-borne infection in the United States. Hepatitis D Hepatitis D is caused by the hepatitis D virus (HDV), or hepatitis delta virus; it belongs to the genus Deltavirus. It is similar to a satellite virus as it can only propagate in the presence of the hepatitis B virus, depending on the helper function of HBV for its replication and expression. It has no independent life cycle, but can survive and replicate as long as HBV infection persists in the host body. It can only cause infection when encapsulated by hepatitis B virus surface antigens. The vaccine for hepatitis B protects against hepatitis D virus because of the latter's dependence on the presence of hepatitis B virus for it to replicate. Hepatitis E
+Document 2 (Title: [Non-A non-B acute hepatitis].): Two distinct forms of non A non B viral hepatitis are now distinguished: (a) parenterally transmitted non A non B hepatitis, mainly due to hepatitis C virus, (b) enterically transmitted non A non B hepatitis, mainly due to hepatitis E virus. Hepatitis C virus is an enveloped, 50 to 60 nm in diameter, single stranded RNA virus. Its transmission is essentially parenteral and resembles that of hepatitis B virus. Individuals at risk are those in contact with blood products. Sexual transmission is uncommon. C virus hepatitis is characterized by a frequent course to chronic hepatitis, cirrhosis and hepatocellular carcinoma. Fulminant hepatitis is rare. Chronic forms are associated with the presence of anti-HCV antibodies in the serum. These antibodies are rarely present in the acute stage of the disease. Hepatitis E virus is a non-enveloped, 30 nm in diameter, single stranded RNA virus. Its transmission is faecal-oral, thus similar to that of hepatitis A virus. The disease is almost exclusively encountered in developing countries. It is not observed in France, apart from imported cases. Like A virus hepatitis, chronicity never occurs. Fulminant hepatitis is possible in pregnant women in the third trimester of pregnancy. There is no routine serological test. Development of vaccines against these two viruses can be expected.
+Document 3 (Title: Viral Hepatitis -- Evaluation -- Chronic Hepatitis B infection): Patients who receive a vaccine for the hepatitis B virus develop protective anti-HBs as a response to recombinant HBsAg in the vaccine. There are no hepatitis B virus DNA or other hepatitis B virus-associated proteins in the vaccine. Therefore, patients who receive the vaccine are not positive for anti-HBc unless they have a previous infection with the hepatitis B virus. [32]
+
+Please identify the accurate statement(s) regarding the hepatitis B virus:
+
+Options:
+1. It can be responsible for nosocomial infections
+2. It can be involved in chronic hepatitis
+3. It is an RNA virus
+4. It can be responsible for fulminant hepatitis
+5. The vaccine used in France against this virus is a live attenuated vaccine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

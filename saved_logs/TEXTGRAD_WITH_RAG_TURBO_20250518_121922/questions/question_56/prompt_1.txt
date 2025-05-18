@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Double-balloon enteroscopy): The double-balloon enteroscope can also be passed in retrograde fashion, through the colon and into the ileum to visualize the end of the small bowel. Indications Double-balloon enteroscopy has found a niche application in the following settings: Bleeding from the gastrointestinal tract of obscure cause Iron deficiency anemia with normal colonoscopy and gastroscopy Visualization and therapeutic intervention on abnormalities seen on traditional small bowel imaging Endoscopic retrograde cholangiopancreatography (ERCP) in post-surgical patients with long afferent limbs Advantages and disadvantages
+Document 2 (Title: Roux-en-Y Gastric Bypass Chronic Complications -- Issues of Concern -- Choledocholithiasis): Patients may present with stones in the common bile duct and resultant cholangitis or pancreatitis. A useful diagnostic tool would be MRCP in this setting. The usual treatment, conventional ERCP, is not feasible since the duodenum is excluded and connected to the remnant stomach. Options in this situation are double-balloon enteroscopy, laparoscopic-assisted ERCP with a remnant stomach gastrostomy, percutaneous transhepatic cholangiography, and open common bile duct exploration. [8]
+Document 3 (Title: InternalMed_Harrison): the extent of a previous surgical resection. Other imaging studies that assess the integrity of small-intestinal morphology are CT enterography and magnetic resonance enterography. Capsule endoscopy and double-balloon enteroscopy are other useful aids in the diagnostic assessment of small-intestinal pathology.
+
+Assess the effectiveness and safety of double balloon enteroscopy in community healthcare settings.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

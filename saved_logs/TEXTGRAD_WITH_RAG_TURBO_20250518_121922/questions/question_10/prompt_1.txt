@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Desonide): Side effects of desonide requiring immediate contact with the prescribing physician: Blistering, burning, crusting, dryness, or flaking of the skin burning, itching, redness, skin rash, swelling, or soreness at the application site flushing or redness of the skin irritation itching, scaling, severe redness, soreness, or swelling of the skin peeling of the skin raised, dark red, wart-like spots on the skin, especially when used on the face stinging and burning unusually warm skin Side effects that may go away as the body adjusts to the medication: Body aches or pain chills cough difficulty with breathing ear congestion fever headache loss of voice nasal congestion runny nose sneezing sore throat unusual tiredness or weakness Pregnancy The FDA has labeled desonide as pregnancy category C. Desonide should only be used during pregnancy when absolutely necessary.
+Document 2 (Title: Case Study: 26-Year-Old Male Presenting With New Onset Seizure and History of PTSD (Archived) -- Case Presentation): A 26-year-old male with a history of post-traumatic stress disorder (PTSD) and previous suicide attempts intentionally ingested 90 tablets of an unknown substance. His wife found him and called EMS. He had several witnessed tonic-clonic seizures and also vomited en route to the emergency department (ED). He was endotracheally intubated. Despite standard treatment with benzodiazepines and a propofol infusion, he continued to seize and was transitioned to a midazolam infusion. His seizures ceased. He also required dexmedetomidine for additional sedation and persistent tachycardia. Per the patient's wife, the patient was not taking any prescribed medications and did not have any recent injuries or infections.
+Document 3 (Title: Pharmacology_Katzung): A 65-year-old man is referred to you from his primary care physician (PCP) for evaluation and management of pos-sible osteoporosis. He saw his PCP for evaluation of low back pain. X-rays of the spine showed some degenerative changes in the lumbar spine plus several wedge deformities in the thoracic spine. The patient is a long-time smoker (up to two packs per day) and has two to four glasses of wine with dinner, more on the weekends. He has chronic bronchitis, presumably from smoking, and has been treated on numerous occasions with oral prednisone for exacerba-tions of bronchitis. He is currently on 10 mg/d prednisone. Examination shows kyphosis of the thoracic spine, with some tenderness to fist percussion over the thoracic spine. The dual-energy x-ray absorptiometry (DEXA) measure-ment of the lumbar spine is “within the normal limits,” but the radiologist noted that the reading may be misleading because of degenerative changes. The hip measurement shows a T score (number of standard
+
+A 35-year-old male visits his primary care physician to discuss the prolonged use of medication he has been taking. Could you provide information on any possible risks or side effects that might be associated with long-term use of these medications?
+
+Options:
+A. Epistaxis
+B. Permanent loss of smell
+C. Persistent nasal crusting
+D. Persistent congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

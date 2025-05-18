@@ -1,0 +1,43 @@
+== Original Prompt ==
+Question: A 62-year-old woman presents for a regular check-up. She complains of lightheadedness and palpitations which occur episodically. Past medical history is significant for a myocardial infarction 6 months ago and NYHA class II chronic heart failure. She also was diagnosed with grade I arterial hypertension 4 years ago. Current medications are aspirin 81 mg, atorvastatin 10 mg, enalapril 10 mg, and metoprolol 200 mg daily. Her vital signs are a blood pressure of 135/90 mm Hg, a heart rate of 125/min, a respiratory rate of 14/min, and a temperature of 36.5°C (97.7°F). Cardiopulmonary examination is significant for irregular heart rhythm and decreased S1 intensity. ECG is obtained and is shown in the picture (see image). Echocardiography shows a left ventricular ejection fraction of 39%. Which of the following drugs is the best choice for rate control in this patient?
+Options:
+A. Atenolol
+B. Diltiazem
+C. Propafenone
+D. Digoxin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 62-year-old woman is here for her routine check-up. Based on her current health condition and any existing medications she may be taking, what is the most suitable medication for controlling her heart rate?
+
+Options:
+A. Atenolol
+B. Diltiazem
+C. Propafenone
+D. Digoxin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{"answer_choice": "B"}
+
+== Feedback ==
+Incorrect answer: The prompt lacks specific health details and medication history needed to determine the most suitable medication, leading to an arbitrary choice.
+
+== Improved Full Prompt ==
+A 62-year-old woman is here for her routine check-up. Based on her medical history and current symptoms, what is the most suitable medication for controlling her heart rate?
+
+Options:
+A. Atenolol
+B. Diltiazem
+C. Propafenone
+D. Digoxin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

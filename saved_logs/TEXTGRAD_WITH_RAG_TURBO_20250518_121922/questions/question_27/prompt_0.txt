@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Peripheral Precocious Puberty -- Etiology -- Ovarian tumors): Ovarian tumors such as granulosa cell tumors, Sertoli/Leydig cell tumors, Leydig cell tumors, and gonadoblastoma can all result in precocious puberty. Granulosa cell tumor is the most common sex cord tumor in girls and is associated with excess estrogen production, which can lead to isosexual precocious puberty. On the other hand, gonadoblastoma, Leydig cell tumors, and Sertoli/Leydig tumors lead to excess androgen production and can present with contrasexual precocious puberty. [3] [2]
+Document 2 (Title: McCune–Albright syndrome): Precocious puberty: The most common endocrinopathy is precocious puberty, which presents in girls (~85%) with recurrent estrogen-producing cysts leading to episodic breast development, growth acceleration, and vaginal bleeding. Precocious puberty may also occur in boys with McCune–Albright syndrome, but is much less common (~10–15%). In children of both sexes, growth acceleration may lead to tall stature in childhood, however premature bone maturation may lead to early growth plate fusion and short stature in adulthood. Testicular abnormalities: Testicular abnormalities are seen in a majority (~85%) of boys with McCune–Albright syndrome. These typically present with macro-orchidism. On pathology lesions show Leydig and Sertoli cell hyperplasia. Hyperthyroidism: Hyperthyroidism occurs in approximately one-third of patients with McCune Albright syndrome. Patients have characteristic abnormalities on thyroid ultrasound, and may have a slight increased risk for thyroid cancer.
+Document 3 (Title: First_Aid_Step1): Central precocious puberty ( GnRH secretion): idiopathic (most common; early activation of hypothalamic-pituitary gonadal axis), CNS tumors. Peripheral precocious puberty (GnRH-independent;  sex hormone production or exposure to exogenous sex steroids): congenital adrenal hyperplasia, estrogen-secreting ovarian tumor (eg, granulosa cell tumor), Leydig cell tumor, McCune-Albright syndrome. Sex chromosome Aneuploidy most commonly due to meiotic nondisjunction. disorders Klinefelter syndrome Male, 47,XXY. Dysgenesis of seminiferous tubules Testicular atrophy, eunuchoid body shape,  inhibin B  FSH. tall, long extremities, gynecomastia, female Abnormal Leydig cell function  testosterone A . May present with  LH  estrogen. developmental delay. Presence of inactivated X chromosome (Barr body). Common cause of hypogonadism seen in infertility work-up.
+
+A 5-year-old girl is brought to the clinic by her parents due to early signs of puberty. Physical examination reveals breast development, and lab tests indicate an elevated level of estrogen. What is the most likely diagnosis?
+
+Options:
+A. Granulosa cell tumor
+B. Idiopathic precocious puberty
+C. McCune-Albright syndrome
+D. Sertoli-Leydig tumor
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

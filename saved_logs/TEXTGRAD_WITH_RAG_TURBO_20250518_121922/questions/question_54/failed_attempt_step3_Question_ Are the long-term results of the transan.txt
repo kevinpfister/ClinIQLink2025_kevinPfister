@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Are the long-term results of the transanal pull-through equal to those of the transabdominal pull-through?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Could you analyze and compare the long-term outcomes, including statistical data and patient quality of life, of transanal pull-through versus transabdominal pull-through procedures in pediatric patients?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect answer: The prompt requires a detailed analysis and comparison, not a true/false response; the prompt should be revised to ask a question that can be answered with true or false.
+
+== Improved Full Prompt ==
+Please provide a detailed analysis and comparison of the long-term outcomes, including statistical data, of transanal pull-through versus transabdominal pull-through procedures for pediatric patients. Consider factors such as recovery time, complications, and quality of life improvements.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

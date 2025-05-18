@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Inflammatory breast cancer): Treatment The standard treatment for newly diagnosed inflammatory breast cancer is to receive systemic therapy prior to surgery, followed by the radiation therapy. Achieving "no disease [pathological complete response (pCR)]" in the surgical samples gives the best prognosis. Surgery is modified radical mastectomy. Lumpectomy, segmentectomy, or skin sparing mastectomy are not recommended. Immediate reconstructive surgery is not recommended. Immediate,"upfront" surgery is contraindicated, as results are better using neoadjuvant chemotherapy first. Contralateral prophylactic mastectomy is not recommended because it can delay the other systemic adjuvant treatment or adjuvant radiation therapy. After surgery, all cases are recommended for radiation therapy unless it is contraindicated.
+Document 2 (Title: Breast Reconstruction -- Indications): Delayed reconstruction is when a patient has a planned mastectomy, then returns to the operating room a second time to perform the reconstructive portion of the procedure. This option is available for patients who may not have decided whether to have breast reconstruction or require adjuvant radiation therapy to optimize outcomes. Breast restoration utilizing alloplastic implants is discussed in a subsequent article and remains an option for many patients in immediate and delayed scenarios. [9] [10]
+Document 3 (Title: The impact of adjuvant radiotherapy and cytotoxic chemotherapy on the outcome of immediate breast reconstruction by tissue expansion after mastectomy for breast cancer.): In an attempt to evaluate the impact of radiation therapy and cytotoxic chemotherapy on the outcome of immediate breast reconstruction by tissue expansion after mastectomy a prospective study on 32 patients was performed. The radiation therapy significantly worsened the surgical outcome, because the irradiated patients more often had pectoral muscle stiffness making the expansion more painful and the reconstructed breast too small, hard and with insufficient ptosis to obtain a natural breast mould. These results indicate that this technique should be avoided in patients likely to receive postoperative adjuvant cytotoxic chemotherapy and radiation therapy, thus reducing the indication to a small group of patients undergoing mastectomy for widespread ductal carcinoma in situ.
+
+What impact does immediate breast reconstruction have on the timing and success of subsequent adjuvant chemotherapy treatments?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

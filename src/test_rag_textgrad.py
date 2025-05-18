@@ -7,6 +7,7 @@ from tqdm import tqdm
 from datetime import datetime
 import textgrad as tg
 import litellm
+from litellm import completion
 
 from src.TEXTGRAD import refine_prompt_with_textgrad_from_example
 from src.askchatgpt import run_chatgpt_prompt
@@ -77,16 +78,9 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
             else:
                 # Use the standard RAG method
                 print(f"Q VARIABLE {q}")
-                #answer, snippets, scores,prompt = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
-                """prompt = Water Is wet?
-                Options:
-                A. True  
-                B. False
+                first_answer, snippets, scores = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
 
-                Please respond **only** with a single valid JSON object in the following format:
-                {"answer": "True"}  ← if the answer is true  
-                {"answer": "False"} ← if the answer is false  
-                Do not include any other text or comments. Output must be strictly JSON."""
+                print(f"ERSTE ANTWORT{first_answer}")
 
                 #answer = '{"answer": "False"}'
 
@@ -96,10 +90,10 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
 
                 #original_prompt = prompt
 
-                #final_answer = refine_prompt_with_textgrad_from_example(prompt,answer,original_prompt,rag_system,q,q_save_dir,)
+                #final_answer = refine_prompt_with_textgrad_from_example(prompt,first_answer,prompt,rag_system,q,q_save_dir) #FOR RAG
                 q_save_dir = os.path.join(save_dir, f"question_{idx + 1}")
-
-                final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system,save_dir_folder=q_save_dir)
+                print(f"EINTRITT IN TEXTGRAD")
+                final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system,save_dir_folder=q_save_dir, answer=first_answer)
                 #final_answer = run_chatgpt_prompt(q, save_dir_folder=q_save_dir)
 
                 print(f"ANSWER {final_answer}")
@@ -237,7 +231,7 @@ if __name__ == "__main__":
     
     # Initialize RAG system
     print("Initializing RAG system...")
-    rag_system = RAG()  # RAG initialization moved to its __init__ method
+    rag_system = RAG(model_type="openai")  # RAG initialization moved to its __init__ method
     
     # Process questions
     print("Processing benchmark questions...")
@@ -279,3 +273,18 @@ if __name__ == "__main__":
         print(f"  Precision: {m['precision']:.3f}")
         print(f"  Recall:    {m['recall']:.3f}")
         print(f"  F1 score:  {m['f1_score']:.3f}")
+
+
+    def run_chatgpt(full_prompt) -> str:
+
+        # Hole die Antwort von GPT
+        print(f"→ Sende an GPT:\n{full_prompt}")
+        response = completion(
+            model="gpt-3.5-turbo",
+            messages=[{"role": "user", "content": full_prompt}],
+            max_tokens=512,
+            temperature=0.3
+        )
+        answer = response['choices'][0]['message']['content'].strip()
+
+        return answer

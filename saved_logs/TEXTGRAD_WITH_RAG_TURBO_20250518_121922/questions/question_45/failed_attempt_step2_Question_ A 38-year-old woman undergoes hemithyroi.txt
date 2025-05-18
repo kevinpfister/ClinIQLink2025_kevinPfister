@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 38-year-old woman undergoes hemithyroidectomy for treatment of localized, well-differentiated papillary thyroid carcinoma. The lesion is removed with clear margins. However, during the surgery, a structure lying directly adjacent to the superior thyroid artery at the upper pole of the thyroid lobe is damaged. This patient is most likely to experience which of the following symptoms?
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 38-year-old woman has undergone a hemithyroidectomy for localized thyroid cancer treatment. Considering this surgical procedure, which symptoms is she most likely to experience postoperatively?
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect format: The answer should be provided in a single line without extra spaces or line breaks, and the prompt should specify this format requirement.
+
+== Improved Full Prompt ==
+A 38-year-old woman underwent a hemithyroidectomy for localized thyroid disease. Following the procedure, what symptoms is she most likely to experience? Consider common postoperative complications specific to hemithyroidectomy.
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

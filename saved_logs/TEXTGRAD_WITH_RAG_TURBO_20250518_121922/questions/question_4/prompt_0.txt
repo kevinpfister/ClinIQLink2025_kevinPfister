@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: [An autopsy case of chronic pulmonary thromboembolism associated with congenital portal hypoplasty and pulmonary artery aneurysm].): A 44 year-old woman died after a history of chronic right heart failure for 25 years. Roentgenological studies showed marked pulmonary aneurysm, and hemodynamics at rest revealed severe pulmonary hypertension. The diagnosis of chronic pulmonary thromboembolism was made by MRI which identified a high intensity mass in the dilated right pulmonary artery. At autopsy, a large organized thrombus adhered to the atherosclerotic pulmonary artery, and pulmonary thromboembolism or hemorrhagic infarction were identified. Microscopic examination revealed intimal and medial proliferation in small arteries and plexiform lesions. In addition, hypoplasty of the portal vein and portacaval shunt, which were thought to be congenital, were present. It has been recognized that the portacaval shunt can be attributed to pulmonary hypertension. In this case it was considered that the main cause of pulmonary thrombus formation was both pulmonary atherosclerosis and pulmonary artery aneurysm caused by prolonged pulmonary hypertension. This is the first case of chronic pulmonary thromboembolism associated with congenital hypoplasty of portal vein.
+Document 2 (Title: Biochemistry_Lippinco): Choose the ONE best answer. .1. A 30-year-old woman of Northern European ancestry presents with progressive dyspnea (shortness of breath). She denies the use of cigarettes. Family history reveals that her sister also has problems with her lungs. Which one of the following etiologies most likely explains this patient’s pulmonary symptoms? A. Deficiency in dietary vitamin C B. Deficiency of α1-antitrypsin C. Deficiency of prolyl hydroxylase D. Decreased elastase activity E. Increased collagenase activity
+Document 3 (Title: Lung Perfusion Scan -- Normal and Critical Findings -- Diagnosis of Chronic Thromboembolic Pulmonary Hypertension): Chronic thromboembolic pulmonary HTN (CTEPH) is a sequela of pulmonary venous thromboembolism with a reported incidence of up to 3.8% at a two-year follow-up. [23] VQ scan is a non-invasive tool for diagnosing CTEPH with a sensitivity of 96-97.4% and a specificity of 90 to 95%. [24] V/Q scan findings usually show multiple perfusion defects without matching ventilation defects. [25] SPECT imaging has increased sensitivity and specificity compared to planar imaging. [26]
+
+A 58-year-old woman's lung autopsy reveals specific pathological findings. Considering her medical history and the autopsy details, what is the most likely pathogenesis responsible for these findings?
+
+Options:
+A. Thromboembolism
+B. Pulmonary ischemia
+C. Pulmonary hypertension
+D. Pulmonary passive congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

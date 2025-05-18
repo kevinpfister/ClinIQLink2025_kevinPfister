@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Chromatography -- Introduction -- Column Chromatography): This is the most commonly used type, where a column of fiberglass or steel filled with silica particles acts as a stationary phase. [1] The mobile phase is gas or liquid. In normal-phase column chromatography, a polar stationary phase separates non-polar compounds; in reversed-phase chromatography, the nonpolar stationary phase and the polar mobile phase are used. [7]
+Document 2 (Title: InternalMed_Harrison): Metabolism Metabolism is the chemical transformation of a drug by the body. This modification can occur within several areas; the liver is the organ most commonly involved. Drugs are metabolized by enzymes, but enzyme systems have a finite capacity to metabolize a substrate drug. If a drug is given in a dose at which the concentration does not exceed the rate of metabolism, then the metabolic process is generally linear. If the dose exceeds the amount that can be metabolized, drug accumulation and potential toxicity may occur. Drugs are metabolized through phase I or phase II reactions. In phase I reactions, the drug is made more polar through dealkylation, hydroxylation, oxidation, and deamination. Polarity facilitates drug removal from the body. Phase II reactions, which include glucuronidation, sulfation, and acetylation, result in compounds larger and more polar than the parent drug. Both phases usually inactivate the parent drug, but some drugs are rendered more active. The
+Document 3 (Title: Reversed-phase chromatography): Reversed-phase chromatography is a technique using alkyl chains covalently bonded to the stationary phase particles in order to create a hydrophobic stationary phase, which has a stronger affinity for hydrophobic or less polar compounds. The use of a hydrophobic stationary phase is essentially the reverse of normal phase chromatography, since the polarity of the mobile and stationary phases have been inverted – hence the term reversed-phase chromatography. Reversed-phase chromatography employs a polar (aqueous) mobile phase. As a result, hydrophobic molecules in the polar mobile phase tend to adsorb to the hydrophobic stationary phase, and hydrophilic molecules in the mobile phase will pass through the column and are eluted first. Hydrophobic molecules can be eluted from the column by decreasing the polarity of the mobile phase using an organic (non-polar) solvent, which reduces hydrophobic interactions. The more hydrophobic the molecule, the more strongly it will bind to the
+
+Please list and elaborate on the correct principles and applications of reversed-phase polarity chromatography.
+
+Options:
+1. Uses a polar stationary phase
+2. Uses a hydro-organic mobile phase
+3. Can be applied to ionized species
+4. Elutes the most polar solutes first
+5. Uses an unmodified silica stationary phase
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

@@ -1,0 +1,47 @@
+== Original Prompt ==
+Question: Select the correct statement(s): Macrolides:
+Options:
+1. Are antibiotics that can be used in pregnant women
+2. Are antibiotics with good tissue diffusion
+3. Act on DNA replication
+4. Are always active against enterococci
+5. Are mainly eliminated by the liver
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: Select the correct statement(s): Macrolides:
+Options:
+1. Are antibiotics that can be used in pregnant women
+2. Are antibiotics with good tissue diffusion
+3. Act on DNA replication
+4. Are always active against enterococci
+5. Are mainly eliminated by the liver
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{
+    "answer": ["1", "2"]
+}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "2" and omits option "5"; the prompt should specify that macrolides do not act on DNA replication and are mainly eliminated by the liver to guide the selection of correct options.
+
+== Improved Full Prompt ==
+Select the accurate statement(s) about macrolides:
+
+Options:
+1. Are antibiotics that can be used in pregnant women
+2. Are antibiotics with good tissue diffusion
+3. Act on DNA replication
+4. Are always active against enterococci
+5. Are mainly eliminated by the liver
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

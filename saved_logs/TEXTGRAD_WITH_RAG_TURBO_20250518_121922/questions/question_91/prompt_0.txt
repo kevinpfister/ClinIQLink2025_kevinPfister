@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Smooth pursuit): Smooth-pursuit deficits Smooth pursuit requires the coordination of many brain regions that are far away from each other. This makes it particularly susceptible to impairment from a variety of disorders and conditions. Schizophrenia There is significant evidence that smooth pursuit is deficient in people with schizophrenia and their relatives. People with schizophrenia tend to have trouble pursuing very fast targets. This impairment is correlated with less activation in areas known to play a role in pursuit, such as the frontal eye field. However, other studies have shown that people with schizophrenia show relatively normal pursuit, compared to controls, when tracking objects that move unexpectedly. The greatest deficits are when the patients track objects of a predictable velocity which begin moving at a predictable time. This study speculates that smooth pursuit deficits in schizophrenia are a function of the patients' inability to store motion vectors.
+Document 2 (Title: Psichiatry_DSM-5): White matter connectivity, and gray matter volume in a variety of regions such as the pre- frontal and temporal cortices. Reduced overall brain volume has been observed, as well as increased brain volume reduction with age. Brain volume reductions with age are more pronounced in individuals with schizophrenia than in healthy individuals. Finally, indi- viduals with schizophrenia appear to differ from individuals without the disorder in eye- tracking and electrophysiological indices. Neurological soft signs common in individuals with schizophrenia include impairments in motor coordination, sensory integration, and motor sequencing of complex movements; left-right confusion; and disinhibition of associated movements. In addition, minor phys- ical anomalies of the face and limbs may occur.
+Document 3 (Title: Binocular motion rivalry in macaque monkeys: eye dominance and tracking eye movements.): When the two eyes are exposed to markedly different patterns, perception becomes unstable, falling into oscillations, so that the image of one eye is seen first and then that from the other. With large stimuli the alternation is piecemeal, whilst when small stimuli are used the whole pattern alternates in unison. The purpose of this study was to determine whether a reliable, objective indicator of the perceptual state during binocular rivalry could be developed in the nonhuman primate. Monkeys (Macaca mulatta) were trained to discriminate direction of motion when presented with vertically drifting gratings moving in opposite directions in the two eyes. A high correlation was found between the direction of the slow phase of the optokinetic nystagmus (OKN) elicited by the drifting gratings during rivalry and the direction of motion reported by the monkey even though the gain of the OKN was reduced during rivalry, and the latency was longer. Behavioral eye dominance during rivalry varied significantly over time, between individuals and as a function of interocular contrast differences. Since the direction of tracking eye movements can be used to reliably monitor perceptual state during binocular motion rivalry, the opportunity exists in nonhuman primates to study the neurophysiological mechanisms underlying motion perception during the perceptually ambiguous condition of binocular rivalry.
+
+Could motion perception deficits in individuals with schizophrenia be attributed to abnormalities in eye-tracking? Please explore any existing research or theories that support this hypothesis.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

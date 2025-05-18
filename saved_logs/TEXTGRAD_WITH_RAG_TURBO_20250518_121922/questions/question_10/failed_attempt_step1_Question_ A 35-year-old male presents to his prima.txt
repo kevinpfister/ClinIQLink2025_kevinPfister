@@ -1,0 +1,44 @@
+== Original Prompt ==
+Question: A 35-year-old male presents to his primary care physician with complaints of seasonal allergies. He has been using intranasal vasoconstrictors several times per day for several weeks. What is a likely sequela of the chronic use of topical nasal decongestants?
+Options:
+A. Epistaxis
+B. Permanent loss of smell
+C. Persistent nasal crusting
+D. Persistent congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Question: A 35-year-old male presents to his primary care physician with complaints of seasonal allergies. He has been using intranasal vasoconstrictors several times per day for several weeks. What is a likely sequela of the chronic use of topical nasal decongestants?
+Options:
+A. Epistaxis
+B. Permanent loss of smell
+C. Persistent nasal crusting
+D. Persistent congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "D" for persistent congestion due to rebound effect, and the prompt should specify to focus on the effects of chronic use of nasal decongestants.
+
+== Improved Full Prompt ==
+A 35-year-old male visits his primary care physician with a history of chronic use of topical nasal decongestants. What is the most likely complication or side effect associated with long-term use of these medications?
+
+Options:
+A. Epistaxis
+B. Permanent loss of smell
+C. Persistent nasal crusting
+D. Persistent congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

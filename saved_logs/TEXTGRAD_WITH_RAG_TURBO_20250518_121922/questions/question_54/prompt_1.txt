@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Hirschsprung's disease in adolescents and adults.): Hirschsprung's disease in the adolescent and adult is a rare and often misdiagnosed cause of lifelong refractory constipation. Two adolescent and three adult patients with Hirschsprung's disease treated between 1973 and 1987 at the University of Michigan Medical Center are reported. Each patient presented with chronic constipation requiring enemas, cathartics, and multiple hospital admissions for management. Diagnosis in each case was made with barium enema and full-thickness rectal biopsy. Four patients underwent endorectal pull-through procedures, all with good long-term results. The fifth patient, initially treated with a Duhamel retrorectal pull-through procedure, required reoperation for constipation secondary to a retained rectal septum. Review of 199 cases of adult Hirschsprung's disease enables comparison of the various operative procedures for this disorder with respect to postoperative complications and functional outcomes. Anorectal myectomy with low anterior resection, the Duhamel-Martin procedure, and the Soave endorectal pull-through procedure are the most acceptable methods for surgical management.
+Document 2 (Title: Gastroesophageal Reflux Disease -- Treatment / Management -- Endoluminal Therapy): In the era of minimally invasive surgery techniques, many different types of endoscopic therapies have been developed for GERD management. Most of them were discontinued after failing to demonstrate long-term efficacy. The current available endoluminal therapies include magnetic sphincter augmentation (MSA) and transoral incision-less fundoplication using the EsophyX (EndoGastric Solutions, Redmond, WA, United States) [29] . A recent meta-analysis by Gerson et al. that included data from 233 patients demonstrated that subjects who underwent TIF 2.0 procedure had improved esophageal pH, decreased need for PPIs, and significant improvement in the quality of life at three years after TIF 2.0 procedure [38] . Another prospective study by Testoni et al. demonstrated TIF with EsophyX as an effective long-term treatment option for patients with symptomatic GERD with associated hiatal hernia less than 2 cm. A meta-analysis comparing Nissen fundoplication and magnetic sphincter augmentation that included data from 688 patients with 415 who underwent MSA and the rest who were treated with Nissen fundoplication concluded that MSA was an effective therapeutic option for GERD as short-term outcomes with magnetic sphincter augmentation appeared to be comparable to Nissen fundoplication [39] .
+Document 3 (Title: Coronary artery bypass surgery): The SYNTAX trial was a randomized controlled trial of 1800 patients with multivessel coronary disease, comparing CABG versus PCI using drug-eluting stents (DES). The study found that rates of major adverse cardiac or cerebrovascular events at 12 months were significantly higher in the DES group (17.8% versus 12.4% for CABG; P=0.002). This was primarily driven by higher need for repeat revascularization procedures and more post-procedural myocardial infarction in the PCI group with no difference in long-term survival. Higher rates of strokes were seen in the CABG group. The FREEDOM (Future Revascularization Evaluation in Patients With Diabetes Mellitus—Optimal Management of Multivessel Disease) trial will compare CABG and DES in patients with diabetes. The registries of the nonrandomized patients screened for these trials may provide as much robust data regarding revascularization outcomes as the randomized analysis.
+
+Could you analyze and compare the long-term outcomes, including statistical data and patient quality of life, of transanal pull-through versus transabdominal pull-through procedures in pediatric patients?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

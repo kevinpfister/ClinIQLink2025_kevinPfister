@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 27-year-old man presents to the emergency room with persistent fever, nausea, and vomiting for the past 3 days. While waiting to be seen, he quickly becomes disoriented and agitated. Upon examination, he has visible signs of difficulty breathing with copious oral secretions and generalized muscle twitching. The patient’s temperature is 104°F (40°C), blood pressure is 90/64 mmHg, pulse is 88/min, and respirations are 18/min with an oxygen saturation of 90% on room air. When the nurse tries to place a nasal cannula, the patient becomes fearful and combative. The patient is sedated and placed on mechanical ventilation. Which of the following is a risk factor for the patient’s most likely diagnosis?
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 27-year-old man presents at the emergency department with acute symptoms of chest pain, shortness of breath, and dizziness. Considering his age, lifestyle, and medical history, determine which specific risk factor could most likely lead to his current condition. Provide a comprehensive explanation of how this risk factor correlates with his symptoms.
+
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect answer: The answer does not provide a comprehensive explanation as requested, and the prompt could be improved by specifying that the response should include a brief justification within the JSON format.
+
+== Improved Full Prompt ==
+A 27-year-old man arrives at the emergency department with acute chest pain, shortness of breath, and excessive sweating. He mentions these symptoms started suddenly while exercising. He has a history of smoking and reports a high-stress lifestyle. Provide a detailed explanation of how these risk factors correlate with his symptoms.
+
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

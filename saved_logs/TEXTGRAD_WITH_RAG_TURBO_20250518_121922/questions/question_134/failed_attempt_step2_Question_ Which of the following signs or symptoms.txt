@@ -1,0 +1,48 @@
+== Original Prompt ==
+Question: Which of the following signs or symptoms is/are part of pure nephrotic syndrome?
+Options:
+1. Proteinuria
+2. Arterial hypertension
+3. Decreased serum albumin
+4. Decreased total serum proteins
+5. Increased percentage of alpha-2 globulins on electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify the signs and symptoms associated exclusively with pure nephrotic syndrome.
+
+Options:
+1. Proteinuria
+2. Arterial hypertension
+3. Decreased serum albumin
+4. Decreased total serum proteins
+5. Increased percentage of alpha-2 globulins on electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{
+    "answer": ["1", "3"]
+}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option 3, which is not exclusive to pure nephrotic syndrome; the prompt should clarify exclusivity criteria to avoid confusion.
+
+== Improved Full Prompt ==
+List the distinct signs and symptoms associated solely with nephrotic syndrome.
+
+Options:
+1. Proteinuria
+2. Arterial hypertension
+3. Decreased serum albumin
+4. Decreased total serum proteins
+5. Increased percentage of alpha-2 globulins on electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

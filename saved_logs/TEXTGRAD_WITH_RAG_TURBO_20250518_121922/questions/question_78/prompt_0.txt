@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Quantification of adipose tissue by MRI: relationship with anthropometric variables.): This study had two objectives: 1) to establish magnetic resonance imaging (MRI) as a tool for measuring total and regional adipose tissue (AT) distribution in humans and 2) to assess the relationship between selected anthropometric variables and MRI-measured AT. Twenty-seven healthy men varying in age [40.8 +/- 14.5 (SD) yr], body mass index (28.5 +/- 4.8), and waist-to-hip ratio (WHR, 0.96 +/- 0.07) participated in the study. Total AT volume was determined using a linear interpolation of AT areas obtained on consecutive slices (n = 41) taken from head to toe (10-mm thickness, 50-mm centers). The mean change for repeated measures of total AT volume was 2.9% (range 0.9-4.3%). Large interindividual differences were observed for total AT volume (6.9-59.3 liters), subcutaneous AT (6.3-49.8 liters), and visceral AT (0.5-8.5 liters). Visceral AT represented 18.3% of the total AT. The single best predictor of total adiposity was waist circumference (R2 = 0.92). For visceral AT volume, WHR was the strongest anthropometric correlate (r = 0.85, P less than 0.01). When controlled for age and adiposity, however, WHR explained only 12% of the variation in absolute visceral AT and less than 1% of the variation in visceral-to-subcutaneous ratio. Age was a better predictor of visceral-to-subcutaneous ratio than level of adiposity or WHR. The results of this study demonstrate that MRI offers a reliable measure of regional and total AT distribution in humans and, thus, is of value as a research tool.
+Document 2 (Title: Histology_Ross):  The epicardium, also known as the visceral layer of serous pericardium, adheres to the outer surface of the heart (Fig 13.6). It consists of a single layer of mesothelial cells and underlying connective and adipose tissue. The blood vessels and nerves that supply the heart lie in the epicardium and are surrounded by adipose tissue that cushions the heart in the pericardial cavity. The epicardium is reflected back at the great vessels entering and leaving the heart as the parietal layer of serous pericardium, which lines the inner surface of the pericardium that surrounds the heart and roots of great vessels. Thus, there is a potential space containing a minimal amount (15–50 ml) of serous (pericardial) fluid between the visceral and parietal layers of the serous pericardium. This space is known as the pericardial cavity; its lining consists of mesothelial cells (see Fig. 13.6). The condition in which excess ﬂuid (blood or pericardial effusion) rapidly accumulates in the pericardial
+Document 3 (Title: Adipose tissue): An excess of visceral fat is known as central obesity, or "belly fat", in which the abdomen protrudes excessively. New developments such as the Body Volume Index (BVI) are specifically designed to measure abdominal volume and abdominal fat. Excess visceral fat is also linked to type 2 diabetes, insulin resistance, inflammatory diseases, and other obesity-related diseases. Likewise, the accumulation of neck fat (or cervical adipose tissue) has been shown to be associated with mortality. Several studies have suggested that visceral fat can be predicted from simple anthropometric measures, and predicts mortality more accurately than body mass index or waist circumference.
+
+Does measuring visceral adipose tissue area at a single level accurately reflect the total volume of visceral adipose tissue?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

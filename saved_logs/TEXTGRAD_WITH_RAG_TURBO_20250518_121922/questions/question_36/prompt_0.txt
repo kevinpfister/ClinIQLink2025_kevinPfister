@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Misdiagnosis in patients with amyotrophic lateral sclerosis.): To confirm our impression that a high percentage of patients with amyotrophic lateral sclerosis are initially misdiagnosed, we reviewed records of 33 patients with a definitive diagnosis of amyotrophic lateral sclerosis seen over 10 years. Fourteen patients (43%) were initially misdiagnosed. Mean time to correct diagnosis was significantly greater for the misdiagnosed group (16.0 +/- 9.3 months) than for the rest of the patients (7.6 +/- 4.1 months). Two of three patients with an initial symptom of dyspnea were misdiagnosed. Three patients underwent laminectomies because of misdiagnosis. Age, stage of disease, and unusual presenting symptoms were not identified as causes of misdiagnosis. Most likely causes were physicians' failure to consider the diagnosis and lack of familiarity with the common clinical presentations of amyotrophic lateral sclerosis. Earlier diagnosis of amyotrophic lateral sclerosis may help prevent medical mismanagement and may benefit patients both medically and psychologically.
+Document 2 (Title: Pharmacology_Katzung): A 21-year-old woman comes with her parents to discuss therapeutic options for her Crohn’s disease. She was diag-nosed with Crohn’s disease 2 years ago, and it involves her terminal ileum and proximal colon, as confirmed by colonoscopy and small bowel radiography. She was initially treated with mesalamine and budesonide with good response, but over the last 2 months, she has had a relapse of her symptoms. She is experiencing fatigue, cramping, abdominal pains, and nonbloody diarrhea up to 10 times daily, and she has had a 15-lb weight loss. She has no other significant medical or surgical his-tory. Her current medications are mesalamine 2.4 g/d and budesonide 9 mg/d. She appears thin and tired. Abdominal examination reveals tenderness without guarding in the right lower quadrant; no masses are palpable. On perianal examination, there is no tenderness, fissure, or fistula. Her laboratory data are notable for anemia and elevated C-reactive protein. What are the options for immediate
+Document 3 (Title: Esophageal Motility Disorders -- Etiology -- Neuromuscular): Amyotrophic lateral sclerosis (ALS, Lou Gehrig disease) CNS tumors (benign or malignant) Idiopathic UES dysfunction Manometric dysfunction of the UES or pharynx† Multiple sclerosis Muscular dystrophy Myasthenia gravis Parkinson disease Polymyositis or dermatomyositis Postpolio syndrome Stroke Thyroid dysfunction [3]
+
+A 35-year-old woman presents with specific symptoms to discuss with her physician. Based on her symptoms and medical history, identify the most likely diagnosis from the options provided.
+
+Options:
+A. Myasthenia gravis
+B. Polymyositis
+C. Amyotrophic lateral sclerosis
+D. Multiple sclerosis
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

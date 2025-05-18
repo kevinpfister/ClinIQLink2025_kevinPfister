@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: During hypothyroidism, the following sign(s) is/are observed:
+Options:
+1. A decrease in free T4
+2. Nervousness
+3. Hypothermia
+4. Weight gain
+5. Hypercholesterolemia
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Identify the sign(s) commonly observed in individuals with hypothyroidism.
+
+Options:
+1. A decrease in free T4
+2. Nervousness
+3. Hypothermia
+4. Weight gain
+5. Hypercholesterolemia
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer should include "1", "4", and "5"; the prompt could specify that multiple correct options may exist to ensure completeness.
+
+== Improved Full Prompt ==
+What are the characteristic signs and symptoms typically associated with hypothyroidism in individuals?
+
+Options:
+1. A decrease in free T4
+2. Nervousness
+3. Hypothermia
+4. Weight gain
+5. Hypercholesterolemia
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

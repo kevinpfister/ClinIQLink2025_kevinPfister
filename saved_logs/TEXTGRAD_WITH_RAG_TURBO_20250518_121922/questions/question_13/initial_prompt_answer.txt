@@ -1,0 +1,16 @@
+== Initial Prompt ==
+Question: A 9-month-old female is brought to the emergency department after experiencing a seizure. She was born at home and was normal at birth according to her parents. Since then, they have noticed that she does not appear to be achieving developmental milestones as quickly as her siblings, and often appears lethargic. Physical exam reveals microcephaly, very light pigmentation (as compared to her family), and a "musty" body odor. The varied manifestations of this disease can most likely be attributed to which of the following genetic principles?
+Options:
+A. Anticipation
+B. Multiple gene mutations
+C. Pleiotropy
+D. Variable expressivity
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Initial Answer ==
+{
+    "answer_choice": "C"
+}

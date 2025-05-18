@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: [Prognosis in synchronous liver metastasis from colorectal cancer. A multicenter study of patients with cancer of the rectum and cancer of the rectosigmoid colon].): A prospective investigation of 188 patients with cancer of the rectum and rectosigmoid colon with synchronous liver metastases is described. The mean survival time for 183 patients who did not receive any treatment for the liver metastases was six months and only one survived for longer than 37 months. After extirpation of the primary tumour, the most significant prognostic factors were etrahepatic metastases, enlarged liver on account of metastases and more than three liver metastases. Serum basic phosphatases had the greatest significance among a series of laboratory tests. In the sub-groups with the best possible prognoses, the mean survival time was 12 months. 25% five-year survival has been described in the literature following resection of the liver in patients with a maximum of three metastases, no other metastases and age under 70 years. Provided this holds true, liver surgery will be a therapeutic possibility in at least 100 patients per annum in Denmark with synchronous liver metastases and 25 of these will be cured. This figure requires an improved programme for the diagnosis of synchronous liver metastases than at present and the same high frequency of extirpation of the primary colorectal cancer on a national basis which was achieved in the present material.
+Document 2 (Title: Liver Metastasis -- Prognosis): The majority of the literature has centered on colorectal metastases. The prognosis for patients without treatment for synchronous disease is significant. There is a 5% five-year survival rate with no treatment. The five-year survival after curative resection of hepatic lesions may be up to 58%, in contrast to a median of 6 months of survival with no treatment. [34] [35] Neuroendocrine liver metastases that can undergo partial hepatectomy have slightly higher survival rates than colorectal carcinoma, as survival rates are 61% at five years. [36]
+Document 3 (Title: Sirtex): Results from the largest most comprehensive study to date evaluating SIRT in liver metastases from colorectal cancer were presented at ASCO in 2012, ASCO-GI 2013 and ASCO in 2014. The various subsets of the MORE study, led by Andrew S. Kennedy M.D. Physician in Chief, Radiation Oncology Sarah Cannon Research Institute Nashville Tenn., have demonstrated safety and efficacy as well as the same in treating the elderly. The most recent set of data presented at ASCO in 2014 documented the ability to predict success of SIRT using standard laboratory tests prior to treatment. In addition, the global SIRFLOX study which completed patient recruitment in 2013 will evaluate SIR-Spheres microspheres a first-line treatment for colorectal liver metastases.
+
+Does global management of colorectal cancer with synchronous liver metastases at the same center lead to improved outcomes?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Anatomy, Head and Neck, Thyroid Thyroglossal Duct -- Clinical Significance): Other masses may arise from the persistence of the thyroglossal duct, such as thyroglossal duct cyst carcinomas, which are more prevalent in women within the age range of 20 to 50 years old. The exact etiology behind these carcinomas is not well understood, and even though they are very well associated with various types of thyroid cancer, they account for less than 1% of the cases. The most common form of cancer associated with thyroglossal duct cyst carcinoma is the thyroid papillary carcinoma, which is present in 85% of the cases. Following the papillary thyroid carcinoma, histologically speaking, the most common cancers associated with thyroglossal duct cyst carcinoma are the squamous cell carcinoma, follicular cell carcinoma, anaplastic carcinoma, epidermoid carcinoma, and Hurthle cell carcinoma.
+Document 2 (Title: Pathoma_Husain): 1. 2. Mental status changes and seizures-Hyponatremia leads to neuronal swelling and cerebral edema. D. Treatment is free water restriction or demeclocycline. I. THYROGLOSSAL DUCT CYST A. Cystic dilation of thyroglossal duct remnant 1. Thyroid develops at the base of tongue and then travels along the thyroglossal duct to the anterior neck. 2. Thyroglossal duct normally involutes; a persistent duct, however, may undergo cystic dilation. B. Presents as an anterior neck mass II. LINGUAL THYROID A. Persistence of thyroid tissue at the base of tongue B. Presents as a base of tongue mass I. BASIC PRINCIPLES A. Increased level of circulating thyroid hormone 1. Increases basal metabolic rate (due to increased synthesis of Na+ -K+ ATPase) 2. Increases sympathetic nervous system activity (due to increased expression of ~ -adrenergic receptors) B. Clinical features include 1. 2. 3. Tachycardia with increased cardiac output 4.
+Document 3 (Title: Thyroglossal duct carcinoma.): Primary carcinoma of the thyroglossal duct is rare. This discussion reports two cases and reviews the 50 previously reported in the literature. The criteria for diagnosis include evidence of a thyroglossal duct remnant and a normal thyroid gland. The differentiation from cystic metastases to lymph nodes is pointed out. The histologic types parallel those of carcinoma of the thyroid gland, papillary carcinoma being the most common and having a generally favorable prognosis. The clinical presentation of these tumors is similar to that with benign cysts and thus is of limited value in the diagnosis.
+
+Analyze and interpret the symptoms presented by a 13-year-old girl, then determine a likely diagnosis. Concentrate on the primary indicators evident from her symptoms.
+
+Options:
+A. Persistent thyroid tissue at the tongue base
+B. Deletion of the 22q11 gene
+C. Cyst formation in a persistent thyroglossal duct
+D. Lymph node enlargement
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

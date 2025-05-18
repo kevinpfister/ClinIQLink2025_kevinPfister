@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Withdrawal Syndromes -- History and Physical -- Alcohol): The alcohol withdrawal syndrome is a spectrum and ranges from anxiety and mild tremors to potentially life-threatening delirium tremens characterized by autonomic hyperactivity, tachypnea, hyperthermia, and diaphoresis. Symptoms of insomnia, anxiety, and mild tremors can occur while there is still a detectable alcohol level in the patient's blood work. Alcoholic hallucinosis is characterized by visual and tactile hallucinations, with an otherwise clear sensorium, and one can understand that the hallucinations are not real. Due to the kindling effect of alcohol withdrawal, more severe and progressive symptoms occur with subsequent withdrawal episodes.
+Document 2 (Title: Neurology_Adams): Delirium tremens develops in one of several settings. The patient, an excessive and steady drinker for many years, may have been admitted to the hospital for an unrelated illness, accident, or operation and, after 2 to 4 days, occasionally even later, becomes delirious. Or, following a prolonged drinking binge, the patient may have experienced several days of tremulousness and hallucinosis or one or more seizures and may even be recovering from these symptoms when delirium tremens develops, rather abruptly as a rule. As to the frequency of delirium tremens, Foy and Kay reported an incidence of 0.65 percent of all patients admitted for other reasons to a large general hospital. Among 200 consecutive alcoholics admitted to a city hospital,
+Document 3 (Title: Hepatitis): Prognosis Acute hepatitis Nearly all patients with hepatitis A infections recover completely without complications if they were healthy prior to the infection. Similarly, acute hepatitis B infections have a favorable course towards complete recovery in 95–99% of patients. However, certain factors may portend a poorer outcome, such as co-morbid medical conditions or initial presenting symptoms of ascites, edema, or encephalopathy. Overall, the mortality rate for acute hepatitis is low: ~0.1% in total for cases of hepatitis A and B, but rates can be higher in certain populations (super infection with both hepatitis B and D, pregnant women, etc.). In contrast to hepatitis A & B, hepatitis C carries a much higher risk of progressing to chronic hepatitis, approaching 85–90%. Cirrhosis has been reported to develop in 20–50% of patients with chronic hepatitis C. Other rare complications of acute hepatitis include pancreatitis, aplastic anemia, peripheral neuropathy, and myocarditis.
+
+A 42-year-old woman has been recovering in the hospital from an episode of severe blood loss. What is the most likely diagnosis for this patient?
+
+Options:
+A. Acute cholangitis
+B. Alcoholic hallucinosis
+C. Delirium tremens
+D. Hepatic encephalopathy
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Somatization disorder): Diagnosis of somatization disorder is difficult because it is hard to determine to what degree psychological factors are exacerbating subjective feelings of pain. For instance, chronic pain is common in 30% of the U.S. population, making it difficult to determine whether or not the pain is due to predominately psychological factors. ICD-10 In ICD-10, the latest version of the International Statistical Classification of Diseases and Related Health Problems, somatization syndrome is described as: ICD-10 also includes the following subgroups of somatization syndrome: Undifferentiated somatoform disorder. Hypochondriasis. Somatoform autonomic dysfunction. Persistent somatoform pain disorder. Other somatoform disorders, such ones predominated by dysmenorrhoea, dysphagia, pruritus and torticollis. Somatoform disorder, unspecified.
+Document 2 (Title: Oro-facial pain.): Oro-facial pain is commonly acute, and of dental origin. There are numerous other less common, but clinically identifiable types of oro-facial pain which can be attributed to an organic cause, and which usually respond to the appropriate treatment. There is a small proportion of oro-facial pain problems, however, which are chronic and which are found to have a psychogenic element of greater or lesser magnitude, and treatment is aimed at psychological or psychiatric therapy. The interim results of an ongoing study of chronic oro-facial pain of psychogenic origin are described in this presentation.
+Document 3 (Title: Bell Palsy -- Treatment / Management -- Chronic facial nerve dysfunction): While every patient with true Bell palsy recovers facial motor function to some extent, many will develop synkinesis, particularly if presenting with severe or total hemifacial paralysis. The clinician is responsible for identifying these aberrant facial movements, as patients may not recognize the difference between the initial flaccid weakness and the hypertonicity that follows it, characterizing the chronic movement disorder as a continuation of the acute palsy rather than as a different, but related, clinical entity. Nevertheless, persistent facial asymmetry and mimetic dysfunction can have major adverse impacts on quality of life, causing patients to seek care. Physiotherapy and chemodenervation are sufficient for most individuals, although operative options do exist for patients who are dissatisfied with the results of conservative measures or who would prefer to avoid a prolonged course of regular botulinum toxin injections.
+
+What is the relationship between reports of mechanical dysfunction and somatization in chronic oro-facial pain?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

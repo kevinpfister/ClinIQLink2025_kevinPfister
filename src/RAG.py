@@ -65,8 +65,9 @@ class RAG:
         #Load environment variables from .env file
         config = dotenv_values(".env")
         load_dotenv()
+        os.environ["OPENAI_API_KEY"] = os.getenv("OPENAPI_KEY")  # OpenAI Key
 
-        # Get HF token from environment variable or use provided token
+    # Get HF token from environment variable or use provided token
         self.hf_token = hf_token or os.getenv("HUGGINGFACE_TOKEN")
         
         # Only need llama_cpp for local models
@@ -500,14 +501,15 @@ class RAG:
         return answer, retrieved_snippets, scores
 
 
-    def rag_answer_textgrad(self, question_data, k=3, rrf_k=85, save_dir=None, prompt=None, **kwargs):
+    def rag_answer_textgrad(self, question_data, k=3, rrf_k=85, save_dir=None, prompt=None,step: int = 0, **kwargs):
         """
         RAG answer generation that uses the new prompt templates (from template.py) and supports the different input types.
         """
         print(f"PROMPT BEING USED FOR RAG {prompt}")
         # Make a copy of question_data to avoid modifying the original
-        question_data = question_data.copy()
+
         if prompt is None:
+            question_data = question_data.copy()
         # Check if essential fields exist
             if "question" not in question_data:
                 question_data["question"] = "No question provided"
@@ -538,12 +540,21 @@ class RAG:
         context_str = ""
         retrieved_snippets = []
         scores = []
+
+        prompt_head,prompt_tail = split_prompt_parts(prompt)
 #----------------------------------------------------------------------------------------------important
         # Retrieve context via the RAG system if enabled
+        print("FOR IF STATEMENT IF SELF.RAG")
         if self.rag and self.retrieval_system is not None:
+            print("in RAG drin")
             try:
-                retrieved_snippets, scores = self.retrieval_system.retrieve(
+                """retrieved_snippets, scores = self.retrieval_system.retrieve(
                     question_data.get("question", ""), k=k, rrf_k=rrf_k
+                )"""
+                print(f"K-WERT{k}")
+                print(f"RFF_K-WERT{rrf_k}")
+                retrieved_snippets, scores = self.retrieval_system.retrieve(
+                    prompt_head, k=3, rrf_k=rrf_k
                 )
                 # More defensive check - ensure returned values are valid
                 if not isinstance(retrieved_snippets, list) or not isinstance(scores, list):
@@ -559,11 +570,13 @@ class RAG:
         # Safely create context string
         contexts = []
         for idx, snippet in enumerate(retrieved_snippets):
+            print("LETS GOOOOOOO")
             if isinstance(snippet, dict) and "title" in snippet and "content" in snippet:
+                print("DOKUMENT WURDE HINZUGEFÜGT")
                 contexts.append(f"Document {idx+1} (Title: {snippet['title']}): {snippet['content']}")
 
         context_str = "\n".join(contexts)
-        question_data["context"] = context_str
+        #finished_prompt = context_str + prompt
 #-------------------------------------------------------------------------------------------------------------------------------imbportant
             # First try to use the template system
         if prompt is None:
@@ -595,17 +608,20 @@ class RAG:
         
         # Build the message list for the generation pipeline
         print(f"PROMPT BEING USED FOR RAG {prompt}")
+
         messages = [
             {"role": "system", "content": system_content},
             {"role": "user", "content": prompt}
         ]
         
         # Log the prompt and retrieved snippets if a save directory is provided
+
         if save_dir is not None:
+            print("TEXTFILE DRIN")
             os.makedirs(save_dir, exist_ok=True)
-            with open(os.path.join(save_dir, "prompt.txt"), "w") as f:
+            with open(os.path.join(save_dir, f"prompt_{step}.txt"), "w") as f:
                 f.write(prompt)
-            with open(os.path.join(save_dir, "snippets.json"), "w") as f:
+            with open(os.path.join(save_dir, f"snippets_{step}.json"), "w") as f:
                 json.dump(retrieved_snippets, f, indent=4)
         
         # Generate the answer using your generate method
@@ -614,9 +630,10 @@ class RAG:
         
         # Log the generated answer if a save directory is provided
         if save_dir is not None:
-            with open(os.path.join(save_dir, "response.txt"), "w") as f:
+            with open(os.path.join(save_dir, f"response_{step}.txt"), "w") as f:
                 f.write(answer)
-            with open(os.path.join(save_dir, "response.json"), "w") as f:
+
+            with open(os.path.join(save_dir, f"response_{step}.json"), "w") as f:
                 json.dump({"response": answer}, f, indent=4)
         
         return answer, retrieved_snippets, scores, prompt
@@ -633,3 +650,19 @@ class CustomStoppingCriteria(StoppingCriteria):
         # Decode generated tokens (skip special tokens if desired)
         generated_tokens = self.tokenizer.decode(input_ids[0][self.input_len:], skip_special_tokens=True)
         return any(stop in generated_tokens for stop in self.stop_words)
+
+
+def split_prompt_parts(prompt: str) -> tuple[str, str]:
+    print(f"PROMPT DER GESPLITTET {prompt} ")
+    match = re.search(r"(Respond.*)", prompt, re.DOTALL)
+    if not match:
+        match = re.search(r"(Please.*)", prompt, re.DOTALL)
+
+
+    head = prompt[:match.start()].strip()
+    if not head:
+        raise ValueError("Options-Block nicht gefunden.")
+    print(f"HEEEEEADDD BOYYY {head}")
+    tail = match.group(1).strip()
+    return head, tail
+

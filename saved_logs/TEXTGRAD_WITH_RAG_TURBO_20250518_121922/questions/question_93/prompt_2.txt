@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Surgery_Schwartz): catheter can be removed after 1 to 2 days. Postvoid residuals should be checked with a portable ultrasound device (bladder scanner) or by “straight” catheterization to determine the residual amount of urine left after the patient tries to empty his or her bladder. In patients with severe liver dysfunction, the bladder scanner may inadvertently misinterpret ascites for urine. The inability to void or the presence of a postvoid residual over 200 mL is concerning for development of another episode of AUR. Patients may be given the option of an indwelling cath-eter for another few days with a subsequent voiding trial or to perform clean intermittent catheterization (CIC), whereby, after Brunicardi_Ch40_p1759-p1782.indd 176801/03/19 6:35 PM 1769UROLOGYCHAPTER 40Figure 40-7. Fournier’s gangrene. A. Necrotic scrotal skin from Fournier’s gangrene. B. Debridement of gangrenous tissue. Note the extensive debridement, which is commonly required. The right testicle required removal in this
+Document 2 (Title: Lazy evaluation): Lazy evaluation allows control structures to be defined normally, and not as primitives or compile-time techniques. For example one can define if-then-else and short-circuit evaluation operators: ifThenElse True b c = b ifThenElse False b c = c -- or True || b = True False || b = b -- and True && b = b False && b = False These have the usual semantics, i.e. evaluates (a), then if and only if (a) evaluates to true does it evaluate (b), otherwise it evaluates (c). That is, exactly one of (b) or (c) will be evaluated. Similarly for , if the easy part gives True the lots of work expression could be avoided. Finally, when evaluating , if SafeToTry is false there will be no attempt at evaluating the Expression.
+Document 3 (Title: Spinal epidural abscess as a complication of Fournier's gangrene.): Fournier's gangrene is a rare, multi-organism infection of the perineum. The disease is most often confined to the groin area with distant spread being extremely unusual. A ase of spinal epidural abscess as a complication of Fournier's gangrene is presented. The infection appears to have spread by the hematogenous route. The patient had several symptoms, including fever, which could have provided an early diagnostic clue. Multiple fever workups were negative, however, and the diagnosis was not made until quadriplegia developed. A lumbar puncture as part of the fever workup might have allowed for an earlier diagnosis and more prompt surgery.
+
+Could you provide a current evaluation of Fournier's gangrene, including its present danger level and the reasons behind this assessment?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

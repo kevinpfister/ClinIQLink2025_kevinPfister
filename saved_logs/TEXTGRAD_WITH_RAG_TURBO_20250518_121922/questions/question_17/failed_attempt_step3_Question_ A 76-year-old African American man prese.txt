@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 76-year-old African American man presents to his primary care provider complaining of urinary frequency. He wakes up 3-4 times per night to urinate while he previously only had to wake up once per night. He also complains of post-void dribbling and difficulty initiating a stream of urine. He denies any difficulty maintaining an erection. His past medical history is notable for non-alcoholic fatty liver disease, hypertension, hyperlipidemia, and gout. He takes aspirin, atorvastatin, enalapril, and allopurinol. His family history is notable for prostate cancer in his father and lung cancer in his mother. He has a 15-pack-year smoking history and drinks alcohol socially. On digital rectal exam, his prostate is enlarged, smooth, and non-tender. Which of the following medications is indicated in this patient?
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+Consider a 76-year-old African American man visiting his primary care physician. His medical history includes hypertension, type 2 diabetes, and chronic kidney disease. Based on his condition and medical history, determine the most suitable medication from the available options.
+
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "A"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "A" for Hydrochlorothiazide, and the prompt should specify that the medication should address hypertension in the context of chronic kidney disease.
+
+== Improved Full Prompt ==
+Consider a 76-year-old African American man visiting his primary care physician. He is seeking advice on the best treatment for his condition, given his medical history. Identify the most appropriate medication option from those available, taking into account the patient's age, ethnicity, and comprehensive health profile.
+
+Options:
+A. Hydrochlorothiazide
+B. Midodrine
+C. Oxybutynin
+D. Tamsulosin
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Immunology_Janeway): B. lymph node C. Spleen D. thymus E. Appendix 1.10 Matching: match the following region, structure, or subcompartments with the numbered organ they are present in: A. lymph node __ B. Spleen __ C. mucosa of the small intestine __ 1. 2. 3. 1.11 Multiple Choice: Which of the following events do not occur during inflammation? A. Cytokine secretion B. Chemokine secretion C. recruitment of innate immune cells D. Constriction of blood vessels 1.12 Fill-in-the-Blanks: ___________ t cells are able to kill infected cells, while ________ t cells activate other cells of the immune system. 1.13 True or False: Both t-cell and B-cell receptors undergo the process of affinity maturation in order to acquire progressively higher affinity for an antigen during an immune response. 1.14 True or False: each lymphocyte carries cell-surface receptors with multiple antigen specificity.
+Document 2 (Title: Choice-supportive bias): In cognitive science, one predictable way that memories of choice options are distorted is that positive aspects tend to be remembered as part of the chosen option, whether or not they originally were part of that option, and negative aspects tend to be remembered as part of rejected options. Once an action has been taken, the ways in which we evaluate the effectiveness of what we did may be biased. It is believed this may influence our future decision-making. These biases may be stored as memories, which are attributions that we make about our mental experiences based on their subjective qualities, our prior knowledge and beliefs, our motives and goals, and the social context. True and false memories arise by the same mechanism because when the brain processes and stores information, it cannot tell the difference where they came from.
+Document 3 (Title: [The challenge of evaluating clinical competence].): The study is divided in two parts. The first one deals with theoretical aspects of evaluation. In the second part, the development of an instrument intended to explore clinical competence is presented. The importance of considering evaluation as part of a research process is emphasized in the first part. The diverse theoretical and action trends in the field of education are synthetized in two main tendencies: the active-participating and the passive-receptive. The influence of these two tendencies in the selection the objects for evaluation is also discussed. An evaluation instrument developed by us to explore clinical competence is placed within the active-participating tendency of education; the present state of this instrument is given in the second part. The instrument consists of multiple choice options of the true, false, don't know type. The instrument in its present version is the result of a long validation process. It explores particularly iatrogenic behaviors by omission or commission. The sample studied were 457 applicants for specialization courses in medicine. Of these, 127 were foreign applicants. The instrument was applied to the whole sample in one single session. The results showed a low general clinical competence, with similar results in mexican and foreign applicants. A clear difference was found in commission iatrogenia which was significantly more frequent than omission iatrogenia. The theoretical superiority of our test in relation the others is discussed.
+
+In what ways do processing fluency effects influence recruitment and participation in antenatal interventions, particularly considering the content and presentation of information sheets?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

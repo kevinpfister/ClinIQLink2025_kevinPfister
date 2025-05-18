@@ -1,0 +1,16 @@
+== Initial Prompt ==
+Question: A 12-year-old boy who recently emigrated from Pakistan presents with fever, muscle pain, and weakness of the trunk, abdomen, and legs. The patient’s mother says that he has not been vaccinated. Physical examination reveals fasciculation and flaccid paralysis of the lower limbs. A CSF analysis reveals lymphocytosis with normal glucose and protein levels. A throat swab reveals an RNA virus. Which of the following would most likely be destroyed by the virus in this patient?
+Options:
+A. Posterior horn cells of the spinal cord
+B. Myelin sheath of neurons
+C. Muscle cells
+D. Anterior horn of the spinal cord
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Initial Answer ==
+{
+    "answer_choice": "D"
+}

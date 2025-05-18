@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Closed-circuit TV: an effective patient education tool.): Patient education is well accepted to be an integral component of professional nursing practice. Although most nurses value patient teaching, the reality of the nursing shortage demands that innovative strategies be utilized to plan, implement and evaluate in-hospital patient education programs. Advances in computer technology have made closed-circuit television (CCTV) an attractive option for hospitals to fulfil their patient education mandate. As a delivery system, CCTV can be of considerable value. But as is true of other instructional media used to supplement educational efforts, CCTV also provides many traps that can limit its effectiveness. The biggest danger is the misuse of the tool by attempting to replace rather than supplement human interaction during the education process. This paper provides practical suggestions for the creative use of CCTV as a teaching tool to enhance patient education efforts. Pitfalls inherent in planning and implementing a CCTV system will be discussed.
+Document 2 (Title: In Situ Debriefing in Medical Simulation -- Curriculum Development -- Learner Self-Assessment): Another form of learner self-assessment is the SHARP method. [16] Initially created to debrief events in the operating room, in this model, participants describe what went well (or not) and why. The acronym "SHARP" stands for: Set learning objectives: Determine what learners want to obtain from participating in the case and what the educator's goals are Ask, "How did it go?": Ask students to self-identify areas of strength and weakness. Address concerns: Discuss with students where improvements are possible. Review specific teaching points: This can include basic science and pathophysiology to students' communication and teamwork. Plan: Have students identify what they will take away from the case and incorporate it into their practice. [16] Because the SHARP method includes opportunities for teaching and incorporation into clinical practice, it may be a valuable tool for in situ simulation debriefs.
+Document 3 (Title: Surgery_Schwartz): scores were associated with a quicker resolution of the simulation crisis.125 Advances are being made in using simulation to solve difficult to teach physical examina-tion skills such as breast lump detection and prostate or rectal cancers.126,127 Studies assessing these new simulation tools have also indicated that many attending level surgeons would benefit from continued simulation practice both for keeping operative skills fresh and preventing the decline of physical exam skills, for instance during dedicated research time.126-128The Objective Structured Assessment of Technical Skills (OSATS) was initially developed as a bench station examination. It was later applied to intraoperative skill assessment, and appears to be an additional option for programs seeking a validated and reliable method for mixing technical skills assessment into simu-lations of nontechnical exercises to create a more “real world” simulation.129-133 With recent focus on milestones and proficiency-based
+
+What are the best recommended methods or tools for teaching and practicing retroperitoneoscopic nephrectomy effectively?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Anaplastic thyroid cancer): The National Comprehensive Cancer Network Clinical Practice Guidelines currently recommend that postoperative radiation and chemotherapy be strongly considered. No published randomized controlled trials have examined the addition of EBRT to standard treatment, namely surgery. Radioactive iodine is typically ineffective in the management of ATC as it is not an iodine-avid cancer. Imbalances in age, sex, completeness of surgical excision, histological type and stage, between patients receiving and not receiving EBRT, confound retrospective studies. Variability also exists between treatment and non-treatment groups in the use of radio-iodine and post-treatment thyroid stimulating hormone (TSH) suppression and treatment techniques between and within retrospective studies. Some recent studies have indicated that EBRT may be promising, though the number of patients studies has been small.
+Document 2 (Title: Biochemistry_Lippinco): Choose the ONE best answer. .1. A 30-year-old woman of Northern European ancestry presents with progressive dyspnea (shortness of breath). She denies the use of cigarettes. Family history reveals that her sister also has problems with her lungs. Which one of the following etiologies most likely explains this patient’s pulmonary symptoms? A. Deficiency in dietary vitamin C B. Deficiency of α1-antitrypsin C. Deficiency of prolyl hydroxylase D. Decreased elastase activity E. Increased collagenase activity
+Document 3 (Title: Case Study: 33-Year-Old Female Presents with Chronic SOB and Cough (Archived) -- Case Presentation): History of Present Illness: A 33-year-old white female presents after admission to the general medical/surgical hospital ward with a chief complaint of shortness of breath on exertion. She reports that she was seen for similar symptoms previously at her primary care physician’s office six months ago. At that time, she was diagnosed with acute bronchitis and treated with bronchodilators, empiric antibiotics, and a short course oral steroid taper. This management did not improve her symptoms, and she has gradually worsened over six months. She reports a 20-pound (9 kg) intentional weight loss over the past year. She denies camping, spelunking, or hunting activities. She denies any sick contacts. A brief review of systems is negative for fever, night sweats, palpitations, chest pain, nausea, vomiting, diarrhea, constipation, abdominal pain, neural sensation changes, muscular changes, and increased bruising or bleeding. She admits a cough, shortness of breath, and shortness of breath on exertion.
+
+A 38-year-old woman has undergone a hemithyroidectomy for localized thyroid cancer treatment. Considering this surgical procedure, which symptoms is she most likely to experience postoperatively?
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Immediate breast reconstruction at the time of mastectomy for breast cancer.): Immediate breast reconstruction avoids or lessens the psychosocial trauma associated with a disfiguring mastectomy. The complications seen in this small patient sample are not in excess of those seen in patients undergoing delayed reconstruction. Fifteen immediate breast reconstructions were performed at the time of mastectomy for cancer. Flap or implant reconstruction alone was determined on an individual basis. No delays in the initiation of adjuvant chemotherapy or hormone therapy were caused by the reconstructions. There were no instances of total flap loss or wound infection. One implant was lost due to exposure. Other complications were similar to those associated with modified radical mastectomy alone. These preliminary results suggest that immediate breast reconstruction at the time of mastectomy may be offered with safety to newly diagnosed breast cancer patients.
+Document 2 (Title: Surgery_Schwartz): need to adjuvant radiation therapy, decision-making regarding immediate reconstruction is a challenge. Breast reconstructions by all techniques are adversely affected by radiation therapy, and many surgeons feel reconstruction should be delayed until at least 6 months after treatment.Once the patient chooses to have immediate reconstruction, she must select a reconstructive technique. In patients selected for breast conservation, oncoplastic tissue rearrangement can be performed to minimize adverse effects of lumpectomy on breast appearance. For patients electing total mastectomy there are essentially three options: (a) tissue expansion followed by breast implant placement, (b) combined tissue flaps with breast implants, and (c) autologous tissue flaps only. After examining the patient, the surgeon then should describe those methods for which the patient is a satisfactory candidate. The patient should then be encouraged to choose based on her goals and an under-standing of the
+Document 3 (Title: Inflammatory breast cancer): Treatment The standard treatment for newly diagnosed inflammatory breast cancer is to receive systemic therapy prior to surgery, followed by the radiation therapy. Achieving "no disease [pathological complete response (pCR)]" in the surgical samples gives the best prognosis. Surgery is modified radical mastectomy. Lumpectomy, segmentectomy, or skin sparing mastectomy are not recommended. Immediate reconstructive surgery is not recommended. Immediate,"upfront" surgery is contraindicated, as results are better using neoadjuvant chemotherapy first. Contralateral prophylactic mastectomy is not recommended because it can delay the other systemic adjuvant treatment or adjuvant radiation therapy. After surgery, all cases are recommended for radiation therapy unless it is contraindicated.
+
+How does immediate breast reconstruction influence the timing and effectiveness of subsequent adjuvant chemotherapy?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Sudden infant death syndrome): Prevention A number of measures have been found to be effective in preventing SIDS, including changing the sleeping position to supine, breastfeeding, limiting soft bedding, immunizing the infant and using pacifiers. The use of electronic monitors has not been found to be useful as a preventative strategy. The effect that fans might have on the risk of SIDS has not been studied well enough to make any recommendation about them. Evidence regarding swaddling is unclear regarding SIDS. A 2016 review found tentative evidence that swaddling increases the risk of SIDS, especially among babies placed on their bellies or sides while sleeping. Measures not shown to be useful include positioning devices and baby monitors. Companies that sell the monitors do not have FDA approval for them as medical devices. Sleep positioning
+Document 2 (Title: Sudden Infant Death Syndrome -- Deterrence and Patient Education): Medical professionals must be aware of current recommendations for safe sleeping practices and SIDS prevention: do not drink alcohol or use illicit drugs during pregnancy, place the infant on the back to sleep, allow the infant to sleep in his or her own crib in the same room as caregivers, and use a firm and flat surface in a safety-approved crib. Keep soft bedding or objects such as blankets, pillows, bumper pads, or toys out of the sleeping environment. Avoid covering the infant's head and avoid overheating. Avoid second-hand smoke. Smokers should change clothes and wash their hair before coming in contact with the infant. Infants and caregivers benefit from learning to use a pacifier at bedtime - Do Not Prop bottles in the baby's mouth! Breastfeeding and immunizations are beneficial.
+Document 3 (Title: Pediatrics_Nelson): A variety of unproven mechanisms have been proposed to explain SIDS. SIDS is associated with prone position during sleep, especially on soft bedding. The widely advocated supine sleeping position explains, in part, the decreased incidence of SIDS during the past two decades. Current theories for a predisposition to SIDS include cellular brainstem abnormalities and maturational delay related to neural or cardiorespiratory control. A portion of SIDS deaths may be due to prolongation of the Q-T interval, abnormal CNS control of respiration, and CO2 rebreathing from sleeping face down (especially in softbedding). See Table 134-1 for the differential diagnosis of SIDS. There has been a significant decline in SIDS with the backto-sleep program and avoiding soft bedding. Thus, all parents should be instructed to place their infants in the supine position unless there are medical contraindications. All soft Fulminant infection*,† Infant botulism*
+
+What measures could have been taken to prevent the sudden nighttime death of a 3-month-old baby while asleep?
+
+Options:
+A. Placing the infant in a supine position on a firm mattress while sleeping
+B. Keeping the infant covered and maintaining a high room temperature
+C. Application of a device to maintain the sleeping position
+D. Avoiding pacifier use during sleep
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

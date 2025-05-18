@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 5-year-old girl is brought to the clinic by her mother for excessive hair growth. Her mother reports that for the past 2 months she has noticed hair at the axillary and pubic areas. She denies any family history of precocious puberty and reports that her daughter has been relatively healthy with an uncomplicated birth history. She denies any recent illnesses, weight change, fever, vaginal bleeding, pain, or medication use. Physical examination demonstrates Tanner stage 4 development. A pelvic ultrasound shows an ovarian mass. Laboratory studies demonstrates an elevated level of estrogen. What is the most likely diagnosis?
+Options:
+A. Granulosa cell tumor
+B. Idiopathic precocious puberty
+C. McCune-Albright syndrome
+D. Sertoli-Leydig tumor
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 5-year-old girl presents to the clinic with breast development, vaginal bleeding, and an elevated level of estrogen. Based on these symptoms, what is the most likely diagnosis?
+
+Options:
+A. Granulosa cell tumor
+B. Idiopathic precocious puberty
+C. McCune-Albright syndrome
+D. Sertoli-Leydig tumor
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "A"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "C" for McCune-Albright syndrome, and the prompt could be improved by specifying the presence of café-au-lait spots or fibrous dysplasia to guide the diagnosis.
+
+== Improved Full Prompt ==
+A 5-year-old girl comes to the clinic with early breast development and other signs of puberty. Considering her age and symptoms, what is the most probable diagnosis for her condition?
+
+Options:
+A. Granulosa cell tumor
+B. Idiopathic precocious puberty
+C. McCune-Albright syndrome
+D. Sertoli-Leydig tumor
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Patient-Controlled Therapy of Breathlessness in Palliative Care: A New Therapeutic Concept for Opioid Administration?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Evaluate the effectiveness and potential benefits of patient-controlled opioid therapy for managing breathlessness in palliative care. How does this approach compare to traditional methods, and can it be considered a new therapeutic concept?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect answer: The prompt requires an evaluative response, not a true/false format, and should be revised to ask a question that can be answered with "True" or "False."
+
+== Improved Full Prompt ==
+Analyze the effectiveness, benefits, and risks of patient-controlled opioid therapy methods, and assess whether it represents a new therapeutic concept. Consider treatment outcomes, patient safety, and potential for addiction. What insights can be drawn from recent studies and clinical trials?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

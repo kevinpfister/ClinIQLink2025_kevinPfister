@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 27-year-old female presents to general medical clinic for a routine checkup. She has a genetic disease marked by a mutation in a chloride transporter. She has a history of chronic bronchitis. She has a brother with a similar history of infections as well as infertility. Which of the following is most likely true regarding a potential vitamin deficiency complication secondary to this patient's chronic illness?
+Options:
+A. It may result in corneal vascularization
+B. It may result in the triad of confusion, ophthalmoplegia, and ataxia
+C. It may be exacerbated by excessive ingestion of raw eggs
+D. It may manifest itself as a prolonged PT
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 27-year-old female with a chronic illness visits the general medical clinic. What potential vitamin deficiency complication should be considered in this patient given her chronic condition?
+
+Options:
+A. It may result in corneal vascularization
+B. It may result in the triad of confusion, ophthalmoplegia, and ataxia
+C. It may be exacerbated by excessive ingestion of raw eggs
+D. It may manifest itself as a prolonged PT
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "B" for Wernicke's encephalopathy due to thiamine deficiency, and the prompt should specify the type of chronic illness to guide the answer.
+
+== Improved Full Prompt ==
+A 27-year-old woman with a long-term health condition visits the general clinic. What diagnostic steps and management strategies should be considered for her chronic condition?
+
+Options:
+A. It may result in corneal vascularization
+B. It may result in the triad of confusion, ophthalmoplegia, and ataxia
+C. It may be exacerbated by excessive ingestion of raw eggs
+D. It may manifest itself as a prolonged PT
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

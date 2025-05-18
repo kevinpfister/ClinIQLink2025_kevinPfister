@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Cauda Equina and Conus Medullaris Syndromes -- Epidemiology): Cauda equina syndrome and conus medullaris syndrome are rare, with an estimated prevalence of 1 in 30,000 to 100,000 people per year. [5] Estimates of annual incidence are between 1.5 to 3.4 per million people. [5] It occurs in 3% of all disc herniations. [5] Cauda equina syndrome and conus medullaris syndrome are most common in young men, possibly due to this population group being more likely to experience compressive thoracolumbar trauma. [5] One study estimated that in the U.S. we would expect to see 1016 new causes of cauda equina syndrome and 449 new cases of conus medullaris per year. [5]
+Document 2 (Title: Cauda equina syndrome): Other risk factors include obesity and being female. Diagnosis Diagnosis is first suspected clinically based on history and physical exam and usually confirmed by an MRI scan or CT scan, depending on availability. Bladder scanning and loss of catheter sensation can also be used to evaluate bladder dysfunction in suspected cases of cauda equina syndrome and can aid diagnosis before MRI scanning. Early surgery in acute onset of severe cases has been reported to be important. Prevention Early diagnosis of cauda equina syndrome can allow for preventive treatment. Signs that allow early diagnosis include changes in bowel and bladder function and loss of feeling in groin. Changes in sensation can start as pins and needles leading to numbness. Changes in bladder function may be changes to stream or inability to fully empty the bladder. If a person progresses to full retention intervention is less likely to be successful.
+Document 3 (Title: Anatomy_Gray): The collection of lumbar and sacral nerve roots beyond the conus medullaris has a horsetail-like appearance, from which it derives its name “cauda equina.” Compression of the cauda equina may be caused by a herniating disc (as in this case), fracture fragments following traumatic injury, tumor, abscess, or severe degenerative stenosis of the central canal. Cauda equina syndrome is classed as a surgical emergency to prevent permanent and irreversible damage to the compressed nerve roots. A 45-year-old man was involved in a serious car accident. On examination he had a severe injury to the cervical region of his vertebral column with damage to the spinal cord. In fact, his breathing became erratic and stopped.
+
+A 69-year-old male arrives at the emergency room with specific symptoms. Based on these symptoms, what is the most likely diagnosis, and what should be the next step in management?
+
+Options:
+A. The most likely diagnosis is cauda equina syndrome and steroids should be started prior to MRI
+B. The most likely diagnosis is cauda equina syndrome and steroids should be started after to MRI
+C. The most likely diagnosis is cauda equina syndrome and the patient should be rushed to radiation
+D. The most likely diagnosis is conus medullaris syndrome and steroids should be started prior to MRI
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,56 @@
+== Original Prompt ==
+Question: A short stay or 23-hour ward in a general and academic children's hospital: are they effective?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Question: A short stay or 23-hour ward in a general and academic children's hospital: are they effective?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{
+    "answer": "True"
+}
+
+== Feedback ==
+Incorrect answer: The prompt lacks sufficient context or criteria to determine the effectiveness of a short stay or 23-hour ward, which could be improved by providing specific data or studies to evaluate.
+
+== Improved Full Prompt ==
+Evaluate the effectiveness of a short stay or 23-hour ward in a general and academic children's hospital.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Barriers to treatment of obstetric emergencies in rural communities of West Africa. The Prevention of Maternal Mortality Network.): This article is the result of a collaborative effort among the researchers of the Prevention of Maternal Mortality Network. The network consists of 12 multidisciplinary teams, 11 in West Africa and one based at Columbia University in New York. This article summarizes exploratory research conducted by the African teams using focus-group discussions in rural communities in Nigeria, Ghana, and Sierra Leone. The objective was to identify barriers to the use of health-care facilities when obstetric problems arise. The findings illustrate how sociocultural factors, such as societal expectations and the role of women, affect the use of health services. Physical and social distance between communities and facilities, as well as transportation problems, were found to be obstacles to care. Health-service factors were also found to pose barriers to prompt treatment. This article also provides an example of how qualitative methodology can be used to obtain substantive information about a community's frustrations and needs with respect to health care.
+Document 2 (Title: Heart rate): Correlation with cardiovascular mortality risk A number of investigations indicate that faster resting heart rate has emerged as a new risk factor for mortality in homeothermic mammals, particularly cardiovascular mortality in human beings. Faster heart rate may accompany increased production of inflammation molecules and increased production of reactive oxygen species in cardiovascular system, in addition to increased mechanical stress to the heart. There is a correlation between increased resting rate and cardiovascular risk. This is not seen to be "using an allotment of heart beats" but rather an increased risk to the system from the increased rate.
+Document 3 (Title: Ivabradine -- Mechanism of Action): Rapid resting heart rate can lead to detrimental effects on left ventricular function and has been associated with negative outcomes in patients with cardiovascular disease. Therefore, reducing resting heart rate to reduce cardiovascular morbidity and mortality is a therapeutic target among drug manufacturers. Ivabradine reduces heart rate but does not affect myocardial contraction, relaxation, or ventricular repolarization.
+
+How does resting heart rate impact cardiovascular health risks among rural adults in West Africa?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

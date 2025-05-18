@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Birthweight-adjusted mortality rates for assessing the effectiveness of neonatal intensive care.): Mortality rates for very-low-birthweight infants vary significantly among different neonatal intensive care units (NICUs). Computational models and computer simulation are used to predict the performance of an algorithm for identifying individual NICUs within a network that have greater than 110% of the expected birthweight-adjusted mortality risk. The algorithm maintains high sensitivity and specificity with as few as three moderately heterogeneous risk categories when applied to large health care networks; the model parameters were based on preliminary data from a real NICU network. The performance of the algorithm depends on the number of admissions at the individual NICU. A NICU with a center-specific risk 130% of the network average would be correctly identified as an outlier 50% of the time if it had 35 admissions, 59% of the time if it had 70 admissions, and 77% of the time if it had 280 admissions. A NICU with average risk would be incorrectly identified as an outlier 16%, 12%, or 2% of the time if it had 35, 70, or 280 admissions, respectively. Severity-of-illness casemix adjustment did not improve these results. It is concluded that the sensitivity and specificity of the algorithm in determining which facilities have higher-than-expected mortality will be less in typical NICU networks than in large health care networks that treat adult patients. It is unlikely that severity-of-illness adjustments will overcome the problem of the small numbers of admissions at individual NICUs.
+Document 2 (Title: Hearing Loss Assessment in Children -- Indications): All newborns should be screened for hearing loss before being discharged from the hospital. Those who pass the initial screening should follow up in their primary care medical home. Those who do not pass should be re-tested before discharge, with repeat testing occurring at least several hours after the initial screening. [7] In the well-baby nursery, this testing is often performed using OAEs. Newborns with risk factors for hearing loss should receive screening with AABR testing due to the higher risk of ANSD in these patients. Significant risk factors for hearing loss in children include care in the neonatal intensive care unit (NICU) for 5 days or longer, hyperbilirubinemia requiring exchange transfusion, culture-proven sepsis, and administration of ototoxic medications. [3] Newborns cared for in the NICU have been shown to have a 6.9 times higher risk of hearing loss than newborns who do not require NICU care. Additional risk factors include in-utero infection, neonatal infection, and craniofacial abnormalities or syndromic conditions. [11] The risk of ANSD in healthy newborns is low enough that ABR is not a requirement for those who pass initial OAE screening.
+Document 3 (Title: Neonatology): Neonatal nursing is subspecialty of nursing that specialize in neonatal care. Spectrum of care Rather than focusing on a particular organ system, neonatologists focus on the care of newborns who require hospitalization in the Neonatal Intensive Care Unit (NICU). They may also act as general pediatricians, providing well newborn evaluation and care in the hospital where they are based. Some neonatologists, particularly those in academic settings who perform clinical and basic science research, may follow infants for months or even years after hospital discharge to better assess the long-term outcomes.
+
+Assess the health risks and disparities experienced by individuals exposed to secondhand smoke, with a focus on those who have been discharged from neonatal intensive care units (NICU).
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

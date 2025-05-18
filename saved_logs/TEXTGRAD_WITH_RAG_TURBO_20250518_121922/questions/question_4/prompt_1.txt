@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Lung Perfusion Scan -- Normal and Critical Findings -- Diagnosis of Chronic Thromboembolic Pulmonary Hypertension): Chronic thromboembolic pulmonary HTN (CTEPH) is a sequela of pulmonary venous thromboembolism with a reported incidence of up to 3.8% at a two-year follow-up. [23] VQ scan is a non-invasive tool for diagnosing CTEPH with a sensitivity of 96-97.4% and a specificity of 90 to 95%. [24] V/Q scan findings usually show multiple perfusion defects without matching ventilation defects. [25] SPECT imaging has increased sensitivity and specificity compared to planar imaging. [26]
+Document 2 (Title: First_Aid_Step2): What is metabolic syndrome? Appropriate diagnostic test? A 50-year-old man with angina can exercise to 85% of maximum predicted heart rate. A 65-year-old woman with left bundle branch block and severe osteoarthritis has unstable angina. Target LDL in a patient with diabetes. Signs of active ischemia during stress testing. ECG findings suggesting MI. Coronary territories in MI. A young patient has angina at rest with ST-segment elevation. Cardiac enzymes are normal. Common symptoms associated with silent Mls. The diagnostic test for pulmonary embolism. An agent that reverses the effects of heparin. The coagulation parameter affected by warfarin. A young patient with a family history of sudden death collapses and dies while exercising. Endocarditis prophylaxis regimens. The 6 P’s of ischemia due to peripheral vascular disease. Virchow’s triad. The most common cause of hypertension in young women. The most common cause of hypertension in young men.
+Document 3 (Title: Pulmonary hypertension): Pathogenesis in pulmonary hypertension due to left heart disease (WHO Group II) is completely different in that constriction or damage to the pulmonary blood vessels is not the issue. Instead, the left heart fails to pump blood efficiently, leading to pooling of blood in the lungs and back pressure within the pulmonary system. This causes pulmonary edema and pleural effusions. In the absence of pulmonary blood vessel narrowing, the increased back pressure is described as 'isolated post-capillary pulmonary hypertension' (older terms include 'passive' or 'proportionate' pulmonary hypertension or 'pulmonary venous hypertension'). However, in some patients, the raised pressure in the pulmonary vessels triggers a superimposed component of vessel narrowing, which further increases the workload of the right side of the heart. This is referred to as 'post-capillary pulmonary hypertension with a pre-capillary component' or 'combined post-capillary and pre-capillary pulmonary hypertension'
+
+Consider a 58-year-old woman whose lung autopsy reveals specific pathological findings. Based on these findings, what is the most probable pathogenesis that led to them?
+
+Options:
+A. Thromboembolism
+B. Pulmonary ischemia
+C. Pulmonary hypertension
+D. Pulmonary passive congestion
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

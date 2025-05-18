@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: C-C chemokine receptor type 6): Clinical significance CCR6 has a function in development and metastatic spread of gastrointestinal malignancies. Expression of CCR6 was found to be up-regulated in colorectal cancer. Many patients with colorectal cancer have liver metastases. Colorectal carcinoma cells express CCR6 and CCL20. High level of CCL20 in liver chemoattract colorectal carcinoma cells and cause metastases in liver. Novel research has identified a microRNA that is able to downregulate CCR6 in cancer cell lines. CCR6 has been associated with Crohn's disease. References External links Further reading Chemokine receptors Clusters of differentiation
+Document 2 (Title: Liver Metastasis -- Prognosis): The majority of the literature has centered on colorectal metastases. The prognosis for patients without treatment for synchronous disease is significant. There is a 5% five-year survival rate with no treatment. The five-year survival after curative resection of hepatic lesions may be up to 58%, in contrast to a median of 6 months of survival with no treatment. [34] [35] Neuroendocrine liver metastases that can undergo partial hepatectomy have slightly higher survival rates than colorectal carcinoma, as survival rates are 61% at five years. [36]
+Document 3 (Title: Surgery_Schwartz): cancer primary. This was due in part to the recognition that many other primary cancers (such as breast cancer) represent a systemic disease when liver metas-tases are present. However, more recent studies have shown acceptable 5-year survival rates in the 20% to 40% range for resection of hepatic metastases from breast, renal, and other GI tumors.115,116 In a large study of hepatic resection for non-colorectal, nonendocrine liver metastases in 1452 patients, neg-ative prognostic factors were nonbreast origin, age >60 years, disease-free interval of <12 months, need for major hepatec-tomy, performance of R2 resection, and presence of extrahe-patic metastases.115TREATMENT OPTIONS FOR LIVER CANCERIn general, the major treatment options for liver cancer can be categorized as shown in Table 31-7. The decision making for any given patient is complex and is best managed by a multidis-ciplinary liver tumor board. The treatments listed in Table 31-7 are not mutually exclusive; the important
+
+Does managing colorectal cancer with synchronous liver metastases at a single center enhance patient outcomes?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -1,0 +1,47 @@
+== Original Prompt ==
+Question: Select the risk factor(s) for coronary artery disease:
+Options:
+1. Smoking
+2. High plasma concentration of apolipoprotein B
+3. High plasma concentration of HDL
+4. Hypertension
+5. High plasma level of Lp(a)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Question: Select the risk factor(s) for coronary artery disease:
+Options:
+1. Smoking
+2. High plasma concentration of apolipoprotein B
+3. High plasma concentration of HDL
+4. Hypertension
+5. High plasma level of Lp(a)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{
+    "answer": ["1", "2", "4"]
+}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly omits "5" and includes "2" which is not a standard risk factor; the prompt should clarify which risk factors are universally recognized to avoid ambiguity.
+
+== Improved Full Prompt ==
+Please identify the risk factor(s) associated with coronary artery disease.
+
+Options:
+1. Smoking
+2. High plasma concentration of apolipoprotein B
+3. High plasma concentration of HDL
+4. Hypertension
+5. High plasma level of Lp(a)
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

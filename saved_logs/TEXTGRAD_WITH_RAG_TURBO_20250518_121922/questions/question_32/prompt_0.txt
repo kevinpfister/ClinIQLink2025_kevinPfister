@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pegfilgrastim -- Toxicity): The maximum safe dose of pegfilgrastim has not been established. The highest dose studied in clinical trials has been 300 mcg/kg. There have been instances of accidental overdoses occurring in patients. In such a case, the patient was a 79-year-old man who self-administered pegfilgrastim for 8 days in a row. He experienced no symptoms during this time but was monitored closely by his doctor 3 times a week, during which he only complained of bone pain. In another overdose case, the patient was a 69-year-old man who self-administered a 36 mg overdose of pegfilgrastim. He was admitted to the hospital, where clinical staff observed leukocytosis, bone pain, and rhinorrhea. Due to the current lack of appropriate treatment for pegfilgrastim overdose, the best course of action for overdose is prevention by vigilant monitoring for signs and symptoms of toxicity. [11]
+Document 2 (Title: Paroxysmal supraventricular tachycardia): Vagal maneuvers, such as the Valsalva maneuver, are often used as the initial treatment. If not effective and the person has a normal blood pressure the medication adenosine may be tried. If adenosine is not effective a calcium channel blocker or beta blocker may be used. Otherwise synchronized cardioversion is the treatment. Future episodes can be prevented by catheter ablation. About 2.3 per 1000 people have paroxysmal supraventricular tachycardia. Problems typically begin in those 12 to 45 years old. Women are more often affected than men. Outcomes are generally good in those who otherwise have a normal heart. An ultrasound of the heart may be done to rule out underlying heart problems. Signs and symptoms Symptoms may include palpitations, feeling faint, sweating, shortness of breath, and chest pain. Episodes start and end suddenly.
+Document 3 (Title: Pharmacology_Katzung): David Robertson, MD, & Italo Biaggioni, MD* A 38-year-old man has been experiencing palpitations and headaches. He enjoyed good health until 1 year ago when spells of rapid heartbeat began. These became more severe and were eventually accompanied by throbbing headaches and drenching sweats. Physical examination revealed a blood pressure of 150/90 mm Hg and heart rate of 88 bpm. During the physical examination, palpation of the abdomen elicited a sudden and typical episode, with a rise in blood pressure to 210/120 mm Hg, heart rate to 122 bpm, profuse sweating, and facial pallor. This was accompanied by severe headache. What is the likely cause of his episodes? What caused the blood pressure and heart rate to rise so high during the examination? What treatments might help this patient?
+
+A 69-year-old man is brought by his son to the clinic after experiencing recurrent episodes of chest pain at rest. These episodes typically occur during the evening. His medical history includes high blood pressure and high cholesterol, for which he is currently on medication. He is a non-smoker but occasionally drinks alcohol. An ECG during one of these episodes showed ST-segment elevation. What medication can most effectively prevent these episodes in the future?
+
+Options:
+A. Alteplase
+B. Urokinase
+C. Celecoxib
+D. Clopidogrel
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

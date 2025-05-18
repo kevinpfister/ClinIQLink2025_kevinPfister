@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pharmacology_Katzung): Adverse effects include nausea, diarrhea, stomatitis, and peripheral neuropathy with prolonged use. Metronidazole has a disulfiram-like effect, and patients should be instructed to avoid alcohol. Although teratogenic in some animals, metronidazole has not been associated with this effect in humans. Other properties of metronidazole are discussed in Chapter 52. A structurally similar agent, tinidazole, is a once-daily drug approved for treatment of trichomonas infection, giardiasis, amebiasis, and bacterial vaginosis. It also is active against anaerobic bacteria, but is not approved in the USA for treatment of anaerobic infections.
+Document 2 (Title: Acetaldehyde dehydrogenase): The drug disulfiram (Antabuse) prevents the oxidation of acetaldehyde to acetic acid and is used in the treatment of alcoholism. ALDH1 is strongly inhibited by disulfiram, while ALDH2 is resistant to its effect. The cysteine residue at 302 in ALDH1 and 200 in ALDH2 is implicated as a disulfiram binding site on the enzyme and serves as a disfulfiram sensitive thiol site. Covalent binding of disulfiram to the thiol blocks the binding of one of the cysteine residues with iodoacetamide, thereby inactivating the enzyme and significantly lowering catalytic activity. Activity can be recovered by treatment with 2-mercaptoethanol, although not with glutathione. Metronidazole (Flagyl), which is used to treat certain parasitic infections as well as pseudomembranous colitis, causes similar effects to disulfiram. Coprine (which is an amino acid found in certain coprinoid mushrooms) metabolizes in vivo to 1-aminocyclopropanol which causes similar effects as well.
+Document 3 (Title: Metronidazole -- Enhancing Healthcare Team Outcomes): There should be judicious prescribing of metronidazole by providers only for known indications and high clinical suspicion for needing treatment of anaerobic bacterial infections, protozoal infections, and microaerophilic bacterial infections. Overprescribing may contribute to increasing future antibiotic resistance to the drug, so a pharmacy consult is necessary for the prescriber to ensure directed therapy. The documentation already exists regarding increased resistance to metronidazole in the treatment of C. difficile infections. Also, prescribers, nurses, and pharmacists should routinely educate patients to abstain from alcoholic beverages while taking metronidazole, which will help lead to fewer disulfiram reaction symptoms; nursing will play a role in this monitoring and for other potential adverse effects. The patient should also be informed by the health care provider of the possible change in urine color while on this medicine. The team of health professionals, including physicians, physician assistants, nurses, and pharmacists, must work together to provide the best care for these patients when using metronidazole in any formulation. [Level 5]
+
+List the true statements about the uses, side effects, and interactions of Metronidazole.
+
+Options:
+1. Is a derivative of pyrazole
+2. Can induce a disulfiram-like effect
+3. Can be administered intravenously
+4. Can be used in certain protozoal infections
+5. Is ineffective against anaerobic infections
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

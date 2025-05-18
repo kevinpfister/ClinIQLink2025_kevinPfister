@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Multistrategy health education program to increase mammography use among women ages 65 and older.): Mammography use decreases with age although the risk of breast cancer increases with age. Medicare now provides biennial coverage for screening mammography. This study was designed to simulate the Medicare condition by subsidizing mammography among women in eight retirement communities in the metropolitan Philadelphia area. The study also measured the impact of health education interventions and the presence of a mobile mammography van on increased use of mammography. Retirement communities were assigned randomly to the control (cost subsidy alone) or experimental group (cost subsidy, mammography van, and tailored health education interventions). A total of 412 women ages 65 and older who had not had mammograms in the previous year were surveyed at baseline and 3 months later. Analytic techniques reflected the cluster nature of the randomization. Women in the experimental group were significantly more likely than the control group women to have obtained mammograms. Forty-five percent of the experimental group women compared with 12 percent of the control group women subsequently had mammograms in the 3 months after the baseline interview (P less than .001). Logistic regression analysis for mammography use indicated an odds ratio of 6.1 associated with being in the experimental group. For women in the experimental group, a separate logistic regression for mammography use showed an odds ratio of 7.8 associated with attendance at the educational presentation. The results suggest that Medicare coverage alone will not increase mammography use sufficiently to achieve year 2000 objectives. However, the addition of access enhancing and health education interventions boosts utilization dramatically.
+Document 2 (Title: Health Maintenance Organization -- Clinical Significance): The HMO Act offered funds to support HMO development with the hope of improving overall U.S. health care and simultaneously decreasing costs. HMOs are designed to accomplish these goals by integrating health insurance and health care delivery within the same organization and thus aligning the incentives of the health care payer and provider. [5] This structure intends to yield lower health care costs by, for example, motivating the transition of inpatient care to outpatient care when appropriate and the utilization of less expensive and fewer unnecessary medical interventions. [5] [6] Following the passage of the HMO Act, HMO enrollment increased from approximately 6 million in 1976 to over 29 million in 1987. [1]
+Document 3 (Title: Breast cancer screening): If suspicious signs are identified in the image, then the woman is usually recalled for a second mammogram, sometimes after waiting six months to see whether the spot is growing, or a biopsy of the breast. Most of these will prove to be false positives, resulting in sometimes debilitating anxiety over nothing. Most women recalled will undergo additional imaging only, without any further intervention. Recall rates are higher in the U.S. than in the UK. Effectiveness On balance, screening mammography in older women increases medical treatment and saves a small number of lives. Usually, it has no effect on the outcome of any breast cancer that it detects. Screening targeted towards women with above-average risk produces more benefit than screening of women at average or low risk for breast cancer.
+
+What are the most effective tailored interventions to increase mammography utilization among women enrolled in HMOs?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

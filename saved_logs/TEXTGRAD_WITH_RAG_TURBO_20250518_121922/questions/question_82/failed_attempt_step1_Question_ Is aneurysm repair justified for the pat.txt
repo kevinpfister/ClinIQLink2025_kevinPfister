@@ -1,0 +1,56 @@
+== Original Prompt ==
+Question: Is aneurysm repair justified for the patients aged 80 or older after aneurysmal subarachnoid hemorrhage?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+Question: Is aneurysm repair justified for the patients aged 80 or older after aneurysmal subarachnoid hemorrhage?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{
+    "answer": "False"
+}
+
+== Feedback ==
+Incorrect answer: The answer does not provide a justification for why "False" is chosen, and the prompt could be improved by specifying the criteria or evidence needed to determine the answer.
+
+== Improved Full Prompt ==
+Is performing aneurysm repair on patients aged 80 or older justified following an aneurysmal subarachnoid hemorrhage?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

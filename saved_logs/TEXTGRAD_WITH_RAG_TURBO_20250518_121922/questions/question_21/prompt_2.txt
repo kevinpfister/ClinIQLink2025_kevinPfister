@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Cauda equina syndrome): Other risk factors include obesity and being female. Diagnosis Diagnosis is first suspected clinically based on history and physical exam and usually confirmed by an MRI scan or CT scan, depending on availability. Bladder scanning and loss of catheter sensation can also be used to evaluate bladder dysfunction in suspected cases of cauda equina syndrome and can aid diagnosis before MRI scanning. Early surgery in acute onset of severe cases has been reported to be important. Prevention Early diagnosis of cauda equina syndrome can allow for preventive treatment. Signs that allow early diagnosis include changes in bowel and bladder function and loss of feeling in groin. Changes in sensation can start as pins and needles leading to numbness. Changes in bladder function may be changes to stream or inability to fully empty the bladder. If a person progresses to full retention intervention is less likely to be successful.
+Document 2 (Title: Infarction of the conus medullaris.): We encountered a patient with acute cauda equina syndrome. The clinical course, laboratory data and imaging study, including magnetic resonance imaging (MRI) strongly suggested that this episode was caused by a vascular disorder of the conus medullaris. We emphasized the diagnostic usefulness of MRI in the vascular disease of the conus medullaris as well as the clinical importance of this disease in the differential diagnosis of acute cauda equina syndrome.
+Document 3 (Title: Anatomy, Back, Lumbar Spine -- Clinical Significance): Signs/symptoms of conus medullaris syndrome include severe/sudden onset low back pain, symmetrical weakness of both legs, and sudden loss of bowel and bladder function. Immediate treatment is necessary to prevent permanent damage and to preserve lower extremity neurologic function. Caudal to the conus medullaris in the spinal canal is the cauda equina. The cauda equina is a collection of spinal nerves located from L1-L5 in the spinal canal. The spinal nerves that comprise the cauda equina are the L2-L5, S1-S5, and the coccygeal nerve. Compression of the cauda equina is also a surgical emergency. The most common signs and symptoms include urinary retention, saddle anesthesia (numbness of the perineum/inner thighs), as well as radicular leg pain. [14]
+
+A 69-year-old male presents to the emergency room with sudden onset chest pain, shortness of breath, and diaphoresis. Perform a thorough clinical evaluation, consider differential diagnoses such as myocardial infarction or pulmonary embolism, and determine the most probable diagnosis. Outline the next recommended steps for management, including any immediate interventions or necessary diagnostic tests.
+
+Options:
+A. The most likely diagnosis is cauda equina syndrome and steroids should be started prior to MRI
+B. The most likely diagnosis is cauda equina syndrome and steroids should be started after to MRI
+C. The most likely diagnosis is cauda equina syndrome and the patient should be rushed to radiation
+D. The most likely diagnosis is conus medullaris syndrome and steroids should be started prior to MRI
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: End-Stage Renal Disease -- Pathophysiology): Each nephron in a normal kidney contributes to the total glomerular filtration rate (GFR). The decline of kidney function is gradual and may initially present asymptomatically. The natural history of renal failure depends on the etiology of the disease but ultimately involves early homeostatic mechanisms involving hyperfiltration of the nephrons. The kidney maintains GFR, despite the progressive destruction of nephrons because the remaining normal nephrons develop hyperfiltration and compensatory hypertrophy. As a result, the patient with mild renal impairment can show normal creatinine values, and the disease can go undetected for some time. [24]
+Document 2 (Title: First_Aid_Step2): Labs may show concurrent hypocalcemia and hypokalemia. ECG may reveal prolonged PR and QT intervals. IV and oral supplements. Hypokalemia and hypocalcemia will not correct without magnesium correction. See Figure 2.16-2 for a diagnostic algorithm of acid-base disorders. A net ↓ in either tubular H+ secretion or HCO3 reabsorption that leads to a non–anion gap metabolic acidosis. There are three main types of RTA; type IV (distal) is the most common form (see Table 2.16-2). An abrupt ↓ in renal function leading to the retention of creatinine and BUN. ↓ urine output (oliguria, defined as < 500 cc/day) is not required for ARF. ARF is categorized as follows (see also Table 2.16-3): Prerenal: ↓ renal perfusion. Intrinsic: Injury within the nephron unit. Postrenal: Urinary outﬂow obstruction. Generally, both kidneys must be obstructed before one can see a significant ↑ in BUN and creatinine. Alcoholics are the most common patient population with hypomagnesemia.
+Document 3 (Title: Multiple myeloma): Signs and symptoms Because many organs can be affected by myeloma, the symptoms and signs vary greatly. Fatigue and bone pain are the most common symptoms at presentation. The CRAB criteria encompass the most common signs of multiple myeloma: Calcium: serum calcium >0.25 mmol/l (>1 mg/dl) higher than the upper limit of normal or >2.75 mmol/l (>11 mg/dl) Renal insufficiency: creatinine clearance <40 ml per minute or serum creatinine >1.77 mol/l (>2 mg/dl) Anemia: hemoglobin value of >2g/dl below the lowest limit of normal, or a hemoglobin value <10g/dl Bone lesions: osteolytic lesions on skeletal radiography, CT, or PET/CT Bone pain
+
+List the signs or symptoms typically present in untreated chronic renal failure.
+
+Options:
+1. Progressive destruction of nephrons
+2. Hypocalcemia
+3. Anemia
+4. Hypokalemia
+5. Decreased renal clearance of creatinine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

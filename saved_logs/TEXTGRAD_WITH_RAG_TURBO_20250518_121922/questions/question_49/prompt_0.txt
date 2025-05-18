@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Transmissible spongiform encephalopathy): TSEs of humans include Creutzfeldt–Jakob disease, Gerstmann–Sträussler–Scheinker syndrome, fatal familial insomnia, kuru, as well as the recently discovered variably protease-sensitive prionopathy and familial spongiform encephalopathy. Creutzfeldt-Jakob disease itself has four main forms, the sporadic (sCJD), the hereditary/familial (fCJD), the iatrogenic (iCJD) and the variant form (vCJD). These conditions form a spectrum of diseases with overlapping signs and symptoms. TSEs in non-human mammals include scrapie in sheep, bovine spongiform encephalopathy (BSE) in cattle – popularly known as "mad cow disease" – and chronic wasting disease (CWD) in deer and elk. The variant form of Creutzfeldt–Jakob disease in humans is caused by exposure to bovine spongiform encephalopathy prions.
+Document 2 (Title: InternalMed_Harrison): Although infectious PrP prion diseases account for <1% of all cases and infection does not seem to play an important role in the natural history of these illnesses, the transmissibility of Abbreviations: BSE, bovine spongiform encephalopathy; CJD, Creutzfeldt-Jakob disease; CWD, chronic wasting disease; fCJD, familial Creutzfeldt-Jakob disease; FFI, fatal familial insomnia; FSE, feline spongiform encephalopathy; GSS, Gerstmann-Sträussler-Scheinker disease; hGH, human growth hormone; iCJD, iatrogenic Creutzfeldt-Jakob disease; MBM, meat and bone meal; sCJD, sporadic Creutzfeldt-Jakob disease; sFI, sporadic fatal insomnia; TME, transmissible mink encephalopathy; vCJD, variant Creutzfeldt-Jakob disease.
+Document 3 (Title: Subacute Sclerosing Panencephalitis -- Differential Diagnosis): Given the variable presentation of SSPE and the clinical findings it is associated with, there are many other differential diagnoses to think of. Although SSPE generally occurs in childhood, it can rarely occur in adults and should not be dismissed if the patient is a pregnant woman. It can be misdiagnosed as sole epilepsy or psychiatric illness in the early stages of the disease. Any patients with acute, progressive myoclonus, dementia, and/or seizures should be evaluated for the following: Viral encephalitis Autoimmune encephalitis Atypical multiple sclerosis Creutzfeldt-Jakob disease NMDA receptor encephalitis Neurometabolic encephalopathies Neoplasms Paraneoplastic syndromes Leukodystrophies By no means is this list completely inclusive, but it speaks to a vast realm of possibilities that should be considered in addition to SSPE. [3] [4] [5] [10] [8]
+
+A 35-year-old woman with a history of Crohn's disease presents with abdominal pain and weight loss. Imaging reveals a mass in the ileocecal region, and endoscopy shows a strictured segment with ulcerations. What is the most likely diagnosis?
+
+Options:
+A. Sporadic Creutzfeldt-Jakob disease (sCJD)
+B. Variant Creutzfeldt-Jakob disease (vCJD)
+C. Subacute sclerosing panencephalitis (SSPE)
+D. Progressive multifocal encephalopathy (PML)
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

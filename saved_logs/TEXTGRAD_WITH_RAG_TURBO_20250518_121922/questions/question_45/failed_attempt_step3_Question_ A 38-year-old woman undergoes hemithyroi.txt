@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 38-year-old woman undergoes hemithyroidectomy for treatment of localized, well-differentiated papillary thyroid carcinoma. The lesion is removed with clear margins. However, during the surgery, a structure lying directly adjacent to the superior thyroid artery at the upper pole of the thyroid lobe is damaged. This patient is most likely to experience which of the following symptoms?
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 38-year-old woman underwent a hemithyroidectomy for localized thyroid disease. Following the procedure, what symptoms is she most likely to experience? Consider common postoperative complications specific to hemithyroidectomy.
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "D"
+}
+
+== Feedback ==
+Incorrect answer: The answer should be "A" for voice pitch limitation, and the prompt should specify that the JSON response must be formatted without extra spaces or new lines to avoid formatting errors.
+
+== Improved Full Prompt ==
+Describe the common postoperative complications a 38-year-old woman might experience after undergoing a hemithyroidectomy for localized thyroid disease. Discuss factors specific to hemithyroidectomy that could affect her recovery and overall outcome.
+
+Options:
+A. Voice pitch limitation
+B. Ineffective cough
+C. Weakness of shoulder shrug
+D. Shortness of breath
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

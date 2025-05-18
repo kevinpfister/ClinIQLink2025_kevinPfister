@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: [Acute poisoning with ethylene glycol esters].): The study was performed of 13 acute oral poisonings with ethylene glycol ethers characterized as moderate or severe and resulting in poor outcome in 3 cases. Ethyl ether was responsible for 3 poisonings, methyl ether for 10 ones. It was found, that the intoxication had four stages or periods (initial, latent, clinical, recovery) and presented with CNS impairment, gastrointestinal, hepatic, renal disorders, decompensated metabolic acidosis, etc. The paper describes two clinical cases and experimental toxicity of cellosolves as well as the effect of the inhibitor of isovaleric acid amide alcohol dehydrogenase on animal lethality. The results obtained support the suggestion of ADH-participated metabolic activation of cellosolves in the body. The prospects of further studies into intoxication pathogenesis and new opportunities for relevant poisoning management are outlined.
+Document 2 (Title: Jet fuel): from acute, subchronic, or chronic exposure of humans or animals to kerosene-based hydrocarbon fuels, or the constituent chemicals of these fuels, or to fuel combustion products. The effects studied include: cancer, skin conditions, respiratory disorders, immune and hematological disorders, neurological effects, visual and hearing disorders, renal and hepatic diseases, cardiovascular conditions, gastrointestinal disorders, genotoxic and metabolic effects.
+Document 3 (Title: Psichiatry_DSM-5): Speech sound disorder is thus heterogeneous in its underlying mechanisms and includes pho- nological disorder and articulation disorder. A speech sound disorder is diagnosed when speech sound production is not what would be expected based on the child’s age and devel- opmental stage and when the deficits are not the result of a physical, structural, neurological, or hearing impairment. Among typically developing children at age 4 years, overall speech should be intelligible, whereas at age 2 years, only 50% may be understandable. Language disorder, particularly expressive deficits, may be found to co-occur with speech sound disorder. A positive family history of speech or language disorders is often present.
+
+What are the typical symptoms of acute ethylene glycol poisoning?
+
+Options:
+1. Renal failure
+2. Neurological disorders
+3. Acid-base disorders
+4. Cardiovascular disorders
+5. Hearing disorders
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

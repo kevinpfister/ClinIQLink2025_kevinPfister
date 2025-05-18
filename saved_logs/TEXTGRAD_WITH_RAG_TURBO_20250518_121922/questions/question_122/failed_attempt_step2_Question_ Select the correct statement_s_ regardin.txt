@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Select the correct statement(s) regarding osmolarity and osmolality:
+Options:
+1. Osmolarity is the number of osmoles per liter of solution
+2. Osmolality is the number of osmoles per kilogram of solvent
+3. In plasma, proteins representing about 7% of the total volume, osmolality equals osmolarity divided by 0.93
+4. Osmolarity and osmolality can be confused for a dilute aqueous solution
+5. Plasma osmolarity is measured by cryoscopy
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify the correct statement(s) concerning the concepts of osmolarity and osmolality.
+
+Options:
+1. Osmolarity is the number of osmoles per liter of solution
+2. Osmolality is the number of osmoles per kilogram of solvent
+3. In plasma, proteins representing about 7% of the total volume, osmolality equals osmolarity divided by 0.93
+4. Osmolarity and osmolality can be confused for a dilute aqueous solution
+5. Plasma osmolarity is measured by cryoscopy
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "2", "4"]}
+
+== Feedback ==
+Incorrect answer: The answer incorrectly includes option "4" and omits option "3"; the prompt should clarify the specific conditions under which osmolarity and osmolality are equivalent to avoid confusion.
+
+== Improved Full Prompt ==
+Can you accurately distinguish and explain the key differences between osmolarity and osmolality, and identify the correct statement(s) related to these concepts?
+
+Options:
+1. Osmolarity is the number of osmoles per liter of solution
+2. Osmolality is the number of osmoles per kilogram of solvent
+3. In plasma, proteins representing about 7% of the total volume, osmolality equals osmolarity divided by 0.93
+4. Osmolarity and osmolality can be confused for a dilute aqueous solution
+5. Plasma osmolarity is measured by cryoscopy
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

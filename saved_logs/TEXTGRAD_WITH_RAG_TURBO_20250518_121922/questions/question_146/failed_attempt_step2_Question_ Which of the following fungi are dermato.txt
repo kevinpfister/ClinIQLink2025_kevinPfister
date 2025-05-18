@@ -1,0 +1,46 @@
+== Original Prompt ==
+Question: Which of the following fungi are dermatophytes?
+Options:
+1. Epidermophyton floccosum
+2. Aspergillus fumigatum
+3. Microsporum canis
+4. Trichophyton mentagrophytes
+5. Candida albicans
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Please identify which of the following fungi are considered dermatophytes.
+
+Options:
+1. Epidermophyton floccosum
+2. Aspergillus fumigatum
+3. Microsporum canis
+4. Trichophyton mentagrophytes
+5. Candida albicans
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{"answer": ["1", "3"]}
+
+== Feedback ==
+Incorrect answer: The answer should include "4" for Trichophyton mentagrophytes, and the prompt could specify that multiple correct options may exist to ensure completeness.
+
+== Improved Full Prompt ==
+Please specify which fungi from the list below are classified as dermatophytes.
+
+Options:
+1. Epidermophyton floccosum
+2. Aspergillus fumigatum
+3. Microsporum canis
+4. Trichophyton mentagrophytes
+5. Candida albicans
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

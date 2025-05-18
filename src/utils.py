@@ -491,6 +491,7 @@ class RetrievalSystem:
     
     def retrieve(self, question, k=32, rrf_k=100, id_only=False):
         """Retrieve documents for a question across all corpora"""
+
         if not isinstance(question, str):
             raise TypeError("Question must be a string")
 

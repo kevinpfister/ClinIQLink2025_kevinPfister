@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Neonatal intensive care unit): See also Neonatology Pediatric intensive-care unit Embrace (organization) Neonatal nurse practitioner Neonatal nursing Bubble CPAP References External links Life in the NICU: what parents can expect NeonatalICU.com - Expecting a Preterm Infant in the NICU Equipment used in the NICU -- interactive parent friendly information Association of Women's Health, Obstetric and Neonatal Nurses The Academy of Neonatal Nursing Pre Conception& Neonatal Neonatal Nurse Practitioner Neonatology Intensive care medicine Hospital departments Nursing Infancy
+Document 2 (Title: Newborn Screening -- Issues of Concern -- Neonatal Intensive Care Unit): Infants in the neonatal intensive care unit (NICU) require additional considerations regarding newborn screening. Premature newborns have immature enzymes and metabolic instability, which result in more false-positive results. [6] To ensure appropriate sensitivity, infants in the NICU should be re-screened seven days after admission if they were initially screened younger than 24 hours of age. [6] Infants receiving total parenteral nutrition are frequently falsely identified as having carnitine deficiency. This false-positive is due to the lack of L-carnitine in the total parenteral nutrition substrate, and the infant's levels will likely normalize with the introduction of normal feeding. [6] Most of the diseases on the newborn screening panel manifest after weeks or months after birth; however, some disorders become symptomatic before the results of the newborn screening are known. [6] [1] Infants with symptoms suspicious for inborn errors of metabolism should be evaluated for acidemia, hypoglycemia, and hyperammonemia. [6] If an infant in the NICU has not had an echocardiogram, pulse oximetry screening should be performed prior to discharge. [6] Many aspects of prematurity and the NICU experience can predispose to hearing loss, including hypoxia, hyperbilirubinemia, antibiotics, ambient noise, and prolonged supplemental oxygen. [9] [6] All infants residing in the NICU for more than five days should have their hearing screened with automated auditory brainstem response to screen for neural hearing loss. [11] [9]
+Document 3 (Title: Obstentrics_Williams): Rates of stillbirth, neonatal death, and infant morbidity all rise after the expected due date has passed. This is best seen when perinatal mortality rates are analyzed from times before widespread intervention for postterm pregnancies. In two large Swedish studies shown in Figure 43-1, after reaching a nadir at � 7.2 4.0 c 2.32.4 ing to gestational age of all births in Sweden during 1943-1952 compared with those during 1977-1o978. The partially compressed scale is used for convenience in depiction. (Adapted from Bakketeig, 1991; Lindell, 1956.) TABLE 43-1 . Adverse Maternal and Perinatal Outcomes Associated with Postterm Pregnancy NICU = neonatal intensive care unit. 39 to 40 weeks, the perinatal mortality rate rose as pregnancy duration exceeded 41 weeks. his trend is also reported for the United States (Cheng, 2008; MacDorman, 2009). As shown in
+
+Assess the health risks and disparities associated with secondhand smoke exposure in infants discharged from neonatal intensive care units (NICU).
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

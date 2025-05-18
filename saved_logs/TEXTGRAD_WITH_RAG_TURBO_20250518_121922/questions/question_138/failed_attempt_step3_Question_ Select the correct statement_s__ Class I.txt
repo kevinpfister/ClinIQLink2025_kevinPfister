@@ -1,0 +1,48 @@
+== Original Prompt ==
+Question: Select the correct statement(s): Class II histocompatibility molecules:
+Options:
+1. Are encoded by genes present at the HLA-A, -B and -C loci
+2. Are expressed on B lymphocytes and monocyte macrophages
+3. Are formed by an alpha chain associated with beta-2 microglobulin
+4. Have CD4 molecule as a ligand
+5. Are involved in antigen presentation
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+
+== Full Prompt ==
+Identify the accurate statement(s) regarding Class II histocompatibility molecules:
+
+Options:
+1. Are encoded by genes present at the HLA-A, -B and -C loci
+2. Are expressed on B lymphocytes and monocyte macrophages
+3. Are formed by an alpha chain associated with beta-2 microglobulin
+4. Have CD4 molecule as a ligand
+5. Are involved in antigen presentation
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+== Answer ==
+{
+    "answer": ["5"]
+}
+
+== Feedback ==
+Incorrect answer: The response incorrectly identifies option "3" as correct, and the prompt should clarify that Class II molecules are not associated with beta-2 microglobulin to prevent this mistake.
+
+== Improved Full Prompt ==
+List the correct statements about Class II histocompatibility molecules.
+
+Options:
+1. Are encoded by genes present at the HLA-A, -B and -C loci
+2. Are expressed on B lymphocytes and monocyte macrophages
+3. Are formed by an alpha chain associated with beta-2 microglobulin
+4. Have CD4 molecule as a ligand
+5. Are involved in antigen presentation
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
+

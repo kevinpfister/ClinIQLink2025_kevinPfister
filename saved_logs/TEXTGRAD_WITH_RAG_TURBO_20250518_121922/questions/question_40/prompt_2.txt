@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Endocrine system): Gonads The reproductive system begins development at four to five weeks of gestation with germ cell migration. The bipotential gonad results from the collection of the medioventral region of the urogenital ridge. At the five-week point, the developing gonads break away from the adrenal primordium. Gonadal differentiation begins 42 days following conception. Male gonadal development For males, the testes form at six fetal weeks and the sertoli cells begin developing by the eight week of gestation. SRY, the sex-determining locus, serves to differentiate the Sertoli cells. The Sertoli cells are the point of origin for anti-Müllerian hormone. Once synthesized, the anti-Müllerian hormone initiates the ipsilateral regression of the Müllerian tract and inhibits the development of female internal features. At 10 weeks of gestation, the Leydig cells begin to produce androgen hormones. The androgen hormone dihydrotestosterone is responsible for the development of the male external genitalia.
+Document 2 (Title: Sertoli Cell–Only Syndrome -- Etiology): Sertoli cells have multiple vital reproductive functions in males. They play an essential role in the proper growth and development of spermatogonia by secreting substances required for their growth and nourishment. Sertoli cells also secrete the anti-Mullerian hormone, which leads to the regression of the Mullerian ducts in a male fetus. [9] Anti-Mullerian hormone prevents the development of any internal female reproductive organs during the early stages of embryogenesis in a male fetus. [9] Sertoli cells also secrete inhibin-B, which provides the down-regulatory effect of follicle-stimulating hormone secretion on the hypothalamus. [4] Activin is another product secreted by Sertoli cells. It provides positive feedback on the hypothalamus for spermatogenesis and leads to a higher FSH level. [4]
+Document 3 (Title: Physiology_Levy): 1. The reproductive systems are composed of gonads, an internal reproductive tract with associated glands, and external genitalia. Mammary glands are accessory reproductive glands in women. 2. Gonads have two main functions: production of gametes and production of hormones. Hormones (primarily sex steroids) are absolutely necessary for normal function of the reproductive system, and their production is regulated by a hypothalamic-pituitarygonadal axis. 3. Seminiferous tubules in the testis contain Sertoli cells and developing sperm cells. 4. Spermatogenesis refers to the progression of sperm cells from spermatogonia through the processes of meiosis and spermiogenesis to form mature spermatozoa. 5.
+
+In fetal development, what hormonal inhibitor affects the development of female internal reproductive organs, and why is this process significant?
+
+Options:
+A. Spermatogonia
+B. Allantois
+C. Syncytiotrophoblast
+D. Sertoli cells
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

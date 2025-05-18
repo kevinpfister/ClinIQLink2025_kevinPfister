@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Keratoconjunctivitis -- Deterrence and Patient Education): Allergen management: For allergic keratoconjunctivitis, allergen-proof bedding, regular air filter cleaning, and limiting outdoor exposure during high pollen seasons should be suggested. The potential benefits of allergen immunotherapy may also be discussed in collaboration with an allergist. [156]
+Document 2 (Title: Immunology_Janeway): 14-2 Although many types of antigens can cause allergic sensitization, proteases are common sensitizing agents. Most airborne allergens are relatively small, highly soluble proteins that are carried on dry particles such as pollen grains or mite feces (Fig. 14.4). On contact with the mucus-covered epithelia of the eyes, nose, or airways, the soluble allergen is eluted from the particle and diffuses into the mucosa, where it can be picked up by dendritic cells and provoke sensitization (see Fig. 14.2). At mucosal surfaces, allergens are typically presented to the immune system at low concentrations. It has been estimated that the maximum exposure of a person to the common pollen allergens in ragweed (Ambrosia species) does not exceed 1 μg per year. It is thought that low-dose sensitization favors formation of a strong TH2 response. Consequently, these minute doses of allergen can provoke irritating and even life-threatening TH2-driven IgE antibody responses in atopic individuals.
+Document 3 (Title: An aerobiological survey of allergens in al Khobar, Saudi Arabia.): A nationwide aerobiologic study is in progress in Saudi Arabia using Burkard 7-day volumetric spore traps to determine the major airborne allergens and their seasonal patterns. Eights months readings have been completed at Al-Khobar, an important coastal city on the Arabian Gulf. Pollen levels showed a double season. An autumnal peak reached its maximum in October rising sharply from the low summer values before falling during the short winter then rising again in springtime. Both local and imported flora were represented with chenopodiaceae, grasses and Ambrosia as the most common botanical groups, identification of the most significant individual species is still in progress. Fungal spores also show distinctive seasonal patterns. In descending rank order from the most common genera were Cladosporium, Ustilago, Alternaria, with Chaetomium and Ulocladium as consistent but minor components. Basiodiospores and Ascospores represented less than 10% of the total spore population, indicative of the dry nature of the climate. Desert dust added an important irritant to the Saudi atmosphere but a major contaminating factor to the aerobiological material being analysed.
+
+What benefits does biomolecular identification bring to the tracking of allergenic pollen in aerobiological studies?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

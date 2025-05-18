@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Stroke Anticoagulation -- Enhancing Healthcare Team Outcomes): Managing AIS with an interprofessional healthcare team is essential to provide safe and optimal care to patients. These patients should have a careful ongoing clinical assessment, including frequent neurological examinations. The AHA/ASA 2018 guidelines recommend designating an acute stroke team consisting of physicians, nurses, laboratory/radiology personnel, and others such as a pharmacist. (Class I, Level B-non-randomized) The pharmacist will play a significant role in helping the clinicians select the appropriate agent, verifying dosing and the absence of drug interactions, and counseling patients about anticoagulation. They can also help develop proper pharmacotherapeutic regimens, monitor medications, order appropriate labs, and perform dose adjustments, including thrombolytic, antiplatelets, and anticoagulants. Cardiovascular specialized nursing will administer these agents, and they should have open and active communication with both pharmacy staff as well as the clinicians/specialists managing the case. Finally, discussion with other healthcare providers, including neurology specialists, will optimize both acute and chronic management. [11] This interprofessional approach will maximize the therapeutic effects of anticoagulation therapy while minimizing the not insignificant potential risks, thereby optimizing patient care. [Level 5]
+Document 2 (Title: Gynecology_Novak): The Potential Benefits: Therapeutic Opportunities Given all of the risks and uncertainties, it is appropriate to ask the question: Why should physicians educate themselves regarding CAM? The most basic answer is commitment to the best practice of medicine. If patients are using therapies that are potentially dangerous in their action or in their interaction, physicians should be aware of this possibility and counsel them accordingly. Physicians have a commitment to offer their patients the best treatment options, regardless of their system of origin. If there are CAM therapies that can benefit patients, the physician should be knowledgeable about them and be willing to discuss them with patients. In addition to this most fundamental of reasons, there are additional therapeutic opportunities offered by CAM, as shown by the following examples: Table 13.6 Factors that Should Increase Suspicion for Potential Misuse 1.
+Document 3 (Title: Anticoagulant): In these cases, anticoagulation therapy can prevent formation of dangerous clots or prevent growth of clots. The decision to begin therapeutic anticoagulation often involves the use of multiple bleeding risk predictable outcome tools as non-invasive pre-test stratifications due to the potential for bleeds while on blood thinning agents. Among these tools are HAS-BLED, ATRIA, HEMORR2HAGES, and CHA2DS2-VASc. The risk of bleeding using the aforementioned risk assessment tools must then be weighed against thrombotic risk in order to formally determine patient's overall benefit in starting anticoagulation therapy.
+
+Is therapeutic anticoagulation safe for trauma patients? Discuss potential risks and benefits.
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

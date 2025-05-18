@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Liver transplantation): Living donor transplantation Living donor liver transplantation (LDLT) has emerged in recent decades as a critical surgical option for patients with end stage liver disease, such as cirrhosis and/or hepatocellular carcinoma often attributable to one or more of the following: long-term alcohol use disorder, long-term untreated hepatitis C infection, long-term untreated hepatitis B infection. The concept of LDLT is based on (1) the remarkable regenerative capacities of the human liver and (2) the widespread shortage of cadaveric livers for patients awaiting transplant. In LDLT, a piece of healthy liver is surgically removed from a living person and transplanted into a recipient, immediately after the recipient's diseased liver has been entirely removed.
+Document 2 (Title: Living related liver transplantation.): Liver transplantation from a brain death donor has not yet been accepted in Japan. The only alternative method at present is transplantation from a living donor. After the first successful living related liver transplantation was performed by Strong in Brisbane, Australia, Japanese hepatic and transplant surgeons also began to perform such operations. As of February 1991, 16 living related liver transplantations had already been performed in Japan, mainly for children with biliary atresia. Five of these patients subsequently died, however, our patient has survived more than 1 year, and she is presently leading a normal school life. The most important issue regarding living related liver transplantation is to ensure the donor's safety. For this purpose, we conducted a preoperative banking of the donor's own blood and plasma. In addition, a selective vascular occlusion was carried out to reduce blood loss during the resection of the liver. Intraoperative color Doppler ultrasonography was introduced for evaluating the circulation of the graft. By using this modality, the following three points were able to be accurately estimated in order to obtain optimal graft perfusion: 1) The most suitable position for the graft to be fixed to the abdominal wall, 2) whether or not the abdominal wall could be closed and 3) the indication for a ligation of the collateral veins to form a porto-systemic shunt. Thanks to these procedures, living related liver transplantations have now become an acceptable transplant method, however, a transplantation from a cadaver that is brain dead but still has a beating heart is still absolutely necessary for adult recipients. Therefore, in the future, both methods should be performed.
+Document 3 (Title: Liver Transplantation -- Preparation): Infectious Disease: All infectious diseases should be treated effectively before liver transplantation. Screening serologies in the blood should include viral infections such as hepatitis A and B (to ensure immunity by vaccinations and no active infection), cytomegalovirus (CMV), Epstein-Barr virus (EBV), bacterial infections including tuberculosis, syphilis, and fungal infections such as Strongyloides and coccidiomycosis. All live attenuated viral vaccines should be administered prior to liver transplantation as they are contraindicated once immunosuppression is initiated after liver transplantation. [62]
+
+Is living-related liver transplantation still necessary for children, and why?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

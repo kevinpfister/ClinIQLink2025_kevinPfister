@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Chromatography -- Introduction -- Column Chromatography): This is the most commonly used type, where a column of fiberglass or steel filled with silica particles acts as a stationary phase. [1] The mobile phase is gas or liquid. In normal-phase column chromatography, a polar stationary phase separates non-polar compounds; in reversed-phase chromatography, the nonpolar stationary phase and the polar mobile phase are used. [7]
+Document 2 (Title: Comparative study of chromatography on thin layers impregnated with organic stationary phases. Chromatographic separation of nitrophenols.): The chromatographic behaviour of nitrophenols on thin layers of silica gel and cellulose was compared, both without impregnation and impregnated with non-aqueous polar stationary phases (formamide, dimethylformamide) and less polar stationary phases (liquid paraffin, octan-1-ol, 1-bromonaphthalene). Cellulose is preferred when using formamide or dimethylformamide if a pure partition process is required. For each particular analyte a certain amount of the stationary phase is always required to suppress the adsorption activity of silica gel. Separation by reversed-phase thin-layer chromatography is strongly affected by the type of stationary phase (the possibility of forming charge-transfer complexes with 1-bromonaphthalene) and its support (the acidic properties of silica gel and its adsorption activity), the mobile phase (content of organic modifier, pH, presence of salts) and the properties of the solutes (polarity, ionizability).
+Document 3 (Title: InternalMed_Harrison): Metabolism Metabolism is the chemical transformation of a drug by the body. This modification can occur within several areas; the liver is the organ most commonly involved. Drugs are metabolized by enzymes, but enzyme systems have a finite capacity to metabolize a substrate drug. If a drug is given in a dose at which the concentration does not exceed the rate of metabolism, then the metabolic process is generally linear. If the dose exceeds the amount that can be metabolized, drug accumulation and potential toxicity may occur. Drugs are metabolized through phase I or phase II reactions. In phase I reactions, the drug is made more polar through dealkylation, hydroxylation, oxidation, and deamination. Polarity facilitates drug removal from the body. Phase II reactions, which include glucuronidation, sulfation, and acetylation, result in compounds larger and more polar than the parent drug. Both phases usually inactivate the parent drug, but some drugs are rendered more active. The
+
+Please provide a detailed overview of the principles and applications of reversed-phase chromatography, including its mechanisms, benefits, and challenges.
+
+Options:
+1. Uses a polar stationary phase
+2. Uses a hydro-organic mobile phase
+3. Can be applied to ionized species
+4. Elutes the most polar solutes first
+5. Uses an unmodified silica stationary phase
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

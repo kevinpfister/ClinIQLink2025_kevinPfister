@@ -1,0 +1,55 @@
+== Original Prompt ==
+Question: Do provider service networks result in lower expenditures compared with HMOs or primary care case management in Florida's Medicaid program?
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+
+== Full Prompt ==
+What impact do provider service networks have on the cost-effectiveness of Florida's Medicaid program compared to HMOs and primary care case management models?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+== Answer ==
+{"answer": "True"}
+
+== Feedback ==
+Incorrect answer: The prompt requires a comparison of cost-effectiveness, which cannot be answered with a true/false format; the prompt should be revised to ask a question that can be answered with true or false.
+
+== Improved Full Prompt ==
+How do provider service networks influence the cost-effectiveness of programs compared to health maintenance organizations (HMOs) and primary care case management models?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.
+

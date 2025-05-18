@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: 2,3-Dimercaptosuccinic acid treatment of heavy metal poisoning in humans.): 14 patients with heavy metal poisoning received 2,3-dimercaptosuccinic acid (DMSA). 12 subjects were given 30 mg/kg/day for 5 days; 1 subject was started on a lower dose because of a history of atopy; another subject was treated for 15 days because of very high initial blood lead concentrations. In the 9 subjects who had lead poisoning, DMSA decreased blood lead concentrations by 35 to 81%, and induced a 4.5- to 16.9-fold increase in mean daily urinary excretion of the metal. In the acutely arsenic-poisoned case, the plasma arsenic concentration on day 7 was half the pretreatment value, while no clear decrease was observed in a chronically exposed subject. In 3 mercury cases, DMSA increased daily mercury urinary excretion 1.5-, 2.8- and 8.4-fold, respectively, while blood mercury concentrations remained below detection limits. No serious side effects were observed and 3 weeks after administration of the drug the clinical condition of all subjects was either stable or improved. These results indicate the efficacy of DMSA for lead poisoning in humans and provide a rationale for further investigating its usefulness in mercury and arsenic poisoning cases.
+Document 2 (Title: Pharmacology_Katzung): Kosnett MJ: Chelation for heavy metals (arsenic, lead, and mercury): Protective or perilous? Clin Pharmacol Ther 2010;88:412. Kosnett MJ: The role of chelation in the treatment of arsenic and mercury poisoning. J Med Toxicol 2013;9:347. Sheth S: Iron chelation: An update. Curr Opin Hematol 2014;21:179-185. Thompson DF, Called ED: Soluble or insoluble Prussian blue for radiocesium and thallium poisoning? Ann Pharmacother 2004;38:1509. Thurtle N et al: Description of 3,180 courses of chelation with dimercaptosuccinic acid in children ≤ 5 y with severe lead poisoning in Zamfara, Northern Nigeria: a retrospective analysis of programme data. PLOS Med 2014;11(10):e1001739.
+Document 3 (Title: Penicillamine): Penicillamine, sold under the brand name of Cuprimine among others, is a medication primarily used for the treatment of Wilson's disease. It is also used for people with kidney stones who have high urine cystine levels, rheumatoid arthritis, and various heavy metal poisonings. It is taken by mouth. Medical uses Penicillamine was approved for medical use in the United States in 1970. It is on the World Health Organization's List of Essential Medicines. It is used as a chelating agent: In Wilson's disease, a rare genetic disorder of copper metabolism, penicillamine treatment relies on its binding to accumulated copper and elimination through urine. Penicillamine was the second line treatment for arsenic poisoning, after dimercaprol (BAL). It is no longer recommended. In cystinuria, a hereditary disorder in which high urine cystine levels lead to the formation of cystine stones, penicillamine binds with cysteine to yield a mixed disulfide which is more soluble than cystine.
+
+Which specific heavy metal salts require treatment with DIMERCAPROL® in cases of poisoning?
+
+Options:
+1. Arsenic
+2. Aluminum
+3. Mercury
+4. Iron
+5. Copper
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

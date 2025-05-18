@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Popper's three worlds): Central to Popper's overall theory of knowledge is his contention that a form of "making and matching" or "conjecture and refutation" is the model by which knowledge develops at all these levels i.e. within World 1, and within World 2, and also as regards knowledge arising from World 2's interactions with World 1 and World 3. Popper's theory of knowledge is very different to the view that identifies knowledge with some form of "justified true belief", and he argues, by contrast, that:- (a) all knowledge is conjectural, because it always might be mistaken, and none is "justified" in the sense philosophers usually mean i.e. of having an infallible basis; (b) knowledge encompasses what is false as well as what is true e.g. Newton's physics, though strictly false, is highly significant knowledge - much more significant than knowledge that is true but trivial;
+Document 2 (Title: Immunology_Janeway): 1.14 True or False: each lymphocyte carries cell-surface receptors with multiple antigen specificity. 1.15 Multiple Choice: Which cell type forms an important link between the innate immune response and the adaptive immune response? A. dendritic cell B. neutrophil C. B cell D. Innate lymphoid cell (IlC) 1.16 Multiple Choice: Which of the following options is not a mechanism by which an antibody can protect against a pathogen? A. neutralization B. Co-stimulation of t cells C. opsonization D. Complement activation/deposition 1.17 True or False: tH2 cells do not possess mHC class I molecules. General references. Burnet, F.M.: The Clonal Selection Theory of Acquired Immunity. London: Cambridge University Press, 1959. Gowans, J.L.: The lymphocyte—a disgraceful gap in medical knowledge. Immunol. Today 1996, 17:288–291. Landsteiner, K.: The Specificity of Serological Reactions, 3rd ed. Boston: Harvard University Press, 1964.
+Document 3 (Title: [Analysis of the attitude of the hospital staff regarding the hepatitis B vaccine].): The attitude of the staff of the University Hospital Virgen de la Macarena in Sevilla was evaluated to assess their degree of information about hepatitis B vaccine, their attitude towards vaccination and the possible causes of the latter. To this end, a survey was carried out among 200 individuals from the hospital staff, distributed in four professional level categories (doctors, nurses, clinical assistants and attendants). The level of knowledge of the disease, the participation in the vaccination and the future attitude were evaluated. Group differences were also analysed. The results showed a low information level about the vaccine (81.5% were not adequately informed), a low vaccination index (13.5%) and a low intention to be vaccinated in the future (34.6%), mostly due to poor information.
+
+What are the common knowledge gaps and attitudes among unvaccinated seniors regarding vaccinations?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

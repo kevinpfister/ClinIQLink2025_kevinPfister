@@ -1,0 +1,21 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: [Pelvic exenteration in advanced and or recurrent rectal cancer].): Operative procedures of pelvic exenteration which were performed on a 54 yrs male patient with irradiated rectal cancer involving the prostatic gland, perineal skin and gluteal muscles were demonstrated by cinema. Perianal fistula formation and hard fibrotic adhesion between the distal rectum and the sacrum were also seen. As a result, combined resection of the perianal skin, gluteal muscles and distal sacral bone (fourth and fifth sacral and coccygeal vertebrae) was carried out. Fifty four total pelvic exenteration were performed at National Cancer Center Hospital from 1962 to 1985. The procedures were performed as a definitive treatment for the primary tumors in 35 cases (31 males and 4 females) which corresponds to 2.7% of operated primary rectal cancer at the same period and for the locally recurrent cancer in 19 cases (13 males and 6 females). By post operative histopathological examination 35 operations, 28 of 35 primary and 7 of 19 recurrent cases, were assessed as potentially curative. Hospital death rate was 13%; i.e. 7 cases (1 of 35 primary and 6 of 19 recurrent cases). Postoperative survival rates of the 54 patients were calculated by Kaplan-Meier's method. There were 17 survivors among 35 curatively operated patients and 5 yr survival rate was 34%. On the other hand, though 6 patients are surviving, there is no long term survivor (more than 35 months) among 21 patients who were treated by palliative resection.
+Document 2 (Title: Pelvic exenteration): Recovery Pelvic exenteration leaves a person with a permanent colostomy and urinary diversion. A 2015 article reports that pelvic exenteration can provide long-term survival for patients with locally advanced primary rectal carcinoma. The 5-year survival rate of patients undergoing pelvic exenteration following complete resection of disease was 59.3%. Factors shown to influence the survival rate following a pelvic exenteration procedure include age, the presence of metastatic disease, lymph node status, circumferential resection margin, local recurrence of disease, and the need for neoadjuvant therapy. History The procedure was first described by Alexander Brunschwig in 1948. References Surgical oncology Female genital procedures
+Document 3 (Title: InternalMed_Harrison): therapy, either preor postoperatively, further reduces the likelihood of pelvic recurrences but does not appear to prolong survival. Combining radiation therapy with 5-fluorouracil (5-FU)-based chemotherapy, preferably prior to surgical resection, lowers local recurrence rates and improves overall survival. Preoperative radiotherapy is indicated for patients with large, potentially unresectable rectal cancers; such lesions may shrink enough to permit subsequent surgical removal. Radiation therapy is not effective as the primary treatment of colon cancer.
+
+How does receiving preoperative radiotherapy for primary rectal cancer influence the outcomes of pelvic exenteration in patients experiencing recurrent rectal cancer?
+
+Options:
+A. True
+B. False
+
+Please respond strictly with one of the following JSON formats:
+{"answer": "True"}
+or
+{"answer": "False"}
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

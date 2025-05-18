@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Selective Beta-1 Blockers -- Toxicity): Immediate monitoring of blood pressure with a blood pressure cuff and cardiac electrical activity with an EKG is necessary. Acquiring blood glucose levels, a basic metabolic panel, and acetaminophen and salicylate levels help identify sequelae of beta-1-blocker overdose and toxicity, as well as identifying any medications that may have been co-ingested. In severely hypotensive patients, one should consider obtaining a lactate level due to the possibility of mesenteric ischemia. Patients being treated within 1 to 2 hours of ingestion may benefit from activated charcoal, or gastric lavage may be necessary for patients who present immediately after large ingestions or with severe adverse symptoms.
+Document 2 (Title: InternalMed_Harrison): Nonrenal Loss of Potassium The loss of K+ in sweat is typically low, except under extremes of physical exertion. Direct gastric losses of K+ due to vomiting or nasogastric suctioning are also minimal; however, the ensuing hypochloremic alkalosis results in persistent kaliuresis due to secondary hyperaldosteronism and bicarbonaturia, i.e., a renal loss CAuSES of HyPoKALEMiA I. Decreased intake A. Starvation B. Clay ingestion II. A. 1. Metabolic alkalosis B. Hormonal 1. 2. Increased β2-adrenergic sympathetic activity: post–myocardial infarction, head injury 3. β2-Adrenergic agonists – bronchodilators, tocolytics 4. 5. 6. Downstream stimulation of Na+/K+-ATPase: theophylline, caffeine C. Anabolic state 1. 2. 3. D. Other 1. 2. 3. 4. Barium toxicity: systemic inhibition of “leak” K+ channels III. A. 1. 2. B. Renal 1. Increased distal flow and distal Na+ delivery: diuretics, osmotic diuresis, salt-wasting nephropathies 2. Increased secretion of potassium a.
+Document 3 (Title: Ibuprofen): Treatment to address an ibuprofen overdose is based on how the symptoms present. In cases presenting early, decontamination of the stomach is recommended. This is achieved using activated charcoal; charcoal adsorbs the drug before it can enter the bloodstream. Gastric lavage is now rarely used, but can be considered if the amount ingested is potentially life-threatening, and it can be performed within 60 minutes of ingestion. Purposeful vomiting is not recommended. The majority of ibuprofen ingestions produce only mild effects, and the management of overdose is straightforward. Standard measures to maintain normal urine output should be instituted and kidney function monitored. Since ibuprofen has acidic properties and is also excreted in the urine, forced alkaline diuresis is theoretically beneficial. However, because ibuprofen is highly protein-bound in the blood, the kidneys' excretion of unchanged drug is minimal. Forced alkaline diuresis is, therefore, of limited benefit.
+
+Select the most suitable therapeutic interventions for a young woman who has ingested 8 mg of digitoxin.
+
+Options:
+1. Monitoring of potassium levels
+2. Osmotic diuresis
+3. Gastric lavage
+4. Infusion enriched with K+
+5. Cardiac monitoring
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

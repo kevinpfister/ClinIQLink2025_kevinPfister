@@ -1,0 +1,45 @@
+== Original Prompt ==
+Question: A 70-year-old man presents to a medical clinic reporting blood in his urine and lower abdominal pain for the past few days. He is also concerned about urinary frequency and urgency. He states that he recently completed a cycle of chemotherapy for non-Hodgkin lymphoma. Which medication in the chemotherapy regimen most likely caused his symptoms?
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+
+== Full Prompt ==
+A 70-year-old man presents at a medical clinic displaying symptoms consistent with adverse effects from his current chemotherapy treatment. Considering the possible drugs involved, could you identify which specific medication is most likely causing these symptoms?
+
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+== Answer ==
+{
+    "answer_choice": "C"
+}
+
+== Feedback ==
+Incorrect answer: The answer does not specify the symptoms, and the prompt should include specific symptoms to accurately determine the medication causing them.
+
+== Improved Full Prompt ==
+A 70-year-old man visits a medical clinic with symptoms that may be side effects of his current medications. Considering his age and existing prescriptions, please specify which medication is most likely responsible for these symptoms.
+
+Options:
+A. Methotrexate
+B. Rituximab
+C. Cyclophosphamide
+D. Prednisone
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
+

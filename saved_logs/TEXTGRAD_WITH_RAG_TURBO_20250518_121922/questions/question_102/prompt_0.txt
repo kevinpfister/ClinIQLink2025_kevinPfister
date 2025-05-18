@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Atomoxetine -- Adverse Effects -- Adverse Drug Reactions (1% to 10%)): Palpitations (3%), cold extremities (1% to 3%), prolonged QTc interval on ECG, increased diastolic blood pressure (5% to 9%), greater than or equal to 15 mmHg), systolic hypertension (4% to 5%), syncope (less than or equal to 3%), orthostatic hypotension (less than or equal to 2%), tachycardia (less than or equal to 2%) [15] Fatigue (6% to 10%), dizziness (5% to 8%), depression (4% to 7%), disturbed sleep (3% to 7%), irritability (5% to 6%), jitteriness (2% to 5%), abnormal dreams (4%), chills (3%), paresthesia (adults 3%; postmarketing observation in children), anxiety (greater than or equal to 2%), hostility (children and adolescents 2%), emotional lability (1% to 2%), agitation, restlessness, seizures [16]
+Document 2 (Title: Tramadol): Dependence and withdrawal Long-term use of high doses of tramadol causes physical dependence and withdrawal syndrome. These include both symptoms typical of opioid withdrawal and those associated with serotonin–norepinephrine reuptake inhibitor (SNRI) withdrawal; symptoms include numbness, tingling, paresthesia, and tinnitus. Psychiatric symptoms may include hallucinations, paranoia, extreme anxiety, panic attacks, and confusion. In most cases, tramadol withdrawal will set in 12–20 hours after the last dose, but this can vary. Tramadol withdrawal typically lasts longer than that of other opioids. Seven days or more of acute withdrawal symptoms can occur as opposed to typically 3 or 4 days for other codeine analogues. Overdose Recognised risk factors for tramadol overdose include respiratory depression, addiction, and seizures. Naloxone only partially reverses the toxic effects of tramadol overdose and may increase the risk of seizures.
+Document 3 (Title: First_Aid_Step2): SSRIs Fluoxetine, sertraline, paroxetine, citalopram, f uvoxamine Depression and anxiety. Sexual side effects, GI distress, agitation, insomnia, tremor, diarrhea. Serotonin syndrome (fever, myoclonus, mental status changes, cardiovascular collapse) can occur if SSRIs are used with MAOIs. Paroxetine can cause pulmonary hypertension in the fetus. Atypicals Bupropion, venlafaxine, mirtazapine, trazodone Depression, anxiety, and chronic pain. Bupropion: ↓ seizure threshold; minimal sexual side effects. Contraindicated in patients with eating disorders as well as in seizure patients. Venlafaxine: Diastolic hypertension. Mirtazapine: Weight gain, sedation. Trazodone: Highly sedating; priapism. Nortriptyline, desipramine, amitriptyline, imipramine Depression, anxiety disorder, chronic pain, migraine headaches, enuresis (imipramine). Lethal with overdose owing to cardiac conduction arrhythmias (e.g., long QRS). Monitor in the ICU for 3–4 days following an OD. Anticholinergic effects (dry
+
+Identify the correct statement(s) regarding acute amitriptyline poisoning.
+
+Options:
+1. A serotonin syndrome is observed
+2. An anticholinergic syndrome is observed
+3. Seizures may occur
+4. Prognosis depends on cardiovascular disorders
+5. The toxic dose is greater than 5 grams in adults
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.
