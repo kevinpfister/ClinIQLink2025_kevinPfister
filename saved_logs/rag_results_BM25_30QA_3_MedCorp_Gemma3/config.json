@@ -1,5 +1,0 @@
-{
-  "benchmark_file": "./Benchmark_validation_testset.json",
-  "output_dir": "./rag_results_20250504_144824",
-  "limit": null
-}
