@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Hydronephrosis): The most common causes of hydronephrosis in children are anatomical abnormalities. These include vesicoureteral reflux, urethral stricture, and stenosis. The most common cause of hydronephrosis in young adults is kidney stones. In older adults, the most common cause of hydronephrosis is benign prostate hyperplasia (BPH), or intrapelvic neoplasms such as prostate cancer. Compression of one or both ureters can also be caused by other developmental defects not completely occurring during the fetal stage such as an abnormally placed vein, artery, or tumor. Bilateral compression of the ureters can occur during pregnancy due to enlargement of the uterus. Changes in hormone levels during this time may also affect the muscle contractions of the bladder, further complicating this condition. Sources of obstruction that can arise from other various causes include kidney stones, blood clots or retroperitoneal fibrosis.
+Document 2 (Title: Pathology_Robbins): Hydronephrosis refers to dilation of the renal pelvis and calyces, with accompanying atrophy of the parenchyma, caused by obstruction to the outflow of urine. The obstruction may be sudden or insidious, and it may occur at any level of the urinary tract, from the urethra to the renal pelvis. The most common causes are categorized as follows: Congenital, such as atresia of the urethra, valve formations in either the ureter or urethra, an aberrant renal artery compressing the ureter, renal ptosis with torsion, or kinking of the ureter Foreign bodies, such as calculi or sloughed necrotic papillae Proliferative lesions, such as benign prostatic hyperplasia, carcinoma of the prostate, bladder tumors (papilloma and carcinoma), contiguous malignant disease (retroperitoneal lymphoma, and carcinoma of the cervix or uterus) Inflammatory lesions, such as prostatitis, ureteritis, urethritis, and retroperitoneal fibrosis
+Document 3 (Title: Benign Prostatic Hyperplasia -- Introduction): The development of BPH is characterized by stromal and epithelial cell proliferation in the prostate transition zone, which surrounds the urethra. This leads to urethral compression and bladder outflow obstruction, which can result in clinical manifestations of LUTS, urinary retention, or infections due to incomplete bladder emptying. [5] Long-term, untreated disease can lead to the development of chronic high-pressure retention (a potentially life-threatening condition) and long-term or permanent changes to the bladder detrusor muscle.
+
+Answer the following multiple-choice question.
+Question: Chronic urethral obstruction due to benign prismatic hyperplasia can lead to the following change in kidney parenchyma
+Options:
+A. Hyperplasia
+B. Hyperophy
+C. Atrophy
+D. Dyplasia
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

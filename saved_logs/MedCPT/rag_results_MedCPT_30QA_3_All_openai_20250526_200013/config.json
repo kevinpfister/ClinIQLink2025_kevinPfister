@@ -1,0 +1,5 @@
+{
+  "benchmark_file": "./Benchmark_validation_testset.json",
+  "output_dir": "./logs/rag_results_MedCPT_30QA_3_All_openai_20250526_200013",
+  "limit": null
+}

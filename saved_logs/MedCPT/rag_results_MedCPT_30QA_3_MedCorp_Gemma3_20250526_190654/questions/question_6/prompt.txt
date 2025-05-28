@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Etomidate): Pharmacokinetics At the typical dose, anesthesia is induced for the duration of about 5–10 minutes, though the half-life of drug metabolism is about 75 minutes, because etomidate is redistributed from the plasma to other tissues. Onset of action: 30–60 seconds Peak effect: 1 minute Duration: 3–5 minutes; terminated by redistribution Distribution: Vd: 2–4.5 L/kg Protein binding: 76% Metabolism: Hepatic and plasma esterases Half-life distribution: 2.7 minutes Half-life redistribution: 29 minutes Half-life elimination: 2.9 to 5.3 hours Metabolism Etomidate is highly protein-bound in blood plasma and is metabolised by hepatic and plasma esterases to inactive products. It exhibits a biexponential decline.
+Document 2 (Title: Posttraumatic Stress Disorder -- Evaluation -- Criterion F: Duration): Persistence of symptoms in Criterion B, C, D, and E for more than 1 month Criterion G: The disturbance causes significant functional impairment or distress in various areas of life, such as social or occupational. Criterion H: The disturbance is not attributable to substance use, medication, or another medical illness. [47]
+Document 3 (Title: [Studies on buffalo milk. XI. Heterogeneity of the buffalo k-casein and the less moving fractions treated with 2-mercaptoethanol (author's transl)].): The heterogeneity of the buffalo k-casein, treated with 2-mercaptoethanol, has been estimated by disk gel-polyacrylamide electrophoresis on 428 caseins isolated from individual milks. The investigation showed six electrophoretic fractions: A, B, C, D, E, F, that, in ten buffalo farms considered formed ten different groups: ABCDEF; ABCDE; ABCEF; ABCE; BCDE; CDEF; BCE; CDE; CEF; and CE. The group ABCDE is the only that is present in all ten farms considered and presents on the whole, the greater number of observations (161). The fraction C is the most abundant. The investigation showed the heterogeneity of the gamma fraction, showing five electrophoretic fractions: A, B, C, D, E, that constitute the nine following groups; ABCDE; ABCD; BCDE; ABD; BCD; ABC; BD; BC and AB. At present a possible correlation to genetic factors seems hazardous.
+
+Answer the following multiple-choice question.
+Question: Characteristics of Remifentanyl – a) Metabolised by plasma esterase b) Short half life c) More potent than Alfentanyl d) Dose reduced in hepatic and renal diseasee) Duration of action more than Alfentanyl
+Options:
+A. ab
+B. bc
+C. abc
+D. bcd
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

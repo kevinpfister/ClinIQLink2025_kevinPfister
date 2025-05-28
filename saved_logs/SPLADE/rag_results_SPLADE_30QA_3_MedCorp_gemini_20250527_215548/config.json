@@ -1,0 +1,5 @@
+{
+  "benchmark_file": "./Benchmark_validation_testset.json",
+  "output_dir": "./logs/rag_results_SPLADE_30QA_3_MedCorp_gemini_20250527_215548",
+  "limit": null
+}

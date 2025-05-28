@@ -1,0 +1,11 @@
+{
+  "correct_answer": "A",
+  "options": {
+    "A": "Administer amoxicillin-clavulanic acid",
+    "B": "Administer trimethoprim-sulfamethoxazole",
+    "C": "Close the wound with sutures and discharge the patient",
+    "D": "Discharge the patient with outpatient follow up"
+  },
+  "question": "A 27-year-old man presents to the emergency department after a dog bite. The patient was intoxicated and pulled the dog\u2019s tail while it was eating. The dog belongs to his friend and is back at his friend\u2019s house currently. Physical exam is notable for a dog bite on the patient\u2019s right arm. The wound is irrigated and explored with no retained bodies found. A tetanus vaccination is administered. Which of the following is appropriate management of this patient?",
+  "type": "multiple_choice"
+}

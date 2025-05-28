@@ -1,0 +1,11 @@
+{
+  "correct_answer": "D",
+  "options": {
+    "A": "Hypothermia",
+    "B": "Hyperthermia",
+    "C": "Polydipsia",
+    "D": "Anorexia"
+  },
+  "question": "An investigator is studying the function of the lateral nucleus of the hypothalamus in an experimental animal. Using a viral vector, the genes encoding chloride-conducting channelrhodopsins are injected into this nucleus. Photostimulation of the channels causes complete inhibition of action potential generation. Persistent photostimulation is most likely to result in which of the following abnormalities in these animals?",
+  "type": "multiple_choice"
+}

@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Body Dysmorphic Disorder -- Pathophysiology): Subjects with BDD have a decreased ability to recognize the emotions of others through facial expressions, an emotional processing deficit. One study found that patients with BDD are likelier to misinterpret neutral facial expressions in photographs as angry. [23] Executive function may also be impaired. Specific areas of difficulty are response inhibition, planning, and decision-making. [24] [25] Deficits in executive function combined with neuroimaging findings suggest that subjects with BDD have frontal lobe dysfunction compared to healthy controls. [26]
+Document 2 (Title: Neurology_Adams): Broca aphasia conforms to a primary deficit in language output and speech production with relative preservation of comprehension. There is a wide range of variation in the severity of the motor speech deficit, from the mildest poverty of speech and minimal dysarthria with entirely intact comprehension and ability to write (so-called Broca area aphasia; “mini-Broca”), to a complete loss of all means of lingual, phonetic, written, and gestural communication. Because the muscles that can no longer be used in speaking may still function in other acts, they are not paralyzed. The term apraxia has been imprecisely applied to this deficit in oro-buccal-lingual use (it does not represent the loss of a previously learned ability) but there are accompanying apractic deficits of the orofacial apparatus as noted in the following text.
+Document 3 (Title: Interaction between verbal and gestural language in progressive aphasia: a longitudinal case study.): The objective of this longitudinal study is to investigate the on-line interaction between praxis and linguistic abilities in a progressive aphasia case. During 3 years of evolution, procedural discourse of a progressive aphasic patient was videotaped five times, allowing us to analyze the progression of both language and gestural production as well as the interaction between these two. We anticipated that, in the absence of apraxia, the patient would compensate for her speech deficit by producing progressively more and more meaningful gestures. Our compensatory hypothesis was confirmed but the compensation was not as efficient as one would expect given the absence of apraxia. With the progression of the speech deficit, the patient could not replace some verbs by pantomimes that were otherwise accompanying her discourse in the preceding testing sessions. We suggest that such a compensatory ability may constitute one important characteristic of the progressive aphasia syndrome.
+
+Answer the following multiple-choice question.
+Question: Hypomimia is ?
+Options:
+A. Decreased ability to copy
+B. Decreased execution
+C. Deficit of expression by gesture
+D. Deficit of fluent speech
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

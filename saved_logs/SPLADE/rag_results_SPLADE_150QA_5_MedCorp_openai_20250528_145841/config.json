@@ -1,0 +1,5 @@
+{
+  "benchmark_file": "./Benchmark_validation_enhanced_testset.json",
+  "output_dir": "./logs/rag_results_SPLADE_150QA_5_MedCorp_openai_20250528_145841",
+  "limit": null
+}

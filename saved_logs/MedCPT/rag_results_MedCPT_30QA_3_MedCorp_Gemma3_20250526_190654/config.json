@@ -1,0 +1,5 @@
+{
+  "benchmark_file": "./Benchmark_validation_testset.json",
+  "output_dir": "./logs/rag_results_MedCPT_30QA_3_MedCorp_Gemma3_20250526_190654",
+  "limit": null
+}

@@ -1,0 +1,18 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pharmacology_Katzung): Adverse effects include nausea, diarrhea, stomatitis, and peripheral neuropathy with prolonged use. Metronidazole has a disulfiram-like effect, and patients should be instructed to avoid alcohol. Although teratogenic in some animals, metronidazole has not been associated with this effect in humans. Other properties of metronidazole are discussed in Chapter 52. A structurally similar agent, tinidazole, is a once-daily drug approved for treatment of trichomonas infection, giardiasis, amebiasis, and bacterial vaginosis. It also is active against anaerobic bacteria, but is not approved in the USA for treatment of anaerobic infections.
+Document 2 (Title: Guidelines for clinical care: anti-infective agents for intra-abdominal infection. A Surgical Infection Society policy statement.): Several antibiotics have been marketed for therapeutic use in intra-abdominal infection. Often, these agents do not provide a sufficient spectrum activity against both facultative and obligate anaerobic gram-negative organisms, or have certain toxic effects that would not otherwise support their use. Guidelines have been developed for selection of antibiotic therapy for intra-abdominal infections and are presented as a statement of the Surgical Infection Society endorsed by the Executive Council. These guidelines are restricted to infections derived from the gastrointestinal tract and deal with those microorganisms commonly seen in such infections. The recommendations are based on in vitro activity against enteric bacteria, experience in animal models, and documented efficacy in clinical trials. Other concerns regarding pharmacokinetics, mechanisms of action, microbial resistance, and safety were also used in the formation of these guidelines. For community-acquired infections of mild to moderate severity, single-agent therapy with cefoxitin, cefotetan, or cefmetazole or ticarcillin-clavulanic acid is recommended. For more severe infections, single-agent therapy with carbapenems (imipenem/cilastatin) or combination therapy with either a third-generation cephalosporin, a monobactam (aztreonam), or an aminoglycoside plus clindamycin or metronidazole is recommended. Regimens with little or no activity against facultative gram-negative rods or anaerobic gram-negative rods are not considered acceptable.
+Document 3 (Title: Metronidazole -- Indications): Metronidazole is one of the mainstay drugs for the treatment of anaerobic bacterial infections, protozoal infections, and microaerophilic bacterial infections. It is cytotoxic to facultative anaerobic microorganisms.
+
+Answer the following list question.
+Question: Select the correct statement(s): Metronidazole:
+Options:
+1. Is a derivative of pyrazole
+2. Can induce a disulfiram-like effect
+3. Can be administered intravenously
+4. Can be used in certain protozoal infections
+5. Is ineffective against anaerobic infections
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

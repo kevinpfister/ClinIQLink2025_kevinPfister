@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Physiology, Pituitary Hormones -- Mechanism -- Growth Hormone): Growth Hormone has a direct and indirect mechanism of action. The direct effect of growth hormone involves growth hormone directly binding to its receptors on target cells to stimulate a response. The indirect effect is mediated by the action of insulin-like growth factor-1(IGF-1), which is secreted by the liver hepatocytes in response to growth hormone. Insulin-like growth factor-1 binds to its receptor, IGF-1R, on the cellular surface. It activates a tyrosine kinase-mediated intracellular signaling pathway that phosphorylates various proteins intracellularly, leading to increased anabolism, cellular replication and division, and metabolism. [2]
+Document 2 (Title: Insulin-like growth factor 1 receptor): The insulin-like growth factor 1 (IGF-1) receptor is a protein found on the surface of human cells. It is a transmembrane receptor that is activated by a hormone called insulin-like growth factor 1 (IGF-1) and by a related hormone called IGF-2. It belongs to the large class of tyrosine kinase receptors. This receptor mediates the effects of IGF-1, which is a polypeptide protein hormone similar in molecular structure to insulin. IGF-1 plays an important role in growth and continues to have anabolic effects in adults – meaning that it can induce hypertrophy of skeletal muscle and other target tissues. Mice lacking the IGF-1 receptor die late in development, and show a dramatic reduction in body mass. This testifies to the strong growth-promoting effect of this receptor. Structure
+Document 3 (Title: Pediatrics_Nelson): The hypothalamus controls many endocrine systems either directly or through the pituitary gland. Higher central nervoussystem (CNS) centers control the hypothalamus. Hypothalamicreleasing or inhibiting factors travel through capillaries of the pituitary portal system to control the anterior pituitary gland,regulating the hormones specific for the factor (Fig. 170-2).The pituitary hormones enter the peripheral circulation andexert their effects on target glands, which produce other hormones that feed back to suppress their controlling hypothalamicand pituitary hormones. Insulin-like growth factor-1 (IGF-1),growth hormone (GH), cortisol, sex steroids, and thyroxine (T4)all feed back on the hypothalamic-pituitary system. Prolactin isthe only pituitary hormone that is suppressed by a hypothalamicfactor, dopamine. The hypothalamus is also the location of vasopressin-secreting axons that either terminate in the posteriorpituitary gland and exert their effect via vasopressin secretion
+
+Answer the following multiple-choice question.
+Question: Growth hormone has its effect on growth through?
+Options:
+A. Directly
+B. IGF-1
+C. Thyroxine
+D. Intranuclear receptors
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
