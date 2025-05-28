@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "2",
+    "4",
+    "5"
+  ],
+  "options": [
+    "Are encoded by genes present at the HLA-A, -B and -C loci",
+    "Are expressed on B lymphocytes and monocyte macrophages",
+    "Are formed by an alpha chain associated with beta-2 microglobulin",
+    "Have CD4 molecule as a ligand",
+    "Are involved in antigen presentation"
+  ],
+  "question": "Select the correct statement(s): Class II histocompatibility molecules:",
+  "type": "list"
+}

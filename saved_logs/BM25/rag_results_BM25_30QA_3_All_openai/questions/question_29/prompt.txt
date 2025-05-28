@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Constipation): Examination A physical examination should involve at least an abdominal exam and rectal exam. Abdominal exam may reveal an abdominal mass if there is significant stool burden and may reveal abdominal discomfort. Rectal examination gives an impression of the anal sphincter tone and whether the lower rectum contains any feces or not. Rectal examination also gives information on the consistency of the stool, the presence of hemorrhoids, blood and whether any perineal irregularities are present including skin tags, fissures, anal warts. Physical examination is done manually by a physician and is used to guide which diagnostic tests to order. Diagnostic tests Functional constipation is common and does not warrant diagnostic testing. Imaging and laboratory tests are typically recommended for those with alarm signs or symptoms.
+Document 2 (Title: Gynecology_Novak): 1. The perianal and perineal regions are common sites for itching. Pruritus ani is usually indicated by thickening, excoriations, and eczema of the perianal region and adjacent areas. 2. The anal opening often is the site of fissures, fistulae, and external hemorrhoids. 3. The pilonidal area may present a dimple, a sinus, or an inﬂamed pilonidal cyst. 2. Instruct the patient to “strain down” and note whether this technique brings into view previously concealed internal hemorrhoids, polyps, or a prolapsed rectal mucosa. 3. Palpate the pilonidal area, the ischiorectal fossa, the perineum, and the perianal region before inserting the gloved finger into the anal canal. Note the presence of any concealed induration or tenderness in any of these areas. 4.
+Document 3 (Title: Rectal Exam -- Clinical Significance -- External Inspection): Anal fissures Anal fistula Genital warts External hemorrhoids Pilonidal sinus Skin disease (seborrhoeic eczema, skin cancer, natal cleft dermatitis) Skin tags Skin discoloration with Crohn disease Rectal prolapse
+
+Answer the following multiple-choice question.
+Question: Per rectum examination is not a useful test for diagnosis of
+Options:
+A. Anal fissure
+B. Hemorrhoid
+C. Pilonidal sinus
+D. Rectal ulcer
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,18 @@
+Based on the following information:
+
+Document 1 (Title: Coronary CT Angiography -- Personnel): The Society for Cardiovascular Computed Tomography recommends that CCTAs be performed by technologists adequately trained to use contrast injection devices and to perform cardiac CTs and CCTAs. One member of the team should be proficient in the insertion of peripheral IV catheters. During image acquisition, a team member certified in advanced cardiac life support should also be available. Finally, a clinician trained in the administration of beta-blockers and nitroglycerin should also be present during the scan. The interpreting physician should be trained in CCTA according to the respective American College of Cardiology (ACC) and American Heart Association (AHA)  clinical competence statement.
+Document 2 (Title: Defamation -- Clinical Significance): If an individual's statement is extremely negative or inflammatory, one should first follow the rules of the social network's platform on dispute resolution. For example, one may want to write to Facebook, Yelp, or Twitter to complain about the posting. The social media site often does not allow defamatory statements to be posted on its platform. Litigation may be the next step if this does not resolve the issue.
+Document 3 (Title: Tetanus Prophylaxis -- Introduction): The current Advisory Committee on Immunization Practices recommends for children doses of DTaP or DT at 2, 4, and 6 months of age, with additional doses between 15 and 18 months, and between 4 and 6 years. [2] This regimen is followed by 1 booster of Tdap at age 11 or 12, followed by a booster every 10 years thereafter. Adult Td or Tdap vaccine is recommended every 10 years with complete prior immunization. Of those doses, one must be Tdap for more than 19 years old. In those previously unvaccinated, a series of 3 vaccines will be given. One dose is given 4 weeks from the first dose, then the last dose 6 to 12 months later. At least one dose is Tdap, and the other 2 can be Td or Tdap. A booster is also indicated every 10 years thereafter. The rationale for a booster every 10 years is due to waning immunity. Between 1988 and 1994, the United States serologic survey finds protective titers of tetanus antibodies were detected in 72% aged 6 years old, up to 91% aged 6 and 11 years old, down 47% aged 20 years or older, and significantly down to 31% aged more than 70 years old. [3] Tetanus prophylaxis includes understanding and knowing the current tetanus immunization guideline(s), recommendation(s), and indication(s) for prophylaxis. The key to the prevention of tetanus is immunization, identification of those at risk, and proper identification and treatment of wounds and traumatic injuries.
+
+Answer the following list question.
+Question: Among the following statements, indicate the incorrect one(s): Nitroglycerin:
+Options:
+1. Is isosorbide trinitrate
+2. Is an anti-anginal drug
+3. Is used orally for the treatment of angina attacks
+4. Causes methemoglobinemia at high doses
+5. Increases blood pressure
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

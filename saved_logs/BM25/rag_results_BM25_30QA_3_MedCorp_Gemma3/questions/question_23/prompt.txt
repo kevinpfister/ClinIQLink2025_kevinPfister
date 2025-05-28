@@ -1,0 +1,17 @@
+Based on the following information:
+
+Document 1 (Title: Surgical Options in the Treatment of Severe Obesity -- Other Issues -- Complications): Overall, bariatric surgery is safe and effective in evaluating and treating obese patients, particularly severely obese patients. As discussed above, multiple surgical interventions can provide adequate results. Still, each option has technical and metabolic issues that should be considered when determining a weight-loss surgery for each patient. A patient should undergo an extensive preoperative assessment, and a postoperative plan, which includes a discussion with the multi-disciplinary team, should also be completed. The surgery with all associated risks, benefits, and alternatives to surgery should be discussed. Given the extent of the risk-to-benefit ratio, which favors surgical intervention in severely obese patients, bariatric surgery can be a viable option for substantial and long-term weight loss as well as comorbidity control.
+Document 2 (Title: Obesity and Type 2 Diabetes -- Issues of Concern -- Surgical Treatment): Long-term follow-up demonstrates that LAGB has the highest rate of removal or revision. VSG is a newer procedure that has increased in popularity as surgeons gain additional experience. BPD is the most complex surgery, resulting in increased mortality, morbidity, and complications. Clinicians should educate all surgical patients about the risk of postoperative nutritional deficiencies such as iron deficiency anemia, hypoglycemia, and bone demineralization and monitor them closely for short and long-term complications.
+Document 3 (Title: Postoperative Assessment and Management of Obesity Surgery -- Technique or Treatment -- Postoperative Care Following Bariatric Surgery): The trend for bariatric surgeries has been to perform them laparoscopically as it is associated with decreased hospital length of stay, wound complications, post-op pain, and improved surgical cosmesis. Furthermore, laparoscopic surgery reduces the risk of post-op venous thromboembolism (VTE), which has been identified as a frequent cause of postoperative morbidity and mortality. With that being said, all patients are placed on an aggressive VTE prevention regimen following surgical intervention. Early ambulation (within 4-6 hours post-surgery), sequential compression devices (SCDs), and pre- and post-op low molecular weight or unfractionated heparin are essential. [11]
+
+Answer the following multiple-choice question.
+Question: All of the following are surgical options for morbid obesity except -
+Options:
+A. Adjustable gastric banding
+B. Biliopancreatic diversion
+C. Duodenal Switch
+D. Roux en Y Duodenal By pass
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

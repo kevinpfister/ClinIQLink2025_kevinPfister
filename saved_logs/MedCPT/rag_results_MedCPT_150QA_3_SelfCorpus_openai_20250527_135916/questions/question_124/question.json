@@ -1,0 +1,17 @@
+{
+  "answer": [
+    "1",
+    "2",
+    "4",
+    "5"
+  ],
+  "options": [
+    "Smoking",
+    "High plasma concentration of apolipoprotein B",
+    "High plasma concentration of HDL",
+    "Hypertension",
+    "High plasma level of Lp(a)"
+  ],
+  "question": "Select the risk factor(s) for coronary artery disease:",
+  "type": "list"
+}

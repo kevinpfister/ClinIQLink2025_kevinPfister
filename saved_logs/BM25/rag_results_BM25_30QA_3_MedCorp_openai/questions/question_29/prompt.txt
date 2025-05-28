@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Gynecology_Novak): 1. The perianal and perineal regions are common sites for itching. Pruritus ani is usually indicated by thickening, excoriations, and eczema of the perianal region and adjacent areas. 2. The anal opening often is the site of fissures, fistulae, and external hemorrhoids. 3. The pilonidal area may present a dimple, a sinus, or an inﬂamed pilonidal cyst. 2. Instruct the patient to “strain down” and note whether this technique brings into view previously concealed internal hemorrhoids, polyps, or a prolapsed rectal mucosa. 3. Palpate the pilonidal area, the ischiorectal fossa, the perineum, and the perianal region before inserting the gloved finger into the anal canal. Note the presence of any concealed induration or tenderness in any of these areas. 4.
+Document 2 (Title: Rectal Exam -- Clinical Significance -- External Inspection): Anal fissures Anal fistula Genital warts External hemorrhoids Pilonidal sinus Skin disease (seborrhoeic eczema, skin cancer, natal cleft dermatitis) Skin tags Skin discoloration with Crohn disease Rectal prolapse
+Document 3 (Title: Radiation Therapy for Anal Cancer -- Differential Diagnosis): The differential diagnosis for anal cancer is broad and dependent upon its clinical presentation. Bright red blood per rectum may also be the result of hemorrhoids, polyps, diverticulosis, anal fissures, ulcers, abscess, or proctitis. A sizeable malignant mass at the anus may also originate from the rectum, bladder, prostate, or vagina.
+
+Answer the following multiple-choice question.
+Question: Per rectum examination is not a useful test for diagnosis of
+Options:
+A. Anal fissure
+B. Hemorrhoid
+C. Pilonidal sinus
+D. Rectal ulcer
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

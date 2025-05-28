@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Double-balloon enteroscopy): The double-balloon enteroscope can also be passed in retrograde fashion, through the colon and into the ileum to visualize the end of the small bowel. Indications Double-balloon enteroscopy has found a niche application in the following settings: Bleeding from the gastrointestinal tract of obscure cause Iron deficiency anemia with normal colonoscopy and gastroscopy Visualization and therapeutic intervention on abnormalities seen on traditional small bowel imaging Endoscopic retrograde cholangiopancreatography (ERCP) in post-surgical patients with long afferent limbs Advantages and disadvantages
+Document 2 (Title: Status evaluation: enteroscopy.): Enteroscopy is a method to examine the small bowel mucosa beyond the reach of standard upper endoscopes. In practice it has primarily been used to search for a bleeding lesion in patients where one is not detected by conventional means. Such patients constitute only a small percentage of those who bleed (15,20). Experience is greatest with push enteroscopy. Examination of the distal duodenum and proximal jejunum using a standard or pediatric colonoscope is practical, appears to be safe and provides a satisfactory diagnostic and therapeutic yield in experienced hands. Longer designated push enteroscopes are under investigation. Sonde type enteroscopes can be passed to the ileum in most cases. A cause for bleeding can be detected in approximately one-quarter to one-third of individuals with minimal morbidity. Certain technical problems limit their efficacy and their role in the evaluation of patients with bleeding has not yet been clearly defined.
+Document 3 (Title: InternalMed_Harrison): Push enteroscopy is performed with a long endoscope similar in design to an upper endoscope. The enteroscope is pushed down the small bowel, sometimes with the help of a stiffening overtube that extends from the mouth to the small intestine. The proximal to mid-jejunum is usually reached, and the instrument channel of the endoscope allows for biopsy or endoscopic therapy. Deeper insertion into the small bowel can be accomplished by single-or double-balloon enteroscopy or spiral enteroscopy (Fig. 345-9). These instruments enable pleating of the small intestine onto an over-tube (see Video 346e-1). With balloon-assisted enteroscopy, the entire intestinal tract can be visualized in some patients when both the oral and anal routes of insertion are used. Biopsies and endoscopic therapy can be performed throughout the visualized small bowel (Fig. 345-10).
+
+Answer the following true/false question.
+Question: Double balloon enteroscopy: is it efficacious and safe in a community setting?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

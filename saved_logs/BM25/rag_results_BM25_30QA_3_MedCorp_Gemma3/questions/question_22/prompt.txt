@@ -1,0 +1,17 @@
+Based on the following information:
+
+Document 1 (Title: Subacute Combined Degeneration of the Spinal Cord(Archived) -- Etiology -- Nutritional Deficiency): Cobalamin is a water-soluble vitamin. Although cobalamin can be stored in large amounts, vitamin B12 cannot be synthesized by the human body and requires supplementation from dietary sources. Therefore, vitamin B12 deficiency can develop if dietary intake is low and body stores are depleted. Cobalamin is mainly present in animal-derived foods, such as meat, fish, dairy products, eggs, and fortified cereals. The richest sources of vitamin B12 are clams and animal liver, the latter of which has historically been used to treat vitamin B12 deficiency. Plant-based food does not contain cobalamin. Therefore, strict vegetarians and vegans are at risk of developing vitamin B12 deficiency. [3]
+Document 2 (Title: Biochemistry, Fat Soluble Vitamins -- Fundamentals -- Sources of Vitamin A): In animals, the body stores vitamin A as a molecule called retinol. Egg yolk, milk, liver, cheese, and butter are all rich in vitamin A. We derive vitamin A from plant sources in the form of plant carotenoids, which convert to retinol during digestion. Plants abundant in vitamin A include dark green leafy vegetables (spinach, amaranth, among others), carrots, squash, yellow maize, mangoes, and papayas. [1]
+Document 3 (Title: Vitamin D -- Enhancing Healthcare Team Outcomes): Very few foods are a natural source of vitamin D. These include oily fish such as salmon, mackerel, and sardines. Foods fortified with vitamin D are milk and orange juice, and some bread and cereals. An important source of oral vitamin D is vitamin D supplements, which are available both over the counter and through prescription. These are available in strengths of 1000 IU, 2000 IU, 5000 IU, and 50,000 IU, which are available only through prescription. [12] [13] By engaging in interprofessional collaboration, the healthcare team can ensure patients are adequately supplied with this vital nutrient and drive their patients to better health. [Level 5]
+
+Answer the following multiple-choice question.
+Question: Which vitamin is supplied from only animal source:
+Options:
+A. Vitamin C
+B. Vitamin B7
+C. Vitamin B12
+D. Vitamin D
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

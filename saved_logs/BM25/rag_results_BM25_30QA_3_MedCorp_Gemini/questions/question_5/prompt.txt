@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: InternalMed_Harrison): 1154 Rickettsial diseases David H. Walker, J. Stephen Dumler, Thomas Marrie The rickettsiae are a heterogeneous group of small, obligately intra-cellular, gram-negative coccobacilli and short bacilli, most of which are transmitted by a tick, mite, flea, or louse vector. Except in the case of louse-borne typhus, humans are incidental hosts. Among 211 Epidemiologic clues to the transmission of a particular pathogen include (1) environmental exposure to ticks, fleas, or mites during the season of activity of the vector species for the disease in the appropriate geographic region (spotted fever and typhus rickettsioses, scrub typhus, ehrlichioses, anaplasmosis); (2) travel to or residence in an endemic geographic region during the incubation period (Table 211-1); (3) expo-sure to parturient ruminants, cats, and dogs (Q fever); (4) exposure to flying squirrels (R. prowazekii infection); and (5) history of previous louse-borne typhus (recrudescent typhus). Clinical laboratory findings, such
+Document 2 (Title: Weil Felix Test -- Etiology and Epidemiology): Environmental exposure to ticks, fleas, or mites in regions and seasons where vector-borne diseases are prevalent, such as spotted fever and typhus rickettsioses, scrub typhus, ehrlichioses, and anaplasmosis Travel to or residence in an endemic region Exposure to pregnant ruminants, cats, or dogs, indicating possible Q fever Exposure to flying squirrels, associated with R. prowazekii typhus History of previous louse-borne typhus, which may lead to recrudescent typhus [7]
+Document 3 (Title: Weil Felix Test -- Etiology and Epidemiology): The etiologic agents of rickettsial diseases have diverse transmission mechanisms, wide geographic distributions, and a range of disease manifestations. Rickettsiae are most commonly transmitted through fleas, ticks, mites, or mouse vectors, with humans acting as incidental hosts. [4] The Rickettsiaceae that cause life-threatening infections are R. rickettsii (rocky mountain spotted fever), R. prowazekii (louse-borne typhus), Orientia tsutsugamushi (scrub typhus), R. conorii (Mediterranean spotted fever), R. typhi (murine typhus); and, in rare cases, other organisms of the spotted fever group. Most rickettsial species are limited to a particular region due to climatic conditions and natural host constraints; however, some rickettsia species can be encountered globally, such as R. felis and R. typhi . [5] Epidemiologic clues can be used to narrow the possible bacterial etiologies of a suspected rickettsial infection. [6] These clues include:
+
+Answer the following multiple-choice question.
+Question: Scrub typhus is transmitted by: September 2004
+Options:
+A. Louse
+B. Tick
+C. Mite
+D. Milk
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

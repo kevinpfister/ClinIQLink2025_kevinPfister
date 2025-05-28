@@ -1,0 +1,17 @@
+{
+  "answer": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "options": [
+    "Renal failure",
+    "Neurological disorders",
+    "Acid-base disorders",
+    "Cardiovascular disorders",
+    "Hearing disorders"
+  ],
+  "question": "Among the following symptoms, which one(s) is (are) commonly observed in acute ethylene glycol poisoning?",
+  "type": "list"
+}

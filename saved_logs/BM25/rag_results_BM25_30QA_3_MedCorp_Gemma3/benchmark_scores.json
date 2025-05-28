@@ -1,0 +1,50 @@
+{
+  "true_false": {
+    "TP": 5,
+    "FP": 0,
+    "FN": 5,
+    "accuracy": 0.5,
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1_score": 0.6666666666666666
+  },
+  "multiple_choice": {
+    "TP": 5,
+    "FP": 5,
+    "FN": 0,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6666666666666666
+  },
+  "list": {
+    "TP": 20,
+    "FP": 2,
+    "FN": 10,
+    "accuracy": 0.625,
+    "precision": 0.9090909090909091,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.7692307692307692
+  },
+  "model_info": {
+    "num_questions": 30,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 3,
+    "name": "Gemma-3",
+    "type": "gemma",
+    "corpus": "MedCorp",
+    "file_type": "benchmark_scores",
+    "timestamp": "20250518_130510"
+  },
+  "global_metrics": {
+    "TP": 30,
+    "FP": 7,
+    "FN": 15,
+    "total_questions": 30,
+    "precision": 0.8108108108108109,
+    "recall": 0.6666666666666666,
+    "f1_score": 0.7317073170731707,
+    "accuracy": 0.6666666666666666
+  }
+}

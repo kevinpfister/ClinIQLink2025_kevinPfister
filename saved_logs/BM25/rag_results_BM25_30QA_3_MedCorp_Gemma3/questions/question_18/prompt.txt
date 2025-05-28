@@ -1,0 +1,16 @@
+Based on the following information:
+
+Document 1 (Title: Congenital Adrenal Hyperplasia -- Complications): Patients with CAH are at an increased risk of cardiometabolic diseases, including hypertension, obesity, dyslipidemia, insulin resistance, impaired glucose homeostasis, increased carotid intima-media thickness, and cardiovascular events. However, most data available are based on surrogate markers rather than definitive outcomes. [51] [52] Practitioners should remain cautious, promote a healthy lifestyle, and continue analyzing longer-term data to assess hard outcomes.
+Document 2 (Title: Familial Combined Hyperlipidemia -- Evaluation): Several studies have reported an association between FCH and increased carotid intima-media thickness (IMT), a marker of subclinical atherosclerosis. Therefore, a carotid ultrasound may be performed to assess the presence of subclinical atherosclerosis in patients with FCH. [24] [25]
+Document 3 (Title: Anatomy, Head and Neck: Carotid Arteries -- Structure and Function): Like most of the vascular system throughout the body, histologically, the carotid arteries are made up of three layers – the inner layer "tunica intima," the middle layer "tunica media," and the outer layer "tunica adventitia." The tunica intima consists of endothelium supported by a fragile elastic and also a collagenous layer of variable thickness. Smooth muscle comprises the tunica media, and it is responsible for changing the diameter of the blood vessel to regulate blood flow and blood pressure. The tunica adventitia attaches the carotid vessel to the surrounding tissue. The carotid arteries originate posterior to the sternoclavicular joints and in the neck, they are contained within the carotid sheath posterior to the sternocleidomastoid muscle. At the location of the upper border of the thyroid cartilage (typically at the level of the fourth or fifth cervical vertebra), the common carotid arteries bifurcate into the ECA and ICA. This bifurcation point is clinically significant as it serves as a point for the location of the "carotid body," a chemoreceptor, and the "carotid sinus," a baroreceptor. The carotid body chemoreceptor is sensitive to decreased PO2, increased PCO2, and decreased pH of blood, and is responsible for alerting the brain to change the respiratory rate. The carotid sinus baroreceptors respond to changes in the stretch of the blood vessel and are responsible for detecting changes and maintaining blood pressure. After its division, the ECA exits the sheath to provide oxygenated blood to the face and neck, while the ICA continues in the carotid sheath to enter the carotid canal within the temporal bone.
+
+Answer the following true/false question.
+Question: Do mutations causing low HDL-C promote increased carotid intima-media thickness?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

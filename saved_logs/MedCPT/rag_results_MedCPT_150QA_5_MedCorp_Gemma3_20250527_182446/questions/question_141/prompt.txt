@@ -1,0 +1,20 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: InternalMed_Harrison): Hematologic and Marrow Findings In untreated CML, leukocytosis ranging from 10–500 × 109/L is common. The peripheral blood differential shows left-shifted hematopoiesis with predominance of neutrophils and the presence of bands, myelocytes, metamyelocytes, promyelocytes, and blasts (usually ≤5%). Basophils and/or eosinophils are frequently increased. Thrombocytosis is common, but thrombocytopenia is rare and, when present, suggests a worse prognosis, disease acceleration, or an unrelated etiology. Anemia is present in one-third of patients. Cyclic oscillations of counts are noted in 25% of patients without treatment. Biochemical abnormalities include a low leukocyte alkaline phosphatase score and high levels of vitamin B12, uric acid, lactic dehydrogenase, and lysozyme. The presence of unexplained and sustained leukocytosis, with or without splenomegaly, should lead to a marrow examination and cytogenetic analysis.
+Document 2 (Title: Alkaline phosphatase): Leukocyte alkaline phosphatase Leukocyte alkaline phosphatase (LAP) is found within mature white blood cells. White blood cell levels of LAP can help in the diagnosis of certain conditions. Higher levels are seen in the physiological response, the leukemoid reaction, and in pathologies that include mature white blood cells, such as polycythemia vera (PV), essential thrombocytosis (ET), and in primary myelofibrosis (PM). Lower levels are found in pathologies that involve undeveloped leukocytes, such as chronic myelogenous leukemia (CML), paroxysmal nocturnal hemoglobinuria (PNH) and acute myelogenous leukaemia (AML).
+Document 3 (Title: Polycythemia Vera -- Evaluation -- Category B): Platelets of more than 400,000/microliter White blood cell count more than 12,000/microliter Leukocyte alkaline phosphatase (ALP) more than 100 U/L Serum vitamin B12 more than 900 pg/mL or binding capacity more than 2200 pg/mL
+Document 4 (Title: Familial polycythemia vera.): The occurrence of polycythemia vera in a father, mother, and two sons is reported. Thirteen kindreds with familial polycythemia vera in 31 members are reviewed. Comprehensive records were available for all four patients as well as other family members, since all were diagnosed and treated at the author's institution over a period of nearly 50 years. The mean age at diagnosis, sex predominance, symptoms, and incidence of chromosomal abnormalities, leukocytosis, thrombocytosis, and elevated leukocyte alkaline phosphatase levels were similar to those of nonfamilial cases. The mean RBC volume at diagnosis and the incidence of splenomegaly appear to be higher in familial than nonfamilial cases. The mode of inheritance is unclear, but genetic factors may be involved in the pathogenesis of this myeloproliferative disorder.
+Document 5 (Title: Secondary Thrombocytosis -- Introduction): Thrombocytosis can be classified into primary and secondary (or reactive) thrombocytosis. [3] This distinction is essential as it carries implications for evaluation, prognosis, and treatment. Primary thrombocytosis results from an unregulated abnormality in platelet production by bone marrow progenitor cells and is usually associated with myeloproliferative neoplasms. [4] Primary thrombocytosis, especially in conditions such as essential thrombocythemia and polycythemia vera, carries an increased risk of thrombosis and bleeding compared to secondary thrombocytosis. [5]
+
+Answer the following list question.
+Question: Which of the following biological anomalies is/are frequently found in polycythemia vera?
+Options:
+1. Leukocytosis
+2. Serum hypervitaminosis B12
+3. SaO2 <92%
+4. Collapse of leukocyte alkaline phosphatase
+5. Moderate thrombocytosis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

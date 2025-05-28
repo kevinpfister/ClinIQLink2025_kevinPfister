@@ -1,0 +1,17 @@
+Based on the following information:
+
+Document 1 (Title: Scrub Typhus -- Etiology): Scrub typhus is a significant cause of underdiagnosed acute febrile illness and is prevalent in endemic regions. This disease can affect multiple organ systems primarily through vasculitis and perivascular inflammation. Mite larvae or chiggers, which carry the pathogenic gram-negative bacteria, are the vectors to humans, and they transmit the organism through their bite. The infection persists in nature through transovarial transmission in the vector and occasionally in small mammals as a reservoir. [4]
+Document 2 (Title: Scrub Typhus -- Evaluation -- Serological Tests for Diagnosing Scrub Typhus): Chest radiographs: Chest radiographs are recommended for patients presenting with respiratory symptoms in suspected scrub typhus cases. These images may reveal pleural effusions and pneumonia, including para-pneumonic effusions. Although relatively uncommon, ARDS characterized by bilateral heterogeneous diffuse infiltrates can be a severe complication of scrub typhus. Therefore, the diagnosis of scrub typhus relies heavily on maintaining a high level of clinical suspicion and using diagnostic tests judiciously, especially in areas with high endemicity.
+Document 3 (Title: Scrub Typhus -- Evaluation -- Serological Tests for Diagnosing Scrub Typhus): Cerebrospinal fluid evaluation: Cerebrospinal fluid (CSF) evaluation is beneficial for patients showing signs of central nervous system involvement in scrub typhus. Scrub meningitis can present with lymphocytic pleocytosis in CSF. The CSF findings in scrub typhus can resemble those seen in tuberculous meningitis (lymphocytic pleocytosis with elevated proteins) and viral meningoencephalitis.
+
+Answer the following multiple-choice question.
+Question: Scrub typhus is transmitted by: September 2004
+Options:
+A. Louse
+B. Tick
+C. Mite
+D. Milk
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

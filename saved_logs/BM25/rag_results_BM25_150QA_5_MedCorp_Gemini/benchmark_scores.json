@@ -1,0 +1,50 @@
+{
+  "true_false": {
+    "TP": 26,
+    "FP": 0,
+    "FN": 24,
+    "accuracy": 0.52,
+    "precision": 1.0,
+    "recall": 0.52,
+    "f1_score": 0.6842105263157895
+  },
+  "multiple_choice": {
+    "TP": 38,
+    "FP": 12,
+    "FN": 0,
+    "accuracy": 0.76,
+    "precision": 0.76,
+    "recall": 1.0,
+    "f1_score": 0.8636363636363636
+  },
+  "list": {
+    "TP": 126,
+    "FP": 5,
+    "FN": 29,
+    "accuracy": 0.7875,
+    "precision": 0.9618320610687023,
+    "recall": 0.8129032258064516,
+    "f1_score": 0.881118881118881
+  },
+  "model_info": {
+    "num_questions": 150,
+    "test_type": "RAG",
+    "rag_enabled": true,
+    "documents_retrieved": 5,
+    "name": "Gemini",
+    "type": "gemini",
+    "corpus": "MedCorp",
+    "file_type": "benchmark_scores",
+    "timestamp": "20250518_130510"
+  },
+  "global_metrics": {
+    "TP": 190,
+    "FP": 17,
+    "FN": 53,
+    "total_questions": 150,
+    "precision": 0.9178743961352657,
+    "recall": 0.7818930041152263,
+    "f1_score": 0.8444444444444444,
+    "accuracy": 0.7818930041152263
+  }
+}
