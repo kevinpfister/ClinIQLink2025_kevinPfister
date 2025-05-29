@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "1",
+    "3",
+    "4"
+  ],
+  "options": [
+    "Epidermophyton floccosum",
+    "Aspergillus fumigatum",
+    "Microsporum canis",
+    "Trichophyton mentagrophytes",
+    "Candida albicans"
+  ],
+  "question": "Which of the following fungi are dermatophytes?",
+  "type": "list"
+}

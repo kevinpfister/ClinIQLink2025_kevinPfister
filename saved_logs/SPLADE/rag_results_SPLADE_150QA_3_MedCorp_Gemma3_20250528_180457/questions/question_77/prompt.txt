@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Otosclerosis -- Evaluation -- High-Resolution Computed Tomography): Noncontrast, high-resolution computed tomography (CT) of the temporal bones is the gold standard for diagnosing otosclerosis (see Image. Otosclerosis). [58] In more overt cases, foci of spongiotic or sclerotic bone can be identified in the area anterior to the oval window. Additionally, the extent of thickening of the stapes footplate and round window involvement will inform the preoperative planning process. In cases of cochlear otosclerosis, a "halo sign" may be seen, in which radiolucent foci extend from the fissula ante fenestram around the cochlea itself. [59] A grading system suggested by Symons and Fanning can be used to characterize the severity of otosclerosis based on CT findings: [60]
+Document 2 (Title: Ototoxicity): Ototoxicity is the property of being toxic to the ear (oto-), specifically the cochlea or auditory nerve and sometimes the vestibular system, for example, as a side effect of a drug. The effects of ototoxicity can be reversible and temporary, or irreversible and permanent. It has been recognized since the 19th century. There are many well-known ototoxic drugs used in clinical situations, and they are prescribed, despite the risk of hearing disorders, for very serious health conditions. Ototoxic drugs include antibiotics (such as gentamicin, streptomycin, tobramycin), loop diuretics (such as furosemide), and platinum-based chemotherapy agents (such as cisplatin and carboplatin). A number of nonsteroidal anti-inflammatory drugs (NSAIDS) have also been shown to be ototoxic. This can result in sensorineural hearing loss, dysequilibrium, or both. Some environmental and occupational chemicals have also been shown to affect the auditory system and interact with noise.
+Document 3 (Title: InternalMed_Harrison): Halofantrine exhibits erratic bioavailability, but its absorption is significantly enhanced when it is taken with a fatty meal. The elimination half-life of halofantrine is 1–2 days; it is excreted mainly in feces. Halofantrine is metabolized into N-debutyl-halofantrine by the cytochrome P450 enzyme CYP3A4. Grapefruit juice should be avoided during treatment because it increases both halofantrine’s bioavailability and halofantrine-induced QT interval prolongation by inhibiting CYP3A4 at the enterocyte level.
+
+Answer the following true/false question.
+Question: Is halofantrine ototoxic?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

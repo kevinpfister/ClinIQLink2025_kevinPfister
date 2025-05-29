@@ -1,0 +1,17 @@
+{
+  "answer": [
+    "1",
+    "2",
+    "4",
+    "5"
+  ],
+  "options": [
+    "Hydrophilic matrix",
+    "Tablet with insoluble film coating",
+    "Double-core tablets",
+    "Tablets based on ion exchange resins",
+    "Lipophilic matrix"
+  ],
+  "question": "Among the following solid oral forms, indicate which one(s) release(s) the active ingredient continuously:",
+  "type": "list"
+}

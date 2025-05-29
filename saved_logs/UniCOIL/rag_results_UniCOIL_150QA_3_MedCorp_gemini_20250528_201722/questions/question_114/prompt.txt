@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Gynecology_Novak): Initial dose 80-U/kg bolus, then 18 U/kg/h The APTT should be measured every 6 h and the heparin dose adjusted as follows: APTT <35 seconds (<1.2 × control) 80-U/kg bolus, then 4 U/kg/h APTT 35–45 seconds (1.2–1.5 × control) 40-U/kg bolus, then 2 U/kg/h APTT 46–70 seconds (1.5–2.3 × control) No change APTT 71–90 seconds (2.3–3 × control) Decrease infusion rate by 2 U/kg/h APTT >90 seconds (>3 × control) Hold infusion for 1 h, then decrease infusion rate by 3 U/kg/h APTT, activated partial thromboplastin time. Reprinted from Raschke RA, Reilly BM, Guidry JR, et al. The weight-based heparin dosing nomogram compared with a “standard care” nomogram. Ann Intern Med 1993;119:874–881, with permission.
+Document 2 (Title: Lidocaine -- Administration -- Adult Dosage): Doses used for infiltrative or regional anesthesia depend on the specific block. When lidocaine is used to obtund airway reflexes, the dose is 1 to 2 mg/kg, given 2 to 5 minutes before intubation. For cardiac dysrhythmias, the initial dose is 1 to 1.5 mg/kg given intravenously, optionally followed with an infusion. [5] As an adjuvant intravenous treatment for acute pain, a 2020 consensus statement suggested a loading dose of no more than 1.5mg/kg over 10 minutes, followed by an infusion of no more than 1.5mg/kg/h for no longer than 24 hours (with close monitoring for clinical response and signs of toxicity). [17] The American Society of Anesthesiologists panel noted the absence of definitive evidence regarding the optimal dosing of lidocaine. However, based on clinical experience, the ASA recommends administering an induction dose of 1.5 mg/kg, followed by an intraoperative infusion of 2 mg/kg/h for patients undergoing open and laparoscopic abdominal surgeries. [9] For awake intubation, effective topical appl...
+Document 3 (Title: Effects of long-endurance running on immune system parameters and lymphocyte function in experienced marathoners.): The extent and duration of changes in leukocyte subsets, lymphocyte subpopulations, spontaneous blastogenesis, cortisol, and catecholamines were measured in ten experienced marathoners, who ran 3 h to exhaustion in a laboratory setting. Blood samples were taken at baseline, 1 h of exercise, and 5 min, 1.5 h, 6 h, and 21 h of recovery. The 3-h endurance run was associated with significant leukocytosis, granulocytosis, neutrophilia, monocytosis, and eosinopenia during recovery. All of these parameters except for eosinophils returned to normal by 21 h of recovery. Total lymphocyte count increased 31% at 1 h of exercise, then decreased 19% at 1.5 h of recovery when compared with baseline values. T cell count showed no significant changes, but B cell lymphocytosis was measured at 5 min and 6 h of recovery. T helper/T suppressor ratio (H/S) was significantly elevated 39% at both 1.5 h and 21 h of recovery due to the decrease in number of T suppressor cells. Spontaneous blastogenesis was significantly increased 52% ...
+
+Question: During hypothyroidism, the following sign(s) is/are observed:
+Options:
+1. A decrease in free T4
+2. Nervousness
+3. Hypothermia
+4. Weight gain
+5. Hypercholesterolemia
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

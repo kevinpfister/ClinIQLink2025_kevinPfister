@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Trans splicing in trypanosomes requires methylation of the 5' end of the spliced leader RNA.): Trypanosoma brucei spliced leader (SL) RNA contains an unusual cap 4 structure consisting of 7-methylguanosine linked to four modified nucleosides. During RNA maturation, trans splicing transfers the first 39 nucleotides of the SL RNA including the cap structure to the 5' end of all mRNAs. Here we show that exposure of permeable trypanosome cells to S-adenosyl-L-homocysteine inhibits methylation of the nucleosides adjacent to 7-methylguanosine of newly synthesized SL RNA and prevents utilization of the SL RNA in trans splicing. However, trans splicing of the SL RNA preexisting in the cells is not inhibited by S-adenosyl-L-homocysteine as shown by the observation that newly synthesized alpha-tubulin RNA is trans spliced at the same level as in control cells. Therefore, it appears that the newly synthesized SL RNA is the only known component of the trans-splicing machinery that is impaired in its function by inhibition of methylation. Undermethylation does not alter either the stability of the SL RNA or the ele...
+Document 2 (Title: Doppler Trans-Cranial Assessment, Protocols, and Interpretation -- Technique or Treatment -- Basic Transcranial Doppler Exam): Normal = MFV <120 cm/s, Lindegaard Ratio <3 Mild vasospasm = MFV 120-150 cm/s, Lindegaard Ratio 3-4.5 Moderate vasospasm = MFV 150-200 cm/s, Lindegaard Ratio 4.5-6.0 Severe vasospasm = MFV >200 cm/s, Lindegaard Ratio >6 Anterior cerebral artery: Vasospasm = MFV >80 cm/s Posterior cerebral artery: Vasospasm = MFV >85 cm/s
+Document 3 (Title: Free-return trajectory): There also exists the option of two- or three-year free-returns that do not rely on the gravity of Mars, but are simply transfer orbits with periods of 2 or 1.5 years, respectively. A two-year free return means from Earth to Mars (aborted there) and then back to Earth all in 2 years. The entry corridor (range of permissible path angles) for landing on Mars is limited, and experience has shown that the path angle is hard to fix (e.g. +/- 0.5 deg). This limits entry into the atmosphere to less than 9 km/s. On this assumption, a two-year return is not possible for some years, and for some years a delta-v kick of 0.6 to 2.7 km/s at Mars may be needed to get back to Earth. NASA published the Design Reference Architecture 5.0 for Mars in 2009, advocating a 174-day transfer to Mars, which is close to Zubrin's proposed trajectory. It cites a delta-v requirement of approximately 4 km/s for the trans-Mars injection, but does not mention the duration of a free return to Earth. See also
+
+Question: Transgastric endoscopic splenectomy: is it possible?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -1,0 +1,15 @@
+{
+  "answer": [
+    "2",
+    "4"
+  ],
+  "options": [
+    "Candidiasis",
+    "Malaria",
+    "Fascioliasis",
+    "Strongyloidiasis",
+    "Toxoplasmosis"
+  ],
+  "question": "In which of the following diseases can anemia be observed?",
+  "type": "list"
+}

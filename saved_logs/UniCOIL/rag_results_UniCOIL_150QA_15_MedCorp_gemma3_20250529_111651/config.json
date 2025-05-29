@@ -1,0 +1,9 @@
+{
+  "benchmark_file": "./Benchmark_validation_enhanced_testset.json",
+  "output_dir": "./logs/rag_results_UniCOIL_150QA_15_MedCorp_gemma3_20250529_111651",
+  "limit": null,
+  "retriever": "UniCOIL",
+  "corpus": "MedCorp",
+  "model": "gemma3",
+  "documents": 15
+}

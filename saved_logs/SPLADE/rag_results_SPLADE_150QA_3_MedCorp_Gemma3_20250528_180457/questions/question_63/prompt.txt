@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Testicular Teratoma -- Enhancing Healthcare Team Outcomes): Interprofessional communication between a primary care physician, urologists, radiologists, pathologists, oncologists, pharmacists, nurses, and laboratory personnel is necessary for professionals to effectively treat testicular teratoma. Patients with increased risk for developing testicular cancer, including positive family history, cryptorchidism, and testicular atrophy, should be informed and trained accordingly. Primary care physicians hold clinical information and the family history of the patient. Therefore they should provide all significant information to carefully identify the high-risk patient, reassure and counsel the patient during all the course of the disease, and schedule checkups. Continuous support must entail not only from the medical staff but also from close family members and friends.
+Document 2 (Title: InternalMed_Harrison): Additional variables that should be documented are nonhereditary risk factors among those with disease (such as cigarette smoking and myocardial infarction; asbestos exposure and lung disease; and mantle radiation and breast cancer). Significant associated environmental exposures or lifestyle factors decrease the likelihood of a specific genetic disorder. In contrast, the absence of nonhereditary risk factors typically associated with a disease raises concern about a genetic association. A personal or family history of deep vein thrombosis in the absence of known environmental or medical risk factors suggests a hereditary thrombotic disorder. The physical examination may also provide important clues about the risk for a specific inherited disorder. A patient presenting with xanthomas at a young age should prompt consideration of familial hypercholesterolemia. The presence of trichilemmomas in a woman with breast cancer raises concern for Cowden syndrome, associated with PTEN
+Document 3 (Title: Differential diagnosis): For an individual (who becomes the "patient" in this example), a blood test of, for example, serum calcium shows a result above the standard reference range, which, by most definitions, classifies as hypercalcemia, which becomes the "presentation" in this case. A clinician (who becomes the "diagnostician" in this example), who does not currently see the patient, gets to know about his finding. By practical reasons, the clinician considers that there is enough test indication to have a look at the patient's medical records. For simplicity, let's say that the only information given in the medical records is a family history of primary hyperparathyroidism (here abbreviated as PH), which may explain the finding of hypercalcemia. For this patient, let's say that the resultant hereditary risk factor is estimated to confer a relative risk of 10 (RRPH = 10).
+
+Answer the following true/false question.
+Question: Prompting Primary Care Providers about Increased Patient Risk As a Result of Family History: Does It Work?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

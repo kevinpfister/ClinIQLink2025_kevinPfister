@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Atypical facial pain, ectasia of the basilar artery, and baclofen: a case report.): Atypical facial pain is a clinical syndrome of facial pain that has been related to depression but whose pathogenesis is not known. We describe a 72-year-old woman with a chronic facial pain, and ectasia and left sided deviation of the basilar artery, that responded dramatically to baclofen. This case suggests that vascular compression of the trigeminal nerve may be one of the mechanisms producing this syndrome and in these cases it might respond to baclofen.
+Document 2 (Title: Pain Theory -- Definition/Introduction): Although inflammation and pain are an essential part of healing (acute pain), in some circumstances, they can lead to negative effects. Several mechanisms involving the activation of peripheral and central sensitization pathways through the sensitization of peripheral nociceptors, and alterations in spinal dorsal horn neurons, and central nervous system (CNS) brain areas, can trigger a pathogenetic cascade that ends with the development of chronic pain. Again, pieces of evidence suggest the paramount role of the environment (i.e., epigenetic) and genetics. [2] [3] Thus, the chronicity of pain is the effect of changes in pain processing through transcription and transduction processes. As a consequence, chronic pain is no longer simply a symptom but becomes itself a disease. Currently, in the United States, estimates are that 100 million individuals suffer from the negative effects of protracted courses of pain and inflammation. [3] This epidemic is growing at an alarmingly fast rate and is taking a significan...
+Document 3 (Title: Neurology_Adams): Facial pain of the “atypical type,” like other chronic pain of indeterminate cause, requires close observation of the patient, looking for lesions such as nasopharyngeal carcinoma or apical lung carcinoma to become apparent. The pain can be managed by the conservative methods outlined in the preceding chapter and not by destructive surgery. Antidepressants may be helpful, especially if the patient displays obsessive characteristics in relation to the pain; some European neurologists favor clomipramine for various facial and scalp pains. Other Rare Types of Facial Pain
+
+Question: Are reports of mechanical dysfunction in chronic oro-facial pain related to somatisation?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

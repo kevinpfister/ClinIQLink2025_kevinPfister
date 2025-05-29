@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "1",
+    "4",
+    "5"
+  ],
+  "options": [
+    "It can cause abortions",
+    "The infection it causes can be treated with cefotaxime",
+    "It produces a neurotropic toxin",
+    "It can grow at temperatures close to +4\u00b0C",
+    "It can cause meningoencephalitis"
+  ],
+  "question": "Among the following statements concerning Listeria monocytogenes, which one(s) is (are) correct?",
+  "type": "list"
+}

@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: InternalMed_Harrison): Missense and nonsense mutations in the apoA-I gene are present in some patients with low plasma levels of HDL-C (usually 15–30 mg/ dL), but are a rare cause of low plasma HDL-C levels. Most individuals with low plasma HDL-C levels due to missense mutations in apoA-I do not appear to have premature CHD. Patients who are heterozygous for an Arg173Cys substitution in apoA-I (so-called apoA-IMilano) have very low plasma levels of HDL-C due to impaired LCAT activation and accelerated clearance of the HDL particles containing the abnormal apoA-I. Despite having very low plasma levels of HDL-C, these individuals do not have an increased risk of premature CHD. A few selected missense mutations in apoA-I and apoA-II promote the formation of amyloid fibrils, which can cause systemic amyloidosis.
+Document 2 (Title: Glioma): When expression of DNA repair genes is reduced, DNA damages accumulate in cells at a higher than normal level, and such excess damages cause increased frequencies of mutation. Mutations in gliomas frequently occur in either isocitrate dehydrogenase (IDH) 1 or 2 genes. One of these mutations (mostly in IDH1) occurs in about 80% of low grade gliomas and secondary high-grade gliomas. Wang et al. pointed out that IDH1 and IDH2 mutant cells produce an excess metabolic intermediate, 2-hydroxyglutarate, which binds to catalytic sites in key enzymes that are important in altering histone and DNA promoter methylation. Thus, mutations in IDH1 and IDH2 generate a "DNA CpG island methylator phenotype or CIMP" that causes promoter hypermethylation and concomitant silencing of tumor suppressor genes such as DNA repair genes MGMT and ERCC1. On the other hand, Cohen et al. and Molenaar et al. pointed out that mutations in IDH1 or IDH2 can cause increased oxidative stress. Increased oxidative
+Document 3 (Title: A Review of Hereditary Colorectal Cancers -- Evaluation -- Molecular and Genetic Testing): Methylation: In patients with CRC and absent MLH1 expression on IHC, approximately 75% of cases are sporadic due to a BRAF gene mutation, rather than Lynch syndrome. Sporadic MSI-H CRCs typically exhibit epigenetic loss of MLH1 gene expression caused by hypermethylation of the MLH1 promoter. The presence of a BRAF mutation is often associated with this somatic loss of MLH1 . If both BRAF mutation and MLH1 promoter hypermethylation tests are negative, genetic testing for Lynch syndrome is warranted. However, if either test result is positive, the likelihood of Lynch syndrome is extremely low. [82]
+
+Question: Do mutations causing low HDL-C promote increased carotid intima-media thickness?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

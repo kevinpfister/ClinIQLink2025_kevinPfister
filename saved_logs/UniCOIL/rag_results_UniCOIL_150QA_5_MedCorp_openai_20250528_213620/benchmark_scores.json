@@ -1,0 +1,29 @@
+{
+  "true_false": {
+    "TP": 26,
+    "FP": 0,
+    "FN": 24,
+    "accuracy": 0.52,
+    "precision": 1.0,
+    "recall": 0.52,
+    "f1_score": 0.6842105263157895
+  },
+  "multiple_choice": {
+    "TP": 30,
+    "FP": 20,
+    "FN": 0,
+    "accuracy": 0.6,
+    "precision": 0.6,
+    "recall": 1.0,
+    "f1_score": 0.7499999999999999
+  },
+  "list": {
+    "TP": 88,
+    "FP": 12,
+    "FN": 67,
+    "accuracy": 0.5269461077844312,
+    "precision": 0.88,
+    "recall": 0.567741935483871,
+    "f1_score": 0.6901960784313725
+  }
+}

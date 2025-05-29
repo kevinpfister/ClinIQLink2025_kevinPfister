@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Middle Cerebral Artery Stroke -- Continuing Education Activity): Objectives: Identify the various potential etiologies of middle cerebral artery stroke. Summarize the most important evaluations needed to diagnose a middle cerebral artery stroke. Outline the differential diagnoses that must be considered if a patient presents with stroke-like symptoms but does not have a stroke. Review how to address the modifiable risk factors for secondary stroke prevention after a stroke, and how the interprofessional team can be involved in improving the outcome and quality of life of a stroke patient. Access free multiple choice questions on this topic.
+Document 2 (Title: Hypercholesterolemia): Medication Statins are the typically used medications, in addition to healthy lifestyle interventions. Statins can reduce total cholesterol by about 50% in the majority of people, and are effective in reducing the risk of cardiovascular disease in both people with and without pre-existing cardiovascular disease. In people without cardiovascular disease, statins have been shown to reduce all-cause mortality, fatal and non-fatal coronary heart disease, and strokes. Greater benefit is observed with the use of high-intensity statin therapy. Statins may improve quality of life when used in people without existing cardiovascular disease (i.e. for primary prevention). Statins decrease cholesterol in children with hypercholesterolemia, but no studies as of 2010 show improved outcomes and diet is the mainstay of therapy in childhood.
+Document 3 (Title: rCBF-SPECT in brain infarction: when does it predict outcome?): We prospectively studied 26 patients with ischemic stroke within 24 hr, after 2 wk, and after 6 mo with thallium-201-diethyldithiocarbamate single-photon emission computed tomography (SPECT) and neurologic and functional assessments. The admission flow deficits correlated with outcome. The admission and 6-mo scores correlated with clinical conditions at each time. At 2 wk, the flow deficits were smaller and did not correlate with clinical parameters. Nor did the presence or absence of hyperfixation of the radiopharmaceutical. Six months after the infarct, the flow defect had decreased in 9 of 15 patients in whom three serial scans were available, with better clinical improvement than in the remaining six whose flow deficits increased. More patients in the first group had been treated randomly with the calcium-entry blocker flunarizine. SPECT imaging of rCBF within 24 hr after stroke correlates with clinical outcome and condition, whereas rCBF imaging at 2 wk after the stroke shows no clinical correlation.
+
+Answer the following true/false question.
+Question: Does pretreatment with statins improve clinical outcome after stroke?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

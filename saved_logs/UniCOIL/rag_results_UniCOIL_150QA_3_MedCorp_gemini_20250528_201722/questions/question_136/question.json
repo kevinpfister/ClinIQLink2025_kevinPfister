@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "1",
+    "3",
+    "4"
+  ],
+  "options": [
+    "Fluorescent molecules most often present delocalized electron systems",
+    "A metal ion never exhibits fluorescence properties",
+    "Groups that increase electron delocalization increase the fluorescence of the compound",
+    "The rigidity of a molecule increases the fluorescence yield",
+    "Quantitative assays are not possible"
+  ],
+  "question": "Select the correct statement(s) regarding fluorescence spectroscopy:",
+  "type": "list"
+}

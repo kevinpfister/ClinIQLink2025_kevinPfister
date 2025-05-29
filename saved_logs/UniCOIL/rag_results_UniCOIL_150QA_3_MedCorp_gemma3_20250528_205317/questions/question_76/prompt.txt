@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Radiation Therapy for Anal Cancer -- Epidemiology): The incidence of anal canal cancer has steadily increased over the past several years, particularly among women. Currently, anal cancer constitutes 0.5% of all cancer diagnoses in the United States. In 2018, estimates were that there were 8580 cases per year in the US (5620 in women and 2960 in men) and 1160 deaths per year in the US (680 in women and 480 in men). Anal cancer is primarily a disease of older adults, with an average age in the early 60s. However, in HIV-positive patients, there is an earlier onset of disease. [9]
+Document 2 (Title: Anal vibrator): An anal vibrator is a vibrator designed for sexual stimulation of the anus of both men and women. All anal vibrators have one common feature: they produce a vibrating effect in the rectum for pleasurable sensations. Anal vibrators differ from other types of vibrators in that they have a flared base to prevent possible loss in the rectum. The average size of an anal vibrator is smaller than vibrators intended for vaginal penetration and may vary from 4-6 inches long and about 1 inch wide. As well as other vibrators designed for external and internal stimulation, anal vibrators are usually battery operated: the batteries may be inside the unit or connected by wire to a power pack. Unlike anal dildos, such as butt plugs, anal probes and anal beads, vibrating anal toys may produce various stimulating effects: rotating, vibrating or pulsating, and can have different speed or vibration levels to regulate and adjust the vibrator to various sensations.
+Document 3 (Title: Gynecology_Novak): Fecal continence is provided primarily by the puborectalis muscle and the internal and external anal sphincters. The puborectalis surrounds the anal hiatus in the pelvic diaphragm and interdigitates posterior to the rectum to form a rectal sling. The external anal sphincter surrounds the terminal anal canal below the level of the levator ani. A growing body of literature suggests that both external anal sphincter and levator ani muscles are important for fecal continence and that multiple injuries contribute to pelvic ﬂoor dysfunction (29,30) One such MRI study showed that major levator ani muscle injuries were observed in 19.1% women who delivered vaginally with external anal sphincter injuries, 3.5% who delivered vaginally without external anal sphincter injury, and none of the women who delivered by cesarean section before labor. Among women with external anal sphincter injuries, those with major levator ani muscle injuries trended more toward fecal incontinence (29). Further
+
+Question: Implementation of epidural analgesia for labor: is the standard of effective analgesia reachable in all women?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

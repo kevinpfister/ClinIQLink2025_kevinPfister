@@ -1,0 +1,17 @@
+{
+  "answer": [
+    "1",
+    "2",
+    "4",
+    "5"
+  ],
+  "options": [
+    "Is an association of sulfamethoxazole and trimethoprim",
+    "Is indicated in the treatment of toxoplasmosis",
+    "Trimethoprim is an inhibitor of dihydrofolate synthetase",
+    "Can cause severe skin disorders such as Lyell syndrome",
+    "Combination with methotrexate is contraindicated"
+  ],
+  "question": "Select the correct statement(s) regarding co-trimoxazole:",
+  "type": "list"
+}
