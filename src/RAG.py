@@ -551,8 +551,6 @@ class RAG:
                 """retrieved_snippets, scores = self.retrieval_system.retrieve(
                     question_data.get("question", ""), k=k, rrf_k=rrf_k
                 )"""
-                print(f"K-WERT{k}")
-                print(f"RFF_K-WERT{rrf_k}")
                 retrieved_snippets, scores = self.retrieval_system.retrieve(
                     prompt_head, k=3, rrf_k=rrf_k
                 )
@@ -570,9 +568,8 @@ class RAG:
         # Safely create context string
         contexts = []
         for idx, snippet in enumerate(retrieved_snippets):
-            print("LETS GOOOOOOO")
             if isinstance(snippet, dict) and "title" in snippet and "content" in snippet:
-                print("DOKUMENT WURDE HINZUGEFÜGT")
+                print("Document added")
                 contexts.append(f"Document {idx+1} (Title: {snippet['title']}): {snippet['content']}")
 
         context_str = "\n".join(contexts)
@@ -617,7 +614,6 @@ class RAG:
         # Log the prompt and retrieved snippets if a save directory is provided
 
         if save_dir is not None:
-            print("TEXTFILE DRIN")
             os.makedirs(save_dir, exist_ok=True)
             with open(os.path.join(save_dir, f"prompt_{step}.txt"), "w") as f:
                 f.write(prompt)
@@ -653,7 +649,7 @@ class CustomStoppingCriteria(StoppingCriteria):
 
 
 def split_prompt_parts(prompt: str) -> tuple[str, str]:
-    print(f"PROMPT DER GESPLITTET {prompt} ")
+    print(f"PROMPT WHICH IS BEING SPLITTET {prompt} ")
     match = re.search(r"(Respond.*)", prompt, re.DOTALL)
     if not match:
         match = re.search(r"(Please.*)", prompt, re.DOTALL)
@@ -661,8 +657,7 @@ def split_prompt_parts(prompt: str) -> tuple[str, str]:
 
     head = prompt[:match.start()].strip()
     if not head:
-        raise ValueError("Options-Block nicht gefunden.")
-    print(f"HEEEEEADDD BOYYY {head}")
+        raise ValueError("Options-Block not found.")
     tail = match.group(1).strip()
     return head, tail
 

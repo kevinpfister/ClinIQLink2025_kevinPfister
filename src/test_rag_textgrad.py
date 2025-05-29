@@ -77,25 +77,28 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
                 )
             else:
                 # Use the standard RAG method
-                print(f"Q VARIABLE {q}")
                 first_answer, snippets, scores = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
 
-                print(f"ERSTE ANTWORT{first_answer}")
-
-                #answer = '{"answer": "False"}'
-
-                #answer = "i dont know"
 
 
 
-                #original_prompt = prompt
 
-                #final_answer = refine_prompt_with_textgrad_from_example(prompt,first_answer,prompt,rag_system,q,q_save_dir) #FOR RAG
                 q_save_dir = os.path.join(save_dir, f"question_{idx + 1}")
-                print(f"EINTRITT IN TEXTGRAD")
-                final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system,save_dir_folder=q_save_dir, answer=first_answer)
-                #final_answer = run_chatgpt_prompt(q, save_dir_folder=q_save_dir)
+                #for Use of Chatgpt without RAG
+                first_answer = run_chatgpt_prompt(q, q_save_dir)
 
+                # Use the standard RAG method
+                #first_answer, snippets, scores = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
+
+                print(f"FIRST ANSWER{first_answer}")
+
+                print(f"ENTRY IN TEXTGRAD")
+                #Set version as "RAG" to use the TEXTGRAD with RAG
+                final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system,save_dir_folder=q_save_dir, answer=first_answer,version="")
+
+
+                #For Baseline Setting
+                #final_answer = run_chatgpt_prompt(q, save_dir_folder=q_save_dir)
                 print(f"ANSWER {final_answer}")
 
             
@@ -275,16 +278,3 @@ if __name__ == "__main__":
         print(f"  F1 score:  {m['f1_score']:.3f}")
 
 
-    def run_chatgpt(full_prompt) -> str:
-
-        # Hole die Antwort von GPT
-        print(f"→ Sende an GPT:\n{full_prompt}")
-        response = completion(
-            model="gpt-3.5-turbo",
-            messages=[{"role": "user", "content": full_prompt}],
-            max_tokens=512,
-            temperature=0.3
-        )
-        answer = response['choices'][0]['message']['content'].strip()
-
-        return answer

@@ -37,10 +37,6 @@ class PromptImprovingEngine:
 
         raw_output = self.llm(content=user_prompt, system_prompt=system_prompt).strip()
 
-        # Entferne z. B. "Revised prompt:" falls der LLM es trotzdem hinzufügt
-
-        role = variable.role_description if hasattr(variable, "role_description") else "Improved prompt"
-
         print(f"FINAL RETURN TO OPTIMIZER:\n{raw_output}")
 
         if "<IMPROVED_VARIABLE>" in raw_output and "</IMPROVED_VARIABLE>" in raw_output:
@@ -63,6 +59,7 @@ def refine_prompt_with_textgrad_from_example(
     kwargs=None,
     max_steps: int = 5,
     save_dir_folder=None,
+    version:str = "RAG",
 
 ):
 
@@ -127,9 +124,6 @@ def refine_prompt_with_textgrad_from_example(
 
     eval_loss_fn = tg.TextLoss(evaluation_instruction)
 
-    #optimizer = tg.TGD(parameters=[prompt_tg_object])
-
-
     prompt_head, prompt_tail = split_prompt_parts(prompt)
 
     prompt_tg_object = tg.Variable(
@@ -139,7 +133,6 @@ def refine_prompt_with_textgrad_from_example(
     )
 
     optimizer = tg.TextualGradientDescent(engine=engine, parameters=[prompt_tg_object])
-
 
     for step in range(3):
         print(f"SCHRITT {step}")
@@ -163,8 +156,6 @@ def refine_prompt_with_textgrad_from_example(
         print(f"GPT Feedback {evaluation}")
         print(f"DEBUG FEEDBACK: {feedback_str}")
 
-
-
         full_prompt_to_write = prompt if step == 0 else rebuild_prompt(prompt_tg_object.value, prompt_tail)
 
         with open(fail_path, "w", encoding="utf-8") as f:
@@ -177,9 +168,7 @@ def refine_prompt_with_textgrad_from_example(
             f.write("== Feedback ==\n")
             f.write(feedback_str.strip() + "\n\n")
 
-
-
-        # Jetzt erst den Optimierungsschritt durchführen
+        #Now doing optimizer step
         optimizer.step()
         print(f"AFTER STEP – UPDATED prompt_tg_object.value:\n{prompt_tg_object.value}")
 
@@ -200,19 +189,22 @@ def refine_prompt_with_textgrad_from_example(
 
         print(f"NEW FULL PROMPT {full_prompt}")
 
-        #print(f"RAG WIRD AUFGERUFEN")
+        # print(f"RAG WIRD AUFGERUFEN")
         # Neue Antwort mit optimiertem Prompt generieren
-        """new_answer, _, _, _ = rag_system.rag_answer_textgrad(
-            question_data,
-            save_dir = save_dir_folder,
-            prompt = full_prompt,
-            step = step,
-            **kwargs
-        )"""
-        #new_answer = ask_question_direct(rag_system.model,full_prompt) #FOR GEMMA
-        new_answer = run_chatgpt_prompt(full_prompt)
-        #print(f"ANTWORT CVON GEMMA {new_answer}")
-        print(f"ANSWER FROM CHATGPT RAG{new_answer}")
+
+        if version == "RAG":
+            print("ENTERING RAG")
+            new_answer, _, _, _ = rag_system.rag_answer_textgrad(
+                  question_data,
+                  save_dir = save_dir_folder,
+                  prompt = full_prompt,
+                  step = step,
+                  **kwargs
+              )
+        else:
+            new_answer = run_chatgpt_prompt(full_prompt)
+
+        print(f"ANSWER FROM CHATGPT{new_answer}")
         answer_tg_object = tg.Variable(new_answer, requires_grad=False, role_description="updated generated answer")
 
     print(f"NO PERFECT ANSWER COULD BE FOUND")
@@ -222,7 +214,7 @@ def refine_prompt_with_textgrad_from_example(
 def split_prompt_parts(prompt: str) -> tuple[str, str]:
     match = re.search(r"(Options:.*)", prompt, re.DOTALL)
     if not match:
-        raise ValueError("Options-Block nicht gefunden.")
+        raise ValueError("Options-Block not found")
 
     head = prompt[:match.start()].strip()
     tail = match.group(1).strip()
@@ -247,7 +239,7 @@ def ask_question_direct(model, prompt: str, max_tokens: int = 512, temperature: 
 
 
 def create_prompt_from_question(question_data: dict) -> str:
-    """Erstellt den Prompt je nach Fragetyp: true_false, multiple_choice, list."""
+
     question = question_data.get("question", "No question provided")
     qtype = question_data.get("type", "").lower()
 
@@ -305,7 +297,6 @@ def create_prompt_from_question(question_data: dict) -> str:
 
 def run_chatgpt_prompt(full_prompt) -> str:
 
-        # Hole die Antwort von GPT
         print(f"→ Sende an GPT:\n{full_prompt}")
         response = completion(
             model="gpt-3.5-turbo",
