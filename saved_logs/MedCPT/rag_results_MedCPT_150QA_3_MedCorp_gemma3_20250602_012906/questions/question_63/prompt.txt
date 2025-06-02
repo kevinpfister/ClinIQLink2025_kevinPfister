@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Suicide Risk -- Enhancing Healthcare Team Outcomes): The only way to prevent suicides is to work in an interprofessional team that includes a mental health nurse, psychiatrist, primary care provider, social worker, and nurse practitioner. Practitioners must work with the patient's family and friends, as well as with the other patients who knew the deceased. The first step is to prevent harm to the patient and, secondly, treat the cause of the behavior that is causing suicidal ideations. All patients with suicidal ideations should be closely monitored. The family should be educated about the potential signs of danger. Unfortunately, in many cases, the healthcare system does fail, as many patients go on to end their lives. [21] [Level 5]
+Document 2 (Title: InternalMed_Harrison): The expansion of knowledge related to genetics is changing our understanding of pathophysiology and influencing our classification of diseases. Awareness of genetic etiology can have an impact on clinical management, including prevention and screening for or treatment of a range of diseases. Primary care physicians are relied upon to help patients navigate testing and treatment options. Consequently, they must understand the genetic basis for a large number of genetically influenced diseases, incorporate personal and family history to determine the risk for a specific mutation, and be positioned to provide counseling. Even if patients are seen by genetic specialists who assess genetic risk and coordinate testing, primary care providers should provide information to their patients regarding the indications, limitations, risks, and benefits of genetic counseling and testing. They must also be prepared to offer risk-based management following genetic risk assessment. Given the pace of
+Document 3 (Title: Family care of the elderly and caregiver stress.): Contrary to the widespread belief that most elderly persons are institutionalized, 95 percent of people over age 65 live at home, and many are cared for, to some extent, by a relative. It has only recently been recognized that the family caregiver is at risk for increased physical and mental morbidity because of this often stressful task. If the situation is too stressful, elder abuse may result. Family physicians are in a good position to identify caregiver stress, recognize the danger signs of elder abuse, provide support, education and advice, and intervene when necessary. Primary care providers should routinely ask about caregiving responsibilities when obtaining the medical history of any patient over age 45.
+
+Question: Prompting Primary Care Providers about Increased Patient Risk As a Result of Family History: Does It Work?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

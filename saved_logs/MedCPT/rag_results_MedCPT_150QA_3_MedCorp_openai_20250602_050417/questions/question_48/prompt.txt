@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Thyroglossal Duct Cyst -- History and Physical): Thyroglossal duct cysts typically present as mobile midline neck masses near the hyoid bone. They often are asymptomatic. However, they can present as an abscess or intermittently draining sinus. The mass will elevate with tongue protrusion or swallowing. The mass is closely associated with the hyoid bone and most commonly found at or below the level of the hyoid.
+Document 2 (Title: [Cysts of the thyroglossal duct: analysis of diagnostic errors and causes of recurrence].): Thyroglossal-duct cysts usually present as an anterior midline neck mass, ranking first in this location in the pediatric age. We have carried out a retrospective revision of 52 pediatric patients with a preoperative diagnosis of thyroglossal-duct cyst. All of them were treated in our surgical unit between 1982 and 1989. The male to female ratio of cases was 34:18 with symptoms appearing at an average age of 4 years. The most frequent clinical presentation was that of a cystic mass without any inflammatory signs (65%), located in the mid-line at the hyoid level (75%). In this paper we analyze the existing possibilities as regards to the clinical presentation, location and characteristics of this type of cervical swellings, as well as the most frequent causes of misdiagnosis. We also make a comparison between the results we have obtained with the different surgical techniques used. We conclude that it is necessary to perform a radical surgical treatment of the thyroglossal-duct remnants, which includes removal...
+Document 3 (Title: Persistent thyroglossal duct): Three-fourths of abnormalities within a persistent thyroglossal duct involve the formation of a cyst. If a persistent thyroglossal duct becomes fluid filled it will form a thyroglossal duct cyst, which accounts for 70% of congenital neck masses and is the most likely diagnosis if the mass is along the midline of the neck. These cysts are often diagnosed in children under the age of ten and have no particular gender prevalence. The cysts are normally asymptomatic at this age and are noticed because of the swelling that will move if the patient swallows. Over 80% of these cysts are located at or below the hyoid bone.
+
+Question: A 13-year-old girl presents to a medical office for the evaluation of a lump on the front of her neck. The patient denies pain, but states that the mass bothers her because “it moves when I swallow”. The physical examination reveals a midline neck mass that is above the hyoid bone but below the level of the mandible. The mass is minimally mobile and feels fluctuant without erythema. The patient is afebrile and all vital signs are stable. A complete blood count and thyroid function tests are performed and are within normal limits. What is the most likely cause of this patient’s presentation?
+Options:
+A. Persistent thyroid tissue at the tongue base
+B. Deletion of the 22q11 gene
+C. Cyst formation in a persistent thyroglossal duct
+D. Lymph node enlargement
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

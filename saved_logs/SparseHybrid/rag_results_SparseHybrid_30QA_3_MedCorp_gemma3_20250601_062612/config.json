@@ -1,0 +1,10 @@
+{
+  "benchmark_file": "./Benchmark_validation_testset.json",
+  "output_dir": "./logs/rag_results_SparseHybrid_30QA_3_MedCorp_gemma3_20250601_062612",
+  "limit": null,
+  "retriever": "SparseHybrid",
+  "corpus": "MedCorp",
+  "model": "gemma3",
+  "documents": 3,
+  "testset_type": "30QA"
+}

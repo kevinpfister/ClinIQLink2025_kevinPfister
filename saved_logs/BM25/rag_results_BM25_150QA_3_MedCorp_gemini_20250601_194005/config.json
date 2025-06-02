@@ -1,0 +1,10 @@
+{
+  "benchmark_file": "./Benchmark_validation_enhanced_testset.json",
+  "output_dir": "./logs/rag_results_BM25_150QA_3_MedCorp_gemini_20250601_194005",
+  "limit": null,
+  "retriever": "BM25",
+  "corpus": "MedCorp",
+  "model": "gemini",
+  "documents": 3,
+  "testset_type": "150QA"
+}

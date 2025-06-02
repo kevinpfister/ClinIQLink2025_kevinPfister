@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Case Study: 32-Year-Old Male Presenting with Right Lower Quadrant Abdominal Pain (Archived) -- Case Presentation): He describes the pain as coming on suddenly and sharp in nature.   Since the onset, his pain started to improve until the morning of his presentation to the emergency department, when it acutely worsened. He says that the pain is much worse with movement.
+Document 2 (Title: 38-Year-Old Male Presents With Lower Extremity Edema -- Case Presentation): A 38-year-old African American male, who emigrated from Somalia 10 years ago, presented with a 6-month history of lower extremity swelling, 20-pound (9 kg) weight gain over 4 weeks, and new-onset microscopic hematuria. He had no prior history of edema, proteinuria, or hematuria. There was no prior history of any systemic illness or any heart, lung, or kidney disease. He reported no over-the-counter drug use, herbal medication use, or NSAID intake. His review of systems was positive for lethargy, fatigue, and edema at his lower extremities. His family history was negative for any kidney disease. He reported a monogamous relationship with his wife and no current or past alcohol or drug use. His medical history included recently diagnosed hypertension, latent tuberculosis, and anemia. His vital signs included a blood pressure of 160/90 and a heart rate of 78.
+Document 3 (Title: Pharmacology_Katzung): Special Aspects of Geriatric Pharmacology Bertram G. Katzung, MD, PhD A 77-year-old man comes to your office at his wife’s insistence. He has had documented moderate hypertension for 18 years but does not like to take his medications. He says he has no real complaints, but his wife remarks that he has become much more forgetful lately and has almost stopped reading the newspaper and watching television. A Mini-Mental State Examination reveals that he is oriented as to name and place but is unable to give the month or year.
+
+Question: A 69-year-old man is brought by his son to the emergency department with weakness in his right arm and leg. The man insists that he is fine and blames his son for "creating panic". Four hours ago the patient was having tea with his wife when he suddenly dropped his teacup. He has had difficulty moving his right arm since then and cannot walk because his right leg feels stuck. He has a history of hypertension and dyslipidemia, for which he currently takes lisinopril and atorvastatin, respectively. He is allergic to aspirin and peanuts. A computerized tomography (CT) scan shows evidence of an ischemic stroke. Which medication would most likely prevent such attacks in this patient in the future?
+Options:
+A. Alteplase
+B. Urokinase
+C. Celecoxib
+D. Clopidogrel
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pharmacology_Katzung): Halofantrine (three 500 mg doses at 6-hour intervals, repeated in 1 week for nonimmune individuals) is rapidly effective against P falciparum, but its use is limited by cardiac toxicity. It is generally well tolerated. The most common adverse effects are abdominal pain, diarrhea, vomiting, cough, rash, headache, pruritus, and elevated liver enzymes. Of greater concern, the drug alters cardiac conduction, with dose-related prolongation of QT and PR intervals. Rare instances of dangerous arrhythmias and deaths have been reported. The drug is contraindicated in patients who have cardiac conduction defects or who have recently taken mefloquine. Halofantrine is embryotoxic in animals and therefore contraindicated in pregnancy.
+Document 2 (Title: Halofantrine. A review of its antimalarial activity, pharmacokinetic properties and therapeutic potential.): Halofantrine is an orally administered blood schizontocide which is active against both chloroquine-sensitive and chloroquine-resistant plasmodia. Dose-finding and noncomparative clinical trials have confirmed the efficacy of halofantrine in the treatment of falciparum malaria in areas of chloroquine- and sulfonamide/pyrimethamine-resistant malaria and vivax malaria. However, poor results obtained in patients who failed mefloquine prophylaxis suggest that the efficacy of halofantrine may not extend to mefloquine-resistant P. falciparum, although more studies are needed to confirm this. Data concerning halofantrine in the treatment of P. ovale and P. malariae infections are still limited. One comparative study indicates that halofantrine has an efficacy equivalent to that of mefloquine and may be better tolerated. Halofantrine is generally well tolerated in both adults and children, the most common drug-associated effects being abdominal pain, pruritus, vomiting, diarrhoea, headache and rash, although it is di...
+Document 3 (Title: Torsemide -- Toxicity): Ototoxicity and nephrotoxicity occur with concomitant use of nephro or ototoxic medications. Animal studies have shown temporary ototoxicity with no permanent effect. [9] Further research is necessary for confirmation of temporary vs. permanent ototoxic effects in humans.
+
+Question: Is halofantrine ototoxic?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

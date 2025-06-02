@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Oro-facial pain.): Oro-facial pain is commonly acute, and of dental origin. There are numerous other less common, but clinically identifiable types of oro-facial pain which can be attributed to an organic cause, and which usually respond to the appropriate treatment. There is a small proportion of oro-facial pain problems, however, which are chronic and which are found to have a psychogenic element of greater or lesser magnitude, and treatment is aimed at psychological or psychiatric therapy. The interim results of an ongoing study of chronic oro-facial pain of psychogenic origin are described in this presentation.
+Document 2 (Title: Neurology_Adams): Facial pain of the “atypical type,” like other chronic pain of indeterminate cause, requires close observation of the patient, looking for lesions such as nasopharyngeal carcinoma or apical lung carcinoma to become apparent. The pain can be managed by the conservative methods outlined in the preceding chapter and not by destructive surgery. Antidepressants may be helpful, especially if the patient displays obsessive characteristics in relation to the pain; some European neurologists favor clomipramine for various facial and scalp pains. Other Rare Types of Facial Pain
+Document 3 (Title: Dystonia -- History and Physical): Oro-mandibular dystonia can manifest as night-time bruxism (jaw spasms producing forceful jaw closure) and may follow dental procedures, oro-mandibular-facial trauma, or temporomandibular joint dysfunction.
+
+Question: Are reports of mechanical dysfunction in chronic oro-facial pain related to somatisation?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

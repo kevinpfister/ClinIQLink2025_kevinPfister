@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: L-type calcium channel): L-type calcium channels are also modulated by G protein-coupled receptors and the adrenergic nervous system. Protein Kinase A (PKA) activated by a G protein-coupled receptors cascade can phosphorylate L-type calcium channels, after channels form a signaling complex with A-Kinase-Anchoring proteins (AKAPs) , to increase calcium current through the channel, increasing the open-state probability, and an accelerated recovery period. Activated Phospholipase C (PLC) from G protein-coupled receptors can breakdown polyphosphoinositides to decrease the channels calcium current by 20%-30%. The adrenergic nervous system has been seen to modulate L-type calcium channels by cleaving the C-terminal fragment when the β-adrenergic receptor is stimulated to increase activation of the channels. Genes , , , See also CACNA1C CACNA1D CACNA1S CACNA1F References Further reading External links Ion channels Electrophysiology Membrane biology Integral membrane proteins Calcium channels
+Document 2 (Title: Calcium signaling): Phospholipase C Pathway Specific signals can trigger a sudden increase in the cytoplasmic Ca2+ levels to 500–1,000 nM by opening channels in the ER or the plasma membrane. The most common signaling pathway that increases cytoplasmic calcium concentration is the phospholipase C (PLC) pathway. Many cell surface receptors, including G protein-coupled receptors and receptor tyrosine kinases, activate the PLC enzyme. PLC uses hydrolysis of the membrane phospholipid PIP2 to form IP3 and diacylglycerol (DAG), two classic secondary messengers. DAG attaches to the plasma membrane and recruits protein kinase C (PKC). IP3 diffuses to the ER and is bound to the IP3 receptor. The IP3 receptor serves as a Ca2+ channel, and releases Ca2+ from the ER. The Ca2+ bind to PKC and other proteins and activate them.
+Document 3 (Title: Regulation of phosphoinositide-specific phospholipase C.): The receptors involved in the regulation of phospholipase C by hormones, neurotransmitters and other ligands have seven transmembrane-spanning hydrophobic regions (seven-helix motif) and no known enzymatic activity. Furthermore these receptors can be isolated as complexes with guanine nucleotide binding (G) proteins. Guanine nucleotides affect the binding of hormones that stimulate phospholipase C and it has been possible to see activation of GTPase activity in membranes upon addition of these ligands. Further indirect evidence for a Gp (p stands for phospholipase C activation) protein is the finding that in membranes agonist activation of phospholipase C requires the presence of GTP gamma S a non-hydrolyzable analog of GTP. Furthermore, fluoride is able to activate phospholipase C but its inhibition of phosphatidylinositol-4' kinase (PI-4' kinase) can interfere with efforts to demonstrate this in intact cells. There are four major isozymes of phospholipase C that have been cloned and sequenced. Recently it w...
+
+Question: Select the correct statement(s): Neurotransmitter receptors can be coupled:
+Options:
+1. To an ion channel
+2. To adenylcyclase
+3. To a tyrosine kinase
+4. To a phospholipase C
+5. To a membrane transporter
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

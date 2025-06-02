@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Hypoalbuminemia -- Evaluation): In the presence of nephrotic syndrome, hypoalbuminemia with an increase in alpha-2 globulins, due to increased macroglobulin, and low gamma globulins are the typical pattern on serum protein electrophoresis. With chronic liver disease, hypoalbuminemia with increase gamma globulins and beta-gamma bridging is typical.
+Document 2 (Title: Pediatrics_Nelson): Nephrotic syndrome (NS) is characterized by persistent heavy proteinuria (mainly albuminuria) (>2 g/m2/24 h);hypoproteinemia (serum albumin <3.0 g/dL); hypercholesterolemia (>250 mg/dL); and edema. Age, race, and geography affect the incidence of NS. Certain HLA types (HLA-DR7, HLA-B8, and HLA-B12) are associated with an increased incidence of NS. Increased glomerular permeability is due to alterations in the normal glomerular cellular and basement membrane barrier that restrict filtration of serum proteins. The resultant massive proteinuria leads to decreased serum proteins, especially albumin. Plasma oncotic pressure is diminished, leading to fluid shifts from vascular to interstitial compartments and plasma volume contraction. Renal syndrome Primary focal Henoch-Schönlein purpura, glomerulosclerosis Wegener and other vasculitides Membranoproliferative Chronic infections (hepatitis B, glomerulonephritis hepatitis C, malaria, human
+Document 3 (Title: Hypoalbuminemia -- Evaluation): Decreased albumin levels may be an incidental finding on protein electrophoresis; however, protein electrophoresis provides a semi-quantitative albumin value. The main value of protein electrophoresis in a patient with low serum albumin is with the differential diagnosis of hypoalbuminemia. In the presence of acute inflammation, hypoalbuminemia will be present with an increase in alpha-1 and 2 globulins and normal gamma globulins. In chronic inflammation, the protein electrophoresis pattern will show hypoalbuminemia with a polyclonal increase in gamma globulins.
+
+Question: Which of the following signs or symptoms is/are part of pure nephrotic syndrome?
+Options:
+1. Proteinuria
+2. Arterial hypertension
+3. Decreased serum albumin
+4. Decreased total serum proteins
+5. Increased percentage of alpha-2 globulins on electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

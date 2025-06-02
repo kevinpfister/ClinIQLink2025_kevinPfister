@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: [Hyperbaric oxygenation in the treatment of necrotizing fasciitis].): The authors present the results of treatment provided to 11 patients with necrotizing fasciitis who were after a surgical operation and after administration of antibiotics treated in a hyperbaric chamber. A total of 8 patients (82%) recovered completely. The authors discuss the theory of action of hyperbaric oxygen on microorganisms and draw attention to the possible reduction of mortality of this serious disease when using hyperbaric oxygenation. The latter is considered an important auxiliary method which supplements surgical treatment, rational antibiotic therapy and in particular careful intensive care.
+Document 2 (Title: Undersea and Hyperbaric Medical Society): UHMS approved Indications: The following indications are approved uses of hyperbaric oxygen therapy as defined by the Hyperbaric Oxygen Therapy Committee. Air or gas embolism Carbon monoxide poisoning Carbon Monoxide Poisoning Complicated by Cyanide Poisoning Central retinal artery occlusion Clostridal Myositis and Myonecrosis (Gas gangrene) Crush Injury, Compartment syndrome, and other Acute Traumatic Ischemias Decompression sickness Enhancement of Healing in Selected Problem Wounds Exceptional Blood Loss (Anemia) Intracranial Abscess Necrotizing Soft Tissue Infections (Necrotizing fasciitis) Osteomyelitis (Refractory) Delayed Radiation Injury (Soft Tissue and Bony Necrosis) Skin Grafts & Flaps (Compromised) Sudden Sensorineural Hearing Loss Thermal Burns
+Document 3 (Title: Gynecology_Novak): 105. Wong CH, Wang YS. The diagnosis of necrotizing fasciitis. Curr Opin Infect Dis 2005;18:101–106. 106. Riseman JA, Zamboni WA, Curtis A, et al. Hyperbaric oxygen therapy for necrotizing fasciitis reduces mortality and the need for debridements. Surgery 1990;108:847–850. 107. Stamenkovic I, Lew PD. Early recognition of potentially fatal necrotizing fasciitis. The use of frozen-section biopsy. N Engl J Med 1984;310:1689–1693. 108. Umbert IJ, Winkelmann RK, Oliver GF, et al. Necrotizing fasciitis: a clinical, microbiologic, and histopathologic study of 14 patients. J Am Acad Dermatol 1989;20(Pt 1):774–781. 109. Wilkerson R, Paull W, Coville FV. Necrotizing fasciitis. Review of the literature and case report. Clin Orthop Relat Res 1987;216:187– 192. 110. Jallali N, Withey S, Butler PE. Hyperbaric oxygen as adjuvant therapy in the management of necrotizing fasciitis. Am J Surg 2005;189:462–466. 111.
+
+Question: Necrotizing fasciitis: an indication for hyperbaric oxygenation therapy?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Development of vaccines against hepatitis A and hepatitis B.): Hepatitis A and hepatitis B are viral infections of the liver. Hepatitis A is spread by the fecal-oral route--i.e., by ingestion of virus shed in the stool of acutely infected individuals. The virus is transmitted from person to person or (in outbreaks) via contaminated food or water. Population groups at increased risk of acquiring hepatitis A include children and staff in day care centers. Hepatitis B is spread by blood and other body fluids from acutely infected individuals or chronically infected carriers. Infection occurs when virus contained in these fluids enters the body through mucosal surfaces or breaks in the skin. A vaccine against hepatitis B has been developed. It consists of noninfectious hepatitis B surface antigen purified from the plasma of chronic carriers. The three sequential inactivation treatments used in manufacture of the vaccine kill hepatitis B virus and other infectious agents that may be present in human plasma, including the human T cell-lymphotropic virus that causes the acquire...
+Document 2 (Title: Hepatitis A Vaccine -- Indications): The causative agent for hepatitis A is a positive-strand RNA virus belonging to the hepatovirus genus. This class of virus primarily affects the liver and causes inflammation. Hepatitis A is transmitted mainly via the fecal-oral route or through close physical contact. Transmission from fecal material can happen by directly touching feces or consuming food and water contaminated with fecal matter. [1]
+Document 3 (Title: Hepatitis): Hepatitis D The hepatitis D virus requires that a person first be infected with hepatitis B virus, so prevention efforts should focus on limiting the spread of hepatitis B. In people who have chronic hepatitis B infection and are at risk for superinfection with the hepatitis D virus, the preventive strategies are the same as for hepatitis B. Hepatitis E Hepatitis E is spread primarily through the oral-fecal route but may also be spread by blood and from mother to fetus. The mainstay of hepatitis E prevention is similar to that for hepatitis A (namely, good hygiene and clean water practices). Alcoholic hepatitis As excessive alcohol consumption can lead to hepatitis and cirrhosis, the following are maximal recommendations for alcohol consumption: Women – ≤ 3 drinks on any given day and ≤ 7 drinks per week Men – ≤ 4 drinks on any given day and ≤ 14 drinks per week Successes Hepatitis A
+
+Question: Select the correct statement(s): Hepatitis A virus:
+Options:
+1. Is a DNA virus
+2. Belongs to the Picornaviridae family
+3. Can cause cirrhosis
+4. Is transmitted via the fecal-oral route
+5. Causes an infection that can be prevented by vaccination
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

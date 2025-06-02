@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Biochemistry_Lippinco): Choose the ONE best answer. .1. A 30-year-old woman of Northern European ancestry presents with progressive dyspnea (shortness of breath). She denies the use of cigarettes. Family history reveals that her sister also has problems with her lungs. Which one of the following etiologies most likely explains this patient’s pulmonary symptoms? A. Deficiency in dietary vitamin C B. Deficiency of α1-antitrypsin C. Deficiency of prolyl hydroxylase D. Decreased elastase activity E. Increased collagenase activity
+Document 2 (Title: Case Study: 60-Year-Old Female Presenting With Shortness of Breath (Archived) -- Case Presentation): There are no known ill contacts at home. Her family history includes significant heart disease and prostate malignancy in her father. Social history is positive for smoking tobacco use at 30 pack years. She quit smoking 2 years ago due to increasing shortness of breath. She denies all alcohol and illegal drug use. There are no known foods, drugs, or environmental allergies.
+Document 3 (Title: [Familial outbreak of psittacosis].): Three familial cases of psittacosis are reported. The first case was a 46-year-old woman, the second case, her 18-year-old daughter. Both of them often visited the house of the third case, a 49-year-old women, who was the elder sister of case 1 and who took care of the chick of a budgerigar which she kept in the house. Case 1 came to our hospital with abrupt onset of fever, headache, nausea and general malaise. Because she was suspected to have meningitis, she was admitted to the Department of Neurology. On admission, her chest X-ray film showed bilateral ground glass shadows. She also had hypoxemia and liver dysfunction. On learning of her history of contact with the chick, psittacosis was suspected. Case 2 suffered from fever and headache. Her chest X-ray film revealed opaque infiltration in the right lower lung field. Case 3 complained of fever, headache and vomiting. Her chest X-ray film showed fan-shaped faint shadows in the left upper, middle and lower lung fields. We interpreted these findings as showi...
+
+Question: A 66-year-old woman with chronic obstructive pulmonary disease is brought to the emergency department because of fever, body aches, malaise, and a dry cough. She has smoked one pack of cigarettes daily for 30 years but quit smoking 1 year ago. She lives with her daughter and her granddaughter, who attends daycare. Her temperature is 38.1°C (101°F). Physical examination shows bilateral conjunctivitis, rhinorrhea, and erythematous tonsils without exudates. Further testing confirms infection with an enveloped orthomyxovirus. Administration of a drug with which of the following mechanisms of action is most appropriate?
+Options:
+A. Inhibition of nucleoside reverse transcriptase
+B. Inhibition of proton translocation
+C. Inhibition of neuraminidase
+D. Inhibition of protease
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.

@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Multiple myeloma): Overall, some 2–4% of multiple myeloma cases eventually progress to plasma cell leukemia. Diagnosis Blood tests The globulin level may be normal in established disease. A doctor may request protein electrophoresis of the blood and urine, which might show the presence of a paraprotein (monoclonal protein, or M protein) band, with or without reduction of the other (normal) immunoglobulins (known as immune paresis). One type of paraprotein is the Bence Jones protein, which is a urinary paraprotein composed of free light chains. Quantitative measurements of the paraprotein are necessary to establish a diagnosis and to monitor the disease. The paraprotein is an abnormal immunoglobulin produced by the tumor clone.
+Document 2 (Title: Bence Jones proteins and light chains of immunoglobulins. XI. A transient Bence Jones-related protein associated with corticosteroid therapy.): Urine specimens from patients with multiple myeloma and Bence Jones proteinuria frequently contain low molecular weight proteins which correspond either to the amino-terminal, variant half (VL) or to the carboxyl-terminal, constant half (CL) of the Bence Jones protein. Analyses of urine specimens from such patients who had received high doses of corticosteroids as part of their treatment regimen revealed that concomitantly with a decrease in Bence Jones protein excretion was the appearance of a low molecular weight protein related to the Bence Jones protein but not identical to the VL or to the CL. Analyses of daily urine specimens obtained from one such patient over an extended time period revealed that a reproducible chain of events occurred during a treatment regimen which included oral administration of 75 mg of prednisone daily for 7 consecutive days. The amount of Bence Jones protein excreted decreased progressively, and by the 5th day was usually less than 10% of the pretreatment value. The urine speci...
+Document 3 (Title: Bence-Jones Protein -- Clinical Significance): More specifically, changes in the urinary light chain excretion level can assess response to therapy. Direct positive effects on the treatment of multiple myeloma are defined as a reduction to 50% or less of the pretreatment value of urinary M-protein. [14] In patients with Waldenström macroglobulinemia and amyloidosis, BJP can be crucial in the diagnosis. In amyloidosis, immunofixation electrophoresis is superior to the serum FLC assay for detecting light chains. [8]
+
+Question: Select the correct statement(s) regarding Bence-Jones protein:
+Options:
+1. It is a thermostable urinary protein
+2. It allows excluding multiple myeloma of bones
+3. It is a light chain of immunoglobulin
+4. It is a protein whose level is increased during inflammatory states
+5. It can be revealed by immuno-electrophoresis
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

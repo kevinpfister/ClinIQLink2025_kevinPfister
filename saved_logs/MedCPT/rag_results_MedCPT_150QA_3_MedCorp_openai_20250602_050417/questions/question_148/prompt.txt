@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Circadian variation of acute myocardial infarction and the effect of low-dose aspirin in a randomized trial of physicians.): Increased platelet aggregation in the morning and upon assuming an upright posture may account at least in part for the observed circadian variation in onset of acute myocardial infarction. The Physicians' Health Study, a randomized, double-blind, placebo-controlled trial of alternate-day aspirin intake (325 mg) among 22,071 US male physicians, afforded the opportunity to assess this circadian pattern and examine whether it is altered by aspirin therapy. During a 5-year period of follow-up, 342 cases of nonfatal myocardial infarction were confirmed, of which the time of onset was available in 211 (62%). The placebo group showed a bimodal circadian variation in onset of myocardial infarction with a primary peak between 4:00 AM and 10:00 AM (p less than 0.001). In the aspirin group, however, this circadian variation was minimal (p = 0.16), due primarily to a marked reduction in the morning peak of infarction. Specifically, aspirin was associated with a 59.3% reduction in the incidence of infarction during the m...
+Document 2 (Title: Thromboxane): Thromboxane synthesis inhibitors, in turn, can be classified regarding which step in the synthesis they inhibit: The widely used drug aspirin acts by inhibiting the ability of the COX enzyme to synthesize the precursors of thromboxane within platelets. Low-dose, long-term aspirin use irreversibly blocks the formation of thromboxane A2 in platelets, producing an inhibitory effect on platelet aggregation. This anticoagulant property makes aspirin useful for reducing the incidence of heart attacks. 40 mg of aspirin a day is able to inhibit a large proportion of maximum thromboxane A2 release provoked acutely, with the prostaglandin I2 synthesis being little affected; however, higher doses of aspirin are required to attain further inhibition.
+Document 3 (Title: Perioperative Anticoagulation Management -- Pathophysiology -- Aspirin (Acetylsalicylic Acid)): This agent is the most commonly prescribed antiplatelet drug to prevent cardiovascular disorders. Its mechanism of action is the irreversible inhibition of the cyclooxygenase (COX) 1 and 2 enzymes. The action of COX is necessary for the conversion of arachidonic acid to prostaglandin (PG) H2. The PGH2 is rapidly converted to several bioactive prostanoids, including thromboxane A2, a potent vasoconstrictor and an inductor of platelet aggregation. Despite the short half-life of aspirin (3 to 6 hours), its irreversible effects last for the complete lifetime of the platelet (8 to 9 days). After the aspirin therapy interruption, platelet function recovery depends on its turnover (approximately 10% per day). [3] [4]
+
+Question: Select the correct statement(s) regarding aspirin:
+Options:
+1. The prolongation of bleeding time by taking aspirin lasts only for 6 hours
+2. The anti-aggregating action on platelets is linked to inhibition of glycoprotein IIb-IIIa
+3. Aspirin has proven its effectiveness in preventing recurrences of myocardial infarction
+4. Aspirin potentiates the anticoagulant action of vitamin K antagonists
+5. The usual anti-platelet aggregation dose of aspirin is less than 500 mg/24 hours
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

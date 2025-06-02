@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Quinidine -- Administration -- Dosage Regimens): Oral immediate-release formulation: The initial therapy involves administering 2 tablets of 200 mg each every 6 hours to the patients. The dose may be cautiously increased if the desired pharmacological conversion is not achieved after 4 to 5 doses. Oral extended-release formulation: For the first treatment option, patients are administered 2 tablets of 324 mg each (equivalent to 403 mg of quinidine base) every 8 hours. If the desired pharmacological conversion is not achieved after 3 or 4 doses, the dose may be increased cautiously. As an alternative regimen, patients may have been prescribed 1 tablet (equivalent to 202 mg of quinidine base) every 8 hours for 2 days, followed by 2 tablets (equivalent to 403 mg of quinidine base) every 12 hours for 2 days, and, finally, 2 tablets (equivalent to 403 mg of quinidine base) every 8 hours for up to 4 days. For the final 4-day treatment plan, the lower dose may be opted at the physician's discretion.
+Document 2 (Title: Pharmaceutical formulation): Sustained release There are a number of methods by which tablets and capsules can be modified in order to allow for sustained release of the active compound as it moves through the digestive tract. One of the most common methods is to embed the active ingredient in an insoluble porous matrix, such that the dissolving drug must make its way out of the matrix before it can be absorbed. In other sustained release formulations the matrix swells to form a gel through which the drug exits. Another method by which sustained release is achieved is through an osmotic controlled-release oral delivery system, where the active compound is encased in a water-permeable membrane with a laser drilled hole at one end. As water passes through the membrane the drug is pushed out through the hole and into the digestive tract where it can be absorbed. Parenteral formulations
+Document 3 (Title: InternalMed_Harrison): in a sustained-release capsule that dissolves within the small intestine at a pH of 6. Lansoprazole is available in an orally disintegrating tablet that can be taken with or without water, an advantage for individuals who have significant dysphagia. Absorption kinetics are similar to the capsule. In addition, a lansoprazole-naproxen combination preparation that has been made available is targeted at decreasing NSAID-related GI injury (see below). Omeprazole is available as nonenteric-coated granules mixed with sodium bicarbonate in a powder form that can be administered orally or via gastric tube. The sodium bicarbonate has two purposes: to protect the omeprazole from acid degradation and to promote rapid gastric alkalinization and subsequent proton pump activation, which facilitates rapid action of the PPI. Pantoprazole and rabeprazole are available as enteric-coated tablets. Pantoprazole is also available as a parenteral formulation for intravenous use. These agents are lipophilic
+
+Question: Among the following solid oral forms, indicate which one(s) release(s) the active ingredient continuously:
+Options:
+1. Hydrophilic matrix
+2. Tablet with insoluble film coating
+3. Double-core tablets
+4. Tablets based on ion exchange resins
+5. Lipophilic matrix
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

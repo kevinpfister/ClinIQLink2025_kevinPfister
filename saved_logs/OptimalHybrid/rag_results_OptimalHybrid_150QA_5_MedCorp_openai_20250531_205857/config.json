@@ -1,0 +1,10 @@
+{
+  "benchmark_file": "./Benchmark_validation_enhanced_testset.json",
+  "output_dir": "./logs/rag_results_OptimalHybrid_150QA_5_MedCorp_openai_20250531_205857",
+  "limit": null,
+  "retriever": "OptimalHybrid",
+  "corpus": "MedCorp",
+  "model": "openai",
+  "documents": 5,
+  "testset_type": "150QA"
+}

@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Programmed cell death): Basic morphological and biochemical features of PCD have been conserved in both plant and animal kingdoms. Specific types of plant cells carry out unique cell-death programs. These have common features with animal apoptosis—for instance, nuclear DNA degradation—but they also have their own peculiarities, such as nuclear degradation triggered by the collapse of the vacuole in tracheary elements of the xylem. Janneke Balk and Christopher J. Leaver, of the Department of Plant Sciences, University of Oxford, carried out research on mutations in the mitochondrial genome of sun-flower cells. Results of this research suggest that mitochondria play the same key role in vascular plant PCD as in other eukaryotic cells.
+Document 2 (Title: Jasmonate): Following its role in defense, JAs have also been implicated in cell death and leaf senescence. JA can interact with many kinases and transcription factors associated with senescence. JA can also induce mitochondrial death by inducing the accumulation of reactive oxygen species (ROSs). These compounds disrupt mitochondria membranes and compromise the cell by causing apoptosis, or programmed cell death. JAs' roles in these processes are suggestive of methods by which the plant defends itself against biotic challenges and limits the spread of infections.
+Document 3 (Title: Cell_Biology_Alberts): thousands of caspase substrates have been identified. Which ones are the critical proteins that must be cleaved to trigger the major cell remodeling events underlying apoptosis? how did the intrinsic pathway of apoptosis evolve, and what is the advantage of having mitochondria play such a central role in regulating apoptosis? how are “don’t eat me” signals eliminated or inactivated during apoptosis to allow the cells to be phagocytosed? Which statements are true? Explain why or why not. 18–1 In normal adult tissues, cell death usually balances cell division. 18–2 Mammalian cells that do not have cytochrome c should be resistant to apoptosis induced by DNA damage. Discuss the following problems.
+
+Question: Do mitochondria play a role in remodelling lace plant leaves during programmed cell death?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

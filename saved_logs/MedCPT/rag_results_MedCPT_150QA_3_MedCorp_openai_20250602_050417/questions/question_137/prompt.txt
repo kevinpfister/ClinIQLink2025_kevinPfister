@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Hepatitis B Vaccine -- Indications): Public health officials have ranked the reduction in vaccine-preventable diseases as one of the top 10 public health achievements in the 21 century. [1] The hepatitis B vaccine is an integral part of this achievement, and its role continues to evolve this century. Hepatitis B vaccination is indicated to prevent active infection with the hepatitis B virus, which can lead to chronic liver failure and hepatocellular carcinoma. The virus is highly infectious and can transmit through percutaneous or mucosal exposure to blood and body fluids. The virus even remains viable on environmental surfaces for more than seven days. [2]
+Document 2 (Title: Viral Hepatitis -- Evaluation -- Chronic Hepatitis B infection): Patients who receive a vaccine for the hepatitis B virus develop protective anti-HBs as a response to recombinant HBsAg in the vaccine. There are no hepatitis B virus DNA or other hepatitis B virus-associated proteins in the vaccine. Therefore, patients who receive the vaccine are not positive for anti-HBc unless they have a previous infection with the hepatitis B virus. [32]
+Document 3 (Title: Development of vaccines against hepatitis A and hepatitis B.): Hepatitis A and hepatitis B are viral infections of the liver. Hepatitis A is spread by the fecal-oral route--i.e., by ingestion of virus shed in the stool of acutely infected individuals. The virus is transmitted from person to person or (in outbreaks) via contaminated food or water. Population groups at increased risk of acquiring hepatitis A include children and staff in day care centers. Hepatitis B is spread by blood and other body fluids from acutely infected individuals or chronically infected carriers. Infection occurs when virus contained in these fluids enters the body through mucosal surfaces or breaks in the skin. A vaccine against hepatitis B has been developed. It consists of noninfectious hepatitis B surface antigen purified from the plasma of chronic carriers. The three sequential inactivation treatments used in manufacture of the vaccine kill hepatitis B virus and other infectious agents that may be present in human plasma, including the human T cell-lymphotropic virus that causes the acquire...
+
+Question: Select the correct statement(s) regarding hepatitis B virus:
+Options:
+1. It can be responsible for nosocomial infections
+2. It can be involved in chronic hepatitis
+3. It is an RNA virus
+4. It can be responsible for fulminant hepatitis
+5. The vaccine used in France against this virus is a live attenuated vaccine
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

@@ -1,0 +1,16 @@
+{
+  "answer": [
+    "1",
+    "3",
+    "5"
+  ],
+  "options": [
+    "It is a thermostable urinary protein",
+    "It allows excluding multiple myeloma of bones",
+    "It is a light chain of immunoglobulin",
+    "It is a protein whose level is increased during inflammatory states",
+    "It can be revealed by immuno-electrophoresis"
+  ],
+  "question": "Select the correct statement(s) regarding Bence-Jones protein:",
+  "type": "list"
+}

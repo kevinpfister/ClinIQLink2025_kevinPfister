@@ -1,0 +1,17 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Progestins -- Contraindications): Women who have undergone bariatric surgery and those taking certain medications that induce hepatic enzymes, such as antibiotics (rifampin), antifungals (griseofulvin), and anticonvulsants (phenytoin, carbamazepine, topiramate, and barbiturates) are advised not to use combined or progestin-only contraception. [10] [17] [18]
+Document 2 (Title: Combined oral contraceptive pill): Combined oral contraception decreases total testosterone levels by approximately 0.5 nmol/l, free testosterone by approximately 60%, and increases the amount of sex hormone binding globulin (SHBG) by approximately 100 nmol/l. Contraceptives containing second generation progestins and/or estrogen doses of around 20 –25 mg EE were found to have less impact on SHBG concentrations. Combined oral contraception may also reduce bone density. Drug interactions Some drugs reduce the effect of the pill and can cause breakthrough bleeding, or increased chance of pregnancy. These include drugs such as rifampicin, barbiturates, phenytoin and carbamazepine. In addition cautions are given about broad spectrum antibiotics, such as ampicillin and doxycycline, which may cause problems "by impairing the bacterial flora responsible for recycling ethinylestradiol from the large bowel" (BNF 2003).
+Document 3 (Title: Sultamicillin versus trimethoprim/sulfamethoxazole in the treatment of urinary tract infections.): Sultamicillin, a novel compound in which ampicillin and the beta-lactamase inhibitor sulbactam are linked as a double ester, was compared with trimethoprim/sulfamethoxazole with regard to in vitro activity, therapeutic efficacy and safety in the treatment of UTIs. The MICs of ampicillin and ampicillin in combination with sulbactam (10 micrograms), trimethoprim and trimethoprim in combination with sulfamethoxazole (1:19) were determined for 400 isolates causing UTI using an agar dilution technique (multipointer, cfu = 10(4]. The organisms isolated consisted of about one-third E. coli, one-third other Gram-negative strains and one-third Gram-positive strains. About half of the Gram-positive strains were enterococci and the other half staphylococci. A concentration of 8 micrograms/ml ampicillin inhibited 76% of the isolates while ampicillin in combination with sulbactam inhibited 86%. A concentration of 4 micrograms/ml trimethoprim inhibited 77% of the isolates, while trimethoprim in combination with sulfamethox...
+
+Question: Select the medication association(s) not recommended with phenytoin:
+Options:
+1. Estrogen-progestin contraceptives
+2. Griseofulvin
+3. Sulfamethoxazole combined with trimethoprim
+4. Cimetidine
+5. Ampicillin
+
+Respond strictly in valid JSON format as shown below:
+{"answer": ["1", "3"]} ← if options 1 and 3 are correct
+Only output the JSON object. Do not include explanations, labels, markdown, or any other text.

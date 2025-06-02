@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Pelvic Exenteration -- Introduction): Pelvic exenteration was initially described in 1948 for the palliative management of recurrent cervical carcinoma. [2] [1] High surgical mortalities and poor survival outcomes in the 1940s and early 1950s limited the enthusiasm for these radical resections during the latter half of the 20th century. Medical advances involving anesthesia, transfusions, imaging, critical care, and surgical techniques have combined to allow pelvic exenteration to be performed with greater safety and improved outcomes. [3] In the 1950s and 1960s, the indications for pelvic exenteration were extended beyond palliative resections of cervical cancer and currently include curative resection of locally advanced cancers involving contiguous structures (eg, rectal, ovarian, vulvar, prostate, and pelvic sarcomas and melanomas). [4] [5] A nonmalignant indication for pelvic exenteration includes radiation necrosis. [3] [6] [7] The primary contraindication for pelvic exenteration is the inability to achieve clear surgical margins free of ma...
+Document 2 (Title: Pelvic exenteration): Recovery Pelvic exenteration leaves a person with a permanent colostomy and urinary diversion. A 2015 article reports that pelvic exenteration can provide long-term survival for patients with locally advanced primary rectal carcinoma. The 5-year survival rate of patients undergoing pelvic exenteration following complete resection of disease was 59.3%. Factors shown to influence the survival rate following a pelvic exenteration procedure include age, the presence of metastatic disease, lymph node status, circumferential resection margin, local recurrence of disease, and the need for neoadjuvant therapy. History The procedure was first described by Alexander Brunschwig in 1948. References Surgical oncology Female genital procedures
+Document 3 (Title: InternalMed_Harrison): therapy, either preor postoperatively, further reduces the likelihood of pelvic recurrences but does not appear to prolong survival. Combining radiation therapy with 5-fluorouracil (5-FU)-based chemotherapy, preferably prior to surgical resection, lowers local recurrence rates and improves overall survival. Preoperative radiotherapy is indicated for patients with large, potentially unresectable rectal cancers; such lesions may shrink enough to permit subsequent surgical removal. Radiation therapy is not effective as the primary treatment of colon cancer.
+
+Question: Does radiotherapy of the primary rectal cancer affect prognosis after pelvic exenteration for recurrent rectal cancer?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

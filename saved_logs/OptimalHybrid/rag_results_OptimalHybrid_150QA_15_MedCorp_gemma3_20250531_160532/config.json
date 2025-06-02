@@ -1,0 +1,10 @@
+{
+  "benchmark_file": "./Benchmark_validation_enhanced_testset.json",
+  "output_dir": "./logs/rag_results_OptimalHybrid_150QA_15_MedCorp_gemma3_20250531_160532",
+  "limit": null,
+  "retriever": "OptimalHybrid",
+  "corpus": "MedCorp",
+  "model": "gemma3",
+  "documents": 15,
+  "testset_type": "150QA"
+}

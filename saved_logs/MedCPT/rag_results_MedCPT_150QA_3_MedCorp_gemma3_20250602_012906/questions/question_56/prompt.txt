@@ -1,0 +1,15 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Small Bowel Bleeding -- Evaluation -- Push Enteroscopy): Push enteroscopy or double-balloon enteroscopy is a new advancement to standard endoscopes. They have been used when the lesion is farther down in the small bowel and not seen with the standard endoscopes. It uses two balloons, which can help the scope be pushed farther into the small bowel. [22] It is possible to see the lesions, as far as the ileum, depending upon the performer's expertise. The advantage is the ability to treat, take biopsies and mark the area with the tattoo. Studies have shown that the enteroscope has identified the bleeding source in about 74% of patients and treated about 60% to 70%. [23]
+Document 2 (Title: Double-balloon enteroscopy): The double-balloon enteroscope can also be passed in retrograde fashion, through the colon and into the ileum to visualize the end of the small bowel. Indications Double-balloon enteroscopy has found a niche application in the following settings: Bleeding from the gastrointestinal tract of obscure cause Iron deficiency anemia with normal colonoscopy and gastroscopy Visualization and therapeutic intervention on abnormalities seen on traditional small bowel imaging Endoscopic retrograde cholangiopancreatography (ERCP) in post-surgical patients with long afferent limbs Advantages and disadvantages
+Document 3 (Title: Enteroscopy and enteroclysis: an improved method for combined procedure.): Enteroclysis is generally considered the method of choice for evaluating the small intestine radiographically. The combined procedure of enteroscopy and enteroclysis has been recently described as complimentary techniques for examining the small intestine. This report describes the use of a balloon catheter placed via the enteroscope, which simplifies intubation and further improves the quality of enteroclysis study.
+
+Question: Double balloon enteroscopy: is it efficacious and safe in a community setting?
+Options:
+A. True
+B. False
+
+Please respond **only** with a single valid JSON object in the following format:
+{"answer": "True"}  ← if the answer is true
+{"answer": "False"} ← if the answer is false
+Do not include any other text or comments. Output must be strictly JSON.

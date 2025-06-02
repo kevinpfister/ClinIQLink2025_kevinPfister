@@ -1,0 +1,10 @@
+{
+  "benchmark_file": "./Benchmark_validation_testset.json",
+  "output_dir": "./logs/rag_results_BM25_30QA_5_MedCorp_openai_20250601_183838",
+  "limit": null,
+  "retriever": "BM25",
+  "corpus": "MedCorp",
+  "model": "openai",
+  "documents": 5,
+  "testset_type": "30QA"
+}

@@ -1,0 +1,16 @@
+With your own knowledge and the help of the following document:
+
+Document 1 (Title: Case Study: 32-Year-Old Male Presenting with Right Lower Quadrant Abdominal Pain (Archived) -- Case Presentation): The patient denies prior abdominal surgeries. He does smoke a half pack of cigarettes a day, drinks alcohol socially, and denies any recreational drug use. He notes no inherited medical conditions in his family. Vital signs on arrival: Blood pressure (BP) 120/73 Heart rate (HR) 60 RR 18 Temperature: 35.6 C Oxygen saturation: 98% on room air Height 5'10" (178 cm) Weight 154 lbs (70 kg)
+Document 2 (Title: Naloxone -- Monitoring): For those whose respiratory depression is completely reversed with 0.4 to 2 mg of naloxone, observation in the emergency room for 2 to 4 hours is advised. If the patient is stable, discharge is recommended. In general, patients considered for discharge after reversal of the opioid overdose with naloxone should have: [27] A Glasgow coma scale of 15 No need for additional naloxone doses An oxygen saturation of at least 92% on room air A respiration rate of no less than 10 breaths/min A pulse rate of no less than 50 bpm or no more than 120 bpm A blood pressure between 110/90 and 140/90 mm Hg Tolerance for clear liquids, ambulation, and have no withdrawal symptoms Someone to drive home and monitor the patient for the next 12 to 24 hours
+Document 3 (Title: Community-acquired pneumonia): Hospitalization Some CAP patients require intensive care, with clinical prediction rules such as the pneumonia severity index and CURB-65 guiding the decision whether or not to hospitalize. Factors increasing the need for hospitalization include: Age greater than 65 Underlying chronic illnesses Respiratory rate greater than 30 per minute Systolic blood pressure less than 90 mmHg Heart rate greater than 125 per minute Temperature below 35 or over 40 °C Confusion Evidence of infection outside the lung Laboratory results indicating hospitalization include: Arterial oxygen tension less than 60 mm Hg Carbon dioxide over 50 mmHg or pH under 7.35 while breathing room air Hematocrit under 30 percent Creatinine over 1.2 mg/dl or blood urea nitrogen over 20 mg/dl White-blood-cell count under 4 × 10^9/L or over 30 × 10^9/L Neutrophil count under 1 x 10^9/L
+
+Question: A 27-year-old man presents to the emergency room with persistent fever, nausea, and vomiting for the past 3 days. While waiting to be seen, he quickly becomes disoriented and agitated. Upon examination, he has visible signs of difficulty breathing with copious oral secretions and generalized muscle twitching. The patient’s temperature is 104°F (40°C), blood pressure is 90/64 mmHg, pulse is 88/min, and respirations are 18/min with an oxygen saturation of 90% on room air. When the nurse tries to place a nasal cannula, the patient becomes fearful and combative. The patient is sedated and placed on mechanical ventilation. Which of the following is a risk factor for the patient’s most likely diagnosis?
+Options:
+A. Contaminated beef
+B. Epiglottic cyst
+C. Mosquito bite
+D. Spelunking
+
+Respond strictly in valid JSON format as follows:
+{"answer_choice": "A"} ← if A is the answer
+Output only the JSON object. Do not include any explanation, commentary, markdown, or extra text.
