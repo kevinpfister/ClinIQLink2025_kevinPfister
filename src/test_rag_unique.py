@@ -7,9 +7,8 @@ from tqdm import tqdm
 from datetime import datetime
 import time
 
-# Import the RAG system
 sys.path.append("src")
-from RAG import RAG
+from medical_rag import create_medical_rag
 
 def extract_valid_json(text):
     """Extract a valid JSON object from text that contains 'answer' or 'answer_choice'."""
@@ -39,7 +38,7 @@ def safe_json(response):
     except json.JSONDecodeError:
         return {}
 
-def process_questions(questions, rag_system, iterative=False, save_dir=None, **kwargs):
+def process_questions(questions, model, rag_system, save_dir=None, **kwargs):
     """Process all questions using the RAG system and collect expected vs predicted answers."""
     results = {
         "true_false": [],      # list of (str, str)
@@ -48,6 +47,7 @@ def process_questions(questions, rag_system, iterative=False, save_dir=None, **k
     }
     
     for idx, q in enumerate(tqdm(questions, desc="Processing questions")):
+    
         # Create question-specific output directory
         q_save_dir = None
         if save_dir:
@@ -155,10 +155,21 @@ def compute_all_metrics(results):
     return scores
 
 if __name__ == "__main__":
+    retriever = "ExpansionHybrid"
+    corpus = "MedCorp"
+    model = "gemini"
+    file_path = "./Benchmark_validation_enhanced_testset.json"
+    documents = 15
+
+    if file_path == "./Benchmark_validation_testset.json":
+        num_questions = '30QA'
+    else:
+        num_questions = '150QA'
+
     parser = argparse.ArgumentParser(description='Test RAG system on medical benchmark')
     
     # Input/output parameters
-    parser.add_argument('--benchmark_file', type=str, default='./Benchmark_validation_enhanced_testset.json',
+    parser.add_argument('--benchmark_file', type=str, default=file_path,
                         help='Path to the benchmark file')
     parser.add_argument('--output_dir', type=str, default=None,
                         help='Directory to save results (default: auto-generated with timestamp)')
@@ -172,14 +183,22 @@ if __name__ == "__main__":
     # Create an auto-generated output directory if none is specified
     if not args.output_dir:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        args.output_dir = f"./logs/rag_results_{timestamp}"
+        args.output_dir = f"./logs/rag_results_{retriever}_{num_questions}_{documents}_{corpus}_{model}_{timestamp}"
     
     # Create output directory
     os.makedirs(args.output_dir, exist_ok=True)
     
     # Save the run configuration
+    config_data = vars(args).copy()
+    config_data.update({
+        'retriever': retriever,
+        'corpus': corpus,
+        'model': model,
+        'documents': documents
+    })
+    
     with open(os.path.join(args.output_dir, 'config.json'), 'w') as f:
-        json.dump(vars(args), f, indent=2)
+        json.dump(config_data, f, indent=2)
     
     # Load benchmark questions
     with open(args.benchmark_file, 'r') as f:
@@ -192,17 +211,24 @@ if __name__ == "__main__":
     
     print(f"Loaded {len(questions)} benchmark questions")
     
-    # Initialize RAG system
+    # Initialize RAG system using the new modular approach
     print("Initializing RAG system...")
-    rag_system = RAG(model_type="openai") 
+    rag_system = create_medical_rag(
+        llm_provider=model,
+        use_rag=True,
+        retriever_name=retriever,
+        corpus_name=corpus,
+        db_dir="./corpus"
+    )
     
     # Process questions
     print("Processing benchmark questions...")
     results = process_questions(
-        questions, 
+        questions,
+        model, 
         rag_system,
-        iterative=False,
-        save_dir=os.path.join(args.output_dir, "questions")
+        save_dir=os.path.join(args.output_dir, "questions"),
+        k=documents  # Pass the documents parameter as k
     )
     
     # Save raw results (converting sets to lists for JSON serialization)
