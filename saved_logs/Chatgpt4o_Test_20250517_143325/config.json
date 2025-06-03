@@ -1,5 +1,0 @@
-{
-  "benchmark_file": "./Benchmark_validation_enhanced_testset.json",
-  "output_dir": "./logs/textgrad_20250517_143325",
-  "limit": 150
-}
