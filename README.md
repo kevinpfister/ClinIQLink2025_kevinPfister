@@ -23,7 +23,7 @@ We use OpenAI GPT models and a curated medical dataset. Prior work suggests Text
 ## Setup Instructions
 
 > [!NOTE]  
-> To run the TextGrad Library an API Key for OpenAI is needed. To run it on a different LLM. The LLM needs to be compatibility with the LiteLLM Library  
+> To run the TextGrad Library an API Key for OpenAI is needed. To run it on a different LLM. The LLM needs to be compatible with the LiteLLM Library  
 
 ### Clone Repository
 ```bash
@@ -53,9 +53,92 @@ To run the project use following command:
 python src/test_rag_textgrad.py --limit 150
 ```
 
+## Methodology
+
+**Architecture of whole Project**
+![Textgrad_architecture drawio](https://github.com/user-attachments/assets/26ee7161-4e6a-45b0-a695-16a46c71ff16)
 
 
----
+
+**Architecture of TextGrad**
+![fertiges_diagramm drawio](https://github.com/user-attachments/assets/611b5df6-c418-42f9-9efc-563296ed649a)
+
+
+**Important Code parts**
+
+This part focuses on interesting parts from the code. Since the code is a bit larger we only focus on certain lines to give an overall understanding of the code.
+-  Getting First Answer either from LLM with RAG implementation or straight from LLM in test_rag_textgrad.py file
+
+From LLM standalone
+```bash
+first_answer = run_chatgpt_prompt(q, q_save_dir)
+```
+
+From LLM with RAG implementation
+```bash
+first_answer, snippets, scores = rag_system.answer(q, save_dir=q_save_dir, **kwargs)
+```
+-  Give First Answer to TextGrad to classify answer or to enter TextGrad loop in test_rag_textgrad.py file
+  ```bash
+final_answer = refine_prompt_with_textgrad_from_example(q , rag_system=rag_system,save_dir_folder=q_save_dir, answer=first_answer,version="")
+```
+
+-  Define Classification Function and let the answer be checked in textgrad.py file
+  ```bash
+  classification_instruction = (
+        f"Evaluate the model's answer to the prompt. with the original question {question_text} "
+        "Reply ONLY with `1` if the answer is fully correct and exactly follows the expected JSON format. "
+        "Otherwise, reply ONLY with `0`. No explanation."
+    )
+classifier_fn = tg.TextLoss(classification_instruction) 
+classification_result = classifier_fn(answer_tg_object)
+
+
+if str(classification_result.value).strip() == "1":
+```
+- If Answer is considered Wrong enter TextGrad Loop. Feedback function is defined and prompt should be optimized
+```bash
+  evaluation_instruction = (
+        "You are a strict evaluator. Review the answer in the context of the prompt.\n"
+        "Return ONE short sentence that starts with a category (e.g., 'Incorrect answer:', 'Invalid JSON:', etc.) "
+        "followed by a brief explanation of what was wrong **and how the prompt could be improved** to avoid the issue.\n"
+        "Do not include any extra commentary or polite language."
+    )
+  eval_loss_fn = tg.TextLoss(evaluation_instruction)
+  evaluation = eval_loss_fn(evaluation_input)
+  optimizer.step()
+```
+- Prompt optimizing function according to instructions
+```bash
+  system_prompt = (
+            "You are an expert prompt engineer. "
+            "Wrap the improved prompt strictly between these tags: <IMPROVED_VARIABLE> and </IMPROVED_VARIABLE>. "
+            "Your task is to improve prompts. Return ONLY the improved prompt. "
+            "Do not include any other text, comments, or explanations."
+        )
+
+        user_prompt = (
+            f"Original prompt:\n{prompt_text}\n\n"
+            f"Feedback:\n{feedback}\n\n"
+            f"Now return ONLY the improved prompt without anything in addition. Do not Include any Meta information like 'Question:' 'Revised Prompt' or any explanation."
+        )
+```
+- Give new Prompt to RAG system or LLM standalone (based on version)
+```bash
+  if version == "RAG":
+            print("ENTERING RAG")
+            new_answer, _, _, _ = rag_system.rag_answer_textgrad(
+                  question_data,
+                  save_dir = save_dir_folder,
+                  prompt = full_prompt,
+                  step = step,
+                  **kwargs
+              )
+        else:
+            new_answer = run_chatgpt_prompt(full_prompt)
+```
+
+
 
 ## Reproducibility
 
@@ -82,16 +165,22 @@ python src/test_rag_textgrad.py --limit 150
 
 ## Results & Evaluation
 
-- [Briefly summarize your evaluation metrics, improvements from baseline, and insights drawn from experiments.]
-- All detailed results are documented in `metrics/firstResults.json`.
+TextGrad was able to outperform the Baseline when it comes to List questions and multiple choice. 
+![Baseline_vs_Textgrad](https://github.com/user-attachments/assets/2c5afc03-4104-4262-a8ad-3178d29f69fb)
+
+
+TextGrad was not able to show an improving performance on a RAG Architecture
+![Textgrad_with_rag](https://github.com/user-attachments/assets/3ce07277-8fd4-49c2-8649-a17c4d6ab89e)
+
+Further Informations and Evaluations can be found on the Report
+
 
 ---
 
 ## References
 
-[List here any relevant papers, sources, libraries, or resources used in your project.]
+- [1] Yuksekgonul, M. et al. (2024). *ClinIQLink: A Benchmark for LLMs Detecting Factual Errors in Medical Q&A*. [PDF](https://arxiv.org/pdf/2406.07496.pdf)
 
-- Doe, J. (2024). *Great NLP Paper*. Conference Name.
-- [Library Used](https://example-library.com)
+
 
 ---
